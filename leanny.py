@@ -119,7 +119,7 @@ def _append_prefix(dictionary: dict, prefix: str = None) -> dict:
     dictionary: dict = dict([i for i in dictionary.items() if i[0].find(prefix) >= 0])
   if prefix == 'CoopGrade':
     dictionary: dict = dict([i for i in dictionary.items() if i[0].find('Grade_0') >= 0])
-  if prefix == None:
+  if prefix == None or 'CoopEvent':
     keys: list[str] = map(lambda x: x, dictionary.keys())
   else:
     keys: list[str] = map(lambda x: f'{prefix}_{x}', dictionary.keys())
