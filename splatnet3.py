@@ -32,6 +32,13 @@ def _tuple_to_dict(tuple) -> dict:
         dict[k] = v
     return dict
 
+def get_sha256_hash():
+    revision = _get_revision()
+    url = f'https://api.lp1.av5ja.srv.nintendo.net/static/js/main.{revision}.js'
+    response = requests.get(url).text
+    hashes: list[tuple] = re.findall('id:"([a-f0-9]{32})",metadata:{},name:"([A-z]*)"', response)
+    return dict(hashes)
+
 def _merge_hash_locale_code(hashes: dict, locales: dict, codes: dict) -> list[LocaleHash]:
     dict = {}
     for key, hash in hashes.items():
@@ -89,7 +96,7 @@ def _get_merged(hash: LocaleHash) -> str:
         output.update(locale)
     return json.dumps(output, indent=2, ensure_ascii=False)
 
-def get_assets():
+def get_resources():
     revision = _get_revision()
     hashes = _get_hash(revision)
 
