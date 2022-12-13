@@ -11,7 +11,7 @@ import datetime
 import hashlib
 from splatnet3 import *
 from dotenv import load_dotenv
-
+  
 load_dotenv()
 
 class WeaponType(Enum):
@@ -117,17 +117,16 @@ def get_assets(version: int):
   url = os.environ.get('WEBHOOK_URL')
   
   # リビジョンの取得
-  next = get_revision()
-  prev = os.environ.get('REVISION')
-  
-  print(f'Revision: current:{next}, previous: {prev}')
-
-  if prev != next:
-    # リビジョンのアップデート
-    os.environ['REVISION'] = next
-    _post_to_discord(url, next=next, prev=prev)
-  else:
+  revision = get_revision()
+  revisions = _get_revisions()
+ 
+  if revision in revisions:
+    # 既にある
     return
+  else:
+    with open('.revision', mode='a', newline='') as f:
+      f.write(revision)
+    _post_to_discord(url, revision)
 
   # SplatNet3からデータ取得
   get_resources()
@@ -155,9 +154,13 @@ def get_assets(version: int):
   # SHA256Hash
   _gen_sha256_hash(get_sha256_hash())
 
-def _post_to_discord(url: str, prev: str, next: str):
+def _get_revisions() -> list[str]:
+  with open('.revision', mode='r') as f:
+    return list(map(lambda x: x.strip(), f.readlines()))
+
+def _post_to_discord(url: str, revision: str):
   body: dict = {
-    'content': f'New revision `{prev}` -> `{next}` is released.'
+    'content': f'New revision `{revision}` is released.'
   }
   requests.post(url, json=body)
 
