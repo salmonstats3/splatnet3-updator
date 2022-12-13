@@ -5,7 +5,6 @@ from dataclasses_json import dataclass_json
 import os
 import json
 import pandas as pd
-import numpy as np
 from enum import Enum
 from abc import *
 import datetime
@@ -110,6 +109,50 @@ LANG: list[LocaleHash] = [
   LocaleHash('locale13', 'TWzh', 'zh-Hans'),
 ]
 
+def get_assets(version: int):
+  # リビジョンの取得
+  revision = get_revision()
+  
+  # WEBHOOOK_URLの取得
+  url = os.environ.get('WEBHOOK_URL')
+  if os.environ.get('REVISION') != revision:
+    os.environ['REVISION'] = revision
+    _post_to_discord(url, revision)
+  else:
+    return
+
+  # SplatNet3からデータ取得
+  get_resources()
+  
+  url = f'https://leanny.github.io/splat3/data/mush/{version}/WeaponInfoMain.json'
+  response = requests.get(url).text.replace('__RowId', 'RowId')
+  weapons: list[Weapon] = sorted(list(filter(lambda x: ('_00' in x.RowId and 'Mission' not in x.RowId and 'Rival' not in x.RowId  and 'AMB' not in x.RowId) or x.IsCoopRare, list(map(lambda x: Weapon.from_json(json.dumps(x)), json.loads(response))))), key=lambda x: x.Id) 
+  _dump_assets(weapons, AssetType.WEAPON)
+
+  url = f'https://leanny.github.io/splat3/data/mush/{version}/NamePlateBgInfo.json'
+  response = requests.get(url).text.replace('__RowId', 'RowId')
+  nameplates: list[Nameplate] = sorted(list(map(lambda x: Nameplate.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)
+  _dump_assets(nameplates, AssetType.NAMEPLATE)
+
+  url = f'https://leanny.github.io/splat3/data/mush/{version}/BadgeInfo.json'
+  response = requests.get(url).text.replace('__RowId', 'RowId').replace('Work/Gyml/BadgeInfo_', '').replace('.spl__BadgeInfo.gyml', '')
+  badges: list[Badge] = sorted(list(map(lambda x: Badge.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)
+  _dump_assets(badges, AssetType.BADGE)
+
+  url = f'https://leanny.github.io/splat3/data/mush/{version}/WeaponInfoSpecial.json'
+  response = requests.get(url).text.replace('__RowId', 'RowId')
+  specials: list[Special] = list(filter(lambda x: (x.Type == WeaponType.COOP or x.Id == 1) and not x.Id == 20001, sorted(list(map(lambda x: Special.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)))
+  _dump_assets(specials, AssetType.SPECIAL)
+  
+  # SHA256Hash
+  _gen_sha256_hash(get_sha256_hash())
+
+def _post_to_discord(url: str, revision):
+  body: dict = {
+    'content': f'New revision `{revision}` is released.'
+  }
+  requests.post(url, json=body)
+
 def _get_asset_url(RowId: str, type: AssetType):
   if type == AssetType.WEAPON:
     return f'https://leanny.github.io/splat3/images/weapon_flat/Path_Wst_{RowId}.png'
@@ -199,31 +242,6 @@ def _dump_assets(assets: list[Base], type: AssetType):
     _get_header(assets, type, mode=mode)
   for asset in assets:
     _dump_asset(asset.Id, asset.RowId, type)
-
-def get_assets(version: int):
-  get_resources()
-  url = f'https://leanny.github.io/splat3/data/mush/{version}/WeaponInfoMain.json'
-  response = requests.get(url).text.replace('__RowId', 'RowId')
-  weapons: list[Weapon] = sorted(list(filter(lambda x: ('_00' in x.RowId and 'Mission' not in x.RowId and 'Rival' not in x.RowId  and 'AMB' not in x.RowId) or x.IsCoopRare, list(map(lambda x: Weapon.from_json(json.dumps(x)), json.loads(response))))), key=lambda x: x.Id) 
-  _dump_assets(weapons, AssetType.WEAPON)
-
-  url = f'https://leanny.github.io/splat3/data/mush/{version}/NamePlateBgInfo.json'
-  response = requests.get(url).text.replace('__RowId', 'RowId')
-  nameplates: list[Nameplate] = sorted(list(map(lambda x: Nameplate.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)
-  _dump_assets(nameplates, AssetType.NAMEPLATE)
-
-  url = f'https://leanny.github.io/splat3/data/mush/{version}/BadgeInfo.json'
-  response = requests.get(url).text.replace('__RowId', 'RowId').replace('Work/Gyml/BadgeInfo_', '').replace('.spl__BadgeInfo.gyml', '')
-  badges: list[Badge] = sorted(list(map(lambda x: Badge.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)
-  _dump_assets(badges, AssetType.BADGE)
-
-  url = f'https://leanny.github.io/splat3/data/mush/{version}/WeaponInfoSpecial.json'
-  response = requests.get(url).text.replace('__RowId', 'RowId')
-  specials: list[Special] = list(filter(lambda x: (x.Type == WeaponType.COOP or x.Id == 1) and not x.Id == 20001, sorted(list(map(lambda x: Special.from_json(json.dumps(x)), json.loads(response))), key=lambda x: x.Id)))
-  _dump_assets(specials, AssetType.SPECIAL)
-  
-  # SHA256Hash
-  _gen_sha256_hash(get_sha256_hash())
 
 def _gen_sha256_hash(hashes: dict):
   path = 'Enum/SHA256Hash.swift'

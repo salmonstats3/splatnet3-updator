@@ -16,7 +16,7 @@ class LocaleHash:
         self.locale = locale
         self.code = code
 
-def _get_revision() -> str:
+def get_revision() -> str:
     # Revisionを取得
     url = "https://api.lp1.av5ja.srv.nintendo.net/?lang=ja-JP"
     response = requests.get(url)
@@ -33,7 +33,7 @@ def _tuple_to_dict(tuple) -> dict:
     return dict
 
 def get_sha256_hash():
-    revision = _get_revision()
+    revision = get_revision()
     url = f'https://api.lp1.av5ja.srv.nintendo.net/static/js/main.{revision}.js'
     response = requests.get(url).text
     hashes: list[tuple] = re.findall('id:"([a-f0-9]{32})",metadata:{},name:"([A-z]*)"', response)
@@ -97,7 +97,7 @@ def _get_merged(hash: LocaleHash) -> str:
     return json.dumps(output, indent=2, ensure_ascii=False)
 
 def get_resources():
-    revision = _get_revision()
+    revision = get_revision()
     hashes = _get_hash(revision)
 
     for hash in hashes:

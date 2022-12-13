@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/10 * * * * *"
 
 jobs:
   build:
@@ -23,4 +23,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          REVISION: ${{ secrets.REVISION }}
         run: python main.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+          git config --local user.name ${{ secrets.USERNAME }}
+          git config pull.rebase false
+          git pull
+          if (git diff --shortstat | grep '[0-9]'); then \
+            git add .; \
+            git commit -m "Add new results"; \
+            git push origin master; \
+          fi
