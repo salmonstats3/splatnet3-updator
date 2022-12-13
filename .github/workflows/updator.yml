@@ -37,6 +37,6 @@ jobs:
           git pull
           if (git diff --shortstat | grep '[0-9]'); then \
             git add .; \
-            git commit -m "Add new results"; \
+            git commit -m "SplatNet3 Updator"; \
             git push origin master; \
           fi
