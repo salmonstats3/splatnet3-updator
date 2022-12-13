@@ -10,6 +10,9 @@ from abc import *
 import datetime
 import hashlib
 from splatnet3 import *
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class WeaponType(Enum):
   MISSION = 'Mission'
@@ -110,20 +113,25 @@ LANG: list[LocaleHash] = [
 ]
 
 def get_assets(version: int):
-  # リビジョンの取得
-  revision = get_revision()
-  
   # WEBHOOOK_URLの取得
   url = os.environ.get('WEBHOOK_URL')
-  if os.environ.get('REVISION') != revision:
-    os.environ['REVISION'] = revision
-    _post_to_discord(url, revision)
+  
+  # リビジョンの取得
+  next = get_revision()
+  prev = os.environ.get('REVISION')
+  
+  print(f'Revision: current:{next}, previous: {prev}')
+
+  if prev != next:
+    # リビジョンのアップデート
+    os.environ['REVISION'] = next
+    _post_to_discord(url, next=next, prev=prev)
   else:
     return
 
   # SplatNet3からデータ取得
   get_resources()
-  
+
   url = f'https://leanny.github.io/splat3/data/mush/{version}/WeaponInfoMain.json'
   response = requests.get(url).text.replace('__RowId', 'RowId')
   weapons: list[Weapon] = sorted(list(filter(lambda x: ('_00' in x.RowId and 'Mission' not in x.RowId and 'Rival' not in x.RowId  and 'AMB' not in x.RowId) or x.IsCoopRare, list(map(lambda x: Weapon.from_json(json.dumps(x)), json.loads(response))))), key=lambda x: x.Id) 
@@ -147,9 +155,9 @@ def get_assets(version: int):
   # SHA256Hash
   _gen_sha256_hash(get_sha256_hash())
 
-def _post_to_discord(url: str, revision):
+def _post_to_discord(url: str, prev: str, next: str):
   body: dict = {
-    'content': f'New revision `{revision}` is released.'
+    'content': f'New revision `{prev}` -> `{next}` is released.'
   }
   requests.post(url, json=body)
 

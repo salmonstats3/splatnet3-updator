@@ -26,7 +26,8 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           REVISION: ${{ secrets.REVISION }}
-        run: python main.py
+        run: |
+          python main.py
 
       - name: Commit and Push
         run: |
