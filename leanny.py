@@ -273,6 +273,7 @@ def _gen_sha256_hash(hashes: dict):
   ]
   hashes = sorted(hashes.items(), key=lambda x: x[1])
   header.extend(list(map(lambda x: f'\tcase {_camel_case(x[1])} = "{x[0]}"', hashes)))
+  header.append('}')
   with open(path, mode='w') as f:
     header = list(map(lambda x: f'{x}\n', header))
     f.writelines(header)

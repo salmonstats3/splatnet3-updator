@@ -700,3 +700,7 @@ Custom_User_Data = "Gebruikersgegevens";
 Custom_Results_Count = "Resultaten tellen";
 Custom_Ikaring2 = "SplatNet2";
 Custom_About = "Over";
+Custom_Wipe_Results = "Veegresultaten";
+Custom_Wipe_Results_Txt = "Wis alle gegevens.";
+Custom_MyPage = "Mijn pagina";
+Custom_FAQ = "FAQ";

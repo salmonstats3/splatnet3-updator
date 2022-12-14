@@ -699,3 +699,7 @@ Custom_User_Data = "Benutzerdaten";
 Custom_Results_Count = "Ergebnisse zählen";
 Custom_Ikaring2 = "SplatNet2";
 Custom_About = "Über";
+Custom_Wipe_Results = "Ergebnisse wischen";
+Custom_Wipe_Results_Txt = "Löschen Sie alle Daten.";
+Custom_MyPage = "Meine Seite";
+Custom_FAQ = "FAQ";

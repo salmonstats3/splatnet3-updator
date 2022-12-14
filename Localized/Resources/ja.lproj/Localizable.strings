@@ -699,3 +699,7 @@ Custom_User_Data = "ユーザーデータ";
 Custom_Results_Count = "リザルト件数";
 Custom_Ikaring2 = "イカリング2";
 Custom_About = "About";
+Custom_Wipe_Results = "リザルト消去";
+Custom_Wipe_Results_Txt = "保存されている全てのリザルトを消去します。";
+Custom_MyPage = "マイページ";
+Custom_FAQ = "よくあるご質問";

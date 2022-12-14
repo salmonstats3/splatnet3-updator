@@ -26,6 +26,7 @@ jobs:
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           REVISION: ${{ secrets.REVISION }}
+          AUTH_KEY: ${{ secrets.AUTH_KEY }}
         run: |
           python main.py
 

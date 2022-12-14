@@ -65,7 +65,7 @@ def gen_localized():
     with open(f'{path}/Localizable.strings', mode='w', newline='') as f:
       for key, value in dict(zip(values.keys(), values.values)).items():
         if target_lang == 'ja':
-          outputs.append(f'/// {value}\ncase {key}')
+          outputs.append(f'\t/// {value}\n\tcase {key}')
         f.write(f'{key} = "{value}";\n')
 
   df = pd.read_csv('custom.csv', header=0, index_col=0)
@@ -76,7 +76,7 @@ def gen_localized():
     with open(f'{path}/Localizable.strings', mode='a', newline='') as f:
       for key, value in dict(zip(values.keys(), values.values)).items():
         if target_lang == 'ja':
-          outputs.append(f'/// {value}\ncase Custom_{key}')
+          outputs.append(f'\t/// {value}\n\tcase Custom_{key}')
         f.write(f'Custom_{key} = "{value}";\n')
 
   current = datetime.datetime.now().strftime('%Y/%m/%d') 
@@ -94,6 +94,7 @@ def gen_localized():
     f'\tpublic var id: String' + ' { rawValue }',
   ]
   header.extend(outputs)
+  header.append('}')
   with open('Enum/LocalizedType.swift', mode='w') as f:
     header = list(map(lambda x: f'{x}\n', header))
     f.writelines(header)
