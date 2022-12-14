@@ -124,9 +124,10 @@ def get_assets(version: int):
     # 既にある
     return
   else:
-    with open('.revision', mode='a', newline='') as f:
-      f.write(revision)
-    _post_to_discord(url, revision)
+    if os.environ.get('ENVIRONMENT') == 'PRODUCTION':
+      with open('.revision', mode='a', newline='') as f:
+        f.write(revision)
+      _post_to_discord(url, revision)
 
   # SplatNet3からデータ取得
   get_resources()
