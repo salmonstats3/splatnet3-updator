@@ -313,7 +313,8 @@ def save_yaml():
         dict[prefix][key] = value
     with open(f'locales/{lang.code}.yaml', mode='w') as f:
       yaml.dump(dict, f, allow_unicode=True, sort_keys=True)
-    break
+    with open(f'locales/{lang.code}.json', mode='w') as f:
+      json.dump(dict, f, ensure_ascii=False, indent=2)
 
 def get_latest_version() -> list[int]:
   url = 'https://leanny.github.io/splat3/versions.json'
