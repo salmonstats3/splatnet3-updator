@@ -11,7 +11,8 @@ import datetime
 import hashlib
 from splatnet3 import *
 from dotenv import load_dotenv
-  
+import yaml
+
 load_dotenv()
 
 class WeaponType(Enum):
@@ -292,6 +293,27 @@ def save_csv():
   values = list(zip(*values)) 
   df = pd.DataFrame(data=values, index=keys, columns=columns)
   df.to_csv('locale.csv')
+
+def save_yaml():
+  version = get_latest_version()
+  
+  os.makedirs('locales', exist_ok=True)
+  for lang in LANG:
+    dict = {}
+    params = _get_params(lang, version)
+    # 辞書をネスト形式に変換する
+    for key, value in params.items():
+      try:
+        param: list[str] = key.split('_')
+        prefix: str = param[0]
+        key: str = param[1]
+        dict[prefix][key] = value
+      except KeyError:
+        dict[prefix] = {}
+        dict[prefix][key] = value
+    with open(f'locales/{lang.code}.yaml', mode='w') as f:
+      yaml.dump(dict, f, allow_unicode=True, sort_keys=True)
+    break
 
 def get_latest_version() -> list[int]:
   url = 'https://leanny.github.io/splat3/versions.json'
