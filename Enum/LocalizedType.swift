@@ -245,6 +245,66 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Black
 	/// ブルー
 	case Challenge_Blue
+	/// オレンジの空がオイリーだよね～。
+	case Challenge_Challenge210Description
+	/// 二つ名
+	case Challenge_Challenge210Reward
+	/// シェケナダム
+	case Challenge_Challenge210Title
+	/// アートに触れるとハートの中心まで火が通るカンジするよね～！
+	case Challenge_Challenge21Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge21Reward
+	/// キンメダイ美術館
+	case Challenge_Challenge21Title
+	/// ここの食堂はフライがイケてるバクアゲスポットなんだ～。
+	case Challenge_Challenge22Description
+	/// 拾ったステッカー
+	case Challenge_Challenge22Reward
+	/// 海女美術大学
+	case Challenge_Challenge22Title
+	/// 橋の上は風が強くてコロモがめっちゃ飛ばされるんだよね！
+	case Challenge_Challenge23Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge23Reward
+	/// マサバ海峡大橋
+	case Challenge_Challenge23Title
+	/// 溶接の音とアゲる音って似てるから、テンションがバチバチアガっちゃうよ！
+	case Challenge_Challenge24Description
+	/// 拾ったステッカー
+	case Challenge_Challenge24Reward
+	/// チョウザメ造船
+	case Challenge_Challenge24Title
+	/// 夕飯時にフライの香りがすると、すぐ家に帰りたくなるよね～。
+	case Challenge_Challenge25Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge25Reward
+	/// ヒラメが丘団地
+	case Challenge_Challenge25Title
+	/// あ！新しいアゲ油売ってる！！
+	case Challenge_Challenge26Description
+	/// 拾ったステッカー
+	case Challenge_Challenge26Reward
+	/// ザトウマーケット
+	case Challenge_Challenge26Title
+	/// こんなアガる要素しかない場所、アガり過ぎ注意報だよ～！ジュワワ～！！！
+	case Challenge_Challenge27Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge27Reward
+	/// マヒマヒリゾート＆スパ
+	case Challenge_Challenge27Title
+	/// ジェットコースターに乗った後って、ナゼか身軽に感じるんだよね～。
+	case Challenge_Challenge28Description
+	/// グラフィティ壁紙
+	case Challenge_Challenge28Reward
+	/// スメーシーワールド
+	case Challenge_Challenge28Title
+	/// ハイカラ地方にもサクサク稼げるバイトがあるんだね～！って、ココどこ～？
+	case Challenge_Challenge29Description
+	/// めちゃたそがれフォト
+	case Challenge_Challenge29Reward
+	/// 難破船ドン・ブラコ
+	case Challenge_Challenge29Title
 	/// チャレンジャー
 	case Challenge_Challenger
 	/// 支援するチャレンジを選ぶ
@@ -279,6 +339,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_GuideRewardSleeve
 	/// 塗りまくって貯めたポイントでロブの旅を応援しよう！<br />旅の思い出も手に入るかも？！
 	case Challenge_HowToPlay
+	/// 「チャレンジャー・ロブ」としての次の目的地は『ハイカラ地方』に決めたよ～。<br />ってわけで、この旅を引き続き支援してくれるサポーターをパリッと募集するよ！<br />ハイカラ地方は、僕が旅を始める前に住んでた街もあるんだけど、いまもハイカラな香りたっぷりのツヤツヤアゲアゲな場所なんだよね～。<br />そういった思い出の場所を巡りながら、「過去の自分」も見つめ直して「いまの自分」を更にアゲ直したいんだよね！<br />この「二度アゲの旅」、ガチでホットっしょ？！ってことでヨロシク～！
+	case Challenge_Journey2Description
+	/// キミのおかげで、二度アゲの旅もカリッと終えられたよ！アリガト～！<br />お礼にコレ、アゲちゃうよ！<br />ロビー端末に送っておいたから受け取ってね～。
+	case Challenge_Journey2Gratitude
+	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
+	case Challenge_Journey2Title
 	/// 支援者求ム！
 	case Challenge_LookingForSupporters
 	/// オレンジ
@@ -403,7 +469,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_GoToStats
 	/// 集めた金イクラ
 	case CoopHistory_GoldenDeliverCount
-	/// ハイスコア
+	/// 最高きろく
 	case CoopHistory_HighestScore
 	/// バイトヒストリー
 	case CoopHistory_History
@@ -1043,7 +1109,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_10x
 	/// ３３３倍マッチ
 	case VSHistory_333x
-	/// 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
+	/// 人数が少ない時間が続いたため、負けとしてカウントされませんでした
 	case VSHistory_AnnotationExemption
 	/// 無効試合になりました
 	case VSHistory_AnnotationNocontest
@@ -1277,72 +1343,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
-	/// オレンジの空がオイリーだよね～。
-	case Challenge_Challenge210Description
-	/// 二つ名
-	case Challenge_Challenge210Reward
-	/// シェケナダム
-	case Challenge_Challenge210Title
-	/// アートに触れるとハートの中心まで火が通るカンジするよね～！
-	case Challenge_Challenge21Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge21Reward
-	/// キンメダイ美術館
-	case Challenge_Challenge21Title
-	/// ここの食堂はフライがイケてるバクアゲスポットなんだ～。
-	case Challenge_Challenge22Description
-	/// 拾ったステッカー
-	case Challenge_Challenge22Reward
-	/// 海女美術大学
-	case Challenge_Challenge22Title
-	/// 橋の上は風が強くてコロモがめっちゃ飛ばされるんだよね！
-	case Challenge_Challenge23Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge23Reward
-	/// マサバ海峡大橋
-	case Challenge_Challenge23Title
-	/// 溶接の音とアゲる音って似てるから、テンションがバチバチアガっちゃうよ！
-	case Challenge_Challenge24Description
-	/// 拾ったステッカー
-	case Challenge_Challenge24Reward
-	/// チョウザメ造船
-	case Challenge_Challenge24Title
-	/// 夕飯時にフライの香りがすると、すぐ家に帰りたくなるよね～。
-	case Challenge_Challenge25Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge25Reward
-	/// ヒラメが丘団地
-	case Challenge_Challenge25Title
-	/// あ！新しいアゲ油売ってる！！
-	case Challenge_Challenge26Description
-	/// 拾ったステッカー
-	case Challenge_Challenge26Reward
-	/// ザトウマーケット
-	case Challenge_Challenge26Title
-	/// こんなアガる要素しかない場所、アガり過ぎ注意報だよ～！ジュワワ～！！！
-	case Challenge_Challenge27Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge27Reward
-	/// マヒマヒリゾート＆スパ
-	case Challenge_Challenge27Title
-	/// ジェットコースターに乗った後って、ナゼか身軽に感じるんだよね～。
-	case Challenge_Challenge28Description
-	/// グラフィティ壁紙
-	case Challenge_Challenge28Reward
-	/// スメーシーワールド
-	case Challenge_Challenge28Title
-	/// ハイカラ地方にもサクサク稼げるバイトがあるんだね～！って、ココどこ～？
-	case Challenge_Challenge29Description
-	/// めちゃたそがれフォト
-	case Challenge_Challenge29Reward
-	/// 難破船ドン・ブラコ
-	case Challenge_Challenge29Title
-	/// 「チャレンジャー・ロブ」としての次の目的地は『ハイカラ地方』に決めたよ～。<br />ってわけで、この旅を引き続き支援してくれるサポーターをパリッと募集するよ！<br />ハイカラ地方は、僕が旅を始める前に住んでた街もあるんだけど、いまもハイカラな香りたっぷりのツヤツヤアゲアゲな場所なんだよね～。<br />そういった思い出の場所を巡りながら、「過去の自分」も見つめ直して「いまの自分」を更にアゲ直したいんだよね！<br />この「二度アゲの旅」、ガチでホットっしょ？！ってことでヨロシク～！
-	case Challenge_Journey2Description
-	/// キミのおかげで、二度アゲの旅もカリッと終えられたよ！アリガト～！<br />お礼にコレ、アゲちゃうよ！<br />ロビー端末に送っておいたから受け取ってね～。
-	case Challenge_Journey2Gratitude
-	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
-	case Challenge_Journey2Title
 	/// 開発
 	case Custom_Role_Developer
 	/// 翻訳
