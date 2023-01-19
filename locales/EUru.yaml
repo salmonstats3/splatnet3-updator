@@ -221,7 +221,7 @@ CoopHistory:
   Gj: ✓
   GoToStats: Назад к рабочим показателям
   GoldenDeliverCount: 'Золотых икринок:'
-  HighestScore: Рекорды
+  HighestScore: Рекорд
   History: Рабочие показатели
   JobPoint: Твои очки
   JobRatio: Должность
@@ -418,7 +418,7 @@ History:
   ShowXranking: Разряд X
   Summary: Сводка
   Title: Хроника
-  TotalTurfPoint: Прокрас
+  TotalTurfPoint: Очки за прокрас
   TotalWin: Всего побед
   Udemae: Разряд
   Weapon: Оружие
@@ -611,7 +611,8 @@ VSHistory:
   100x: Бой x100
   10x: Бой x10
   333x: Бой x333
-  AnnotationExemption: Из-за недостаточного количества игроков бой завершен вничью.
+  AnnotationExemption: Так как некоторые игроки не смогли продолжить бой, поражение
+    не будет засчитано.
   AnnotationNocontest: Результатов нет.
   AnnotationPenalty: Бой не был завершен.
   Attack: Нападающие
