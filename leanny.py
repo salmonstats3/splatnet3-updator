@@ -113,7 +113,8 @@ LANG: list[LocaleHash] = [
   LocaleHash('locale13', 'TWzh', 'zh-Hans'),
 ]
 
-def get_assets(version: int):
+def get_assets():
+  version = get_latest_version()
   # WEBHOOOK_URLの取得
   url = os.environ.get('WEBHOOK_URL')
   
@@ -281,9 +282,11 @@ def _gen_sha256_hash(hashes: dict):
 
 def save_csv():
   version = get_latest_version()
+  print(f"Latest version is {version}")
   values: list[list[str]] = []
   keys: list[str] = []
   columns: list[str] = list(map(lambda x: x.xcode, LANG))
+  _get_internal_assets(version)
   
   for lang in LANG:
     params = _get_params(lang, version)
@@ -312,8 +315,10 @@ def save_yaml():
         dict[prefix] = {}
         dict[prefix][key] = value
     with open(f'locales/{lang.code}.yaml', mode='w') as f:
+      print(f"Dump {lang.code} YAML ...")
       yaml.dump(dict, f, allow_unicode=True, sort_keys=True)
     with open(f'locales/{lang.code}.json', mode='w') as f:
+      print(f"Dump {lang.code} JSON ...")
       json.dump(dict, f, ensure_ascii=False, indent=2)
 
 def get_latest_version() -> list[int]:
@@ -321,9 +326,10 @@ def get_latest_version() -> list[int]:
   return list(map(lambda x: int(x), requests.get(url).text[1:-1].replace('"','') .split(',')))[-1]
 
 def _get_internal_assets(version: int):
-  path = f'leanny/{version}'
+  path = f'resources/leanny/{version}'
   os.makedirs(path, exist_ok=True)
   for lang in LANG:
+    print(f"Downloading {lang.code} JSON from GitHub")
     url = f'https://leanny.github.io/splat3/data/language/{lang.code}.json'
     response = json.loads(requests.get(url).text)
 

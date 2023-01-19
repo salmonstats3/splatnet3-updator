@@ -17,6 +17,7 @@ def translate():
     for target_lang, value in values.items():
       source = key[2]
       if value is None and source is not None:
+        print(f"Translate {value} to {source}")
         df.at[key, target_lang] = _translate(target_lang, source)
   df.to_csv('custom.csv')
 
