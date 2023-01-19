@@ -611,8 +611,8 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
-  AnnotationExemption: Como uno o más jugadores no pudieron continuar, el combate
-    no se cuenta como derrota.
+  AnnotationExemption: Algunos jugadores se desconectaron. El combate se considera
+    empatado.
   AnnotationNocontest: Combate cancelado
   AnnotationPenalty: El combate no se disputó hasta el final.
   Attack: Al ataque

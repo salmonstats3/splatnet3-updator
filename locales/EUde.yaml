@@ -10,7 +10,7 @@ Carousel:
   Myoutfits: Lieblings-Styles
   PhotoAlbum: Album
   Robichi: Wer hilft Shrimpson?
-  StatsLatestSeason: Saison-Übersicht anschauen
+  StatsLatestSeason: Saison-Verlauf anschauen
   VsHistory: Kämpfe
 Catalog:
   AppName: Katalog
@@ -221,7 +221,7 @@ CoopHistory:
   Gj: ✓
   GoToStats: Zurück zu den Schicht-Daten
   GoldenDeliverCount: Gesammelte Gold-Fischeier
-  HighestScore: Highscore
+  HighestScore: Rekord
   History: Karriere
   JobPoint: Dein Punktestand
   JobRatio: Bewertung
@@ -610,8 +610,8 @@ VSHistory:
   100x: ×100-Kampf
   10x: ×10-Kampf
   333x: ×333-Kampf
-  AnnotationExemption: Ein oder mehrere Spieler konnten den Kampf nicht fortsetzen.
-    Der Kampf wird nicht als Niederlage gewertet.
+  AnnotationExemption: Da Spieler den Kampf schon früh verlassen haben, wurde der
+    Kampf als unentschieden gewertet.
   AnnotationNocontest: Kein Ergebnis
   AnnotationPenalty: Der Kampf wurde nicht abgeschlossen.
   Attack: Angriff
