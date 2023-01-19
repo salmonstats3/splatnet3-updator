@@ -226,7 +226,7 @@ CoopHistory:
   Gj: ✓
   GoToStats: Terug naar werkverledenlijst
   GoldenDeliverCount: Gouden eieren
-  HighestScore: Topscore
+  HighestScore: Record
   History: Werkverleden
   JobPoint: Je punten
   JobRatio: Beoordeling
@@ -612,8 +612,8 @@ VSHistory:
   100x: ×100-strijd
   10x: ×10-strijd
   333x: ×333-strijd
-  AnnotationExemption: Omdat een of meer spelers het gevecht niet konden voortzetten,
-    wordt het gevecht niet als een verlies geteld.
+  AnnotationExemption: Sommige spelers hebben het gevecht kort na het begin verlaten,
+    dus het gevecht telde als een gelijkspel.
   AnnotationNocontest: Ongeldig gevecht.
   AnnotationPenalty: Het gevecht is niet volledig afgemaakt.
   Attack: Aanval
