@@ -221,7 +221,8 @@
     "TowerControl": "真格塔樓",
     "Tricolor": "三色奪寶攻擊",
     "TricolorMatch": "三色奪寶比賽",
-    "TurfWar": "占地對戰"
+    "TurfWar": "占地對戰",
+    "WpnNotfound": "？"
   },
   "CoopHistory": {
     "Available": "出現數",
@@ -282,7 +283,10 @@
     "TotalPoint": "累計點數",
     "WaveLevel0": "乾潮",
     "WaveLevel1": "普通",
-    "WaveLevel2": "滿潮"
+    "WaveLevel2": "滿潮",
+    "BigrunBronze": "銅",
+    "BigrunGold": "金",
+    "BigrunSilver": "銀"
   },
   "Error": {
     "BackToHome": "返回主頁",
@@ -679,6 +683,18 @@
     "WeaponTop": "頂尖武器玩家",
     "WeaponTopSingular": "頂尖武器玩家",
     "Xcrown": "王冠"
+  },
+  "CoopRecord": {
+    "AppName": "打工",
+    "Bigrun": "大型跑",
+    "BigrunBronze": "銅",
+    "BigrunGold": "金",
+    "BigrunSilver": "銀",
+    "HighestJobRate": "最高評價",
+    "HighestScore": "最高分數",
+    "More": "顯示更多",
+    "NoData": "沒有記錄",
+    "Title": "SALMON RUN記錄"
   },
   "Widgets": {
     "AlbumDescription": "顯示《魷魚圈 3》的相簿圖片",

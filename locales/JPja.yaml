@@ -143,6 +143,7 @@ Common:
   Tricolor: トリカラアタック
   TricolorMatch: トリカラマッチ
   TurfWar: ナワバリバトル
+  WpnNotfound: はてな
 CoopEnemy:
   SakeArtillery: テッキュウ
   SakeBigMouth: ドロシャケ
@@ -182,6 +183,9 @@ CoopHistory:
   AvailableBoss: 出現したオカシラシャケ
   AverageClearWaves: 平均クリアWAVE数
   Bigrun: ビッグラン
+  BigrunBronze: 銅
+  BigrunGold: 金
+  BigrunSilver: 銀
   Bonus: クリアボーナス
   BossAvailable: オカシラシャケ出現！
   Clear: Clear!!
@@ -237,6 +241,17 @@ CoopHistory:
   WaveLevel0: 干潮
   WaveLevel1: 普通
   WaveLevel2: 満潮
+CoopRecord:
+  AppName: バイト
+  Bigrun: ビッグラン
+  BigrunBronze: 銅
+  BigrunGold: 金
+  BigrunSilver: 銀
+  HighestJobRate: 最高評価
+  HighestScore: ハイスコア
+  More: もっと見る
+  NoData: きろくがありません
+  Title: サーモンランのきろく
 CoopStage:
   Carousel: スメーシーワールド
   Shakedent: ムニ・エール海洋発電所

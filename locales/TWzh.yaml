@@ -143,6 +143,7 @@ Common:
   Tricolor: 三色奪寶攻擊
   TricolorMatch: 三色奪寶比賽
   TurfWar: 占地對戰
+  WpnNotfound: ？
 CoopEnemy:
   SakeArtillery: 鐵球魚
   SakeBigMouth: 泥鮭魚
@@ -182,6 +183,9 @@ CoopHistory:
   AvailableBoss: 已出現的頭目鮭魚
   AverageClearWaves: 平均完成WAVE數
   Bigrun: 大型跑
+  BigrunBronze: 銅
+  BigrunGold: 金
+  BigrunSilver: 銀
   Bonus: 完成獎勵
   BossAvailable: 頭目鮭魚出現！
   Clear: Clear!!
@@ -237,6 +241,17 @@ CoopHistory:
   WaveLevel0: 乾潮
   WaveLevel1: 普通
   WaveLevel2: 滿潮
+CoopRecord:
+  AppName: 打工
+  Bigrun: 大型跑
+  BigrunBronze: 銅
+  BigrunGold: 金
+  BigrunSilver: 銀
+  HighestJobRate: 最高評價
+  HighestScore: 最高分數
+  More: 顯示更多
+  NoData: 沒有記錄
+  Title: SALMON RUN記錄
 CoopStage:
   Carousel: 醋飯海洋世界
   Shakedent: 麥年海洋發電所

@@ -166,6 +166,7 @@ Common:
   Tricolor: Трехцветный бой
   TricolorMatch: Трехцветный бой
   TurfWar: Бой за район
+  WpnNotfound: Нет данных
 CoopEnemy:
   SakeArtillery: ядровик
   SakeBigMouth: илистый ревун
@@ -205,6 +206,9 @@ CoopHistory:
   AvailableBoss: 'Стычек с самонидами-королями:'
   AverageClearWaves: В среднем волн зачищено
   Bigrun: Big Run
+  BigrunBronze: Бронза
+  BigrunGold: Золото
+  BigrunSilver: Серебро
   Bonus: Награда
   BossAvailable: Появился самонид-король!
   Clear: Успех!
@@ -261,6 +265,17 @@ CoopHistory:
   WaveLevel0: Отлив
   WaveLevel1: Норм.
   WaveLevel2: Прилив
+CoopRecord:
+  AppName: Смена
+  Bigrun: Big Run
+  BigrunBronze: Бронза
+  BigrunGold: Золото
+  BigrunSilver: Серебро
+  HighestJobRate: Лучшая должность
+  HighestScore: Рекорд
+  More: Подробнее
+  NoData: Данных нет.
+  Title: Статистика
 CoopStage:
   Carousel: Луна-парк «Язь»
   Shakedent: ГЭС-комплекс «Лом»

@@ -147,6 +147,7 @@ Common:
   Tricolor: 트리컬러 어택
   TricolorMatch: 트리컬러 매치
   TurfWar: 영역 배틀
+  WpnNotfound: 물음표
 CoopEnemy:
   SakeArtillery: 철 구슬
   SakeBigMouth: 진흙연어
@@ -186,6 +187,9 @@ CoopHistory:
   AvailableBoss: 출현한 두목연어
   AverageClearWaves: 평균 클리어 WAVE 수
   Bigrun: 빅 런
+  BigrunBronze: 동
+  BigrunGold: 금
+  BigrunSilver: 은
   Bonus: 클리어 보너스
   BossAvailable: 두목연어 출현!
   Clear: Clear!!
@@ -241,6 +245,17 @@ CoopHistory:
   WaveLevel0: 간조
   WaveLevel1: 보통
   WaveLevel2: 만조
+CoopRecord:
+  AppName: 아르바이트
+  Bigrun: 빅 런
+  BigrunBronze: 동
+  BigrunGold: 금
+  BigrunSilver: 은
+  HighestJobRate: 최고 평가
+  HighestScore: 하이 스코어
+  More: 더 보기
+  NoData: 기록이 없습니다
+  Title: 새먼 런 기록
 CoopStage:
   Carousel: 초밥 월드
   Shakedent: 뫼니 엘 해양 발전소

@@ -143,6 +143,7 @@ Common:
   Tricolor: 三色夺宝攻击
   TricolorMatch: 三色夺宝比赛
   TurfWar: 占地对战
+  WpnNotfound: ？
 CoopEnemy:
   SakeArtillery: 铁球鱼
   SakeBigMouth: 泥鲑鱼
@@ -182,6 +183,9 @@ CoopHistory:
   AvailableBoss: 已出现的头目鲑鱼
   AverageClearWaves: 平均通关的WAVE数
   Bigrun: 大型跑
+  BigrunBronze: 铜
+  BigrunGold: 金
+  BigrunSilver: 银
   Bonus: 通关奖励
   BossAvailable: 头目鲑鱼出现！
   Clear: Clear!!
@@ -237,6 +241,17 @@ CoopHistory:
   WaveLevel0: 干潮
   WaveLevel1: 普通
   WaveLevel2: 满潮
+CoopRecord:
+  AppName: 打工
+  Bigrun: 大型跑
+  BigrunBronze: 铜
+  BigrunGold: 金
+  BigrunSilver: 银
+  HighestJobRate: 最高评价
+  HighestScore: 最高分数
+  More: 显示更多
+  NoData: 无记录
+  Title: 鲑鱼跑记录
 CoopStage:
   Carousel: 醋饭海洋世界
   Shakedent: 麦年海洋发电所

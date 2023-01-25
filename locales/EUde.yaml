@@ -165,6 +165,7 @@ Common:
   Tricolor: Dreifarb-Angriff
   TricolorMatch: Dreifarb-Match
   TurfWar: Revierkampf
+  WpnNotfound: Unbekannt
 CoopEnemy:
   SakeArtillery: Kanonya
   SakeBigMouth: Schlämmermaul
@@ -204,6 +205,9 @@ CoopHistory:
   AvailableBoss: Ober-Salmonide bekämpft
   AverageClearWaves: Durchschn. überstandene Wellen
   Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Gold
+  BigrunSilver: Silber
   Bonus: Abschluss
   BossAvailable: Ober-Salmonide gesichtet!
   Clear: Geschafft!
@@ -261,6 +265,17 @@ CoopHistory:
   WaveLevel0: Ebbe
   WaveLevel1: Normal
   WaveLevel2: Flut
+CoopRecord:
+  AppName: Schicht
+  Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Gold
+  BigrunSilver: Silber
+  HighestJobRate: Höchste Bewertung
+  HighestScore: Highscore
+  More: Mehr
+  NoData: Keine Daten
+  Title: Salmon Run-Daten
 CoopStage:
   Carousel: Flunder-Funpark
   Shakedent: Wasserkraftwerk Stromschnell

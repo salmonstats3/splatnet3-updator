@@ -630,6 +630,20 @@ XRanking_TopPlayers,Top-Spieler,Top Players,Top Players,Mejores jugadores,Mejore
 XRanking_WeaponTop,Beste Spieler/Waffe,Top Weapon Wielders,Top Weapon Wielders,Mejores con esta arma,Mejores con esta arma,Spécialistes de chaque arme,Spécialistes de cette arme,I migliori per arma,ブキトップ プレイヤー,무기 톱 플레이어,Beste spelers per wapen,Топ по оружию,顶级武器玩家,頂尖武器玩家
 XRanking_WeaponTopSingular,Bester mit dieser Waffe,Top Weapon Wielder,Top Weapon Wielder,Mejor con esta arma,Mejor con esta arma,Spécialiste de cette arme,Spécialiste de cette arme,Migliore con quest'arma!,ブキトップ プレイヤー,무기 톱 플레이어,Beste speler met dit wapen,Топ с этим оружием,顶级武器玩家,頂尖武器玩家
 XRanking_Xcrown,Krone,Crown,Crown,Corona,Corona,Couronne,Couronne,Corona,おうかん,왕관,Kroon,Корона,王冠,王冠
+Common_WpnNotfound,Unbekannt,Unknown,Unknown,Desconocido,Vacía,Inconnu,Inconnu,Sconosciuto,はてな,물음표,Onbekend,Нет данных,？,？
+CoopHistory_BigrunBronze,Bronze,Bronze,Bronze,Bronce,Bronce,Bronze,Bronze,Bronzo,銅,동,Brons,Бронза,铜,銅
+CoopHistory_BigrunGold,Gold,Gold,Gold,Oro,Oro,Or,Or,Oro,金,금,Goud,Золото,金,金
+CoopHistory_BigrunSilver,Silber,Silver,Silver,Plata,Plata,Argent,Argent,Argento,銀,은,Zilver,Серебро,银,銀
+CoopRecord_AppName,Schicht,Work,Work,Encargos,Encargos,Missions,Missions,Lavoro,バイト,아르바이트,Klussen,Смена,打工,打工
+CoopRecord_Bigrun,Big Run,Big Run,Big Run,Big Run,Big Run,Big Run,Big Run,Big Run,ビッグラン,빅 런,Big Run,Big Run,大型跑,大型跑
+CoopRecord_BigrunBronze,Bronze,Bronze,Bronze,Bronce,Bronce,Bronze,Bronze,Bronzo,銅,동,Brons,Бронза,铜,銅
+CoopRecord_BigrunGold,Gold,Gold,Gold,Oro,Oro,Or,Or,Oro,金,금,Goud,Золото,金,金
+CoopRecord_BigrunSilver,Silber,Silver,Silver,Plata,Plata,Argent,Argent,Argento,銀,은,Zilver,Серебро,银,銀
+CoopRecord_HighestJobRate,Höchste Bewertung,Highest Pay Grade,Highest Pay Grade,Mejor valoración,Mayor grado,Meilleure évaluation,Meilleure évaluation,Valutazione massima,最高評価,최고 평가,Hoogste beoordeling,Лучшая должность,最高评价,最高評價
+CoopRecord_HighestScore,Highscore,High Score,High Score,Récord,Récord,Record,Record,Record,ハイスコア,하이 스코어,Topscore,Рекорд,最高分数,最高分數
+CoopRecord_More,Mehr,See More,See More,Ver más,Ver más,Afficher plus d'infos,Afficher plus d'infos,Scopri di più,もっと見る,더 보기,Meer info,Подробнее,显示更多,顯示更多
+CoopRecord_NoData,Keine Daten,No records.,No records.,Sin datos,Sin datos,Aucune donnée,Aucune donnée,Nessun dato,きろくがありません,기록이 없습니다,Geen gegevens,Данных нет.,无记录,沒有記錄
+CoopRecord_Title,Salmon Run-Daten,Salmon Run Stats,Salmon Run Stats,Estadísticas,Salmon Run,Statistiques,Statistiques,Statistiche,サーモンランのきろく,새먼 런 기록,Statistieken,Статистика,鲑鱼跑记录,SALMON RUN記錄
 Widgets_AlbumDescription,Sieh dir die Bilder aus dem Album von SplatNet 3 an.,See SplatNet 3's album images.,See SplatNet 3's album images.,Muestra las imágenes del álbum de SplatNet 3.,Muestra las imágenes del álbum de SplatNet 3.,Voir les images de l'album de SplatNet 3.,Voir les images de l'album de SplatNet 3.,Vedi l'album di immagini di SplatNet 3.,イカリング３のアルバムの画像を表示します。,오징어넷 3의 앨범 이미지를 표시합니다.,Bekijk de afbeeldingen in het album van SplatNet 3.,Просмотр изображений в альбоме приложения SplatNet 3.,显示《鱿鱼圈 3》的相册图片,顯示《魷魚圈 3》的相簿圖片
 Widgets_AlbumNoPhoto,Deine tinttastischen Fotos aus Splatoon 3 erscheinen hier!,Your inkredible photos from Splatoon 3 will show up here!,Your inkredible photos from Splatoon 3 will show up here!,¡Aquí se exhibirán tus espectaculares fotos de Splatoon 3!,¡Aquí se exhibirán tus espectaculares fotos de Splatoon 3!,Tes super photos de Splatoon 3 apparaîtront ici!,Tes super photos de Splatoon 3 apparaîtront ici !,Le tue mitiliche foto scattate in Splatoon 3 appariranno qui!,スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！,스플래툰 3에서 어메이징한 사진을<br />촬영하면 이곳에 표시된다!,Hier verschijnen je spetterendste foto's uit Splatoon 3!,Здесь будут отображаться твои красочные фотографии из Splatoon 3!,在《斯普拉遁 3》中拍摄的超鱿型照片<br />都会显示在这里哦！,在《斯普拉遁 3》中拍攝的超魷型照片<br />都會顯示在這裡喔！
 Widgets_AlbumTitle,Album,Album,Album,Álbum,Álbum,Album,Album,Album,アルバム,앨범,Album,Альбом,相册,相簿

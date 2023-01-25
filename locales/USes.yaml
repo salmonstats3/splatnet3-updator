@@ -168,6 +168,7 @@ Common:
   Tricolor: Combate tricolor
   TricolorMatch: Combate tricolor
   TurfWar: Territorial
+  WpnNotfound: Vacía
 CoopEnemy:
   SakeArtillery: Artilleroide
   SakeBigMouth: Bocalodo
@@ -207,6 +208,9 @@ CoopHistory:
   AvailableBoss: Gran jefe salmónido enfrentado
   AverageClearWaves: 'Media de oleadas superadas:'
   Bigrun: Big Run
+  BigrunBronze: Bronce
+  BigrunGold: Oro
+  BigrunSilver: Plata
   Bonus: Recomp.
   BossAvailable: ¡Gran jefe a la vista!
   Clear: ¡Victoria!
@@ -263,6 +267,17 @@ CoopHistory:
   WaveLevel0: Marea baja
   WaveLevel1: Normal
   WaveLevel2: Marea alta
+CoopRecord:
+  AppName: Encargos
+  Bigrun: Big Run
+  BigrunBronze: Bronce
+  BigrunGold: Oro
+  BigrunSilver: Plata
+  HighestJobRate: Mayor grado
+  HighestScore: Récord
+  More: Ver más
+  NoData: Sin datos
+  Title: Salmon Run
 CoopStage:
   Carousel: Pirañalandia
   Shakedent: Hidrocentral Rebosante

@@ -221,7 +221,8 @@
     "TowerControl": "랭크 타워",
     "Tricolor": "트리컬러 어택",
     "TricolorMatch": "트리컬러 매치",
-    "TurfWar": "영역 배틀"
+    "TurfWar": "영역 배틀",
+    "WpnNotfound": "물음표"
   },
   "CoopHistory": {
     "Available": "출현 수",
@@ -282,7 +283,10 @@
     "TotalPoint": "누적 포인트",
     "WaveLevel0": "간조",
     "WaveLevel1": "보통",
-    "WaveLevel2": "만조"
+    "WaveLevel2": "만조",
+    "BigrunBronze": "동",
+    "BigrunGold": "금",
+    "BigrunSilver": "은"
   },
   "Error": {
     "BackToHome": "홈으로 돌아가기",
@@ -679,6 +683,18 @@
     "WeaponTop": "무기 톱 플레이어",
     "WeaponTopSingular": "무기 톱 플레이어",
     "Xcrown": "왕관"
+  },
+  "CoopRecord": {
+    "AppName": "아르바이트",
+    "Bigrun": "빅 런",
+    "BigrunBronze": "동",
+    "BigrunGold": "금",
+    "BigrunSilver": "은",
+    "HighestJobRate": "최고 평가",
+    "HighestScore": "하이 스코어",
+    "More": "더 보기",
+    "NoData": "기록이 없습니다",
+    "Title": "새먼 런 기록"
   },
   "Widgets": {
     "AlbumDescription": "오징어넷 3의 앨범 이미지를 표시합니다.",

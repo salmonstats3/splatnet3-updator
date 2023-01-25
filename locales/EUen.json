@@ -221,7 +221,8 @@
     "TowerControl": "Tower Control",
     "Tricolor": "Tricolor Battle",
     "TricolorMatch": "Tricolor Battle",
-    "TurfWar": "Turf War"
+    "TurfWar": "Turf War",
+    "WpnNotfound": "Unknown"
   },
   "CoopHistory": {
     "Available": "Appearances ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Total points",
     "WaveLevel0": "Low Tide",
     "WaveLevel1": "Normal",
-    "WaveLevel2": "High Tide"
+    "WaveLevel2": "High Tide",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Gold",
+    "BigrunSilver": "Silver"
   },
   "Error": {
     "BackToHome": "Back to Home",
@@ -679,6 +683,18 @@
     "WeaponTop": "Top Weapon Wielders",
     "WeaponTopSingular": "Top Weapon Wielder",
     "Xcrown": "Crown"
+  },
+  "CoopRecord": {
+    "AppName": "Work",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Gold",
+    "BigrunSilver": "Silver",
+    "HighestJobRate": "Highest Pay Grade",
+    "HighestScore": "High Score",
+    "More": "See More",
+    "NoData": "No records.",
+    "Title": "Salmon Run Stats"
   },
   "Widgets": {
     "AlbumDescription": "See SplatNet 3's album images.",

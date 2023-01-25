@@ -169,6 +169,7 @@ Common:
   Tricolor: Combate tricolor
   TricolorMatch: Pugna tricolor
   TurfWar: Territorial
+  WpnNotfound: Desconocido
 CoopEnemy:
   SakeArtillery: Artilleroide
   SakeBigMouth: Morrolodo
@@ -208,6 +209,9 @@ CoopHistory:
   AvailableBoss: Encuentro con el gran jefe
   AverageClearWaves: Media de ofensivas superadas
   Bigrun: Big Run
+  BigrunBronze: Bronce
+  BigrunGold: Oro
+  BigrunSilver: Plata
   Bonus: Recomp.
   BossAvailable: ¡Gran jefe a la vista!
   Clear: ¡Bravo!
@@ -264,6 +268,17 @@ CoopHistory:
   WaveLevel0: Marea baja
   WaveLevel1: Normal
   WaveLevel2: Marea alta
+CoopRecord:
+  AppName: Encargos
+  Bigrun: Big Run
+  BigrunBronze: Bronce
+  BigrunGold: Oro
+  BigrunSilver: Plata
+  HighestJobRate: Mejor valoración
+  HighestScore: Récord
+  More: Ver más
+  NoData: Sin datos
+  Title: Estadísticas
 CoopStage:
   Carousel: Pirañalandia
   Shakedent: Hidrocentral Pilpil

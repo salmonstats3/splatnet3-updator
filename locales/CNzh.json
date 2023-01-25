@@ -221,7 +221,8 @@
     "TowerControl": "真格塔楼",
     "Tricolor": "三色夺宝攻击",
     "TricolorMatch": "三色夺宝比赛",
-    "TurfWar": "占地对战"
+    "TurfWar": "占地对战",
+    "WpnNotfound": "？"
   },
   "CoopHistory": {
     "Available": "出现数量",
@@ -282,7 +283,10 @@
     "TotalPoint": "累计点数",
     "WaveLevel0": "干潮",
     "WaveLevel1": "普通",
-    "WaveLevel2": "满潮"
+    "WaveLevel2": "满潮",
+    "BigrunBronze": "铜",
+    "BigrunGold": "金",
+    "BigrunSilver": "银"
   },
   "Error": {
     "BackToHome": "返回主页",
@@ -679,6 +683,18 @@
     "WeaponTop": "顶级武器玩家",
     "WeaponTopSingular": "顶级武器玩家",
     "Xcrown": "王冠"
+  },
+  "CoopRecord": {
+    "AppName": "打工",
+    "Bigrun": "大型跑",
+    "BigrunBronze": "铜",
+    "BigrunGold": "金",
+    "BigrunSilver": "银",
+    "HighestJobRate": "最高评价",
+    "HighestScore": "最高分数",
+    "More": "显示更多",
+    "NoData": "无记录",
+    "Title": "鲑鱼跑记录"
   },
   "Widgets": {
     "AlbumDescription": "显示《鱿鱼圈 3》的相册图片",

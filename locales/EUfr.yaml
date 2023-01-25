@@ -169,6 +169,7 @@ Common:
   Tricolor: Match tricolore
   TricolorMatch: Match tricolore
   TurfWar: Guerre de territoire
+  WpnNotfound: Inconnu
 CoopEnemy:
   SakeArtillery: Gros boulet
   SakeBigMouth: Salmonoïde de boue
@@ -208,6 +209,9 @@ CoopHistory:
   AvailableBoss: Salmonarque combattu
   AverageClearWaves: 'Vagues terminées (moyenne) :'
   Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Or
+  BigrunSilver: Argent
   Bonus: Récomp.
   BossAvailable: Salmonarque en approche !
   Clear: Réussite !
@@ -266,6 +270,17 @@ CoopHistory:
   WaveLevel0: Marée basse
   WaveLevel1: Normal
   WaveLevel2: Marée haute
+CoopRecord:
+  AppName: Missions
+  Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Or
+  BigrunSilver: Argent
+  HighestJobRate: Meilleure évaluation
+  HighestScore: Record
+  More: Afficher plus d'infos
+  NoData: Aucune donnée
+  Title: Statistiques
 CoopStage:
   Carousel: Parc Carapince
   Shakedent: Centrale Anguilla

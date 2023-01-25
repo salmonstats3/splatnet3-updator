@@ -221,7 +221,8 @@
     "TowerControl": "Бой за башню",
     "Tricolor": "Трехцветный бой",
     "TricolorMatch": "Трехцветный бой",
-    "TurfWar": "Бой за район"
+    "TurfWar": "Бой за район",
+    "WpnNotfound": "Нет данных"
   },
   "CoopHistory": {
     "Available": "появилось ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Всего очков:",
     "WaveLevel0": "Отлив",
     "WaveLevel1": "Норм.",
-    "WaveLevel2": "Прилив"
+    "WaveLevel2": "Прилив",
+    "BigrunBronze": "Бронза",
+    "BigrunGold": "Золото",
+    "BigrunSilver": "Серебро"
   },
   "Error": {
     "BackToHome": "На главную",
@@ -679,6 +683,18 @@
     "WeaponTop": "Топ по оружию",
     "WeaponTopSingular": "Топ с этим оружием",
     "Xcrown": "Корона"
+  },
+  "CoopRecord": {
+    "AppName": "Смена",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Бронза",
+    "BigrunGold": "Золото",
+    "BigrunSilver": "Серебро",
+    "HighestJobRate": "Лучшая должность",
+    "HighestScore": "Рекорд",
+    "More": "Подробнее",
+    "NoData": "Данных нет.",
+    "Title": "Статистика"
   },
   "Widgets": {
     "AlbumDescription": "Просмотр изображений в альбоме приложения SplatNet 3.",

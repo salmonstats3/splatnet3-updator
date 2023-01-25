@@ -221,7 +221,8 @@
     "TowerControl": "Turm-Kommando",
     "Tricolor": "Dreifarb-Angriff",
     "TricolorMatch": "Dreifarb-Match",
-    "TurfWar": "Revierkampf"
+    "TurfWar": "Revierkampf",
+    "WpnNotfound": "Unbekannt"
   },
   "CoopHistory": {
     "Available": "Auftritte ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Gesamtpunkte",
     "WaveLevel0": "Ebbe",
     "WaveLevel1": "Normal",
-    "WaveLevel2": "Flut"
+    "WaveLevel2": "Flut",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Gold",
+    "BigrunSilver": "Silber"
   },
   "Error": {
     "BackToHome": "Zurück zur Startseite",
@@ -679,6 +683,18 @@
     "WeaponTop": "Beste Spieler/Waffe",
     "WeaponTopSingular": "Bester mit dieser Waffe",
     "Xcrown": "Krone"
+  },
+  "CoopRecord": {
+    "AppName": "Schicht",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Gold",
+    "BigrunSilver": "Silber",
+    "HighestJobRate": "Höchste Bewertung",
+    "HighestScore": "Highscore",
+    "More": "Mehr",
+    "NoData": "Keine Daten",
+    "Title": "Salmon Run-Daten"
   },
   "Widgets": {
     "AlbumDescription": "Sieh dir die Bilder aus dem Album von SplatNet 3 an.",

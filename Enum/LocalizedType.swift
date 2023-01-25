@@ -1267,6 +1267,34 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_WeaponTopSingular
 	/// おうかん
 	case XRanking_Xcrown
+	/// はてな
+	case Common_WpnNotfound
+	/// 銅
+	case CoopHistory_BigrunBronze
+	/// 金
+	case CoopHistory_BigrunGold
+	/// 銀
+	case CoopHistory_BigrunSilver
+	/// バイト
+	case CoopRecord_AppName
+	/// ビッグラン
+	case CoopRecord_Bigrun
+	/// 銅
+	case CoopRecord_BigrunBronze
+	/// 金
+	case CoopRecord_BigrunGold
+	/// 銀
+	case CoopRecord_BigrunSilver
+	/// 最高評価
+	case CoopRecord_HighestJobRate
+	/// ハイスコア
+	case CoopRecord_HighestScore
+	/// もっと見る
+	case CoopRecord_More
+	/// きろくがありません
+	case CoopRecord_NoData
+	/// サーモンランのきろく
+	case CoopRecord_Title
 	/// イカリング３のアルバムの画像を表示します。
 	case Widgets_AlbumDescription
 	/// スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！

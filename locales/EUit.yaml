@@ -169,6 +169,7 @@ Common:
   Tricolor: Attacco tricolore
   TricolorMatch: Scontro tricolore
   TurfWar: Mischie mollusche
+  WpnNotfound: Sconosciuto
 CoopEnemy:
   SakeArtillery: Cannoniere
   SakeBigMouth: Fangonoide
@@ -208,6 +209,9 @@ CoopHistory:
   AvailableBoss: Salmonarca affrontato
   AverageClearWaves: Media ondate superate
   Bigrun: Big Run
+  BigrunBronze: Bronzo
+  BigrunGold: Oro
+  BigrunSilver: Argento
   Bonus: Bonus
   BossAvailable: Salmonarca avvistato!
   Clear: Ce l'hai fatta!
@@ -264,6 +268,17 @@ CoopHistory:
   WaveLevel0: Bassa marea
   WaveLevel1: Normale
   WaveLevel2: Alta marea
+CoopRecord:
+  AppName: Lavoro
+  Bigrun: Big Run
+  BigrunBronze: Bronzo
+  BigrunGold: Oro
+  BigrunSilver: Argento
+  HighestJobRate: Valutazione massima
+  HighestScore: Record
+  More: Scopri di più
+  NoData: Nessun dato
+  Title: Statistiche
 CoopStage:
   Carousel: Soglioland
   Shakedent: Centrale Anguilla Elettrica

@@ -221,7 +221,8 @@
     "TowerControl": "Torre mobile",
     "Tricolor": "Attacco tricolore",
     "TricolorMatch": "Scontro tricolore",
-    "TurfWar": "Mischie mollusche"
+    "TurfWar": "Mischie mollusche",
+    "WpnNotfound": "Sconosciuto"
   },
   "CoopHistory": {
     "Available": "Apparizioni ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Punti totali",
     "WaveLevel0": "Bassa marea",
     "WaveLevel1": "Normale",
-    "WaveLevel2": "Alta marea"
+    "WaveLevel2": "Alta marea",
+    "BigrunBronze": "Bronzo",
+    "BigrunGold": "Oro",
+    "BigrunSilver": "Argento"
   },
   "Error": {
     "BackToHome": "Torna alla pagina iniziale",
@@ -679,6 +683,18 @@
     "WeaponTop": "I migliori per arma",
     "WeaponTopSingular": "Migliore con quest'arma!",
     "Xcrown": "Corona"
+  },
+  "CoopRecord": {
+    "AppName": "Lavoro",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Bronzo",
+    "BigrunGold": "Oro",
+    "BigrunSilver": "Argento",
+    "HighestJobRate": "Valutazione massima",
+    "HighestScore": "Record",
+    "More": "Scopri di più",
+    "NoData": "Nessun dato",
+    "Title": "Statistiche"
   },
   "Widgets": {
     "AlbumDescription": "Vedi l'album di immagini di SplatNet 3.",

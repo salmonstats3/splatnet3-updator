@@ -166,6 +166,7 @@ Common:
   Tricolor: Tricolor Battle
   TricolorMatch: Tricolor Battle
   TurfWar: Turf War
+  WpnNotfound: Unknown
 CoopEnemy:
   SakeArtillery: Big Shot
   SakeBigMouth: Mudmouth
@@ -205,6 +206,9 @@ CoopHistory:
   AvailableBoss: King Salmonid Fought
   AverageClearWaves: Average Waves Cleared
   Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Gold
+  BigrunSilver: Silver
   Bonus: Clear Bonus
   BossAvailable: King Salmonid Sighting!
   Clear: Clear!
@@ -261,6 +265,17 @@ CoopHistory:
   WaveLevel0: Low Tide
   WaveLevel1: Normal
   WaveLevel2: High Tide
+CoopRecord:
+  AppName: Work
+  Bigrun: Big Run
+  BigrunBronze: Bronze
+  BigrunGold: Gold
+  BigrunSilver: Silver
+  HighestJobRate: Highest Pay Grade
+  HighestScore: High Score
+  More: See More
+  NoData: No records.
+  Title: Salmon Run Stats
 CoopStage:
   Carousel: Wahoo World
   Shakedent: Gone Fission Hydroplant

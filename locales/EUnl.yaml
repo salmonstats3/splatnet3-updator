@@ -170,6 +170,7 @@ Common:
   Tricolor: Driekleurengevecht
   TricolorMatch: Driekleurengevecht
   TurfWar: Grondoorlog
+  WpnNotfound: Onbekend
 CoopEnemy:
   SakeArtillery: Bombarie
   SakeBigMouth: Moddermuil
@@ -209,6 +210,9 @@ CoopHistory:
   AvailableBoss: Bestreden Salmonster
   AverageClearWaves: Doorstane golven (gemiddeld)
   Bigrun: Big Run
+  BigrunBronze: Brons
+  BigrunGold: Goud
+  BigrunSilver: Zilver
   Bonus: Bonus
   BossAvailable: Salmonster gesignaleerd!
   Clear: Gelukt!
@@ -266,6 +270,17 @@ CoopHistory:
   WaveLevel0: Eb
   WaveLevel1: Normaal
   WaveLevel2: Vloed
+CoopRecord:
+  AppName: Klussen
+  Bigrun: Big Run
+  BigrunBronze: Brons
+  BigrunGold: Goud
+  BigrunSilver: Zilver
+  HighestJobRate: Hoogste beoordeling
+  HighestScore: Topscore
+  More: Meer info
+  NoData: Geen gegevens
+  Title: Statistieken
 CoopStage:
   Carousel: Waterwonderland
   Shakedent: Kwikwi-krachtcentrale

@@ -221,7 +221,8 @@
     "TowerControl": "Expédition risquée",
     "Tricolor": "Match tricolore",
     "TricolorMatch": "Match tricolore",
-    "TurfWar": "Guerre de territoire"
+    "TurfWar": "Guerre de territoire",
+    "WpnNotfound": "Inconnu"
   },
   "CoopHistory": {
     "Available": "Apparus ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Total des points",
     "WaveLevel0": "Marée basse",
     "WaveLevel1": "Normal",
-    "WaveLevel2": "Marée haute"
+    "WaveLevel2": "Marée haute",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Or",
+    "BigrunSilver": "Argent"
   },
   "Error": {
     "BackToHome": "Retour à l'accueil",
@@ -679,6 +683,18 @@
     "WeaponTop": "Spécialistes de chaque arme",
     "WeaponTopSingular": "Spécialiste de cette arme",
     "Xcrown": "Couronne"
+  },
+  "CoopRecord": {
+    "AppName": "Missions",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Bronze",
+    "BigrunGold": "Or",
+    "BigrunSilver": "Argent",
+    "HighestJobRate": "Meilleure évaluation",
+    "HighestScore": "Record",
+    "More": "Afficher plus d'infos",
+    "NoData": "Aucune donnée",
+    "Title": "Statistiques"
   },
   "Widgets": {
     "AlbumDescription": "Voir les images de l'album de SplatNet 3.",

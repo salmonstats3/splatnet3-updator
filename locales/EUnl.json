@@ -221,7 +221,8 @@
     "TowerControl": "Torentwist",
     "Tricolor": "Driekleurengevecht",
     "TricolorMatch": "Driekleurengevecht",
-    "TurfWar": "Grondoorlog"
+    "TurfWar": "Grondoorlog",
+    "WpnNotfound": "Onbekend"
   },
   "CoopHistory": {
     "Available": "Verschenen ",
@@ -282,7 +283,10 @@
     "TotalPoint": "Puntentotaal",
     "WaveLevel0": "Eb",
     "WaveLevel1": "Normaal",
-    "WaveLevel2": "Vloed"
+    "WaveLevel2": "Vloed",
+    "BigrunBronze": "Brons",
+    "BigrunGold": "Goud",
+    "BigrunSilver": "Zilver"
   },
   "Error": {
     "BackToHome": "Naar het beginscherm",
@@ -679,6 +683,18 @@
     "WeaponTop": "Beste spelers per wapen",
     "WeaponTopSingular": "Beste speler met dit wapen",
     "Xcrown": "Kroon"
+  },
+  "CoopRecord": {
+    "AppName": "Klussen",
+    "Bigrun": "Big Run",
+    "BigrunBronze": "Brons",
+    "BigrunGold": "Goud",
+    "BigrunSilver": "Zilver",
+    "HighestJobRate": "Hoogste beoordeling",
+    "HighestScore": "Topscore",
+    "More": "Meer info",
+    "NoData": "Geen gegevens",
+    "Title": "Statistieken"
   },
   "Widgets": {
     "AlbumDescription": "Bekijk de afbeeldingen in het album van SplatNet 3.",
