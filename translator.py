@@ -85,7 +85,7 @@ def gen_localized():
   current = datetime.datetime.now().strftime('%Y/%m/%d') 
   header = [
     f'//',
-    f'//  SHA256Hash.swift',
+    f'//  LocalizedType.swift',
     f'//',
     f'//  Created by tkgstrator on {current}',
     f'//  Copyright @2022 Magi, Corporation. All rights reserved.',

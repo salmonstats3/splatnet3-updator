@@ -1,5 +1,5 @@
 //
-//  SHA256Hash.swift
+//  LocalizedType.swift
 //
 //  Created by tkgstrator on 2023/02/12
 //  Copyright @2022 Magi, Corporation. All rights reserved.
