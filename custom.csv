@@ -37,3 +37,29 @@ Wipe_Results,リザルト消去,Wipe results,Wipe results,Ergebnisse wischen,Res
 Wipe_Results_Txt,保存されている全てのリザルトを消去します。,Wipe all of data.,Wipe all of data.,Löschen Sie alle Daten.,Borra todos los datos.,Borra todos los datos.,Effacer toutes les données.,Effacer toutes les données.,Cancellare tutti i dati.,Wipe all of data.,Wis alle gegevens.,Сотрите все данные.,擦除所有数据。,擦除所有数据。
 MyPage,マイページ,My page,My page,Meine Seite,Mi página,Mi página,Ma page,Ma page,La mia pagina,My page,Mijn pagina,Моя страница,我的页面,我的页面
 FAQ,よくあるご質問,FAQ,FAQ,FAQ,PREGUNTAS FRECUENTES,PREGUNTAS FRECUENTES,FAQ,FAQ,FAQ,FAQ,FAQ,ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ,常见问题,常见问题
+DeathCount,助けられた回数,Rescued count,Rescued count,Gerettete Anzahl,Recuento rescatado,Recuento rescatado,Compte de sauvetage,Compte de sauvetage,Conteggio dei salvataggi,Rescued count,Geredde telling,Спасенный граф,获救人数,获救人数
+HighestRecord,最高きろく,Highest,Highest,Höchste,Más alto,Más alto,Le plus haut,Le plus haut,Il più alto,Highest,Hoogste,Самый высокий,最高的,最高的
+AverageRecord,平均きろく,Average,Average,Durchschnitt,Media,Media,Moyenne,Moyenne,Media,Average,Gemiddeld,Среднее,平均值,平均值
+SuppliedRatio,支給率,Supplied ratio,Supplied ratio,Angegebenes Verhältnis,Proporción suministrada,Proporción suministrada,Rapport fourni,Rapport fourni,Rapporto fornito,Supplied ratio,Geleverde verhouding,Коэффициент обеспеченности,提供的比率,提供的比率
+DefeatedCount,オオモノシャケをたおした数,Defeated count,Defeated count,Geschlagene Zählung,Recuento derrotado,Recuento derrotado,Comptage défait,Compte défait,Conteggio sconfitto,Defeated count,Verslagen telling,Проигранный счет,被打败的次数,被打败的次数
+ActualValue,実測値,Actual,Actual,Aktuell,Actual,Actual,Réel,Réel,Effettivo,Actual,Werkelijk,Фактический,实际情况,实际情况
+EstimatedValue,推定値,Estimated,Estimated,Geschätzte,Estimación,Estimación,Estimation de,Estimation de,Stimato,Estimated,Geschat,Оценка,估计的,估计的
+UpdateRequired,アプリをアップデートしてください,App update is required,App update is required,App-Update ist erforderlich,Es necesario actualizar la aplicación,Es necesario actualizar la aplicación,Une mise à jour de l'application est nécessaire,Une mise à jour de l'application est nécessaire,È necessario un aggiornamento dell'app,App update is required,App update is vereist,Требуется обновление приложения,需要更新应用程序,需要更新应用程序
+DarkMode,ダークモード,Dark mode,Dark mode,Dunkler Modus,Modo oscuro,Modo oscuro,Mode sombre,Mode sombre,Modalità scura,Dark mode,Donkere modus,Темный режим,黑暗模式,黑暗模式
+GamingMode,ゲーミングモード,Gaming mode,Gaming mode,Spiele-Modus,Modo de juego,Modo de juego,Mode de jeu,Mode de jeu,Modalità di gioco,Gaming mode,Gaming modus,Игровой режим,游戏模式,游戏模式
+GradeId,称号,Grade,Grade,Klasse,Grado,Grado,Grade,Grade,Grado,Grade,Rang,Класс,等级,等级
+GradePoint,評価ポイント,Grade point,Grade point,Notenpunkt,Calificación,Calificación,Point de note,Point de note,Punto di valutazione,Grade point,Grade point,Балл за оценку,成绩点,成绩点
+PlayerYou,あなた,You,You,Sie,Usted,Usted,Vous,Vous,Tu,You,Jij,Вы,你,你
+PlayerCrew,なかま,Crew,Crew,Besatzung,Tripulación,Tripulación,Equipage,Equipage,Equipaggio,Crew,Bemanning,Экипаж,职员,职员
+PrivacyPolicy,プライバシーポリシー,Privacy policy,Privacy policy,Datenschutzbestimmungen,Política de privacidad,Política de privacidad,Politique de confidentialité,Politique de confidentialité,Informativa sulla privacy,Privacy policy,Privacybeleid,Политика конфиденциальности,隐私政策,隐私政策
+EventFrequency,イベント発生率,Event frequency,Event frequency,Häufigkeit der Ereignisse,Frecuencia de los eventos,Frecuencia de los eventos,Fréquence des événements,Fréquence des événements,Frequenza dell'evento,Event frequency,Gebeurtenis frequentie,Частота событий,事件频率,事件频率
+EventClearRatio,イベントクリア率,Clear ratio,Clear ratio,Klares Verhältnis,Relación clara,Relación clara,Rapport clair,Rapport clair,Rapporto chiaro,Clear ratio,Duidelijke verhouding,Четкое соотношение,清除率,清除率
+SaveToPhotoLibrary,保存しました,Saved successfully,Saved successfully,Erfolgreich gespeichert,Guardado correctamente,Guardado correctamente,Sauvegardé avec succès,Sauvegardé avec succès,Salvato con successo,Saved successfully,Met succes opgeslagen,Сохранено успешно,已成功保存,已成功保存
+RequestForm,フォーム,Form,Form,Formular,Formulario,Formulario,Formulaire,Formulaire,Forma,Form,Formulier,Форма,形状,形状
+RequestFormType,種類,Type,Type,Typ,Tipo,Tipo,Type,Type,Tipo,Type,Type,Тип,类型,类型
+RequestFormBug,バグ修正,Bug,Bug,Fehler,Error,Error,Bug,Bug,Bug,Bug,Bug,Ошибка,错误,错误
+RequestFormFeature,機能追加,Feature,Feature,Merkmal,Característica,Característica,Fonctionnalité,Fonctionnalité,Caratteristica,Feature,Functie,Характеристика,特点,特点
+RequestFormEnhancement,改善案,Enhancement,Enhancement,Erweiterung,Mejora,Mejora,Amélioration,Amélioration,Potenziamento,Enhancement,Verbetering,Усиление,增强功能,增强功能
+RequestFormTitle,タイトル,Title,Title,Titel,Título,Título,Titre,Titre,Titolo,Title,Titel,Название,标题,标题
+RequestFormContent,内容,Content,Content,Inhalt,Contenido,Contenido,Contenu,Contenu,Contenuto,Content,Inhoud,Содержание,内容,内容
+RequsetFormSubmit,送信,Submit,Submit,Einreichen,Enviar,Enviar,Soumettre,Soumettre,Invia,Submit,Dien  in,Отправить,提交,提交

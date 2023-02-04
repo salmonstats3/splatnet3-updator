@@ -1,7 +1,7 @@
 //
 //  SHA256Hash.swift
 //
-//  Created by tkgstrator on 2023/02/04
+//  Created by tkgstrator on 2023/02/05
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -1447,4 +1447,56 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Custom_MyPage
 	/// よくあるご質問
 	case Custom_FAQ
+	/// 助けられた回数
+	case Custom_DeathCount
+	/// 最高きろく
+	case Custom_HighestRecord
+	/// 平均きろく
+	case Custom_AverageRecord
+	/// 支給率
+	case Custom_SuppliedRatio
+	/// オオモノシャケをたおした数
+	case Custom_DefeatedCount
+	/// 実測値
+	case Custom_ActualValue
+	/// 推定値
+	case Custom_EstimatedValue
+	/// アプリをアップデートしてください
+	case Custom_UpdateRequired
+	/// ダークモード
+	case Custom_DarkMode
+	/// ゲーミングモード
+	case Custom_GamingMode
+	/// 称号
+	case Custom_GradeId
+	/// 評価ポイント
+	case Custom_GradePoint
+	/// あなた
+	case Custom_PlayerYou
+	/// なかま
+	case Custom_PlayerCrew
+	/// プライバシーポリシー
+	case Custom_PrivacyPolicy
+	/// イベント発生率
+	case Custom_EventFrequency
+	/// イベントクリア率
+	case Custom_EventClearRatio
+	/// 保存しました
+	case Custom_SaveToPhotoLibrary
+	/// フォーム
+	case Custom_RequestForm
+	/// 種類
+	case Custom_RequestFormType
+	/// バグ修正
+	case Custom_RequestFormBug
+	/// 機能追加
+	case Custom_RequestFormFeature
+	/// 改善案
+	case Custom_RequestFormEnhancement
+	/// タイトル
+	case Custom_RequestFormTitle
+	/// 内容
+	case Custom_RequestFormContent
+	/// 送信
+	case Custom_RequsetFormSubmit
 }

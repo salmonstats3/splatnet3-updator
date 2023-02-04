@@ -16,9 +16,11 @@ def translate():
   for key, values in df.iterrows():
     for target_lang, value in values.items():
       source = key[2]
-      if value is None and source is not None:
-        print(f"Translate {value} to {source}")
+      if value is None and source is not np.nan:
+        print(f"Translate progress {value} to {source}")
         df.at[key, target_lang] = _translate(target_lang, source)
+      else:
+        print(f"Translate skip {value} to {source}")
   df.to_csv('custom.csv')
 
 def _translate(target: str, text: str) -> str:
