@@ -17,10 +17,10 @@ def translate():
     for target_lang, value in values.items():
       source = key[2]
       if value is None and source is not np.nan:
-        print(f"Translate progress {value} to {source}")
+        print(f"Translate {source} to {value}")
         df.at[key, target_lang] = _translate(target_lang, source)
       else:
-        print(f"Translate skip {value} to {source}")
+        print(f"Translate skip {source} to {value}")
   df.to_csv('custom.csv')
 
 def _translate(target: str, text: str) -> str:
@@ -79,8 +79,8 @@ def gen_localized():
     with open(f'{path}/Localizable.strings', mode='a', newline='') as f:
       for key, value in dict(zip(values.keys(), values.values)).items():
         if target_lang == 'ja':
-          outputs.append(f'\t/// {value}\n\tcase Custom_{key}')
-        f.write(f'Custom_{key} = "{value}";\n')
+          outputs.append(f'\t/// {value}\n\tcase CoopHistory_{key}')
+        f.write(f'CoopHistory_{key} = "{value}";\n')
 
   current = datetime.datetime.now().strftime('%Y/%m/%d') 
   header = [
