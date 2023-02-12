@@ -19,8 +19,6 @@ def translate():
       if value is None and source is not np.nan:
         print(f"Translate {source} to {value}")
         df.at[key, target_lang] = _translate(target_lang, source)
-      else:
-        print(f"Translate skip {source} to {value}")
   df.to_csv('custom.csv')
 
 def _translate(target: str, text: str) -> str:

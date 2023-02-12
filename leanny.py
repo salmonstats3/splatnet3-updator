@@ -120,16 +120,8 @@ def get_assets():
   
   # リビジョンの取得
   revision = get_revision()
+  print(f"Current SplatNet3 revision: {revision}")
   revisions = _get_revisions()
- 
-  if revision in revisions:
-    # 既にある
-    return
-  else:
-    if os.environ.get('ENVIRONMENT') == 'PRODUCTION':
-      with open('.revision', mode='a', newline='') as f:
-        f.write(revision)
-      _post_to_discord(url, revision)
 
   # SplatNet3からデータ取得
   get_resources()
