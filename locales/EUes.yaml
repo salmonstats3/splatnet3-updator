@@ -17,8 +17,8 @@ Catalog:
   Available: Intercambiable
   BigrunBonus: ¡Big Run en curso! ¡Obtén un <em>20 % extra</em> de puntos!
   BonusDescription: ¡Aumenta tu nivel de catálogo para<br />poder obtener una caja
-    sorpresa!
-  BonusGuide: Obtendrás una caja sorpresa por cada 10 niveles que subas.
+    misteriosa!
+  BonusGuide: Obtendrás una caja misteriosa por cada 10 niveles que subas.
   BonusTitle: ¡Bonificación por nivel 101!
   Byname: Alias
   CardPack: Paquete de cartas
@@ -33,7 +33,7 @@ Catalog:
   Got: Disponible
   Guide: <em>¡Progresa hasta el nivel 4 para obtener el catálogo de Miscelánea Abisal!</em>
   Level: Nivel
-  MysteryBox: Caja sorpresa
+  MysteryBox: Caja misteriosa
   NamePlateBg: Fondo
   NextBonus: Próximo
   Point: Puntos
@@ -628,8 +628,8 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
-  AnnotationExemption: Algunos jugadores se han desconectado. El combate se considera
-    empatado.
+  AnnotationExemption: Como uno o más jugadores no han podido continuar, el combate
+    no se cuenta como derrota.
   AnnotationNocontest: Combate cancelado
   AnnotationPenalty: El combate no se disputó hasta el final.
   Attack: Al ataque
