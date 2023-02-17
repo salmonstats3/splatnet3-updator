@@ -202,7 +202,7 @@ CoopHistory:
   Gj: GJ！
   GoToStats: 返回打工記錄一覽
   GoldenDeliverCount: 已收集的金鮭魚卵
-  HighestScore: 最高記錄
+  HighestScore: 最高分數
   History: 打工記錄
   JobPoint: 獲得點數
   JobRatio: 評價倍率
@@ -578,7 +578,7 @@ VSHistory:
   100x: 100倍比賽
   10x: 10倍比賽
   333x: 333倍比賽
-  AnnotationExemption: 因人數不足的情況持續過久，比賽結果不會以落敗計算
+  AnnotationExemption: 因有玩家中斷連線，比賽結果不會以落敗計算。
   AnnotationNocontest: 本次對戰已被判定為無效比賽。
   AnnotationPenalty: 比賽未能正常結束。
   Attack: 進攻
