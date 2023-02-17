@@ -10,7 +10,7 @@ Carousel:
   Myoutfits: Look preferiti
   PhotoAlbum: Album
   Robichi: Si cercano sostenitori!
-  StatsLatestSeason: Vedi le statistiche della stagione.
+  StatsLatestSeason: Vedi la cronologia della stagione.
   VsHistory: Battaglie
 Catalog:
   AppName: Catalogo
@@ -626,8 +626,8 @@ VSHistory:
   100x: Battaglia ×100
   10x: Battaglia ×10
   333x: Battaglia ×333
-  AnnotationExemption: Uno o più giocatori non hanno potuto continuare, quindi la
-    partita non verrà contata come una sconfitta.
+  AnnotationExemption: Poiché alcuni giocatori si sono scollegati prematuramente,
+    la battaglia è finita in pareggio.
   AnnotationNocontest: Partita nulla.
   AnnotationPenalty: La partita non è stata completata.
   Attack: In attacco
