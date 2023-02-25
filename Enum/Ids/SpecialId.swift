@@ -1,7 +1,7 @@
 //
 //  SpecialId.swift
 //
-//  Created by tkgstrator on 2023/02/24
+//  Created by tkgstrator on 2023/02/25
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
