@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Protect the City from the Big Run!
   BigrunResult: Big Run Results!
   CoopHistory: Salmon Run
+  ExpansionPass: To Expansion Pass Information
+  ExpansionPass2: To Expansion Pass Information
   FestOpening: Splatfest Open!
   FestResult: Splatfest Results!
   Gesotown: Exclusive SplatNet Gear
   HeroRecord: The Story Continues...
   MemoryPlayer: View Replays
   Myoutfits: Freshest Fits
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Photo Album
   Robichi: Supporters Wanted!
   StatsLatestSeason: View Season History
+  TeamContestOpening: Sign Up for Some Eggstra Work!
+  TeamContestResult: Eggstra Work Results!
   VsHistory: Battle Logs
 Catalog:
   AppName: Catalog
@@ -150,6 +156,7 @@ Common:
   Close: Close
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Eggstra Work
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: OK
   Download: Download
@@ -232,6 +239,7 @@ CoopHistory:
   KumaPointCard: Grizzco Point Card
   Latest: Last Job
   Limited: Limited Time Only
+  LimitedPoint: Current special bonus points
   MonthlyReward: This Month's Gear
   Next: Next Job
   Ng: ✘
@@ -260,6 +268,7 @@ CoopHistory:
   SeeSchedule: View Schedule
   SmellMeter: Salmometer
   SupplyWeapon: Supplied Weapons
+  TeamContest: Eggstra Work
   Title: Salmon Run
   TotalPoint: Total points
   WaveLevel0: Low Tide
@@ -275,6 +284,7 @@ CoopRecord:
   HighestScore: High Score
   More: See More
   NoData: No records.
+  TeamContest: Eggstra Work
   Title: Salmon Run Stats
 CoopStage:
   Carousel: Wahoo World
@@ -346,6 +356,7 @@ Footer:
 FriendList:
   AppName: Friend List
   InCoopGame: Working
+  InMiniGame: Tableturf Battle
   InVsGame: Playing
   IsLocked: Password Locked
   NoFriends: When you add friends, their play statuses will display here.
@@ -423,6 +434,8 @@ History:
   LatestBadge: Recent Badges
   Monthly: Months
   Others: Other Weapons
+  PastXmatchAnnotation: X Battle stats will be calculated and revealed after the season
+    ends.
   Rank: Level
   Season: Season
   ShowAllBadges: See All Badges
@@ -491,6 +504,7 @@ MyOutfits:
   Gyro: Motion-Control Sensitivity
   GyroControl: Motion Controls
   HandheldMode: Handheld Mode
+  Hashtag: FreshestFits
   Head: Headgear
   Main: Main Weapon
   NoGears: No matching gear found.
@@ -508,6 +522,7 @@ MyOutfits:
   SelectShoes: Select Shoes
   SelectSlot: Choose which Freshest Fit to replace.
   SelectWeapon: Select Weapon
+  Share: Share
   Shoes: Shoes
   Special: Special Weapon
   Sub: Sub Weapon
@@ -577,6 +592,7 @@ Settings:
   Acknowledgements: Copyrights
   AppName: Settings
   Credits: Credits
+  ExpansionPass: To Expansion Pass Information
   Title: Settings
 SkinName:
   COP001: Orange Slopsuit
@@ -746,6 +762,8 @@ XRanking:
   Open: Now Open!
   Pacific: Takoroka Division
   PastRankings: Past Ranking
+  PastRankingsAnnotation: Past Ranking is calculated and revealed after the season
+    ends. Please note that it may take a few days in some cases.
   Region: Division
   SeeRanking: View Ranking
   SeeWeaponTop: Top Weapon Wielders

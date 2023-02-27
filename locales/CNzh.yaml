@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: 保护城镇免受大型跑侵害！
   BigrunResult: 大型跑结果公布！
   CoopHistory: 鲑鱼跑
+  ExpansionPass: “尚兴市”发布中！
+  ExpansionPass2: “秩序篇”发布中！
   FestOpening: 祭典开始！！
   FestResult: 祭典结果公布！！
   Gesotown: 正在售卖独家特殊装备
   HeroRecord: 全新的英雄故事
   MemoryPlayer: 记忆播放器
   Myoutfits: 个人穿搭
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: 相册
   Robichi: 寻求支援者！
   StatsLatestSeason: 之前赛季的历史在这里！
+  TeamContestOpening: 参加团队打工竞赛吧！
+  TeamContestResult: 团队打工竞赛结果公布！
   VsHistory: 对战战绩
 Catalog:
   AppName: 目录
@@ -127,6 +133,7 @@ Common:
   Close: 关闭
   ColonRule: ：
   CoopBigRun: 大型跑
+  CoopTeamContest: 团队打工竞赛
   CopyrightQrCode: QR Code为DENSO WAVE INCORPORATED在日本及外国的注册商标
   Decide: 确定
   Download: 下载
@@ -209,6 +216,7 @@ CoopHistory:
   KumaPointCard: 熊先生点数卡
   Latest: 前往最新的打工
   Limited: 期间限定
+  LimitedPoint: 目前的期间限定点数
   MonthlyReward: 本月的装备
   Next: 下一个打工
   Ng: NG
@@ -236,6 +244,7 @@ CoopHistory:
   SeeSchedule: 查看日程
   SmellMeter: 头目槽
   SupplyWeapon: 发放武器
+  TeamContest: 团队打工竞赛
   Title: 鲑鱼跑
   TotalPoint: 累计点数
   WaveLevel0: 干潮
@@ -251,6 +260,7 @@ CoopRecord:
   HighestScore: 最高分数
   More: 显示更多
   NoData: 无记录
+  TeamContest: 团队打工竞赛
   Title: 鲑鱼跑记录
 CoopStage:
   Carousel: 醋饭海洋世界
@@ -314,6 +324,7 @@ Footer:
 FriendList:
   AppName: 好友列表
   InCoopGame: 打工中
+  InMiniGame: 占地斗士
   InVsGame: 比赛中
   IsLocked: 有密码
   NoFriends: 好友的游玩状况将显示在此处
@@ -390,6 +401,7 @@ History:
   LatestBadge: 最近获得的徽章
   Monthly: 单月
   Others: 其他
+  PastXmatchAnnotation: ※X比赛记录将会在赛季结束后统计再公布。可能需要几天才能完成统计。
   Rank: 等级
   Season: 赛季
   ShowAllBadges: 查看所有徽章
@@ -455,6 +467,7 @@ MyOutfits:
   Gyro: 陀螺仪操作灵敏度
   GyroControl: 陀螺仪操作
   HandheldMode: 掌上模式
+  Hashtag: 个人穿搭
   Head: 头部装备
   Main: 主要武器
   NoGears: 没有符合条件的装备
@@ -472,6 +485,7 @@ MyOutfits:
   SelectShoes: 选择鞋子
   SelectSlot: 选择保存位置
   SelectWeapon: 选择武器
+  Share: 分享
   Shoes: 鞋子
   Special: 特殊武器
   Sub: 次要武器
@@ -536,6 +550,7 @@ Settings:
   Acknowledgements: 权利标识
   AppName: 设置
   Credits: 制作人员
+  ExpansionPass: 前往扩展票的购买网站
   Title: 设置
 SkinName:
   COP001: 打工连身工作服 橘色
@@ -700,6 +715,7 @@ XRanking:
   Open: 举行中！！
   Pacific: 组别·暇古
   PastRankings: 以往的排名
+  PastRankingsAnnotation: ※过去的排名将会在赛季结束后统计再公布。可能需要几天才能完成统计。
   Region: 组别
   SeeRanking: 查看排名
   SeeWeaponTop: 查看顶级武器

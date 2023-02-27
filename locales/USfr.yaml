@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Protège la ville pendant le Big Run!
   BigrunResult: Résultats du Big Run publiés!
   CoopHistory: Salmon Run
+  ExpansionPass: Visiter le site d'achat de la Passe d'extension
+  ExpansionPass2: Visiter le site d'achat de la Passe d'extension
   FestOpening: Festival en cours!
   FestResult: Résultats du festival!
   Gesotown: Équipement exclusif Boutique SplatNet
   HeroRecord: L'histoire continue...
   MemoryPlayer: Vidéos
   Myoutfits: Tenues favorites
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Album photo
   Robichi: On cherche des supporteurs!
   StatsLatestSeason: Voir l'historique de la saison.
+  TeamContestOpening: Viens faire des œufs sup'!
+  TeamContestResult: Résultats du défi œuf sup'!
   VsHistory: Journal de matchs
 Catalog:
   AppName: Catalogue
@@ -153,6 +159,7 @@ Common:
   Close: Fermer
   ColonRule: ' : '
   CoopBigRun: Big Run
+  CoopTeamContest: Défi œuf sup'
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: OK
   Download: Télécharger
@@ -236,6 +243,7 @@ CoopHistory:
   KumaPointCard: Carte point M. Ours
   Latest: Dernière mission
   Limited: Pour une durée limitée
+  LimitedPoint: Points de prix spéciaux actuels
   MonthlyReward: Pièce d'équipement du mois
   Next: Suivant
   Ng: ✘
@@ -265,6 +273,7 @@ CoopHistory:
   SeeSchedule: Consulter l'horaire
   SmellMeter: Salmomètre
   SupplyWeapon: Armes fournies
+  TeamContest: Défi œuf sup'
   Title: Salmon Run
   TotalPoint: Total des points
   WaveLevel0: Marée basse
@@ -280,6 +289,7 @@ CoopRecord:
   HighestScore: Record
   More: Afficher plus d'infos
   NoData: Aucune donnée
+  TeamContest: Défi œuf sup'
   Title: Statistiques
 CoopStage:
   Carousel: Parc Carapince
@@ -350,6 +360,7 @@ Footer:
 FriendList:
   AppName: Liste d'amis
   InCoopGame: Au travail...
+  InMiniGame: Match de C et T
   InVsGame: En jeu...
   IsLocked: Mot de passe verrouillé
   NoFriends: Le statut de jeu de tes amis sera indiqué ici.
@@ -430,6 +441,8 @@ History:
   LatestBadge: Badges récents
   Monthly: Mois
   Others: Autres armes
+  PastXmatchAnnotation: Les statistiques des matchs X sont calculées et publiées une
+    fois la saison terminée.
   Rank: Niveau
   Season: Saison
   ShowAllBadges: Voir tous les badges
@@ -501,6 +514,7 @@ MyOutfits:
   Gyro: Sensibilité du gyroscope
   GyroControl: Gyroscope
   HandheldMode: Mode portable
+  Hashtag: TenuesFavorites
   Head: Accessoires
   Main: Arme principale
   NoGears: Aucun résultat
@@ -518,6 +532,7 @@ MyOutfits:
   SelectShoes: Choisis des chaussures.
   SelectSlot: Choisis quelle tenue tu veux remplacer.
   SelectWeapon: Choisis une arme.
+  Share: Partager
   Shoes: Chaussures
   Special: Arme spéciale
   Sub: Arme secondaire
@@ -590,6 +605,7 @@ Settings:
   Acknowledgements: Droits d'auteur
   AppName: Paramètres
   Credits: Crédits
+  ExpansionPass: Visiter le site d'achat de la Passe d'extension
   Title: Paramètres
 SkinName:
   COP001: Salopette orange
@@ -763,6 +779,8 @@ XRanking:
   Open: En cours!
   Pacific: Division Pionic
   PastRankings: Anciens classements
+  PastRankingsAnnotation: Les anciens classements sont calculés et publiés une fois
+    la saison terminée. (Dans certains cas, le calcul peut prendre plusieurs jours.)
   Region: Division
   SeeRanking: Voir le classement
   SeeWeaponTop: Spécialistes de chaque arme

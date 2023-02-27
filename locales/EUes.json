@@ -91,7 +91,13 @@
     "StatsLatestSeason": "¡Recuerda aquí la última temporada!",
     "VsHistory": "Registros de combates",
     "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",
-    "BigrunResult": "¡Hay resultados de Big Run!"
+    "BigrunResult": "¡Hay resultados de Big Run!",
+    "ExpansionPass": "Ir a la información del pase de expansión",
+    "ExpansionPass2": "Ir a la información del pase de expansión",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "¡Participa en alianza alevínica!",
+    "TeamContestResult": "¡Hay resultados de alianza alevínica!"
   },
   "Catalog": {
     "Byname": "Alias",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Pugna tricolor",
+    "CoopTeamContest": "Alianza alevínica",
     "WpnNotfound": "Desconocido"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronce",
     "BigrunGold": "Oro",
-    "BigrunSilver": "Plata"
+    "BigrunSilver": "Plata",
+    "LimitedPoint": "Puntos eventuales actuales",
+    "TeamContest": "Alianza alevínica"
   },
   "Error": {
     "BackToHome": "Volver al inicio",
@@ -348,7 +357,8 @@
     "Reload": "Actualizar",
     "Title": "Lista de amigos",
     "VoiceChatEnabled": "Chat de voz disponible",
-    "NoFriends": "Aquí se mostrarán datos de juego de tus amigos."
+    "NoFriends": "Aquí se mostrarán datos de juego de tus amigos.",
+    "InMiniGame": "Lucha carterritorial"
   },
   "GesoTown": {
     "AppName": "Tentatienda",
@@ -432,7 +442,8 @@
     "Rank": "Nivel",
     "ShowXranking": "Ver clasificación del rango X",
     "Udemae": "Rango",
-    "Xmatch": "Combate X"
+    "Xmatch": "Combate X",
+    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada."
   },
   "Landing": {
     "Caution": "* Si no tienes la aplicación instalada, este botón no producirá ningún efecto.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "Aceptar",
     "Title": "Atuendos favoritos",
     "TvTabletopMode": "Modo televisor/modo sobremesa",
-    "Weapon": "Arma"
+    "Weapon": "Arma",
+    "Hashtag": "AtuendosFavoritos",
+    "Share": "Compartir"
   },
   "PhotoAlbum": {
     "Annotation": "Puedes guardar hasta 20 fotos.<br />Estarán disponibles durante 3 meses.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Derechos de autor",
     "AppName": "Ajustes",
     "Credits": "Créditos",
-    "Title": "Ajustes"
+    "Title": "Ajustes",
+    "ExpansionPass": "Ir a la información del pase de expansión"
   },
   "StageSchedule": {
     "Bankara": "Combate caótico",
@@ -722,7 +736,8 @@
     "TopPlayers": "Mejores jugadores",
     "WeaponTop": "Mejores con esta arma",
     "WeaponTopSingular": "Mejor con esta arma",
-    "Xcrown": "Corona"
+    "Xcrown": "Corona",
+    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando concluye la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles)."
   },
   "CoopRecord": {
     "AppName": "Encargos",
@@ -734,6 +749,7 @@
     "HighestScore": "Récord",
     "More": "Ver más",
     "NoData": "Sin datos",
+    "TeamContest": "Alianza alevínica",
     "Title": "Estadísticas"
   }
 }

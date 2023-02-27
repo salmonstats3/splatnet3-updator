@@ -91,7 +91,13 @@
     "StatsLatestSeason": "Recuerda la última temporada",
     "VsHistory": "Registros de combates",
     "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",
-    "BigrunResult": "¡Resultados de Big Run!"
+    "BigrunResult": "¡Resultados de Big Run!",
+    "ExpansionPass": "Visita el sitio del pase de expansión",
+    "ExpansionPass2": "Visita el sitio del pase de expansión",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "¡Participa en la recolección extra!",
+    "TeamContestResult": "¡Resultados de la recolección extra!"
   },
   "Catalog": {
     "Byname": "Apodo",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Combate tricolor",
+    "CoopTeamContest": "Recolección extra",
     "WpnNotfound": "Vacía"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronce",
     "BigrunGold": "Oro",
-    "BigrunSilver": "Plata"
+    "BigrunSilver": "Plata",
+    "LimitedPoint": "Puntos especiales actuales",
+    "TeamContest": "Recolección extra"
   },
   "Error": {
     "BackToHome": "Volver al inicio",
@@ -348,7 +357,8 @@
     "Reload": "Actualizar",
     "Title": "Lista de amigos",
     "VoiceChatEnabled": "Chat de voz disponible",
-    "NoFriends": "Aquí podrás ver el estatus de los amigos que agregues."
+    "NoFriends": "Aquí podrás ver el estatus de los amigos que agregues.",
+    "InMiniGame": "Combate carterritorial"
   },
   "GesoTown": {
     "AppName": "Tienda SplatNet",
@@ -432,7 +442,8 @@
     "Rank": "Nivel",
     "ShowXranking": "Ver clasificación del rango X",
     "Udemae": "Rango",
-    "Xmatch": "Combate X"
+    "Xmatch": "Combate X",
+    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada."
   },
   "Landing": {
     "Caution": "Nota: Este botón no hará nada si no tienes la aplicación instalada.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "Aceptar",
     "Title": "Tus atuendos",
     "TvTabletopMode": "Modo televisor/semiportátil",
-    "Weapon": "Arma"
+    "Weapon": "Arma",
+    "Hashtag": "TusAtuendos",
+    "Share": "Compartir"
   },
   "PhotoAlbum": {
     "Annotation": "Puedes guardar hasta 20 fotos.<br />Estarán disponibles durante 3 meses.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Derechos de autor",
     "AppName": "Ajustes",
     "Credits": "Créditos",
-    "Title": "Ajustes"
+    "Title": "Ajustes",
+    "ExpansionPass": "Visita el sitio del pase de expansión"
   },
   "StageSchedule": {
     "Bankara": "Combate caótico",
@@ -722,7 +736,8 @@
     "TopPlayers": "Mejores jugadores",
     "WeaponTop": "Mejores con esta arma",
     "WeaponTopSingular": "Mejor con esta arma",
-    "Xcrown": "Corona"
+    "Xcrown": "Corona",
+    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando termina la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles)."
   },
   "CoopRecord": {
     "AppName": "Encargos",
@@ -734,6 +749,7 @@
     "HighestScore": "Récord",
     "More": "Ver más",
     "NoData": "Sin datos",
+    "TeamContest": "Recolección extra",
     "Title": "Salmon Run"
   }
 }

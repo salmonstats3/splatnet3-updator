@@ -91,7 +91,13 @@
     "StatsLatestSeason": "之前赛季的历史在这里！",
     "VsHistory": "对战战绩",
     "BigrunOpening": "保护城镇免受大型跑侵害！",
-    "BigrunResult": "大型跑结果公布！"
+    "BigrunResult": "大型跑结果公布！",
+    "ExpansionPass": "“尚兴市”发布中！",
+    "ExpansionPass2": "“秩序篇”发布中！",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "参加团队打工竞赛吧！",
+    "TeamContestResult": "团队打工竞赛结果公布！"
   },
   "Catalog": {
     "Byname": "称号",
@@ -222,6 +228,7 @@
     "ColonRule": "：",
     "CoopBigRun": "大型跑",
     "TricolorMatch": "三色夺宝比赛",
+    "CoopTeamContest": "团队打工竞赛",
     "WpnNotfound": "？"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "大型跑",
     "BigrunBronze": "铜",
     "BigrunGold": "金",
-    "BigrunSilver": "银"
+    "BigrunSilver": "银",
+    "LimitedPoint": "目前的期间限定点数",
+    "TeamContest": "团队打工竞赛"
   },
   "Error": {
     "BackToHome": "返回主页",
@@ -348,7 +357,8 @@
     "Reload": "重新读取",
     "Title": "好友列表",
     "VoiceChatEnabled": "可以语音聊天",
-    "NoFriends": "好友的游玩状况将显示在此处"
+    "NoFriends": "好友的游玩状况将显示在此处",
+    "InMiniGame": "占地斗士"
   },
   "GesoTown": {
     "AppName": "鱿鱼须商城",
@@ -432,7 +442,8 @@
     "Rank": "等级",
     "ShowXranking": "查看X排名",
     "Udemae": "技术",
-    "Xmatch": "X比赛"
+    "Xmatch": "X比赛",
+    "PastXmatchAnnotation": "※X比赛记录将会在赛季结束后统计再公布。可能需要几天才能完成统计。"
   },
   "Landing": {
     "Caution": "※若未安装软件，即使按此按键也无法打开软件",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "确定",
     "Title": "个人穿搭",
     "TvTabletopMode": "TV模式/桌面模式",
-    "Weapon": "武器"
+    "Weapon": "武器",
+    "Hashtag": "个人穿搭",
+    "Share": "分享"
   },
   "PhotoAlbum": {
     "Annotation": "最多可上传20张照片，<br />保存期限为3个月",
@@ -560,7 +573,8 @@
     "Acknowledgements": "权利标识",
     "AppName": "设置",
     "Credits": "制作人员",
-    "Title": "设置"
+    "Title": "设置",
+    "ExpansionPass": "前往扩展票的购买网站"
   },
   "StageSchedule": {
     "Bankara": "蛮颓比赛",
@@ -722,7 +736,8 @@
     "TopPlayers": "顶级玩家",
     "WeaponTop": "顶级武器玩家",
     "WeaponTopSingular": "顶级武器玩家",
-    "Xcrown": "王冠"
+    "Xcrown": "王冠",
+    "PastRankingsAnnotation": "※过去的排名将会在赛季结束后统计再公布。可能需要几天才能完成统计。"
   },
   "CoopRecord": {
     "AppName": "打工",
@@ -734,6 +749,7 @@
     "HighestScore": "最高分数",
     "More": "显示更多",
     "NoData": "无记录",
+    "TeamContest": "团队打工竞赛",
     "Title": "鲑鱼跑记录"
   }
 }

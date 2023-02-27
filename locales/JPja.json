@@ -91,7 +91,13 @@
     "StatsLatestSeason": "前シーズンのヒストリーはこちら！",
     "VsHistory": "バトル戦績",
     "BigrunOpening": "ビッグランから街を守れ！",
-    "BigrunResult": "ビッグラン結果発表！"
+    "BigrunResult": "ビッグラン結果発表！",
+    "ExpansionPass": "「ハイカラシティ」配信中！",
+    "ExpansionPass2": "「サイド・オーダー」配信中！",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "バイトチームコンテストに参加しよう！",
+    "TeamContestResult": "バイトチームコンテスト結果発表！"
   },
   "Catalog": {
     "Byname": "二つ名",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "ビッグラン",
     "TricolorMatch": "トリカラマッチ",
+    "CoopTeamContest": "バイトチームコンテスト",
     "WpnNotfound": "はてな"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "ビッグラン",
     "BigrunBronze": "銅",
     "BigrunGold": "金",
-    "BigrunSilver": "銀"
+    "BigrunSilver": "銀",
+    "LimitedPoint": "現在の期間限定ポイント",
+    "TeamContest": "バイトチームコンテスト"
   },
   "Error": {
     "BackToHome": "ホームに戻る",
@@ -348,7 +357,8 @@
     "Reload": "再読みこみ",
     "Title": "フレンドリスト",
     "VoiceChatEnabled": "ボイスチャットかのう",
-    "NoFriends": "フレンドのプレイ状況がここに表示されます"
+    "NoFriends": "フレンドのプレイ状況がここに表示されます",
+    "InMiniGame": "ナワバトラー"
   },
   "GesoTown": {
     "AppName": "ゲソタウン",
@@ -432,7 +442,8 @@
     "Rank": "ランク",
     "ShowXranking": "Xランキングを見る",
     "Udemae": "ウデマエ",
-    "Xmatch": "Xマッチ"
+    "Xmatch": "Xマッチ",
+    "PastXmatchAnnotation": "※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
   "Landing": {
     "Caution": "※アプリをインストールしていない方は、このボタンを押しても開きません",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "決定",
     "Title": "マイコーデ",
     "TvTabletopMode": "TVモード/テーブルモード",
-    "Weapon": "ブキ"
+    "Weapon": "ブキ",
+    "Hashtag": "マイコーデ",
+    "Share": "シェア"
   },
   "PhotoAlbum": {
     "Annotation": "写真は20枚までアップロードできます<br />保存期間は3ヶ月です",
@@ -560,7 +573,8 @@
     "Acknowledgements": "権利表記",
     "AppName": "設定",
     "Credits": "クレジット",
-    "Title": "設定"
+    "Title": "設定",
+    "ExpansionPass": "エキスパンション・パス 購入サイトへ"
   },
   "StageSchedule": {
     "Bankara": "バンカラマッチ",
@@ -722,7 +736,8 @@
     "TopPlayers": "トッププレイヤー",
     "WeaponTop": "ブキトップ プレイヤー",
     "WeaponTopSingular": "ブキトップ プレイヤー",
-    "Xcrown": "おうかん"
+    "Xcrown": "おうかん",
+    "PastRankingsAnnotation": "※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
   "CoopRecord": {
     "AppName": "バイト",
@@ -734,6 +749,7 @@
     "HighestScore": "ハイスコア",
     "More": "もっと見る",
     "NoData": "きろくがありません",
+    "TeamContest": "バイトチームコンテスト",
     "Title": "サーモンランのきろく"
   }
 }

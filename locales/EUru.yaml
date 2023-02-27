@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Защити город от набега самонидов Big Run!
   BigrunResult: Итоги Big Run
   CoopHistory: Salmon Run
+  ExpansionPass: К информации о талоне на расширение
+  ExpansionPass2: К информации о талоне на расширение
   FestOpening: Идет Сплатфест!
   FestResult: Итоги Сплатфеста
   Gesotown: Эксклюзивное снаряжение из SplatNet
   HeroRecord: История продолжается...
   MemoryPlayer: Повторы
   Myoutfits: Свежие прикиды
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Альбом
   Robichi: Нужны помощники!
   StatsLatestSeason: Смотреть журнал сезона.
+  TeamContestOpening: Нужны работники для икорного овертайма!
+  TeamContestResult: Итоги икорного овертайма
   VsHistory: Протоколы боев
 Catalog:
   AppName: Каталог
@@ -150,6 +156,7 @@ Common:
   Close: Закрыть
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Икорный овертайм
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: OK
   Download: Загрузить
@@ -232,6 +239,7 @@ CoopHistory:
   KumaPointCard: Отчетная карта
   Latest: Послед. смена
   Limited: Только временно
+  LimitedPoint: 'Сейчас спецочков:'
   MonthlyReward: Снаряжение месяца
   Next: След. смена
   Ng: ✘
@@ -260,6 +268,7 @@ CoopHistory:
   SeeSchedule: Дата/период
   SmellMeter: Король-шкала
   SupplyWeapon: Табельное оружие
+  TeamContest: Икорный овертайм
   Title: Salmon Run
   TotalPoint: 'Всего очков:'
   WaveLevel0: Отлив
@@ -275,6 +284,7 @@ CoopRecord:
   HighestScore: Рекорд
   More: Подробнее
   NoData: Данных нет.
+  TeamContest: Икорный овертайм
   Title: Статистика
 CoopStage:
   Carousel: Луна-парк «Язь»
@@ -346,6 +356,7 @@ Footer:
 FriendList:
   AppName: Список друзей
   InCoopGame: Работает
+  InMiniGame: Карты и район
   InVsGame: Играет
   IsLocked: Требуется пароль
   NoFriends: Здесь будет отображаться игровой статус твоих друзей.
@@ -425,6 +436,8 @@ History:
   LatestBadge: Новые значки
   Monthly: По месяцам
   Others: Другое оружие
+  PastXmatchAnnotation: Рейтинг боев X подсчитывается и публикуется после окончания
+    сезона.
   Rank: Уровень
   Season: Сезон
   ShowAllBadges: Все значки
@@ -496,6 +509,7 @@ MyOutfits:
   Gyro: Чувствительность управления движением
   GyroControl: Управление движением
   HandheldMode: Портативный режим
+  Hashtag: СвежиеПрикиды
   Head: Аксессуары
   Main: Основное оружие
   NoGears: Нет подходящего снаряжения.
@@ -513,6 +527,7 @@ MyOutfits:
   SelectShoes: Выбор обуви
   SelectSlot: Выбери свежий прикид, который хочешь заменить.
   SelectWeapon: Выбор оружия
+  Share: Поделиться
   Shoes: Обувь
   Special: Особое оружие
   Sub: Запасное оружие
@@ -584,6 +599,7 @@ Settings:
   Acknowledgements: Авторские права
   AppName: Настройки
   Credits: Над игрой работали
+  ExpansionPass: К информации о талоне на расширение
   Title: Настройки
 SkinName:
   COP001: Оранжевый комбинезон
@@ -753,6 +769,8 @@ XRanking:
   Open: Идет!
   Pacific: «Рыбок»
   PastRankings: Предыдущий рейтинг
+  PastRankingsAnnotation: Предыдущий рейтинг подсчитывается и публикуется после окончания
+    сезона. В некоторых случаях это может занять несколько дней.
   Region: Группа
   SeeRanking: Рейтинг участников
   SeeWeaponTop: Топ по оружию

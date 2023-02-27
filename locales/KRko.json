@@ -91,7 +91,13 @@
     "StatsLatestSeason": "이전 시즌 히스토리 확인하기",
     "VsHistory": "배틀 전적",
     "BigrunOpening": "빅 런으로부터 타운을 지켜라!",
-    "BigrunResult": "빅 런 결과 발표!"
+    "BigrunResult": "빅 런 결과 발표!",
+    "ExpansionPass": "「오더폴리스 시티」 배포 중!",
+    "ExpansionPass2": "「사이드 오더」 배포 중!",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "아르바이트 팀 콘테스트에 참가하자!",
+    "TeamContestResult": "아르바이트 팀 콘테스트 결과 발표!"
   },
   "Catalog": {
     "Byname": "별명",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "빅 런",
     "TricolorMatch": "트리컬러 매치",
+    "CoopTeamContest": "아르바이트 팀 콘테스트",
     "WpnNotfound": "물음표"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "빅 런",
     "BigrunBronze": "동",
     "BigrunGold": "금",
-    "BigrunSilver": "은"
+    "BigrunSilver": "은",
+    "LimitedPoint": "현재 기간 한정 포인트",
+    "TeamContest": "아르바이트 팀 콘테스트"
   },
   "Error": {
     "BackToHome": "홈으로 돌아가기",
@@ -348,7 +357,8 @@
     "Reload": "새로 고침",
     "Title": "친구 리스트",
     "VoiceChatEnabled": "보이스챗 가능",
-    "NoFriends": "친구의 플레이 상황이 여기에 표시됩니다"
+    "NoFriends": "친구의 플레이 상황이 여기에 표시됩니다",
+    "InMiniGame": "영역 배틀러"
   },
   "GesoTown": {
     "AppName": "오징어넷 숍",
@@ -432,7 +442,8 @@
     "Rank": "레벨",
     "ShowXranking": "X 랭킹 보기",
     "Udemae": "랭크",
-    "Xmatch": "X 매치"
+    "Xmatch": "X 매치",
+    "PastXmatchAnnotation": "※X 매치 기록은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
   },
   "Landing": {
     "Caution": "※앱을 설치하지 않은 분은 이 버튼을 눌러도 기동하지 않습니다",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "결정",
     "Title": "마이 코디",
     "TvTabletopMode": "TV 모드/테이블 모드",
-    "Weapon": "무기"
+    "Weapon": "무기",
+    "Hashtag": "마이코디",
+    "Share": "공유"
   },
   "PhotoAlbum": {
     "Annotation": "사진은 20장까지 업로드할 수 있습니다<br />저장 기간은 3개월입니다",
@@ -560,7 +573,8 @@
     "Acknowledgements": "권리 표기",
     "AppName": "설정",
     "Credits": "크레디트",
-    "Title": "설정"
+    "Title": "설정",
+    "ExpansionPass": "익스팬션 패스 구입 사이트로"
   },
   "StageSchedule": {
     "Bankara": "카오폴리스 매치",
@@ -722,7 +736,8 @@
     "TopPlayers": "톱 플레이어",
     "WeaponTop": "무기 톱 플레이어",
     "WeaponTopSingular": "무기 톱 플레이어",
-    "Xcrown": "왕관"
+    "Xcrown": "왕관",
+    "PastRankingsAnnotation": "※과거 랭킹은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
   },
   "CoopRecord": {
     "AppName": "아르바이트",
@@ -734,6 +749,7 @@
     "HighestScore": "하이 스코어",
     "More": "더 보기",
     "NoData": "기록이 없습니다",
+    "TeamContest": "아르바이트 팀 콘테스트",
     "Title": "새먼 런 기록"
   }
 }

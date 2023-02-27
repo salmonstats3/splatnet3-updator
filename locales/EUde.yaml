@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Beschütze während des Big Run die Stadt!
   BigrunResult: Big-Run-Ergebnis!
   CoopHistory: Salmon Run
+  ExpansionPass: Zu Informationen über den Erweiterungspass
+  ExpansionPass2: Zu Informationen über den Erweiterungspass
   FestOpening: Splatfest läuft!
   FestResult: Splatfest-Ergebnis!
   Gesotown: Exklusive SplatNet-Ausrüstung
   HeroRecord: Die heldenhafte Saga...
   MemoryPlayer: Kampferinnerungen
   Myoutfits: Lieblings-Styles
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Album
   Robichi: Wer hilft Shrimpson?
   StatsLatestSeason: Saison-Übersicht anschauen
+  TeamContestOpening: Team-Wettkämpfer gesucht!
+  TeamContestResult: Team-Wettkampf-Ergebnisse!
   VsHistory: Kämpfe
 Catalog:
   AppName: Katalog
@@ -149,6 +155,7 @@ Common:
   Close: Schließen
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Team-Wettkampf
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: OK
   Download: Herunterladen
@@ -232,6 +239,7 @@ CoopHistory:
   KumaPointCard: Bärenpunkte-Karte
   Latest: Letzte Schicht
   Limited: Nur begrenzte Zeit
+  LimitedPoint: Spezial-Bonuspunktestand
   MonthlyReward: Monatsangebot
   Next: Vor
   Ng: ✘
@@ -260,6 +268,7 @@ CoopHistory:
   SeeSchedule: Arbeitszeiten
   SmellMeter: Salmometer
   SupplyWeapon: Verfügbare Waffen
+  TeamContest: Team-Wettkampf
   Title: Salmon Run
   TotalPoint: Gesamtpunkte
   WaveLevel0: Ebbe
@@ -275,6 +284,7 @@ CoopRecord:
   HighestScore: Highscore
   More: Mehr
   NoData: Keine Daten
+  TeamContest: Team-Wettkampf
   Title: Salmon Run-Daten
 CoopStage:
   Carousel: Flunder-Funpark
@@ -348,6 +358,7 @@ Footer:
 FriendList:
   AppName: Freundesliste
   InCoopGame: Bei der Arbeit
+  InMiniGame: Revierdecks
   InVsGame: Im Spiel
   IsLocked: Passwortgeschützt
   NoFriends: Der Spielstatus deiner Freunde wird hier angezeigt.
@@ -427,6 +438,8 @@ History:
   LatestBadge: Neueste Abzeichen
   Monthly: Monate
   Others: Andere Waffen
+  PastXmatchAnnotation: X-Kampf-Statistiken werden jeweils nach Saison-Abschluss berechnet
+    und veröffentlicht.
   Rank: Stufe
   Season: Saison
   ShowAllBadges: Alle Abzeichen ansehen
@@ -496,6 +509,7 @@ MyOutfits:
   Gyro: Neigungsempfindlichkeit
   GyroControl: Bewegungssteuerung
   HandheldMode: Handheld-Modus
+  Hashtag: LieblingsStyles
   Head: Kopf
   Main: Hauptwaffen
   NoGears: Keine entsprechende Ausrüstung gefunden.
@@ -513,6 +527,7 @@ MyOutfits:
   SelectShoes: Schuhe wählen
   SelectSlot: Wähle den Lieblings-Style, den du ersetzen möchtest.
   SelectWeapon: Waffe wählen
+  Share: Teilen
   Shoes: Schuhe
   Special: Spezialwaffen
   Sub: Sekundärwaffen
@@ -583,6 +598,7 @@ Settings:
   Acknowledgements: Copyrights
   AppName: Einstellungen
   Credits: Credits
+  ExpansionPass: Zu Informationen über den Erweiterungspass
   Title: Einstellungen
 SkinName:
   COP001: Orange Arbeitsklamotten
@@ -752,6 +768,8 @@ XRanking:
   Open: Jetzt offen!
   Pacific: Kalamati-Gruppe
   PastRankings: Vorherige Ranglisten
+  PastRankingsAnnotation: Vorherige Ranglisten werden jeweils nach Saison-Abschluss
+    berechnet und veröffentlicht. Dies kann unter Umständen mehrere Tage dauern.
   Region: Gruppe
   SeeRanking: Rangliste
   SeeWeaponTop: Beste Spieler/Waffe

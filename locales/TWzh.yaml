@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: 在大型跑中保護城鎮吧！
   BigrunResult: 大型跑結果公布！
   CoopHistory: SALMON RUN
+  ExpansionPass: 「尚興市」發布中！
+  ExpansionPass2: 「秩序篇」發布中！
   FestOpening: 祭典開幕！！
   FestResult: 祭典結果公布！！
   Gesotown: 獨家特殊裝備現正販售中
   HeroRecord: 嶄新的英雄故事
   MemoryPlayer: 記憶播放器
   Myoutfits: 個人穿搭
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: 相簿
   Robichi: 誠徵支持者！
   StatsLatestSeason: 前賽季的記錄在這裡！
+  TeamContestOpening: 參加團隊打工競賽吧！
+  TeamContestResult: 團隊打工競賽結果公布！
   VsHistory: 對戰戰績
 Catalog:
   AppName: 目錄
@@ -127,6 +133,7 @@ Common:
   Close: 關閉
   ColonRule: ：
   CoopBigRun: 大型跑
+  CoopTeamContest: 團隊打工競賽
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: 確定
   Download: 下載
@@ -209,6 +216,7 @@ CoopHistory:
   KumaPointCard: 熊先生集點卡
   Latest: 前往最新打工
   Limited: 期間限定
+  LimitedPoint: 現有的期間限定點數
   MonthlyReward: 本月的裝備
   Next: 下一場打工
   Ng: NG
@@ -236,6 +244,7 @@ CoopHistory:
   SeeSchedule: 查看時間表
   SmellMeter: 頭目槽
   SupplyWeapon: 派發武器
+  TeamContest: 團隊打工競賽
   Title: SALMON RUN
   TotalPoint: 累計點數
   WaveLevel0: 乾潮
@@ -251,6 +260,7 @@ CoopRecord:
   HighestScore: 最高分數
   More: 顯示更多
   NoData: 沒有記錄
+  TeamContest: 團隊打工競賽
   Title: SALMON RUN記錄
 CoopStage:
   Carousel: 醋飯海洋世界
@@ -314,6 +324,7 @@ Footer:
 FriendList:
   AppName: 朋友列表
   InCoopGame: 打工中
+  InMiniGame: 占地鬥士
   InVsGame: 比賽中
   IsLocked: 有密碼
   NoFriends: 朋友的遊玩狀況將在此顯示
@@ -390,6 +401,7 @@ History:
   LatestBadge: 最近獲得的徽章
   Monthly: 單月
   Others: 其他
+  PastXmatchAnnotation: ※X比賽的記錄將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。
   Rank: 等級
   Season: 賽季
   ShowAllBadges: 查看所有徽章
@@ -455,6 +467,7 @@ MyOutfits:
   Gyro: 陀螺儀操作靈敏度
   GyroControl: 陀螺儀操作
   HandheldMode: 手提模式
+  Hashtag: 個人穿搭
   Head: 頭部裝備
   Main: 主要武器
   NoGears: 沒有符合條件的裝備
@@ -472,6 +485,7 @@ MyOutfits:
   SelectShoes: 選擇鞋子
   SelectSlot: 選擇儲存位置
   SelectWeapon: 選擇武器
+  Share: 分享
   Shoes: 鞋子
   Special: 特殊武器
   Sub: 次要武器
@@ -536,6 +550,7 @@ Settings:
   Acknowledgements: 著作權聲明
   AppName: 設定
   Credits: 工作人員
+  ExpansionPass: 前往擴充票購買網站
   Title: 設定
 SkinName:
   COP001: 打工連身工作服 橘色
@@ -700,6 +715,7 @@ XRanking:
   Open: 舉行中！！
   Pacific: 組別‧暇古
   PastRankings: 過去的排名
+  PastRankingsAnnotation: ※過去的排名將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。
   Region: 組別
   SeeRanking: 查看排名
   SeeWeaponTop: 查看頂尖武器

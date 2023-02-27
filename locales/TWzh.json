@@ -91,7 +91,13 @@
     "StatsLatestSeason": "前賽季的記錄在這裡！",
     "VsHistory": "對戰戰績",
     "BigrunOpening": "在大型跑中保護城鎮吧！",
-    "BigrunResult": "大型跑結果公布！"
+    "BigrunResult": "大型跑結果公布！",
+    "ExpansionPass": "「尚興市」發布中！",
+    "ExpansionPass2": "「秩序篇」發布中！",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "參加團隊打工競賽吧！",
+    "TeamContestResult": "團隊打工競賽結果公布！"
   },
   "Catalog": {
     "Byname": "別名",
@@ -222,6 +228,7 @@
     "ColonRule": "：",
     "CoopBigRun": "大型跑",
     "TricolorMatch": "三色奪寶比賽",
+    "CoopTeamContest": "團隊打工競賽",
     "WpnNotfound": "？"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "大型跑",
     "BigrunBronze": "銅",
     "BigrunGold": "金",
-    "BigrunSilver": "銀"
+    "BigrunSilver": "銀",
+    "LimitedPoint": "現有的期間限定點數",
+    "TeamContest": "團隊打工競賽"
   },
   "Error": {
     "BackToHome": "返回主頁",
@@ -348,7 +357,8 @@
     "Reload": "重新讀取",
     "Title": "朋友列表",
     "VoiceChatEnabled": "可以語音聊天",
-    "NoFriends": "朋友的遊玩狀況將在此顯示"
+    "NoFriends": "朋友的遊玩狀況將在此顯示",
+    "InMiniGame": "占地鬥士"
   },
   "GesoTown": {
     "AppName": "魷魚鬚商城",
@@ -432,7 +442,8 @@
     "Rank": "等級",
     "ShowXranking": "查看X排名",
     "Udemae": "技術",
-    "Xmatch": "X比賽"
+    "Xmatch": "X比賽",
+    "PastXmatchAnnotation": "※X比賽的記錄將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。"
   },
   "Landing": {
     "Caution": "※在尚未安裝應用程式的情況下，按下此按鍵將無法開啟應用程式",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "確定",
     "Title": "個人穿搭",
     "TvTabletopMode": "TV模式/桌上模式",
-    "Weapon": "武器"
+    "Weapon": "武器",
+    "Hashtag": "個人穿搭",
+    "Share": "分享"
   },
   "PhotoAlbum": {
     "Annotation": "最多可以上傳20張照片<br />儲存期限為3個月",
@@ -560,7 +573,8 @@
     "Acknowledgements": "著作權聲明",
     "AppName": "設定",
     "Credits": "工作人員",
-    "Title": "設定"
+    "Title": "設定",
+    "ExpansionPass": "前往擴充票購買網站"
   },
   "StageSchedule": {
     "Bankara": "蠻頹比賽",
@@ -722,7 +736,8 @@
     "TopPlayers": "頂尖玩家",
     "WeaponTop": "頂尖武器玩家",
     "WeaponTopSingular": "頂尖武器玩家",
-    "Xcrown": "王冠"
+    "Xcrown": "王冠",
+    "PastRankingsAnnotation": "※過去的排名將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。"
   },
   "CoopRecord": {
     "AppName": "打工",
@@ -734,6 +749,7 @@
     "HighestScore": "最高分數",
     "More": "顯示更多",
     "NoData": "沒有記錄",
+    "TeamContest": "團隊打工競賽",
     "Title": "SALMON RUN記錄"
   }
 }

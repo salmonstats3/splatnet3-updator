@@ -91,7 +91,13 @@
     "StatsLatestSeason": "View Season History",
     "VsHistory": "Battle Logs",
     "BigrunOpening": "Protect the City from the Big Run!",
-    "BigrunResult": "Big Run Results!"
+    "BigrunResult": "Big Run Results!",
+    "ExpansionPass": "To Expansion Pass Information",
+    "ExpansionPass2": "To Expansion Pass Information",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "Sign Up for Some Eggstra Work!",
+    "TeamContestResult": "Eggstra Work Results!"
   },
   "Catalog": {
     "Byname": "Title",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Tricolor Battle",
+    "CoopTeamContest": "Eggstra Work",
     "WpnNotfound": "Unknown"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Gold",
-    "BigrunSilver": "Silver"
+    "BigrunSilver": "Silver",
+    "LimitedPoint": "Current special bonus points",
+    "TeamContest": "Eggstra Work"
   },
   "Error": {
     "BackToHome": "Back to Home",
@@ -348,7 +357,8 @@
     "Reload": "Reload",
     "Title": "Friend List",
     "VoiceChatEnabled": "Voice Chat Available",
-    "NoFriends": "When you add friends, their play statuses will display here."
+    "NoFriends": "When you add friends, their play statuses will display here.",
+    "InMiniGame": "Tableturf Battle"
   },
   "GesoTown": {
     "AppName": "SplatNet Shop",
@@ -432,7 +442,8 @@
     "Rank": "Level",
     "ShowXranking": "View X Ranking",
     "Udemae": "Rank",
-    "Xmatch": "X Battle"
+    "Xmatch": "X Battle",
+    "PastXmatchAnnotation": "X Battle stats will be calculated and revealed after the season ends."
   },
   "Landing": {
     "Caution": "Note: If you don't have the app installed, pressing this button does nothing.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "OK",
     "Title": "Freshest Fits",
     "TvTabletopMode": "TV/Tabletop Mode",
-    "Weapon": "Weapon"
+    "Weapon": "Weapon",
+    "Hashtag": "FreshestFits",
+    "Share": "Share"
   },
   "PhotoAlbum": {
     "Annotation": "Up to 20 photos may be stored.<br />They will be available for 3 months.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Copyrights",
     "AppName": "Settings",
     "Credits": "Credits",
-    "Title": "Settings"
+    "Title": "Settings",
+    "ExpansionPass": "To Expansion Pass Information"
   },
   "StageSchedule": {
     "Bankara": "Anarchy Battle",
@@ -722,7 +736,8 @@
     "TopPlayers": "Top Players",
     "WeaponTop": "Top Weapon Wielders",
     "WeaponTopSingular": "Top Weapon Wielder",
-    "Xcrown": "Crown"
+    "Xcrown": "Crown",
+    "PastRankingsAnnotation": "Past Ranking is calculated and revealed after the season ends. Please note that it may take a few days in some cases."
   },
   "CoopRecord": {
     "AppName": "Work",
@@ -734,6 +749,7 @@
     "HighestScore": "High Score",
     "More": "See More",
     "NoData": "No records.",
+    "TeamContest": "Eggstra Work",
     "Title": "Salmon Run Stats"
   }
 }

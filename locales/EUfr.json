@@ -91,7 +91,13 @@
     "StatsLatestSeason": "Voir l'historique de la saison.",
     "VsHistory": "Journal de matchs",
     "BigrunOpening": "Protège la ville pendant le Big Run !",
-    "BigrunResult": "Résultats du Big Run publiés !"
+    "BigrunResult": "Résultats du Big Run publiés !",
+    "ExpansionPass": "Informations sur le Pass d'extension",
+    "ExpansionPass2": "Informations sur le Pass d'extension",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "Viens faire des œufs sup' !",
+    "TeamContestResult": "Résultats du défi œuf sup' !"
   },
   "Catalog": {
     "Byname": "Titre",
@@ -222,6 +228,7 @@
     "ColonRule": " : ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Match tricolore",
+    "CoopTeamContest": "Défi œuf sup'",
     "WpnNotfound": "Inconnu"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Or",
-    "BigrunSilver": "Argent"
+    "BigrunSilver": "Argent",
+    "LimitedPoint": "Points de prix spéciaux actuels",
+    "TeamContest": "Défi œuf sup'"
   },
   "Error": {
     "BackToHome": "Retour à l'accueil",
@@ -348,7 +357,8 @@
     "Reload": "Actualiser",
     "Title": "Liste d'amis",
     "VoiceChatEnabled": "Chat vocal disponible",
-    "NoFriends": "Le statut de jeu de tes amis sera indiqué ici."
+    "NoFriends": "Le statut de jeu de tes amis sera indiqué ici.",
+    "InMiniGame": "Match de C&T"
   },
   "GesoTown": {
     "AppName": "Céphalochic",
@@ -432,7 +442,8 @@
     "Rank": "Niveau",
     "ShowXranking": "Voir le classement de matchs X",
     "Udemae": "Rang",
-    "Xmatch": "Match X"
+    "Xmatch": "Match X",
+    "PastXmatchAnnotation": "Les statistiques des matchs X sont calculés et publiés une fois la saison terminée."
   },
   "Landing": {
     "Caution": "*Si l'appli n'est pas installée, appuyer sur ce bouton n'aura aucun effet.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "OK",
     "Title": "Tenues favorites",
     "TvTabletopMode": "Mode TV/Mode sur table",
-    "Weapon": "Armes"
+    "Weapon": "Armes",
+    "Hashtag": "TenuesFavorites",
+    "Share": "Partager"
   },
   "PhotoAlbum": {
     "Annotation": "Tu peux enregistrer jusqu'à 20 photos.<br />Elles seront accessibles pendant trois mois.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Copyright",
     "AppName": "Paramètres",
     "Credits": "Crédits",
-    "Title": "Paramètres"
+    "Title": "Paramètres",
+    "ExpansionPass": "Informations sur le Pass d'extension"
   },
   "StageSchedule": {
     "Bankara": "Match anarchie",
@@ -722,7 +736,8 @@
     "TopPlayers": "Top du top",
     "WeaponTop": "Spécialistes de cette arme",
     "WeaponTopSingular": "Spécialiste de cette arme",
-    "Xcrown": "Couronne"
+    "Xcrown": "Couronne",
+    "PastRankingsAnnotation": "Les anciens classements sont calculés et publiés une fois la saison terminée. (Dans certains cas, le calcul peut prendre plusieurs jours.)"
   },
   "CoopRecord": {
     "AppName": "Missions",
@@ -734,6 +749,7 @@
     "HighestScore": "Record",
     "More": "Afficher plus d'infos",
     "NoData": "Aucune donnée",
+    "TeamContest": "Défi œuf sup'",
     "Title": "Statistiques"
   }
 }

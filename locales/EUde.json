@@ -91,7 +91,13 @@
     "StatsLatestSeason": "Saison-Übersicht anschauen",
     "VsHistory": "Kämpfe",
     "BigrunOpening": "Beschütze während des Big Run die Stadt!",
-    "BigrunResult": "Big-Run-Ergebnis!"
+    "BigrunResult": "Big-Run-Ergebnis!",
+    "ExpansionPass": "Zu Informationen über den Erweiterungspass",
+    "ExpansionPass2": "Zu Informationen über den Erweiterungspass",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "Team-Wettkämpfer gesucht!",
+    "TeamContestResult": "Team-Wettkampf-Ergebnisse!"
   },
   "Catalog": {
     "Byname": "Titel",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Dreifarb-Match",
+    "CoopTeamContest": "Team-Wettkampf",
     "WpnNotfound": "Unbekannt"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Gold",
-    "BigrunSilver": "Silber"
+    "BigrunSilver": "Silber",
+    "LimitedPoint": "Spezial-Bonuspunktestand",
+    "TeamContest": "Team-Wettkampf"
   },
   "Error": {
     "BackToHome": "Zurück zur Startseite",
@@ -348,7 +357,8 @@
     "Reload": "Aktualisieren",
     "Title": "Freundesliste",
     "VoiceChatEnabled": "Voice-Chat verfügbar",
-    "NoFriends": "Der Spielstatus deiner Freunde wird hier angezeigt."
+    "NoFriends": "Der Spielstatus deiner Freunde wird hier angezeigt.",
+    "InMiniGame": "Revierdecks"
   },
   "GesoTown": {
     "AppName": "TentaWorld",
@@ -432,7 +442,8 @@
     "Rank": "Stufe",
     "ShowXranking": "X-Ranglisten",
     "Udemae": "Rang",
-    "Xmatch": "X-Kampf"
+    "Xmatch": "X-Kampf",
+    "PastXmatchAnnotation": "X-Kampf-Statistiken werden jeweils nach Saison-Abschluss berechnet und veröffentlicht."
   },
   "Landing": {
     "Caution": "*Wenn du die App nicht installiert hast, hat diese Schaltfläche keine Funktion.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "OK",
     "Title": "Lieblings-Styles",
     "TvTabletopMode": "TV-/Tisch-Modus",
-    "Weapon": "Waffe"
+    "Weapon": "Waffe",
+    "Hashtag": "LieblingsStyles",
+    "Share": "Teilen"
   },
   "PhotoAlbum": {
     "Annotation": "Es können bis zu 20 Fotos gespeichert werden.<br />Sie sind 3 Monate verfügbar.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Copyrights",
     "AppName": "Einstellungen",
     "Credits": "Credits",
-    "Title": "Einstellungen"
+    "Title": "Einstellungen",
+    "ExpansionPass": "Zu Informationen über den Erweiterungspass"
   },
   "StageSchedule": {
     "Bankara": "Anarchie-Kampf",
@@ -722,7 +736,8 @@
     "TopPlayers": "Top-Spieler",
     "WeaponTop": "Beste Spieler/Waffe",
     "WeaponTopSingular": "Bester mit dieser Waffe",
-    "Xcrown": "Krone"
+    "Xcrown": "Krone",
+    "PastRankingsAnnotation": "Vorherige Ranglisten werden jeweils nach Saison-Abschluss berechnet und veröffentlicht. Dies kann unter Umständen mehrere Tage dauern."
   },
   "CoopRecord": {
     "AppName": "Schicht",
@@ -734,6 +749,7 @@
     "HighestScore": "Highscore",
     "More": "Mehr",
     "NoData": "Keine Daten",
+    "TeamContest": "Team-Wettkampf",
     "Title": "Salmon Run-Daten"
   }
 }

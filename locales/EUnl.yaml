@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Bescherm de stad tijdens de Big Run!
   BigrunResult: Big Run-uitslag!
   CoopHistory: Salmon Run
+  ExpansionPass: Informatie over de uitbreidingspas
+  ExpansionPass2: Informatie over de uitbreidingspas
   FestOpening: Splatfest geopend!
   FestResult: Splatfest-uitslag!
   Gesotown: Exclusieve SplatNet-uitrusting
   HeroRecord: Het verhaal gaat verder...
   MemoryPlayer: Herhalingen
   Myoutfits: Lievelingsstijlen
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Fotoalbum
   Robichi: Supporters gezocht!
   StatsLatestSeason: Seizoensverloop bekijken
+  TeamContestOpening: Meld je aan voor een bedrijfseitje!
+  TeamContestResult: Bedrijfseitje-uitslag!
   VsHistory: Gevechtsstatistieken
 Catalog:
   AppName: Catalogus
@@ -154,6 +160,7 @@ Common:
   Close: Sluiten
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Bedrijfseitje
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: Oké
   Download: Downloaden
@@ -237,6 +244,7 @@ CoopHistory:
   KumaPointCard: Beer & Co-spaarkaart
   Latest: Laatste klus
   Limited: Tijdelijk
+  LimitedPoint: Speciale bonuspunten
   MonthlyReward: Uitrusting voor deze maand
   Next: Volgende klus
   Ng: ✘
@@ -265,6 +273,7 @@ CoopHistory:
   SeeSchedule: Periode
   SmellMeter: Salmometer
   SupplyWeapon: Beschikbare wapens
+  TeamContest: Bedrijfseitje
   Title: Salmon Run
   TotalPoint: Puntentotaal
   WaveLevel0: Eb
@@ -280,6 +289,7 @@ CoopRecord:
   HighestScore: Topscore
   More: Meer info
   NoData: Geen gegevens
+  TeamContest: Bedrijfseitje
   Title: Statistieken
 CoopStage:
   Carousel: Waterwonderland
@@ -351,6 +361,7 @@ Footer:
 FriendList:
   AppName: Vriendenlijst
   InCoopGame: Aan het werk
+  InMiniGame: Slijkslag
   InVsGame: Aan het spelen
   IsLocked: Met wachtwoord
   NoFriends: Hier kun je de speelactiviteit van je vrienden zien.
@@ -429,6 +440,8 @@ History:
   LatestBadge: Recente badges
   Monthly: Maanden
   Others: Andere wapens
+  PastXmatchAnnotation: De X-ranglijsten worden na afloop van het seizoen opgemaakt
+    en gedeeld.
   Rank: Niveau
   Season: Seizoen
   ShowAllBadges: Alle badges bekijken
@@ -498,6 +511,7 @@ MyOutfits:
   Gyro: Bewegingsgevoeligheid
   GyroControl: Bewegingsbesturing
   HandheldMode: Handheldstijl
+  Hashtag: Lievelingsstijlen
   Head: Accessoires
   Main: Hoofdwapen
   NoGears: Geen passende uitrusting gevonden.
@@ -515,6 +529,7 @@ MyOutfits:
   SelectShoes: Schoenen kiezen
   SelectSlot: Kies welke lievelingsstijl je wilt vervangen.
   SelectWeapon: Wapen kiezen
+  Share: Delen
   Shoes: Schoenen
   Special: Speciaal wapen
   Sub: Subwapen
@@ -585,6 +600,7 @@ Settings:
   Acknowledgements: Copyrights
   AppName: Instellingen
   Credits: Credits
+  ExpansionPass: Informatie over de uitbreidingspas
   Title: Instellingen
 SkinName:
   COP001: Oranje werkkloffie
@@ -755,6 +771,8 @@ XRanking:
   Open: Nu geopend!
   Pacific: Takoroka-competitie
   PastRankings: Eerdere ranglijst
+  PastRankingsAnnotation: De eerdere ranglijst wordt na afloop van het seizoen opgemaakt
+    en gedeeld. Dit kan in sommige gevallen enkele dagen duren.
   Region: Competitie
   SeeRanking: Ranglijst
   SeeWeaponTop: Beste spelers per wapen

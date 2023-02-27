@@ -91,7 +91,13 @@
     "StatsLatestSeason": "Seizoensverloop bekijken",
     "VsHistory": "Gevechtsstatistieken",
     "BigrunOpening": "Bescherm de stad tijdens de Big Run!",
-    "BigrunResult": "Big Run-uitslag!"
+    "BigrunResult": "Big Run-uitslag!",
+    "ExpansionPass": "Informatie over de uitbreidingspas",
+    "ExpansionPass2": "Informatie over de uitbreidingspas",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "Meld je aan voor een bedrijfseitje!",
+    "TeamContestResult": "Bedrijfseitje-uitslag!"
   },
   "Catalog": {
     "Byname": "Titel",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Driekleurengevecht",
+    "CoopTeamContest": "Bedrijfseitje",
     "WpnNotfound": "Onbekend"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Brons",
     "BigrunGold": "Goud",
-    "BigrunSilver": "Zilver"
+    "BigrunSilver": "Zilver",
+    "LimitedPoint": "Speciale bonuspunten",
+    "TeamContest": "Bedrijfseitje"
   },
   "Error": {
     "BackToHome": "Naar het beginscherm",
@@ -348,7 +357,8 @@
     "Reload": "Opnieuw laden",
     "Title": "Vriendenlijst",
     "VoiceChatEnabled": "Met voicechat",
-    "NoFriends": "Hier kun je de speelactiviteit van je vrienden zien."
+    "NoFriends": "Hier kun je de speelactiviteit van je vrienden zien.",
+    "InMiniGame": "Slijkslag"
   },
   "GesoTown": {
     "AppName": "Tentashop",
@@ -432,7 +442,8 @@
     "Rank": "Niveau",
     "ShowXranking": "X-ranglijsten",
     "Udemae": "Rang",
-    "Xmatch": "X-gevecht"
+    "Xmatch": "X-gevecht",
+    "PastXmatchAnnotation": "De X-ranglijsten worden na afloop van het seizoen opgemaakt en gedeeld."
   },
   "Landing": {
     "Caution": "Let op: als je de app niet geïnstalleerd hebt, doet deze knop niets.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "Oké",
     "Title": "Lievelingsstijlen",
     "TvTabletopMode": "Tv-stijl/tafelstijl",
-    "Weapon": "Wapen"
+    "Weapon": "Wapen",
+    "Hashtag": "Lievelingsstijlen",
+    "Share": "Delen"
   },
   "PhotoAlbum": {
     "Annotation": "Er kunnen maximaal 20 foto's worden opgeslagen.<br />Ze blijven 3 maanden beschikbaar.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Copyrights",
     "AppName": "Instellingen",
     "Credits": "Credits",
-    "Title": "Instellingen"
+    "Title": "Instellingen",
+    "ExpansionPass": "Informatie over de uitbreidingspas"
   },
   "StageSchedule": {
     "Bankara": "Chaosgevecht",
@@ -722,7 +736,8 @@
     "TopPlayers": "Beste spelers",
     "WeaponTop": "Beste spelers per wapen",
     "WeaponTopSingular": "Beste speler met dit wapen",
-    "Xcrown": "Kroon"
+    "Xcrown": "Kroon",
+    "PastRankingsAnnotation": "De eerdere ranglijst wordt na afloop van het seizoen opgemaakt en gedeeld. Dit kan in sommige gevallen enkele dagen duren."
   },
   "CoopRecord": {
     "AppName": "Klussen",
@@ -734,6 +749,7 @@
     "HighestScore": "Topscore",
     "More": "Meer info",
     "NoData": "Geen gegevens",
+    "TeamContest": "Bedrijfseitje",
     "Title": "Statistieken"
   }
 }

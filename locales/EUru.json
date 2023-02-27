@@ -91,7 +91,13 @@
     "StatsLatestSeason": "Смотреть журнал сезона.",
     "VsHistory": "Протоколы боев",
     "BigrunOpening": "Защити город от набега самонидов Big Run!",
-    "BigrunResult": "Итоги Big Run"
+    "BigrunResult": "Итоги Big Run",
+    "ExpansionPass": "К информации о талоне на расширение",
+    "ExpansionPass2": "К информации о талоне на расширение",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "Нужны работники для икорного овертайма!",
+    "TeamContestResult": "Итоги икорного овертайма"
   },
   "Catalog": {
     "Byname": "Титул",
@@ -222,6 +228,7 @@
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
     "TricolorMatch": "Трехцветный бой",
+    "CoopTeamContest": "Икорный овертайм",
     "WpnNotfound": "Нет данных"
   },
   "CoopHistory": {
@@ -286,7 +293,9 @@
     "Bigrun": "Big Run",
     "BigrunBronze": "Бронза",
     "BigrunGold": "Золото",
-    "BigrunSilver": "Серебро"
+    "BigrunSilver": "Серебро",
+    "LimitedPoint": "Сейчас спецочков:",
+    "TeamContest": "Икорный овертайм"
   },
   "Error": {
     "BackToHome": "На главную",
@@ -348,7 +357,8 @@
     "Reload": "Перезагрузить",
     "Title": "Список друзей",
     "VoiceChatEnabled": "Доступен голосовой чат",
-    "NoFriends": "Здесь будет отображаться игровой статус твоих друзей."
+    "NoFriends": "Здесь будет отображаться игровой статус твоих друзей.",
+    "InMiniGame": "Карты и район"
   },
   "GesoTown": {
     "AppName": "Щупозон",
@@ -432,7 +442,8 @@
     "Rank": "Уровень",
     "ShowXranking": "Разряд X",
     "Udemae": "Разряд",
-    "Xmatch": "Бой X"
+    "Xmatch": "Бой X",
+    "PastXmatchAnnotation": "Рейтинг боев X подсчитывается и публикуется после окончания сезона."
   },
   "Landing": {
     "Caution": "Примечание: если приложение не установлено, при нажатии кнопки ничего не произойдет.",
@@ -510,7 +521,9 @@
     "SubmitWeapon": "OK",
     "Title": "Свежие прикиды",
     "TvTabletopMode": "Режим ТВ / настольный",
-    "Weapon": "Оружие"
+    "Weapon": "Оружие",
+    "Hashtag": "СвежиеПрикиды",
+    "Share": "Поделиться"
   },
   "PhotoAlbum": {
     "Annotation": "Можно сохранить до 20 снимков, которые<br />будут доступны в течение 3 месяцев.",
@@ -560,7 +573,8 @@
     "Acknowledgements": "Авторские права",
     "AppName": "Настройки",
     "Credits": "Над игрой работали",
-    "Title": "Настройки"
+    "Title": "Настройки",
+    "ExpansionPass": "К информации о талоне на расширение"
   },
   "StageSchedule": {
     "Bankara": "Стихийный бой",
@@ -722,7 +736,8 @@
     "TopPlayers": "Топ по режиму",
     "WeaponTop": "Топ по оружию",
     "WeaponTopSingular": "Топ с этим оружием",
-    "Xcrown": "Корона"
+    "Xcrown": "Корона",
+    "PastRankingsAnnotation": "Предыдущий рейтинг подсчитывается и публикуется после окончания сезона. В некоторых случаях это может занять несколько дней."
   },
   "CoopRecord": {
     "AppName": "Смена",
@@ -734,6 +749,7 @@
     "HighestScore": "Рекорд",
     "More": "Подробнее",
     "NoData": "Данных нет.",
+    "TeamContest": "Икорный овертайм",
     "Title": "Статистика"
   }
 }

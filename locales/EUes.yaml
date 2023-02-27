@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: ¡Big Run! ¡A defender la ciudad!
   BigrunResult: ¡Hay resultados de Big Run!
   CoopHistory: Salmon Run
+  ExpansionPass: Ir a la información del pase de expansión
+  ExpansionPass2: Ir a la información del pase de expansión
   FestOpening: ¡Festival en marcha!
   FestResult: Resultados del festival
   Gesotown: Tenemos artículos exclusivos de SplatNet.
   HeroRecord: La historia continúa...
   MemoryPlayer: Repeticiones
   Myoutfits: Atuendos favoritos
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Álbum de fotos
   Robichi: ¡Se buscan ayudantes!
   StatsLatestSeason: ¡Recuerda aquí la última temporada!
+  TeamContestOpening: ¡Participa en alianza alevínica!
+  TeamContestResult: ¡Hay resultados de alianza alevínica!
   VsHistory: Registros de combates
 Catalog:
   AppName: Catálogo
@@ -153,6 +159,7 @@ Common:
   Close: Cerrar
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Alianza alevínica
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: Aceptar
   Download: Descargar
@@ -235,6 +242,7 @@ CoopHistory:
   KumaPointCard: Puntos de Don Oso
   Latest: Más reciente
   Limited: Solo por tiempo limitado
+  LimitedPoint: Puntos eventuales actuales
   MonthlyReward: Objeto del mes
   Next: Siguiente
   Ng: ✘
@@ -263,6 +271,7 @@ CoopHistory:
   SeeSchedule: Ver calendario
   SmellMeter: salmómetro
   SupplyWeapon: Armas asignadas
+  TeamContest: Alianza alevínica
   Title: Salmon Run
   TotalPoint: Puntos totales
   WaveLevel0: Marea baja
@@ -278,6 +287,7 @@ CoopRecord:
   HighestScore: Récord
   More: Ver más
   NoData: Sin datos
+  TeamContest: Alianza alevínica
   Title: Estadísticas
 CoopStage:
   Carousel: Pirañalandia
@@ -350,6 +360,7 @@ Footer:
 FriendList:
   AppName: Lista de amigos
   InCoopGame: Trabajando
+  InMiniGame: Lucha carterritorial
   InVsGame: Jugando
   IsLocked: Contraseña bloqueada
   NoFriends: Aquí se mostrarán datos de juego de tus amigos.
@@ -427,6 +438,8 @@ History:
   LatestBadge: Chapas recientes
   Monthly: Mensual
   Others: Otras armas
+  PastXmatchAnnotation: Las estadísticas de los combates X se calculan y publican
+    al concluir la temporada.
   Rank: Nivel
   Season: Temporada
   ShowAllBadges: Ver todas las chapas
@@ -498,6 +511,7 @@ MyOutfits:
   Gyro: Sensibilidad del giroscopio
   GyroControl: Giroscopio
   HandheldMode: Modo portátil
+  Hashtag: AtuendosFavoritos
   Head: accesorios
   Main: Arma principal
   NoGears: No se encuentra ningún equipamiento.
@@ -515,6 +529,7 @@ MyOutfits:
   SelectShoes: Seleccionar calzado
   SelectSlot: Elige dónde quieres guardarlo.
   SelectWeapon: Seleccionar arma
+  Share: Compartir
   Shoes: calzado
   Special: Arma especial
   Sub: Arma secundaria
@@ -586,6 +601,7 @@ Settings:
   Acknowledgements: Derechos de autor
   AppName: Ajustes
   Credits: Créditos
+  ExpansionPass: Ir a la información del pase de expansión
   Title: Ajustes
 SkinName:
   COP001: Mono de trabajo naranja
@@ -757,6 +773,8 @@ XRanking:
   Open: ¡En curso!
   Pacific: División Sepioca
   PastRankings: Clasificaciones previas
+  PastRankingsAnnotation: Las clasificaciones previas se calculan y publican cuando
+    concluye la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles).
   Region: División
   SeeRanking: Clasificación
   SeeWeaponTop: Mejores con esta arma

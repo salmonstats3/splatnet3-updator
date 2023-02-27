@@ -2,15 +2,21 @@ Carousel:
   BigrunOpening: Proteggi la città dalla Big Run!
   BigrunResult: Risultati Big Run!
   CoopHistory: Salmon Run
+  ExpansionPass: Informazioni sul Pass di espansione
+  ExpansionPass2: Informazioni sul Pass di espansione
   FestOpening: Festival in corso!
   FestResult: Risultati festival!
   Gesotown: Articoli esclusivi di Calama-zone
   HeroRecord: La storia continua...
   MemoryPlayer: Replay
   Myoutfits: Look preferiti
+  OfficialTournament: Splatoon甲子園開催中！
+  OfficialTournamentFinal: Splatoon甲子園決勝戦
   PhotoAlbum: Album
   Robichi: Si cercano sostenitori!
   StatsLatestSeason: Vedi le statistiche della stagione.
+  TeamContestOpening: Partecipa a qualche sfida tra colleghi!
+  TeamContestResult: Risultati sfida tra colleghi!
   VsHistory: Battaglie
 Catalog:
   AppName: Catalogo
@@ -153,6 +159,7 @@ Common:
   Close: Chiudi
   ColonRule: ': '
   CoopBigRun: Big Run
+  CoopTeamContest: Sfida tra colleghi
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
   Decide: OK
   Download: Scarica
@@ -235,6 +242,7 @@ CoopHistory:
   KumaPointCard: Carta punti Ursus
   Latest: Ultimo
   Limited: Solo tempo determinato
+  LimitedPoint: Punti attuali (bonus speciale)
   MonthlyReward: Oggetto del mese
   Next: Seguente
   Ng: ✘
@@ -263,6 +271,7 @@ CoopHistory:
   SeeSchedule: Vedi calendario
   SmellMeter: Salmometro
   SupplyWeapon: Armi fornite
+  TeamContest: Sfida tra colleghi
   Title: Salmon Run
   TotalPoint: Punti totali
   WaveLevel0: Bassa marea
@@ -278,6 +287,7 @@ CoopRecord:
   HighestScore: Record
   More: Scopri di più
   NoData: Nessun dato
+  TeamContest: Sfida tra colleghi
   Title: Statistiche
 CoopStage:
   Carousel: Soglioland
@@ -349,6 +359,7 @@ Footer:
 FriendList:
   AppName: Lista di amici
   InCoopGame: Sta lavorando
+  InMiniGame: Splattanza
   InVsGame: Sta giocando
   IsLocked: Con codice
   NoFriends: Lo stato dei tuoi amici apparirà qui.
@@ -427,6 +438,8 @@ History:
   LatestBadge: Spille recenti
   Monthly: Mensile
   Others: Altre armi
+  PastXmatchAnnotation: Le statistiche delle partite X vengono calcolate e rivelate
+    dopo la fine della stagione.
   Rank: Livello
   Season: Stagionale
   ShowAllBadges: Vedi tutte le spille
@@ -496,6 +509,7 @@ MyOutfits:
   Gyro: Sensibilità sensori di movimento
   GyroControl: Sensori di movimento
   HandheldMode: Stile portatile
+  Hashtag: LookPreferiti
   Head: accessori
   Main: Arma principale
   NoGears: Equipaggiamento non trovato.
@@ -513,6 +527,7 @@ MyOutfits:
   SelectShoes: Seleziona scarpe
   SelectSlot: Scegli il look preferito da sostituire.
   SelectWeapon: Seleziona armi
+  Share: Condividi
   Shoes: scarpe
   Special: Arma speciale
   Sub: Arma secondaria
@@ -584,6 +599,7 @@ Settings:
   Acknowledgements: Copyright
   AppName: Impostazioni
   Credits: Riconoscimenti
+  ExpansionPass: Informazioni sul Pass di espansione
   Title: Impostazioni
 SkinName:
   COP001: Salopette arancione
@@ -753,6 +769,8 @@ XRanking:
   Open: In corso!
   Pacific: Gruppo Sepia
   PastRankings: Classifiche passate
+  PastRankingsAnnotation: Le classifiche passate vengono calcolate e rivelate dopo
+    la fine della stagione. In certi casi, potrebbero essere necessari alcuni giorni.
   Region: Gruppo
   SeeRanking: Vedi la classifica
   SeeWeaponTop: I migliori per arma
