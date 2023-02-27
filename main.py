@@ -22,5 +22,5 @@ if __name__=='__main__':
   translate()
   gen_localized()
 
-  copy()
+  # copy()
 
