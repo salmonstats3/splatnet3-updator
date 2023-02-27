@@ -109,8 +109,8 @@ LANG: list[LocaleHash] = [
   LocaleHash('locale9', 'KRko', 'ko'),
   LocaleHash('locale10', 'EUnl', 'nl'),
   LocaleHash('locale11', 'EUru', 'ru'),
-  LocaleHash('locale12', 'CNzh', 'zh-Hant'),
-  LocaleHash('locale13', 'TWzh', 'zh-Hans'),
+  LocaleHash('locale12', 'CNzh', 'zh-Hans'),
+  LocaleHash('locale13', 'TWzh', 'zh-Hant'),
 ]
 
 def get_assets():

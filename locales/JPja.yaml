@@ -209,7 +209,7 @@ CoopHistory:
   Gj: GJ!
   GoToStats: バイトヒストリー一覧に戻る
   GoldenDeliverCount: 集めた金イクラ
-  HighestScore: ハイスコア
+  HighestScore: 最高きろく
   History: バイトヒストリー
   JobPoint: 獲得ポイント
   JobRatio: 評価レート
@@ -593,7 +593,7 @@ VSHistory:
   100x: １００倍マッチ
   10x: １０倍マッチ
   333x: ３３３倍マッチ
-  AnnotationExemption: 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
+  AnnotationExemption: 人数が少ない時間が続いたため、負けとしてカウントされませんでした
   AnnotationNocontest: 無効試合になりました
   AnnotationPenalty: 正常に試合が終了しませんでした
   Attack: 攻撃

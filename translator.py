@@ -76,9 +76,12 @@ def gen_localized():
     os.makedirs(path, exist_ok=True)
     with open(f'{path}/Localizable.strings', mode='a', newline='') as f:
       for key, value in dict(zip(values.keys(), values.values)).items():
-        if target_lang == 'ja':
+        if target_lang == 'ja' and key not in 'Shakeall':
           outputs.append(f'\t/// {value}\n\tcase CoopHistory_{key}')
-        f.write(f'CoopHistory_{key} = "{value}";\n')
+        if key not in 'Shakeall':
+          f.write(f'CoopHistory_{key} = "{value}";\n')
+        else:
+          f.write(f'CoopStage_{key} = "{value}";\n')
 
   current = datetime.datetime.now().strftime('%Y/%m/%d') 
   header = [

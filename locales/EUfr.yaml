@@ -234,21 +234,21 @@ CoopHistory:
   ExWave: Vague +
   Failure: Échec...
   Gj: ✓
-  GoToStats: Retour aux stats de missions
+  GoToStats: Retour aux stats de boulots
   GoldenDeliverCount: Œufs dorés collectés
-  HighestScore: Record
-  History: Stats de missions
+  HighestScore: Record absolu
+  History: Stats de boulots
   JobPoint: Tes points
   JobRatio: Éval.
   KumaPointCard: Carton de M. Ours
-  Latest: Dernière mission
+  Latest: Dernier boulot
   Limited: Pour une durée limitée
   LimitedPoint: Points de prix spéciaux actuels
   MonthlyReward: Pièce d'équipement du mois
   Next: Suivant
   Ng: ✘
-  NoData: Aucune stat de mission disponible.
-  NotAvailable: Les stats de missions ne sont pas disponibles.
+  NoData: Aucune stat de boulot disponible.
+  NotAvailable: Les stats de boulots ne sont pas disponibles.
   NotAvailableDescription: Seules les 50 entrées les plus récentes sont disponibles.
   NotDefeated: Échec...
   PlayCount: Sessions de travail
@@ -261,7 +261,7 @@ CoopHistory:
   RecruitTag1: C'est facile !
   RecruitTag2: La collecte d'œufs, c'est fun et ça rapporte !
   RecruitTitle: La collecte d'œufs, un job de rêve !
-  Regular: Mission normale
+  Regular: Boulot normal
   RegularPoint: Points actuels
   RescueCount: Collègues secourus
   RescuedCount: Secours reçus
@@ -646,8 +646,8 @@ VSHistory:
   100x: Match ×100
   10x: Match ×10
   333x: Match ×333
-  AnnotationExemption: Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs
-    n'ont pas pu poursuivre le match.
+  AnnotationExemption: Le match est considéré comme une égalité car des joueurs se
+    sont déconnectés tôt dans la partie.
   AnnotationNocontest: Match annulé.
   AnnotationPenalty: Le match a été interrompu.
   Attack: En attaque

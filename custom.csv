@@ -64,3 +64,16 @@ WipeLogContext,保存されている全てのログを消去します。,Wipe al
 WipeResults,リザルト消去,Wipe results,Wipe results,Ergebnisse wischen,Resultados de la limpieza,Resultados de la limpieza,Résultats de l'essuyage,Résultats de l'essuyage,Risultati della pulizia,Wipe results,Veegresultaten,Результаты вытирания,擦拭结果,擦拭结果
 WipeResultsContext,保存されている全てのリザルトを消去します。,Wipe all of data.,Wipe all of data.,Löschen Sie alle Daten.,Borra todos los datos.,Borra todos los datos.,Effacer toutes les données.,Effacer toutes les données.,Cancellare tutti i dati.,Wipe all of data.,Wis alle gegevens.,Сотрите все данные.,擦除所有数据。,擦除所有数据。
 WriteReview,レビューを書く,Write a review,Write a review,Eine Bewertung schreiben,Escriba un comentario,Escriba un comentario,Écrire un commentaire,Écrire un commentaire,Scrivi una recensione,Write a review,Schrijf een review,Написать отзыв,撰写评论,撰写评论
+OverallRecord,総合きろく,Overall,Overall,Insgesamt,En general,En general,En général,En général,In generale,Overall,Algemeen,В целом,总的来说,总的来说
+GoldenEggs,金イクラ,Golden Eggs,Golden Eggs,Goldene Eier,Huevos de oro,Huevos de oro,Œufs d'or,Œufs d'or,Uova d'oro,Golden Eggs,Gouden eieren,Золотые яйца,金蛋,金蛋
+PowerEggs,イクラ,Power Eggs,Power Eggs,Power-Eier,Huevos de energía,Huevos de energía,Œufs à la puissance,Œufs à la puissance,Uova di potenza,Power Eggs,Power Eggs,Энергетические яйца,动力蛋,动力蛋
+Overview,概要,Overview,Overview,Übersicht,Visión general,Visión general,Vue d'ensemble,Vue d'ensemble,Panoramica,Overview,Overzicht,Обзор,概述,概述
+Locale,ja-JP,en-GB,en-US,de-DE,es-ES,es-MX,fr-CA,fr-FR,it-IT,ko-KR,nl-NL,ru-RU,zh-TW,zh-CN
+LanguageCode,0,0,0,0,0,0,0,0,0,0,0,0,2,1
+Shakeall,総合,All,All,Alle,Todos,Todos,Tous,Tous,Tutti,All,Alle,Все,全部,全部
+Database,データベース,Database,Database,Datenbank,Base de datos,Base de datos,Base de données,Base de données,Database,Database,Database,База данных,数据库,数据库
+XProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion,X-ProductVersion
+Upload,アップロード,Upload,Upload,Hochladen,Cargar,Cargar,Télécharger,Télécharger,Caricare,Upload,uploaden,Загрузить,上传,上传
+CreditDevelop,開発,Developer,Developer,Entwickler,Desarrollador,Desarrollador,Développeur,Développeur,Sviluppatore,Developer,Ontwikkelaar,Разработчик,开发商,开发商
+CreditTest,テスト,Tester,Tester,Tester,Comprobador,Comprobador,Testeur,Testeur,Collaudatore,Tester,Tester,Тестер,测试员,测试员
+CreditDesign,UI/UXデザイン,UI/UX Design,UI/UX Design,UI/UX Gestaltung,Diseño UI/UX,Diseño UI/UX,Design UI/UX,Design UI/UX,Design UI/UX,UI/UX Design,UI/UX ontwerp,UI/UX дизайн,UI/UX设计,UI/UX设计
