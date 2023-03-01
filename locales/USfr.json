@@ -7,6 +7,7 @@
     "SakeDolphin": "Ploufion",
     "SakeFlyBagman": "Barboteur",
     "SakePillar": "Pylônoïde",
+    "SakeRope": "Salmophide",
     "SakeSaucer": "Couverclard",
     "Sakediver": "Gobb",
     "Sakedozer": "Barbeurk",
@@ -29,7 +30,11 @@
     "COP004": "Salopette rose",
     "COP005": "Salopette bleue",
     "COP006": "Salopette noire",
-    "COP007": "Salopette blanche"
+    "COP007": "Salopette blanche",
+    "COP008": "Combi caoutchouc orange",
+    "COP009": "Combi caoutchouc noire",
+    "COP010": "Combi caoutchouc jaune",
+    "COP011": "Combi caoutchouc brune"
   },
   "CoopGrade": {
     "Grade": "Légende"
@@ -76,7 +81,8 @@
     "Shakespiral": "Bastion colimaçon",
     "Shakeup": "Barrage salmonoïde",
     "Tutorial": "Bastion colimaçon",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "Institut Calm'arts"
   },
   "Carousel": {
     "BigrunOpening": "Protège la ville pendant le Big Run!",

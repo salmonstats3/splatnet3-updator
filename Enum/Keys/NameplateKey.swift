@@ -1,7 +1,7 @@
 //
 //  NameplateKey.swift
 //
-//  Created by tkgstrator on 2023/02/27
+//  Created by tkgstrator on 2023/03/01
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -10,8 +10,11 @@ import Foundation
 public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	public var id: String { rawValue }
 	case Npl_Tutorial00 = "dba78c8ed1013d420aacb669d31a002691f2bb4ec0c1c853e34244c40dc68ea8"
+	case Npl_Fsodr00 = "d175555cf2d52b12aed6871b094b28de4d78ca3135867c279c92c301e87c0e18"
 	case Npl_Trg_Season01_Lv01 = "90203a05b75644be8fdf5e665f94a11fc6b459ad1a7fd7a444c559731d0812c1"
 	case Npl_Trg_Season01_Lv02 = "74f479a7855bcc76b59926075d3974683abefb9579fdd1c1e60c6693935a90ac"
+	case Npl_Trg_Season03_Lv01 = "d1c14bdea383994695d212bd1a14fba7ae6c979825cf624b194f944361605b7e"
+	case Npl_Trg_Season03_Lv02 = "0d2804acdee2a7c0514e4a555ced45069d5f0d9b9eee407ad5f4b05fc17cb743"
 	case Npl_Mng_Lv01 = "a999e6fe6796610e3db25c2aa2713426e8c3cd17555f4204a2f6b59409362ad5"
 	case Npl_Mng_Lv02 = "cf96547ad3b1fbe6197f0bb95b3d675d3980960d9c0de096a1abdb1135b74421"
 	case Npl_Mng_Lv03 = "3b94c3f1a29046d2701f8d615d731bdad2f51bd5de284ffa6091801164126633"
@@ -25,8 +28,13 @@ public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	case Npl_Coop_Season01_Lv08 = "036257cc36c631962352de0ad5ecbca4436326aefb550dea8a9cdb1d9f20180a"
 	case Npl_Coop_Season01_Lv09 = "1632c5bbf8837116e071f8bbf849aaed8dae1ac90619d50c881e7dbf278d3705"
 	case Npl_Coop_Season01_Lv10 = "c1c8e069f31d5d2da98880fd29179f718ac1135e204fe628c63b040c9e4f9434"
+	case Npl_Coop_Season03_Lv01 = "10fe5261e559962d630a9406af6bfb616c0aa92f8a8f032537e13e22698bbc33"
+	case Npl_Coop_Season03_Lv02 = "23676fb456899a052c1b009610227ce36209a9f2491b010176baea3263ce4544"
+	case Npl_Coop_Season03_Lv03 = "e3b0512f981e8b06b61214aac866dcb219fab06daeac4136ac755bbcecf782ae"
+	case Npl_Coop_Season03_Lv04 = "05da8d5961d83f8ed429615c77905d1730683afdaa247e76778ffc0d101a4dac"
 	case Npl_Lot_Season01_Lv01 = "d87178ea1709a65e5dd47c21ba6fb9b51764c239bc250e5414c617d31f693d11"
 	case Npl_Lot_Season02_Lv01 = "a2c9afd0d033065eca435f8a7a5b30ef57332f877a9f2abf188ec0176bcc5251"
+	case Npl_Lot_Season03_Lv01 = "e34674b786f053bfa6cf333be8244ad2841bad1b3c5a80fb0b350776682b79c3"
 	case Npl_Catalog_Season01_Lv01 = "3fec40e770ba4df4fb8d6a0598f0820e045411e3d5cab77c4a47aef0a0e3b8a9"
 	case Npl_Catalog_Season01_Lv02 = "4944de43d46fb4e0514c287791171a9a44753a69229d04d53d9c1f4c2c9e5f23"
 	case Npl_Catalog_Season01_Lv03 = "d7b61473019f6ac56967bbd306f9d703302f411ff030976660cda56e6f967ea0"
@@ -111,4 +119,6 @@ public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	case Npl_Catalog_Season01_Lv82 = "0ae66b543364207d96bd8ad14392319eb11bab1ee5713cf829d7dd7f23445464"
 	case Npl_Catalog_Season02_Lv01 = "a5ea5e021cbf55171fa22dc7dcea4f9f3505bda27c220e9e3b75f2660cb4d008"
 	case Npl_Catalog_Season02_Lv02 = "c24871495b3eed22bb3cf89bb43ce93da65c3b150be5130ca3406bf6110e7e2d"
+	case Npl_Catalog_Season03_Lv01 = "cd7c47e48eee51dd1fb89831e6c6c82aaeb114c3f88bf49bae7821679e432d99"
+	case Npl_Catalog_Season03_Lv02 = "3dcb58e2c8401d34947e8a7971badf044f7e8383109351ab88f7434a018605a3"
 }

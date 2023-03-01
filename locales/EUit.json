@@ -7,6 +7,7 @@
     "SakeDolphin": "Tuffone",
     "SakeFlyBagman": "Razziatore",
     "SakePillar": "Trivellaccio",
+    "SakeRope": "Orroboros",
     "SakeSaucer": "Coperchiotto",
     "Sakediver": "Boccalone",
     "Sakedozer": "Grill",
@@ -29,7 +30,11 @@
     "COP004": "Salopette rosa",
     "COP005": "Salopette blu",
     "COP006": "Salopette nera",
-    "COP007": "Salopette bianca"
+    "COP007": "Salopette bianca",
+    "COP008": "Tuta da pesca arancione",
+    "COP009": "Tuta da pesca nera",
+    "COP010": "Tuta da pesca gialla",
+    "COP011": "Tuta da pesca marrone"
   },
   "CoopGrade": {
     "Grade": "Dirigente"
@@ -76,7 +81,8 @@
     "Shakespiral": "Fortezza Spiralsalmone",
     "Shakeup": "Diga salmonoide",
     "Tutorial": "Fortezza Spiralsalmone",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "Campus Hippocampus"
   },
   "Carousel": {
     "BigrunOpening": "Proteggi la città dalla Big Run!",

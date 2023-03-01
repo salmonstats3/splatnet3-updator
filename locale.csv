@@ -6,6 +6,7 @@ CoopEnemy_SakeCopter,Kopta,Chinook,Chinook,Salmocóptero,Salmocóptero,Salmocopt
 CoopEnemy_SakeDolphin,Sturmreifer,Flipper-Flopper,Flipper-Flopper,Chapotero,Chapotero,Ploufion,Ploufion,Tuffone,ダイバー,다이버,Dompelaar,хулахлюп,潜水鱼,潛水魚
 CoopEnemy_SakeFlyBagman,Samko,Snatcher,Snatcher,Rastrerón,Hurtón,Barboteur,Barboteur,Razziatore,タマヒロイ,알주어,Zammel,умыкумжа,拾蛋鱼,拾蛋魚
 CoopEnemy_SakePillar,Mobelisk,Fish Stick,Fish Stick,Viga,Viga,Pylônoïde,Pylônoïde,Trivellaccio,ハシラ,기둥,Salmonoliet,бурмонид,柱鱼,柱魚
+CoopEnemy_SakeRope,Horroboros,Horrorboros,Horrorboros,Dragón,Dragón,Salmophide,Salmophide,Orroboros,タツ,용,Horroboros,скверноборос,辰龙,辰龍
 CoopEnemy_SakeSaucer,Deckler,Slammin' Lid,Slammin' Lid,Tapaollas,Tapaollas,Couverclard,Couverclard,Coperchiotto,ナベブタ,냄비 뚜껑,Dreksel,мокрышка,锅盖鱼,鍋蓋魚
 CoopEnemy_Sakediver,Grablax,Maws,Maws,Fáucex,Mandíburo,Gobb,Gobb,Boccalone,モグラ,두더지,Snaai,Жуй-Горбуш,鼹鼠鱼,鼴鼠魚
 CoopEnemy_Sakedozer,Killgrill,Griller,Griller,Chaparrilla,Brasaleta,Barbeurk,Barbeurk,Grill,グリル,그릴,Griller,жаровнер,烤架鱼,烤架魚
@@ -27,6 +28,10 @@ SkinName_COP004,Rosa Arbeitsklamotten,Pink Slopsuit,Pink Slopsuit,Mono de trabaj
 SkinName_COP005,Blaue Arbeitsklamotten,Blue Slopsuit,Blue Slopsuit,Mono de trabajo azul,Uniforme de trabajo azul,Salopette bleue,Salopette bleue,Salopette blu,バイトツナギ ブルー,블루 작업복,Blauw werkkloffie,Голубой комбинезон,打工连身工作服 蓝色,打工連身工作服 藍色
 SkinName_COP006,Schwarze Arbeitsklamotten,Black Slopsuit,Black Slopsuit,Mono de trabajo negro,Uniforme de trabajo negro,Salopette noire,Salopette noire,Salopette nera,バイトツナギ ブラック,블랙 작업복,Zwart werkkloffie,Черный комбинезон,打工连身工作服 黑色,打工連身工作服 黑色
 SkinName_COP007,Weiße Arbeitsklamotten,White Slopsuit,White Slopsuit,Mono de trabajo blanco,Uniforme de trabajo blanco,Salopette blanche,Salopette blanche,Salopette bianca,バイトツナギ ホワイト,화이트 작업복,Wit werkkloffie,Белый комбинезон,打工连身工作服 白色,打工連身工作服 白色
+SkinName_COP008,Orange Wattwater,Orange Gloopsuit,Orange Gloopsuit,Vadeador naranja,Overol de trabajo naranja,Combi caoutchouc orange,Combi caoutchouc orange,Tuta da pesca arancione,バイトウェーダー オレンジ,오렌지 아르바이트 웨이더,Oranje ploeterkloffie,Гидрокомплект «Оранж»,打工防水衣 橘色,打工防水衣 橘色
+SkinName_COP009,Schwarze Wattwater,Black Gloopsuit,Black Gloopsuit,Vadeador negro,Overol de trabajo negro,Combi caoutchouc noire,Combi caoutchouc noire,Tuta da pesca nera,バイトウェーダー ブラック,블랙 아르바이트 웨이더,Zwart ploeterkloffie,Гидрокомплект «Нуар»,打工防水衣 黑色,打工防水衣 黑色
+SkinName_COP010,Gelbe Wattwater,Yellow Gloopsuit,Yellow Gloopsuit,Vadeador amarillo,Overol de trabajo amarillo,Combi caoutchouc jaune,Combi caoutchouc jaune,Tuta da pesca gialla,バイトウェーダー イエロー,옐로 아르바이트 웨이더,Geel ploeterkloffie,Гидрокомплект «Лимон»,打工防水衣 黄色,打工防水衣 黃色
+SkinName_COP011,Braune Wattwater,Brown Gloopsuit,Brown Gloopsuit,Vadeador marrón,Overol de trabajo marrón,Combi caoutchouc brune,Combi caoutchouc marron,Tuta da pesca marrone,バイトウェーダー ブラウン,브라운 아르바이트 웨이더,Bruin ploeterkloffie,Гидрокомплект «Какао»,打工防水衣 棕色,打工防水衣 棕色
 CoopGrade_Grade_00,Azubi,Apprentice,Apprentice,Aprendiz,Aprendiz,Néophyte,Néophyte,Apprendista,かけだし,초보,Uitzendkracht,Рабочий,新手,新手
 CoopGrade_Grade_01,Teilzeitkraft,Part-Timer,Part-Timer,Subordinado,Subordinado,Stagiaire,Stagiaire,Tirocinante,はんにんまえ,견습,Parttimer,Бригадир,半吊子,半吊子
 CoopGrade_Grade_02,Fachpersonal,Go-Getter,Go-Getter,Capataz,Supervisor,Semi-pro,Semi-pro,Carrierista,いちにんまえ,일반,Vaste kracht,Старший бригадир,独当一面,獨當一面
@@ -72,6 +77,7 @@ CoopStage_Shakespiral,Fort Nautilax,Sockeye Station,Sockeye Station,Fuerte Espir
 CoopStage_Shakeup,Salmoniden-Damm,Spawning Grounds,Spawning Grounds,Presa salmónida,Presa salmónida,Barrage salmonoïde,Barrage salmonoïde,Diga salmonoide,シェケナダム,셰케나 댐,Salmonietendam,Самонидская ГЭС,鲑坝,鮭壩
 CoopStage_Tutorial,Fort Nautilax,Sockeye Station,Sockeye Station,Fuerte Espiral,Fuerte Espiral,Bastion colimaçon,Bastion colimaçon,Fortezza Spiralsalmone,アラマキ砦,연어말이 요새,Fort Ammoniet,Наутиплекс,新卷堡,新卷堡
 CoopStage_Unknown,???,???,???,(?),(?),???,???,???,？？？,???,???,???,？？？,？？？
+CoopStage_Upland,Perlmutt-Akademie,Inkblot Art Academy,Inkblot Art Academy,Instituto Coralino,Instituto Coralino,Institut Calm'arts,Institut Calam'arts,Campus Hippocampus,海女美術大学,해녀 미술 대학,Koraalcampus,Академия «Лепота»,海女美术大学,海女美術大學
 Carousel_BigrunOpening,Beschütze während des Big Run die Stadt!,Protect the City from the Big Run!,Protect the City from the Big Run!,¡Big Run! ¡A defender la ciudad!,¡Big Run! ¡A defender la ciudad!,Protège la ville pendant le Big Run!,Protège la ville pendant le Big Run !,Proteggi la città dalla Big Run!,ビッグランから街を守れ！,빅 런으로부터 타운을 지켜라!,Bescherm de stad tijdens de Big Run!,Защити город от набега самонидов Big Run!,保护城镇免受大型跑侵害！,在大型跑中保護城鎮吧！
 Carousel_BigrunResult,Big-Run-Ergebnis!,Big Run Results!,Big Run Results!,¡Hay resultados de Big Run!,¡Resultados de Big Run!,Résultats du Big Run publiés!,Résultats du Big Run publiés !,Risultati Big Run!,ビッグラン結果発表！,빅 런 결과 발표!,Big Run-uitslag!,Итоги Big Run,大型跑结果公布！,大型跑結果公布！
 Carousel_CoopHistory,Salmon Run,Salmon Run,Salmon Run,Salmon Run,Salmon Run,Salmon Run,Salmon Run,Salmon Run,サーモンラン,새먼 런,Salmon Run,Salmon Run,鲑鱼跑,SALMON RUN

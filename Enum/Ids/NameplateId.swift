@@ -1,7 +1,7 @@
 //
 //  NameplateId.swift
 //
-//  Created by tkgstrator on 2023/02/27
+//  Created by tkgstrator on 2023/03/01
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -10,8 +10,11 @@ import Foundation
 public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	public var id: Int { rawValue }
 	case Npl_Tutorial00 = 1
+	case Npl_Fsodr00 = 800
 	case Npl_Trg_Season01_Lv01 = 901
 	case Npl_Trg_Season01_Lv02 = 902
+	case Npl_Trg_Season03_Lv01 = 911
+	case Npl_Trg_Season03_Lv02 = 912
 	case Npl_Mng_Lv01 = 1001
 	case Npl_Mng_Lv02 = 1002
 	case Npl_Mng_Lv03 = 1003
@@ -25,8 +28,13 @@ public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	case Npl_Coop_Season01_Lv08 = 2008
 	case Npl_Coop_Season01_Lv09 = 2009
 	case Npl_Coop_Season01_Lv10 = 2010
+	case Npl_Coop_Season03_Lv01 = 2101
+	case Npl_Coop_Season03_Lv02 = 2102
+	case Npl_Coop_Season03_Lv03 = 2103
+	case Npl_Coop_Season03_Lv04 = 2104
 	case Npl_Lot_Season01_Lv01 = 10001
 	case Npl_Lot_Season02_Lv01 = 10002
+	case Npl_Lot_Season03_Lv01 = 10003
 	case Npl_Catalog_Season01_Lv01 = 11001
 	case Npl_Catalog_Season01_Lv02 = 11002
 	case Npl_Catalog_Season01_Lv03 = 11003
@@ -111,4 +119,6 @@ public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	case Npl_Catalog_Season01_Lv82 = 11082
 	case Npl_Catalog_Season02_Lv01 = 12001
 	case Npl_Catalog_Season02_Lv02 = 12002
+	case Npl_Catalog_Season03_Lv01 = 13001
+	case Npl_Catalog_Season03_Lv02 = 13002
 }

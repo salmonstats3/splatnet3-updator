@@ -7,6 +7,7 @@
     "SakeDolphin": "Chapotero",
     "SakeFlyBagman": "Hurtón",
     "SakePillar": "Viga",
+    "SakeRope": "Dragón",
     "SakeSaucer": "Tapaollas",
     "Sakediver": "Mandíburo",
     "Sakedozer": "Brasaleta",
@@ -29,7 +30,11 @@
     "COP004": "Uniforme de trabajo rosa",
     "COP005": "Uniforme de trabajo azul",
     "COP006": "Uniforme de trabajo negro",
-    "COP007": "Uniforme de trabajo blanco"
+    "COP007": "Uniforme de trabajo blanco",
+    "COP008": "Overol de trabajo naranja",
+    "COP009": "Overol de trabajo negro",
+    "COP010": "Overol de trabajo amarillo",
+    "COP011": "Overol de trabajo marrón"
   },
   "CoopGrade": {
     "Grade": "Director"
@@ -76,7 +81,8 @@
     "Shakespiral": "Fuerte Espiral",
     "Shakeup": "Presa salmónida",
     "Tutorial": "Fuerte Espiral",
-    "Unknown": "(?)"
+    "Unknown": "(?)",
+    "Upland": "Instituto Coralino"
   },
   "Carousel": {
     "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",

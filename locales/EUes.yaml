@@ -185,6 +185,7 @@ CoopEnemy:
   SakeDolphin: Chapotero
   SakeFlyBagman: Rastrerón
   SakePillar: Viga
+  SakeRope: Dragón
   SakeSaucer: Tapaollas
   Sakediver: Fáucex
   Sakedozer: Chaparrilla
@@ -297,6 +298,7 @@ CoopStage:
   Shakeup: Presa salmónida
   Tutorial: Fuerte Espiral
   Unknown: (?)
+  Upland: Instituto Coralino
 Error:
   BackToHome: Volver al inicio
   CurrentlyNotAvailable: No disponible actualmente. Inténtalo de nuevo más tarde.
@@ -611,6 +613,10 @@ SkinName:
   COP005: Mono de trabajo azul
   COP006: Mono de trabajo negro
   COP007: Mono de trabajo blanco
+  COP008: Vadeador naranja
+  COP009: Vadeador negro
+  COP010: Vadeador amarillo
+  COP011: Vadeador marrón
 StageSchedule:
   Bankara: Combate caótico
   BankaraOpen: Informal

@@ -159,6 +159,7 @@ CoopEnemy:
   SakeDolphin: ダイバー
   SakeFlyBagman: タマヒロイ
   SakePillar: ハシラ
+  SakeRope: タツ
   SakeSaucer: ナベブタ
   Sakediver: モグラ
   Sakedozer: グリル
@@ -270,6 +271,7 @@ CoopStage:
   Shakeup: シェケナダム
   Tutorial: アラマキ砦
   Unknown: ？？？
+  Upland: 海女美術大学
 Error:
   BackToHome: ホームに戻る
   CurrentlyNotAvailable: 現在利用できません。しばらくお待ちください
@@ -560,6 +562,10 @@ SkinName:
   COP005: バイトツナギ ブルー
   COP006: バイトツナギ ブラック
   COP007: バイトツナギ ホワイト
+  COP008: バイトウェーダー オレンジ
+  COP009: バイトウェーダー ブラック
+  COP010: バイトウェーダー イエロー
+  COP011: バイトウェーダー ブラウン
 StageSchedule:
   Bankara: バンカラマッチ
   BankaraOpen: オープン

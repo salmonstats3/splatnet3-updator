@@ -185,6 +185,7 @@ CoopEnemy:
   SakeDolphin: Tuffone
   SakeFlyBagman: Razziatore
   SakePillar: Trivellaccio
+  SakeRope: Orroboros
   SakeSaucer: Coperchiotto
   Sakediver: Boccalone
   Sakedozer: Grill
@@ -297,6 +298,7 @@ CoopStage:
   Shakeup: Diga salmonoide
   Tutorial: Fortezza Spiralsalmone
   Unknown: ???
+  Upland: Campus Hippocampus
 Error:
   BackToHome: Torna alla pagina iniziale
   CurrentlyNotAvailable: Al momento non disponibile. Riprova più tardi.
@@ -609,6 +611,10 @@ SkinName:
   COP005: Salopette blu
   COP006: Salopette nera
   COP007: Salopette bianca
+  COP008: Tuta da pesca arancione
+  COP009: Tuta da pesca nera
+  COP010: Tuta da pesca gialla
+  COP011: Tuta da pesca marrone
 StageSchedule:
   Bankara: Partita anarchica
   BankaraOpen: Aperta

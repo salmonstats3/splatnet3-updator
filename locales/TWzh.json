@@ -7,6 +7,7 @@
     "SakeDolphin": "潛水魚",
     "SakeFlyBagman": "拾蛋魚",
     "SakePillar": "柱魚",
+    "SakeRope": "辰龍",
     "SakeSaucer": "鍋蓋魚",
     "Sakediver": "鼴鼠魚",
     "Sakedozer": "烤架魚",
@@ -29,7 +30,11 @@
     "COP004": "打工連身工作服 粉紅色",
     "COP005": "打工連身工作服 藍色",
     "COP006": "打工連身工作服 黑色",
-    "COP007": "打工連身工作服 白色"
+    "COP007": "打工連身工作服 白色",
+    "COP008": "打工防水衣 橘色",
+    "COP009": "打工防水衣 黑色",
+    "COP010": "打工防水衣 黃色",
+    "COP011": "打工防水衣 棕色"
   },
   "CoopGrade": {
     "Grade": "傳說"
@@ -76,7 +81,8 @@
     "Shakespiral": "新卷堡",
     "Shakeup": "鮭壩",
     "Tutorial": "新卷堡",
-    "Unknown": "？？？"
+    "Unknown": "？？？",
+    "Upland": "海女美術大學"
   },
   "Carousel": {
     "BigrunOpening": "在大型跑中保護城鎮吧！",

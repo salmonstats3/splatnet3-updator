@@ -1,7 +1,7 @@
 //
 //  BadgeId.swift
 //
-//  Created by tkgstrator on 2023/02/27
+//  Created by tkgstrator on 2023/03/01
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -11,12 +11,16 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	public var id: Int { rawValue }
 	case WeaponLevel_Shooter_Short_00_Lv00 = 1000000
 	case WeaponLevel_Shooter_Short_00_Lv01 = 1000001
+	case WeaponLevel_Shooter_Short_01_Lv00 = 1000010
+	case WeaponLevel_Shooter_Short_01_Lv01 = 1000011
 	case WeaponLevel_Shooter_First_00_Lv00 = 1000100
 	case WeaponLevel_Shooter_First_00_Lv01 = 1000101
 	case WeaponLevel_Shooter_First_01_Lv00 = 1000110
 	case WeaponLevel_Shooter_First_01_Lv01 = 1000111
 	case WeaponLevel_Shooter_Precision_00_Lv00 = 1000200
 	case WeaponLevel_Shooter_Precision_00_Lv01 = 1000201
+	case WeaponLevel_Shooter_Precision_01_Lv00 = 1000210
+	case WeaponLevel_Shooter_Precision_01_Lv01 = 1000211
 	case WeaponLevel_Shooter_Blaze_00_Lv00 = 1000300
 	case WeaponLevel_Shooter_Blaze_00_Lv01 = 1000301
 	case WeaponLevel_Shooter_Blaze_01_Lv00 = 1000310
@@ -31,14 +35,20 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WeaponLevel_Shooter_Gravity_00_Lv01 = 1000501
 	case WeaponLevel_Shooter_QuickMiddle_00_Lv00 = 1000600
 	case WeaponLevel_Shooter_QuickMiddle_00_Lv01 = 1000601
+	case WeaponLevel_Shooter_QuickMiddle_01_Lv00 = 1000610
+	case WeaponLevel_Shooter_QuickMiddle_01_Lv01 = 1000611
 	case WeaponLevel_Shooter_Expert_00_Lv00 = 1000700
 	case WeaponLevel_Shooter_Expert_00_Lv01 = 1000701
 	case WeaponLevel_Shooter_Expert_01_Lv00 = 1000710
 	case WeaponLevel_Shooter_Expert_01_Lv01 = 1000711
 	case WeaponLevel_Shooter_Heavy_00_Lv00 = 1000800
 	case WeaponLevel_Shooter_Heavy_00_Lv01 = 1000801
+	case WeaponLevel_Shooter_Heavy_01_Lv00 = 1000810
+	case WeaponLevel_Shooter_Heavy_01_Lv01 = 1000811
 	case WeaponLevel_Shooter_Long_00_Lv00 = 1000900
 	case WeaponLevel_Shooter_Long_00_Lv01 = 1000901
+	case WeaponLevel_Shooter_Long_01_Lv00 = 1000910
+	case WeaponLevel_Shooter_Long_01_Lv01 = 1000911
 	case WeaponLevel_Shooter_QuickLong_00_Lv00 = 1001000
 	case WeaponLevel_Shooter_QuickLong_00_Lv01 = 1001001
 	case WeaponLevel_Blaster_Short_00_Lv00 = 1002000
@@ -51,12 +61,18 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WeaponLevel_Blaster_Long_00_Lv01 = 1002201
 	case WeaponLevel_Blaster_LightShort_00_Lv00 = 1002300
 	case WeaponLevel_Blaster_LightShort_00_Lv01 = 1002301
+	case WeaponLevel_Blaster_LightShort_01_Lv00 = 1002310
+	case WeaponLevel_Blaster_LightShort_01_Lv01 = 1002311
 	case WeaponLevel_Blaster_Light_00_Lv00 = 1002400
 	case WeaponLevel_Blaster_Light_00_Lv01 = 1002401
+	case WeaponLevel_Blaster_Light_01_Lv00 = 1002410
+	case WeaponLevel_Blaster_Light_01_Lv01 = 1002411
 	case WeaponLevel_Blaster_LightLong_00_Lv00 = 1002500
 	case WeaponLevel_Blaster_LightLong_00_Lv01 = 1002501
 	case WeaponLevel_Shooter_TripleQuick_00_Lv00 = 1003000
 	case WeaponLevel_Shooter_TripleQuick_00_Lv01 = 1003001
+	case WeaponLevel_Shooter_TripleQuick_01_Lv00 = 1003010
+	case WeaponLevel_Shooter_TripleQuick_01_Lv01 = 1003011
 	case WeaponLevel_Shooter_TripleMiddle_00_Lv00 = 1003100
 	case WeaponLevel_Shooter_TripleMiddle_00_Lv01 = 1003101
 	case WeaponLevel_Shooter_Flash_00_Lv00 = 1004000
@@ -67,6 +83,8 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WeaponLevel_Roller_Compact_01_Lv01 = 1010011
 	case WeaponLevel_Roller_Normal_00_Lv00 = 1010100
 	case WeaponLevel_Roller_Normal_00_Lv01 = 1010101
+	case WeaponLevel_Roller_Normal_01_Lv00 = 1010110
+	case WeaponLevel_Roller_Normal_01_Lv01 = 1010111
 	case WeaponLevel_Roller_Heavy_00_Lv00 = 1010200
 	case WeaponLevel_Roller_Heavy_00_Lv01 = 1010201
 	case WeaponLevel_Roller_Hunter_00_Lv00 = 1010300
@@ -83,8 +101,12 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WeaponLevel_Charger_Quick_00_Lv01 = 1020001
 	case WeaponLevel_Charger_Normal_00_Lv00 = 1020100
 	case WeaponLevel_Charger_Normal_00_Lv01 = 1020101
+	case WeaponLevel_Charger_Normal_01_Lv00 = 1020110
+	case WeaponLevel_Charger_Normal_01_Lv01 = 1020111
 	case WeaponLevel_Charger_NormalScope_00_Lv00 = 1020200
 	case WeaponLevel_Charger_NormalScope_00_Lv01 = 1020201
+	case WeaponLevel_Charger_NormalScope_01_Lv00 = 1020210
+	case WeaponLevel_Charger_NormalScope_01_Lv01 = 1020211
 	case WeaponLevel_Charger_Long_00_Lv00 = 1020300
 	case WeaponLevel_Charger_Long_00_Lv01 = 1020301
 	case WeaponLevel_Charger_LongScope_00_Lv00 = 1020400
@@ -101,6 +123,8 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WeaponLevel_Slosher_Strong_01_Lv01 = 1030011
 	case WeaponLevel_Slosher_Diffusion_00_Lv00 = 1030100
 	case WeaponLevel_Slosher_Diffusion_00_Lv01 = 1030101
+	case WeaponLevel_Slosher_Diffusion_01_Lv00 = 1030110
+	case WeaponLevel_Slosher_Diffusion_01_Lv01 = 1030111
 	case WeaponLevel_Slosher_Launcher_00_Lv00 = 1030200
 	case WeaponLevel_Slosher_Launcher_00_Lv01 = 1030201
 	case WeaponLevel_Slosher_Bathtub_00_Lv00 = 1030300
@@ -190,6 +214,12 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case WinCount_WeaponSp_SpEnergyStand_Lv00 = 2000150
 	case WinCount_WeaponSp_SpEnergyStand_Lv01 = 2000151
 	case WinCount_WeaponSp_SpEnergyStand_Lv02 = 2000152
+	case WinCount_WeaponSp_SpFirework_Lv00 = 2000160
+	case WinCount_WeaponSp_SpFirework_Lv01 = 2000161
+	case WinCount_WeaponSp_SpFirework_Lv02 = 2000162
+	case WinCount_WeaponSp_SpCastle_Lv00 = 2000170
+	case WinCount_WeaponSp_SpCastle_Lv01 = 2000171
+	case WinCount_WeaponSp_SpCastle_Lv02 = 2000172
 	case WinCount_Pnt_Lv00 = 3000000
 	case WinCount_Pnt_Lv01 = 3000001
 	case WinCount_Pnt_Lv02 = 3000002
@@ -208,6 +238,9 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case Udemae_Lv00 = 3100000
 	case Udemae_Lv01 = 3100001
 	case Udemae_Lv02 = 3100002
+	case XRank_Lv00 = 3101000
+	case XRank_Lv01 = 3101001
+	case XRank_Lv02 = 3101002
 	case CatalogueLevel_Lv00 = 3102000
 	case CatalogueLevel_Lv01 = 3102001
 	case FestRankMax = 3103001
@@ -241,20 +274,30 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case GearTotalRarity_B16_Lv01 = 4000161
 	case GearTotalRarity_B17_Lv00 = 4000170
 	case GearTotalRarity_B17_Lv01 = 4000171
+	case GearTotalRarity_B18_Lv00 = 4000180
+	case GearTotalRarity_B18_Lv01 = 4000181
 	case GearTotalRarity_B19_Lv00 = 4000190
 	case GearTotalRarity_B19_Lv01 = 4000191
 	case GearTotalRarity_B20_Lv00 = 4000200
 	case GearTotalRarity_B20_Lv01 = 4000201
 	case SpendShop_Head_Lv00 = 4100000
 	case SpendShop_Head_Lv01 = 4100001
+	case SpendShop_Head_Fsodr_Lv00 = 4100010
+	case SpendShop_Head_Fsodr_Lv01 = 4100011
 	case SpendShop_Clothes_Lv00 = 4100100
 	case SpendShop_Clothes_Lv01 = 4100101
+	case SpendShop_Clothes_Fsodr_Lv00 = 4100110
+	case SpendShop_Clothes_Fsodr_Lv01 = 4100111
 	case SpendShop_Shoes_Lv00 = 4100200
 	case SpendShop_Shoes_Lv01 = 4100201
+	case SpendShop_Shoes_Fsodr_Lv00 = 4100210
+	case SpendShop_Shoes_Fsodr_Lv01 = 4100211
 	case SpendShop_Goods_Lv00 = 4100300
 	case SpendShop_Goods_Lv01 = 4100301
 	case OrderVendor_Lv00 = 4100400
 	case OrderVendor_Lv01 = 4100401
+	case OrderVendor_Fsodr_Lv00 = 4100410
+	case OrderVendor_Fsodr_Lv01 = 4100411
 	case OrderFood_Lv00 = 4100500
 	case OrderFood_Lv01 = 4100501
 	case OrderFood_Lv02 = 4100502
@@ -264,6 +307,18 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case LimitedRewardLottery_Lv00 = 4100700
 	case LimitedRewardLottery_Lv01 = 4100701
 	case LimitedRewardLottery_Lv02 = 4100702
+	case PlayerRank_Lv00 = 4100800
+	case PlayerRank_Lv01 = 4100801
+	case PlayerRank_Lv02 = 4100802
+	case PlayerRank_Lv03 = 4100803
+	case PlayerRank_Lv04 = 4100804
+	case PlayerRank_Lv05 = 4100805
+	case PlayerRank_Lv06 = 4100806
+	case PlayerRank_Lv07 = 4100807
+	case PlayerRank_Lv08 = 4100808
+	case PlayerRank_Lv09 = 4100809
+	case PlayerRank_Lv10 = 4100810
+	case PlayerRank_Lv11 = 4100811
 	case CoopGrade_Normal_Shakeup_Lv00 = 5000010
 	case CoopGrade_Normal_Shakeup_Lv01 = 5000011
 	case CoopGrade_Normal_Shakeup_Lv02 = 5000012
@@ -320,9 +375,15 @@ public enum BadgeId: Int, CaseIterable, Identifiable, Codable {
 	case CoopBossKillNum_SakelienGiant_Lv00 = 5210000
 	case CoopBossKillNum_SakelienGiant_Lv01 = 5210001
 	case CoopBossKillNum_SakelienGiant_Lv02 = 5210002
+	case CoopBossKillNum_SakeRope_Lv00 = 5210100
+	case CoopBossKillNum_SakeRope_Lv01 = 5210101
+	case CoopBossKillNum_SakeRope_Lv02 = 5210102
 	case CoopBigRunTrophy_Lv00 = 5220000
 	case CoopBigRunTrophy_Lv01 = 5220001
 	case CoopBigRunTrophy_Lv02 = 5220002
+	case CoopContestTrophy_Lv00 = 5230000
+	case CoopContestTrophy_Lv01 = 5230001
+	case CoopContestTrophy_Lv02 = 5230002
 	case Mission_Lv00 = 6000000
 	case Mission_Lv01 = 6000001
 	case Mission_Lv02 = 6000002

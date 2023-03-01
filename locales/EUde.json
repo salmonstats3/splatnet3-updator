@@ -7,6 +7,7 @@
     "SakeDolphin": "Sturmreifer",
     "SakeFlyBagman": "Samko",
     "SakePillar": "Mobelisk",
+    "SakeRope": "Horroboros",
     "SakeSaucer": "Deckler",
     "Sakediver": "Grablax",
     "Sakedozer": "Killgrill",
@@ -29,7 +30,11 @@
     "COP004": "Rosa Arbeitsklamotten",
     "COP005": "Blaue Arbeitsklamotten",
     "COP006": "Schwarze Arbeitsklamotten",
-    "COP007": "Weiße Arbeitsklamotten"
+    "COP007": "Weiße Arbeitsklamotten",
+    "COP008": "Orange Wattwater",
+    "COP009": "Schwarze Wattwater",
+    "COP010": "Gelbe Wattwater",
+    "COP011": "Braune Wattwater"
   },
   "CoopGrade": {
     "Grade": "Legende"
@@ -76,7 +81,8 @@
     "Shakespiral": "Fort Nautilax",
     "Shakeup": "Salmoniden-Damm",
     "Tutorial": "Fort Nautilax",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "Perlmutt-Akademie"
   },
   "Carousel": {
     "BigrunOpening": "Beschütze während des Big Run die Stadt!",

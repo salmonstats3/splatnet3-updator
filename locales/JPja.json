@@ -7,6 +7,7 @@
     "SakeDolphin": "ダイバー",
     "SakeFlyBagman": "タマヒロイ",
     "SakePillar": "ハシラ",
+    "SakeRope": "タツ",
     "SakeSaucer": "ナベブタ",
     "Sakediver": "モグラ",
     "Sakedozer": "グリル",
@@ -29,7 +30,11 @@
     "COP004": "バイトツナギ ピンク",
     "COP005": "バイトツナギ ブルー",
     "COP006": "バイトツナギ ブラック",
-    "COP007": "バイトツナギ ホワイト"
+    "COP007": "バイトツナギ ホワイト",
+    "COP008": "バイトウェーダー オレンジ",
+    "COP009": "バイトウェーダー ブラック",
+    "COP010": "バイトウェーダー イエロー",
+    "COP011": "バイトウェーダー ブラウン"
   },
   "CoopGrade": {
     "Grade": "でんせつ"
@@ -76,7 +81,8 @@
     "Shakespiral": "アラマキ砦",
     "Shakeup": "シェケナダム",
     "Tutorial": "アラマキ砦",
-    "Unknown": "？？？"
+    "Unknown": "？？？",
+    "Upland": "海女美術大学"
   },
   "Carousel": {
     "BigrunOpening": "ビッグランから街を守れ！",

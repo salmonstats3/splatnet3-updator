@@ -1,7 +1,7 @@
 //
 //  LocalizedType.swift
 //
-//  Created by tkgstrator on 2023/02/27
+//  Created by tkgstrator on 2023/03/01
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -23,6 +23,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopEnemy_SakeFlyBagman
 	/// ハシラ
 	case CoopEnemy_SakePillar
+	/// タツ
+	case CoopEnemy_SakeRope
 	/// ナベブタ
 	case CoopEnemy_SakeSaucer
 	/// モグラ
@@ -65,6 +67,14 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case SkinName_COP006
 	/// バイトツナギ ホワイト
 	case SkinName_COP007
+	/// バイトウェーダー オレンジ
+	case SkinName_COP008
+	/// バイトウェーダー ブラック
+	case SkinName_COP009
+	/// バイトウェーダー イエロー
+	case SkinName_COP010
+	/// バイトウェーダー ブラウン
+	case SkinName_COP011
 	/// かけだし
 	case CoopGrade_Grade_00
 	/// はんにんまえ
@@ -155,6 +165,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopStage_Tutorial
 	/// ？？？
 	case CoopStage_Unknown
+	/// 海女美術大学
+	case CoopStage_Upland
 	/// ビッグランから街を守れ！
 	case Carousel_BigrunOpening
 	/// ビッグラン結果発表！
@@ -1549,6 +1561,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_Database
 	/// X-ProductVersion
 	case CoopHistory_XProductVersion
+	/// X-WebViewVer
+	case CoopHistory_XWebViewVer
 	/// アップロード
 	case CoopHistory_Upload
 	/// 開発
@@ -1557,4 +1571,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_CreditTest
 	/// UI/UXデザイン
 	case CoopHistory_CreditDesign
+	/// ???
+	case CoopHistory_Dummy
 }

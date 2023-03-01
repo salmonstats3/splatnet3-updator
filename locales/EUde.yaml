@@ -181,6 +181,7 @@ CoopEnemy:
   SakeDolphin: Sturmreifer
   SakeFlyBagman: Samko
   SakePillar: Mobelisk
+  SakeRope: Horroboros
   SakeSaucer: Deckler
   Sakediver: Grablax
   Sakedozer: Killgrill
@@ -294,6 +295,7 @@ CoopStage:
   Shakeup: Salmoniden-Damm
   Tutorial: Fort Nautilax
   Unknown: ???
+  Upland: Perlmutt-Akademie
 Error:
   BackToHome: Zurück zur Startseite
   CurrentlyNotAvailable: Momentan nicht verfügbar. Bitte warte etwas und versuche
@@ -608,6 +610,10 @@ SkinName:
   COP005: Blaue Arbeitsklamotten
   COP006: Schwarze Arbeitsklamotten
   COP007: Weiße Arbeitsklamotten
+  COP008: Orange Wattwater
+  COP009: Schwarze Wattwater
+  COP010: Gelbe Wattwater
+  COP011: Braune Wattwater
 StageSchedule:
   Bankara: Anarchie-Kampf
   BankaraOpen: Offen

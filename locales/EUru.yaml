@@ -182,6 +182,7 @@ CoopEnemy:
   SakeDolphin: хулахлюп
   SakeFlyBagman: умыкумжа
   SakePillar: бурмонид
+  SakeRope: скверноборос
   SakeSaucer: мокрышка
   Sakediver: Жуй-Горбуш
   Sakedozer: жаровнер
@@ -294,6 +295,7 @@ CoopStage:
   Shakeup: Самонидская ГЭС
   Tutorial: Наутиплекс
   Unknown: ???
+  Upland: Академия «Лепота»
 Error:
   BackToHome: На главную
   CurrentlyNotAvailable: В данный момент недоступно. Пожалуйста, попробуй позже.
@@ -609,6 +611,10 @@ SkinName:
   COP005: Голубой комбинезон
   COP006: Черный комбинезон
   COP007: Белый комбинезон
+  COP008: Гидрокомплект «Оранж»
+  COP009: Гидрокомплект «Нуар»
+  COP010: Гидрокомплект «Лимон»
+  COP011: Гидрокомплект «Какао»
 StageSchedule:
   Bankara: Стихийный бой
   BankaraOpen: Открытый

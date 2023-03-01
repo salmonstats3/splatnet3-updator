@@ -78,7 +78,7 @@ def gen_localized():
       for key, value in dict(zip(values.keys(), values.values)).items():
         if target_lang == 'ja' and key not in 'Shakeall':
           outputs.append(f'\t/// {value}\n\tcase CoopHistory_{key}')
-        if key not in 'Shakeall':
+        if key not in ['Shakeall', 'Dummy']:
           f.write(f'CoopHistory_{key} = "{value}";\n')
         else:
           f.write(f'CoopStage_{key} = "{value}";\n')

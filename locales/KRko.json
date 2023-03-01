@@ -7,6 +7,7 @@
     "SakeDolphin": "다이버",
     "SakeFlyBagman": "알주어",
     "SakePillar": "기둥",
+    "SakeRope": "용",
     "SakeSaucer": "냄비 뚜껑",
     "Sakediver": "두더지",
     "Sakedozer": "그릴",
@@ -29,7 +30,11 @@
     "COP004": "핑크 작업복",
     "COP005": "블루 작업복",
     "COP006": "블랙 작업복",
-    "COP007": "화이트 작업복"
+    "COP007": "화이트 작업복",
+    "COP008": "오렌지 아르바이트 웨이더",
+    "COP009": "블랙 아르바이트 웨이더",
+    "COP010": "옐로 아르바이트 웨이더",
+    "COP011": "브라운 아르바이트 웨이더"
   },
   "CoopGrade": {
     "Grade": "전설"
@@ -76,7 +81,8 @@
     "Shakespiral": "연어말이 요새",
     "Shakeup": "셰케나 댐",
     "Tutorial": "연어말이 요새",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "해녀 미술 대학"
   },
   "Carousel": {
     "BigrunOpening": "빅 런으로부터 타운을 지켜라!",

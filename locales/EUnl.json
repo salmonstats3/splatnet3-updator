@@ -7,6 +7,7 @@
     "SakeDolphin": "Dompelaar",
     "SakeFlyBagman": "Zammel",
     "SakePillar": "Salmonoliet",
+    "SakeRope": "Horroboros",
     "SakeSaucer": "Dreksel",
     "Sakediver": "Snaai",
     "Sakedozer": "Griller",
@@ -29,7 +30,11 @@
     "COP004": "Roze werkkloffie",
     "COP005": "Blauw werkkloffie",
     "COP006": "Zwart werkkloffie",
-    "COP007": "Wit werkkloffie"
+    "COP007": "Wit werkkloffie",
+    "COP008": "Oranje ploeterkloffie",
+    "COP009": "Zwart ploeterkloffie",
+    "COP010": "Geel ploeterkloffie",
+    "COP011": "Bruin ploeterkloffie"
   },
   "CoopGrade": {
     "Grade": "Legende"
@@ -76,7 +81,8 @@
     "Shakespiral": "Fort Ammoniet",
     "Shakeup": "Salmonietendam",
     "Tutorial": "Fort Ammoniet",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "Koraalcampus"
   },
   "Carousel": {
     "BigrunOpening": "Bescherm de stad tijdens de Big Run!",

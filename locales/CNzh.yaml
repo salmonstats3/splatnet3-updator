@@ -159,6 +159,7 @@ CoopEnemy:
   SakeDolphin: 潜水鱼
   SakeFlyBagman: 拾蛋鱼
   SakePillar: 柱鱼
+  SakeRope: 辰龙
   SakeSaucer: 锅盖鱼
   Sakediver: 鼹鼠鱼
   Sakedozer: 烤架鱼
@@ -270,6 +271,7 @@ CoopStage:
   Shakeup: 鲑坝
   Tutorial: 新卷堡
   Unknown: ？？？
+  Upland: 海女美术大学
 Error:
   BackToHome: 返回主页
   CurrentlyNotAvailable: 目前无法使用，请稍候。
@@ -560,6 +562,10 @@ SkinName:
   COP005: 打工连身工作服 蓝色
   COP006: 打工连身工作服 黑色
   COP007: 打工连身工作服 白色
+  COP008: 打工防水衣 橘色
+  COP009: 打工防水衣 黑色
+  COP010: 打工防水衣 黄色
+  COP011: 打工防水衣 棕色
 StageSchedule:
   Bankara: 蛮颓比赛
   BankaraOpen: 开放

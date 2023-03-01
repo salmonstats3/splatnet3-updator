@@ -185,6 +185,7 @@ CoopEnemy:
   SakeDolphin: Ploufion
   SakeFlyBagman: Barboteur
   SakePillar: Pylônoïde
+  SakeRope: Salmophide
   SakeSaucer: Couverclard
   Sakediver: Gobb
   Sakedozer: Barbeurk
@@ -299,6 +300,7 @@ CoopStage:
   Shakeup: Barrage salmonoïde
   Tutorial: Bastion colimaçon
   Unknown: ???
+  Upland: Institut Calm'arts
 Error:
   BackToHome: Retour à l'accueil
   CurrentlyNotAvailable: Actuellement indisponible. Réessaie plus tard.
@@ -615,6 +617,10 @@ SkinName:
   COP005: Salopette bleue
   COP006: Salopette noire
   COP007: Salopette blanche
+  COP008: Combi caoutchouc orange
+  COP009: Combi caoutchouc noire
+  COP010: Combi caoutchouc jaune
+  COP011: Combi caoutchouc brune
 StageSchedule:
   Bankara: Match anarchie
   BankaraOpen: Ouvert

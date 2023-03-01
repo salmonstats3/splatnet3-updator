@@ -182,6 +182,7 @@ CoopEnemy:
   SakeDolphin: Flipper-Flopper
   SakeFlyBagman: Snatcher
   SakePillar: Fish Stick
+  SakeRope: Horrorboros
   SakeSaucer: Slammin' Lid
   Sakediver: Maws
   Sakedozer: Griller
@@ -294,6 +295,7 @@ CoopStage:
   Shakeup: Spawning Grounds
   Tutorial: Sockeye Station
   Unknown: ???
+  Upland: Inkblot Art Academy
 Error:
   BackToHome: Back to Home
   CurrentlyNotAvailable: Currently unavailable.<br />Please wait a bit, then try again.
@@ -602,6 +604,10 @@ SkinName:
   COP005: Blue Slopsuit
   COP006: Black Slopsuit
   COP007: White Slopsuit
+  COP008: Orange Gloopsuit
+  COP009: Black Gloopsuit
+  COP010: Yellow Gloopsuit
+  COP011: Brown Gloopsuit
 StageSchedule:
   Bankara: Anarchy Battle
   BankaraOpen: Open

@@ -186,6 +186,7 @@ CoopEnemy:
   SakeDolphin: Dompelaar
   SakeFlyBagman: Zammel
   SakePillar: Salmonoliet
+  SakeRope: Horroboros
   SakeSaucer: Dreksel
   Sakediver: Snaai
   Sakedozer: Griller
@@ -299,6 +300,7 @@ CoopStage:
   Shakeup: Salmonietendam
   Tutorial: Fort Ammoniet
   Unknown: ???
+  Upland: Koraalcampus
 Error:
   BackToHome: Naar het beginscherm
   CurrentlyNotAvailable: Momenteel niet beschikbaar. Probeer het later nog eens.
@@ -610,6 +612,10 @@ SkinName:
   COP005: Blauw werkkloffie
   COP006: Zwart werkkloffie
   COP007: Wit werkkloffie
+  COP008: Oranje ploeterkloffie
+  COP009: Zwart ploeterkloffie
+  COP010: Geel ploeterkloffie
+  COP011: Bruin ploeterkloffie
 StageSchedule:
   Bankara: Chaosgevecht
   BankaraOpen: Open

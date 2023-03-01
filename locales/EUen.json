@@ -7,6 +7,7 @@
     "SakeDolphin": "Flipper-Flopper",
     "SakeFlyBagman": "Snatcher",
     "SakePillar": "Fish Stick",
+    "SakeRope": "Horrorboros",
     "SakeSaucer": "Slammin' Lid",
     "Sakediver": "Maws",
     "Sakedozer": "Griller",
@@ -29,7 +30,11 @@
     "COP004": "Pink Slopsuit",
     "COP005": "Blue Slopsuit",
     "COP006": "Black Slopsuit",
-    "COP007": "White Slopsuit"
+    "COP007": "White Slopsuit",
+    "COP008": "Orange Gloopsuit",
+    "COP009": "Black Gloopsuit",
+    "COP010": "Yellow Gloopsuit",
+    "COP011": "Brown Gloopsuit"
   },
   "CoopGrade": {
     "Grade": "Eggsecutive VP"
@@ -76,7 +81,8 @@
     "Shakespiral": "Sockeye Station",
     "Shakeup": "Spawning Grounds",
     "Tutorial": "Sockeye Station",
-    "Unknown": "???"
+    "Unknown": "???",
+    "Upland": "Inkblot Art Academy"
   },
   "Carousel": {
     "BigrunOpening": "Protect the City from the Big Run!",
