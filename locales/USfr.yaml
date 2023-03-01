@@ -99,7 +99,7 @@ Challenge:
   CurrentPoint: Plus tu encres de terrain, mieux tu peux soutenir Omar!
   DearAllOfYou: Mes chers céphalopotes...
   DownloadGraffiti: Télécharger un graffiti
-  DownloadIcon: Icônes de téléchargement
+  DownloadIcon: Télécharger icônes
   DownloadWallpaper: Télécharger un fond d'écran
   Green: Verte
   GuideGraffiti: Pas mal, ce graffiti, non? Eh bien il est à toi!
@@ -235,21 +235,21 @@ CoopHistory:
   ExWave: Vague +
   Failure: Échec...
   Gj: ✓
-  GoToStats: Retour aux stats de boulots
+  GoToStats: Retour aux stats de missions
   GoldenDeliverCount: Œufs dorés collectés
-  HighestScore: Record absolu
-  History: Stats de boulots
+  HighestScore: Record
+  History: Stats de missions
   JobPoint: Tes points
   JobRatio: Éval.
   KumaPointCard: Carte point M. Ours
-  Latest: Dernier boulot
+  Latest: Dernière mission
   Limited: Pour une durée limitée
   LimitedPoint: Points de prix spéciaux actuels
   MonthlyReward: Pièce d'équipement du mois
   Next: Suivant
   Ng: ✘
-  NoData: Aucune stat de boulot disponible.
-  NotAvailable: Les stats de boulots ne sont pas disponibles.
+  NoData: Aucune stat de mission disponible.
+  NotAvailable: Les stats de missions ne sont pas disponibles.
   NotAvailableDescription: Seules les 50 entrées les plus récentes sont disponibles.
   NotDefeated: Échec...
   PlayCount: Sessions de travail
@@ -262,7 +262,7 @@ CoopHistory:
   RecruitTag1: C'est facile!
   RecruitTag2: La collecte d'œufs, c'est le fun et ça rapporte!
   RecruitTitle: La collecte d'œufs, un travail de rêve!
-  Regular: Boulot normal
+  Regular: Mission normale
   RegularPoint: Points actuels
   RescueCount: Collègues secourus
   RescuedCount: Secours reçus
@@ -654,8 +654,8 @@ VSHistory:
   100x: Match ×100
   10x: Match ×10
   333x: Match ×333
-  AnnotationExemption: Le match est considéré comme une égalité, car des joueurs se
-    sont déconnectés tôt dans la partie.
+  AnnotationExemption: Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs
+    n'ont pas pu poursuivre le match.
   AnnotationNocontest: Match annulé.
   AnnotationPenalty: Le match a été interrompu.
   Attack: En attaque

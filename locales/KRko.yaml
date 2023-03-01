@@ -214,7 +214,7 @@ CoopHistory:
   Gj: GJ!
   GoToStats: 아르바이트 히스토리 목록으로 돌아가기
   GoldenDeliverCount: 모은 황금 연어알
-  HighestScore: 최고 기록
+  HighestScore: 하이 스코어
   History: 아르바이트 히스토리
   JobPoint: 획득 포인트
   JobRatio: 평가 비율
@@ -607,7 +607,7 @@ VSHistory:
   100x: 100배 매치
   10x: 10배 매치
   333x: 333배 매치
-  AnnotationExemption: 장시간 적은 인원수로 플레이했으므로 패배로 카운트되지 않았습니다
+  AnnotationExemption: 통신을 종료한 플레이어가 있으므로 패배로 카운트되지 않았습니다
   AnnotationNocontest: 시합이 무효 처리되었습니다
   AnnotationPenalty: 시합이 정상적으로 종료되지 않았습니다
   Attack: 공격
