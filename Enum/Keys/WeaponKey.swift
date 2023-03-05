@@ -1,7 +1,7 @@
 //
 //  WeaponKey.swift
 //
-//  Created by tkgstrator on 2023/03/04
+//  Created by tkgstrator on 2023/03/05
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
