@@ -1289,6 +1289,66 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_WeaponTopSingular
 	/// おうかん
 	case XRanking_Xcrown
+	/// 「ハイカラシティ」配信中！
+	case Carousel_ExpansionPass
+	/// 「サイド・オーダー」配信中！
+	case Carousel_ExpansionPass2
+	/// Splatoon甲子園開催中！
+	case Carousel_OfficialTournament
+	/// Splatoon甲子園決勝戦
+	case Carousel_OfficialTournamentFinal
+	/// バイトチームコンテストに参加しよう！
+	case Carousel_TeamContestOpening
+	/// バイトチームコンテスト結果発表！
+	case Carousel_TeamContestResult
+	/// バイトチームコンテスト
+	case Common_CoopTeamContest
+	/// はてな
+	case Common_WpnNotfound
+	/// 銅
+	case CoopHistory_BigrunBronze
+	/// 金
+	case CoopHistory_BigrunGold
+	/// 銀
+	case CoopHistory_BigrunSilver
+	/// 現在の期間限定ポイント
+	case CoopHistory_LimitedPoint
+	/// バイトチームコンテスト
+	case CoopHistory_TeamContest
+	/// バイト
+	case CoopRecord_AppName
+	/// ビッグラン
+	case CoopRecord_Bigrun
+	/// 銅
+	case CoopRecord_BigrunBronze
+	/// 金
+	case CoopRecord_BigrunGold
+	/// 銀
+	case CoopRecord_BigrunSilver
+	/// 最高評価
+	case CoopRecord_HighestJobRate
+	/// ハイスコア
+	case CoopRecord_HighestScore
+	/// もっと見る
+	case CoopRecord_More
+	/// きろくがありません
+	case CoopRecord_NoData
+	/// バイトチームコンテスト
+	case CoopRecord_TeamContest
+	/// サーモンランのきろく
+	case CoopRecord_Title
+	/// ナワバトラー
+	case FriendList_InMiniGame
+	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case History_PastXmatchAnnotation
+	/// マイコーデ
+	case MyOutfits_Hashtag
+	/// シェア
+	case MyOutfits_Share
+	/// エキスパンション・パス 購入サイトへ
+	case Settings_ExpansionPass
+	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case XRanking_PastRankingsAnnotation
 	/// オレンジの空がオイリーだよね～。
 	case Challenge_Challenge210Description
 	/// 二つ名
@@ -1355,66 +1415,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Gratitude
 	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
 	case Challenge_Journey2Title
-	/// 「ハイカラシティ」配信中！
-	case Carousel_ExpansionPass
-	/// 「サイド・オーダー」配信中！
-	case Carousel_ExpansionPass2
-	/// Splatoon甲子園開催中！
-	case Carousel_OfficialTournament
-	/// Splatoon甲子園決勝戦
-	case Carousel_OfficialTournamentFinal
-	/// バイトチームコンテストに参加しよう！
-	case Carousel_TeamContestOpening
-	/// バイトチームコンテスト結果発表！
-	case Carousel_TeamContestResult
-	/// バイトチームコンテスト
-	case Common_CoopTeamContest
-	/// はてな
-	case Common_WpnNotfound
-	/// 銅
-	case CoopHistory_BigrunBronze
-	/// 金
-	case CoopHistory_BigrunGold
-	/// 銀
-	case CoopHistory_BigrunSilver
-	/// 現在の期間限定ポイント
-	case CoopHistory_LimitedPoint
-	/// バイトチームコンテスト
-	case CoopHistory_TeamContest
-	/// バイト
-	case CoopRecord_AppName
-	/// ビッグラン
-	case CoopRecord_Bigrun
-	/// 銅
-	case CoopRecord_BigrunBronze
-	/// 金
-	case CoopRecord_BigrunGold
-	/// 銀
-	case CoopRecord_BigrunSilver
-	/// 最高評価
-	case CoopRecord_HighestJobRate
-	/// ハイスコア
-	case CoopRecord_HighestScore
-	/// もっと見る
-	case CoopRecord_More
-	/// きろくがありません
-	case CoopRecord_NoData
-	/// バイトチームコンテスト
-	case CoopRecord_TeamContest
-	/// サーモンランのきろく
-	case CoopRecord_Title
-	/// ナワバトラー
-	case FriendList_InMiniGame
-	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case History_PastXmatchAnnotation
-	/// マイコーデ
-	case MyOutfits_Hashtag
-	/// シェア
-	case MyOutfits_Share
-	/// エキスパンション・パス 購入サイトへ
-	case Settings_ExpansionPass
-	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case XRanking_PastRankingsAnnotation
 	/// About
 	case CoopHistory_About
 	/// 実測値
