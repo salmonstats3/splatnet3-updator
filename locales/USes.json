@@ -85,8 +85,6 @@
     "Upland": "Instituto Coralino"
   },
   "Carousel": {
-    "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",
-    "BigrunResult": "¡Resultados de Big Run!",
     "CoopHistory": "Salmon Run",
     "FestOpening": "¡Festival en marcha!",
     "FestResult": "Resultados del festival",
@@ -98,6 +96,8 @@
     "Robichi": "¡Se buscan ayudantes!",
     "StatsLatestSeason": "Recuerda la última temporada",
     "VsHistory": "Registros de combates",
+    "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",
+    "BigrunResult": "¡Resultados de Big Run!",
     "ExpansionPass": "Visita el sitio del pase de expansión",
     "ExpansionPass2": "Visita el sitio del pase de expansión",
     "OfficialTournament": "Splatoon甲子園開催中！",
@@ -116,7 +116,6 @@
     "Sticker": "Calcomanía",
     "AppName": "Catálogo",
     "Available": "Intercambiable",
-    "BigrunBonus": "¡Big Run en curso! ¡Obtén un <em>20 % extra</em> de puntos!",
     "BonusDescription": "¡Aumenta tu nivel de catálogo<br />para recibir una caja misteriosa!",
     "BonusGuide": "Recibirás una caja misteriosa por cada 10 niveles que subas.",
     "BonusTitle": "¡Bonificación por nivel 101!",
@@ -133,7 +132,8 @@
     "Signboard": "Miscelánea Abisal",
     "Title": "Catálogo",
     "Welcome": "¡Tenemos nuevo catálogo!",
-    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!"
+    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!",
+    "BigrunBonus": "¡Big Run en curso! ¡Obtén un <em>20 % extra</em> de puntos!"
   },
   "Challenge": {
     "AboutGraffiti": "¡Te mandaré todos los grafitis geniales que vaya encontrando por ahí!",
@@ -216,8 +216,6 @@
     "Cancel": "Cancelar",
     "ClamBlitz": "Asalto almeja",
     "Close": "Cerrar",
-    "ColonRule": ": ",
-    "CoopBigRun": "Big Run",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "Aceptar",
     "Download": "Descargar",
@@ -232,16 +230,17 @@
     "SplatZones": "Pintazonas",
     "TowerControl": "Torreón",
     "Tricolor": "Combate tricolor",
-    "TricolorMatch": "Combate tricolor",
     "TurfWar": "Territorial",
-    "WpnNotfound": "Vacía",
-    "CoopTeamContest": "Recolección extra"
+    "ColonRule": ": ",
+    "CoopBigRun": "Big Run",
+    "TricolorMatch": "Combate tricolor",
+    "CoopTeamContest": "Recolección extra",
+    "WpnNotfound": "Vacía"
   },
   "CoopHistory": {
     "Available": "Apariciones ",
     "AvailableBoss": "Gran jefe salmónido enfrentado",
     "AverageClearWaves": "Media de oleadas superadas:",
-    "Bigrun": "Big Run",
     "Bonus": "Recomp.",
     "BossAvailable": "¡Gran jefe a la vista!",
     "Clear": "¡Victoria!",
@@ -297,6 +296,7 @@
     "WaveLevel0": "Marea baja",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Marea alta",
+    "Bigrun": "Big Run",
     "BigrunBronze": "Bronce",
     "BigrunGold": "Oro",
     "BigrunSilver": "Plata",
@@ -305,15 +305,15 @@
   },
   "Error": {
     "BackToHome": "Volver al inicio",
-    "CurrentlyNotAvailable": "No disponible actualmente.<br />Inténtalo de nuevo más tarde.",
     "Error": "Error",
     "ErrorOccurred": "Se produjo un error.",
-    "ErrorReopen": "No se pudieron cargar los datos.",
     "MaintenanceDescription": "Se están realizando labores de mantenimiento en el servidor. Inténtalo de nuevo más tarde.",
     "MaintenanceTitle": "En espera...",
     "NetworkNotAvailable": "No se pudieron cargar los datos. Comprueba tu conexión a internet e inténtalo de nuevo.",
-    "NotSupported": "No se puede mostrar SplatNet 3. Comprueba tu conexión a internet y vuelve a intentarlo más tarde. Si el problema no se soluciona, comprueba que tu navegador de internet esté actualizado a la versión más reciente. Si sigues recibiendo este mensaje, es posible que SplatNet 3 no sea compatible con tu dispositivo o con los ajustes actuales.",
-    "Reload": "Actualizar"
+    "Reload": "Actualizar",
+    "CurrentlyNotAvailable": "No disponible actualmente.<br />Inténtalo de nuevo más tarde.",
+    "ErrorReopen": "No se pudieron cargar los datos.",
+    "NotSupported": "No se puede mostrar SplatNet 3. Comprueba tu conexión a internet y vuelve a intentarlo más tarde. Si el problema no se soluciona, comprueba que tu navegador de internet esté actualizado a la versión más reciente. Si sigues recibiendo este mensaje, es posible que SplatNet 3 no sea compatible con tu dispositivo o con los ajustes actuales."
   },
   "FesRecord": {
     "AppName": "Festivales",
@@ -323,7 +323,6 @@
     "ComingSoon": "¡Próximamente!",
     "ContributionChallenge": "Aportación (formal)",
     "ContributionRegular": "Aportación (informal)",
-    "ContributionTricolor": "Aportación (combate tricolor)",
     "Defense": "En defensa",
     "FestRanking": "100 mejores del festival",
     "GotHoragai": "Caracolas obtenidas",
@@ -350,24 +349,21 @@
     "VotingStatus": "Respuestas de amigos",
     "WaitingForResult": "Calculando los resultados...",
     "Win": "Victoria",
-    "YourRecord": "Tus estadísticas"
-  },
-  "Footer": {
-    "BigrunAnnouncement": "¡Alerta de <em>Big Run</em>! ¡Cuidado con los salmónidos que se aproximan!",
-    "BigrunNowOpening": "¡<em>Big Run</em> en marcha! ¡A defender la ciudad de los salmónidos!"
+    "YourRecord": "Tus estadísticas",
+    "ContributionTricolor": "Aportación (combate tricolor)"
   },
   "FriendList": {
     "AppName": "Lista de amigos",
     "InCoopGame": "Trabajando",
     "InVsGame": "Jugando",
     "IsLocked": "Con contraseña",
-    "NoFriends": "Aquí podrás ver el estatus de los amigos que agregues.",
     "Offline": "Sin conexión",
     "Online": "En línea",
     "Recruiting": "Buscando...",
     "Reload": "Actualizar",
     "Title": "Lista de amigos",
     "VoiceChatEnabled": "Chat de voz disponible",
+    "NoFriends": "Aquí podrás ver el estatus de los amigos que agregues.",
     "InMiniGame": "Combate carterritorial"
   },
   "GesoTown": {
@@ -431,27 +427,27 @@
   "History": {
     "AppName": "Historial",
     "Badge": "Distintivos",
-    "EstimatedRanking": "Rango estimado",
     "FrequentlyUsedWeapon": "Armas más usadas",
     "HighestUdemae": "Mejor rango",
-    "HighestXranking": "Mejor clasificación del rango X / Mayor fuerza X",
     "Latest": "Últimos 3 meses",
     "LatestBadge": "Distintivos recientes",
     "Monthly": "Mensual",
     "Others": "Otras armas",
-    "Rank": "Nivel",
     "Season": "Temporada",
     "ShowAllBadges": "Ver todos los distintivos",
     "ShowLess": "Ver menos",
     "ShowMore": "Ver más",
-    "ShowXranking": "Ver clasificación del rango X",
     "Summary": "Resumen",
     "Title": "Historial",
     "TotalTurfPoint": "Territorio pintado",
     "TotalWin": "Victorias totales",
-    "Udemae": "Rango",
     "Weapon": "Armas",
     "WeaponUsage": "Frecuencia de uso",
+    "EstimatedRanking": "Rango estimado",
+    "HighestXranking": "Mejor clasificación del rango X / Mayor fuerza X",
+    "Rank": "Nivel",
+    "ShowXranking": "Ver clasificación del rango X",
+    "Udemae": "Rango",
     "Xmatch": "Combate X",
     "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada."
   },
@@ -601,12 +597,8 @@
     "Future": "Posteriores",
     "League": "Combate de liga",
     "Next": "Siguiente",
-    "NoticeBigrun": "¡Big Run a la vista!",
-    "NoticeLimited": "¡Anuncio de tarea temporal!",
     "NowClosed": "¡Festival en curso!",
     "Open": "Actual",
-    "OpenBigrun": "¡Big Run en marcha!",
-    "OpenLimited": "¡Tarea temporal disponible!",
     "Private": "Combate privado",
     "Regular": "Combate amistoso",
     "SeeFestivalRecord": "Datos del festival",
@@ -614,7 +606,11 @@
     "SuppliedWeapons": "Armas disponibles",
     "Title": "Calendario",
     "WinRateByRules": "Tasa de victorias",
-    "Xmatch": "Combate X"
+    "Xmatch": "Combate X",
+    "NoticeBigrun": "¡Big Run a la vista!",
+    "NoticeLimited": "¡Anuncio de tarea temporal!",
+    "OpenBigrun": "¡Big Run en marcha!",
+    "OpenLimited": "¡Tarea temporal disponible!"
   },
   "VSHistory": {
     "100x": "Bonificación ×100",
@@ -649,7 +645,6 @@
     "LatestBattle": "Combate más reciente",
     "LatestTab": "Últimos",
     "Lose": "Derrota",
-    "Measurement": "Calculando fuerza X...",
     "NextBattle": "Siguiente",
     "NoData": "Sin registros de combates",
     "NotAvailable": "Registros de combates no disponibles",
@@ -662,10 +657,11 @@
     "Title": "Combates",
     "TryCount": "Intentos",
     "UdemaePoint": "Puntos de rango",
-    "UdemaeReset": "Desafío interrumpido",
     "UdemaeUp": "¡Nuevo rango!",
     "Win": "Victoria",
     "WinMeterGuide": "Victorias y derrotas",
+    "Measurement": "Calculando fuerza X...",
+    "UdemaeReset": "Desafío interrumpido",
     "Xcrown": "Corona",
     "Xmatch": "Combate X"
   },
@@ -684,26 +680,6 @@
     "Store": "¡Descubre más cosas!",
     "Store1": "Tienda My Nintendo",
     "Widgets": "Widgets"
-  },
-  "XRanking": {
-    "All": "Todas",
-    "AppName": "Clasifs. rango X",
-    "Atlantic": "División Tentáctica",
-    "Measurement": "En cálculo",
-    "Open": "¡En curso!",
-    "Pacific": "División Pulpioka",
-    "PastRankings": "Clasificaciones previas",
-    "Region": "División",
-    "SeeRanking": "Clasificaciones",
-    "SeeWeaponTop": "Mejores con esta arma",
-    "SelectWeapon": "Elegir arma",
-    "Title": "Clasifs. rango X",
-    "Top500": "500 mejores",
-    "TopPlayers": "Mejores jugadores",
-    "WeaponTop": "Mejores con esta arma",
-    "WeaponTopSingular": "Mejor con esta arma",
-    "Xcrown": "Corona",
-    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando termina la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles)."
   },
   "Widgets": {
     "AlbumDescription": "Muestra las imágenes del álbum de SplatNet 3.",
@@ -745,6 +721,30 @@
     "VshistoryTitle": "Registros",
     "VshistoryWin": "Victoria"
   },
+  "Footer": {
+    "BigrunAnnouncement": "¡Alerta de <em>Big Run</em>! ¡Cuidado con los salmónidos que se aproximan!",
+    "BigrunNowOpening": "¡<em>Big Run</em> en marcha! ¡A defender la ciudad de los salmónidos!"
+  },
+  "XRanking": {
+    "All": "Todas",
+    "AppName": "Clasifs. rango X",
+    "Atlantic": "División Tentáctica",
+    "Measurement": "En cálculo",
+    "Open": "¡En curso!",
+    "Pacific": "División Pulpioka",
+    "PastRankings": "Clasificaciones previas",
+    "Region": "División",
+    "SeeRanking": "Clasificaciones",
+    "SeeWeaponTop": "Mejores con esta arma",
+    "SelectWeapon": "Elegir arma",
+    "Title": "Clasifs. rango X",
+    "Top500": "500 mejores",
+    "TopPlayers": "Mejores jugadores",
+    "WeaponTop": "Mejores con esta arma",
+    "WeaponTopSingular": "Mejor con esta arma",
+    "Xcrown": "Corona",
+    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando termina la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles)."
+  },
   "CoopRecord": {
     "AppName": "Encargos",
     "Bigrun": "Big Run",
@@ -755,7 +755,7 @@
     "HighestScore": "Récord",
     "More": "Ver más",
     "NoData": "Sin datos",
-    "Title": "Estadísticas",
-    "TeamContest": "Recolección extra"
+    "TeamContest": "Recolección extra",
+    "Title": "Salmon Run"
   }
 }

@@ -85,8 +85,6 @@
     "Upland": "해녀 미술 대학"
   },
   "Carousel": {
-    "BigrunOpening": "빅 런으로부터 타운을 지켜라!",
-    "BigrunResult": "빅 런 결과 발표!",
     "CoopHistory": "새먼 런",
     "FestOpening": "페스티벌 개최!!",
     "FestResult": "페스티벌 결과 발표!!",
@@ -98,6 +96,8 @@
     "Robichi": "서포터 구함!",
     "StatsLatestSeason": "이전 시즌 히스토리 확인하기",
     "VsHistory": "배틀 전적",
+    "BigrunOpening": "빅 런으로부터 타운을 지켜라!",
+    "BigrunResult": "빅 런 결과 발표!",
     "ExpansionPass": "「오더폴리스 시티」 배포 중!",
     "ExpansionPass2": "「사이드 오더」 배포 중!",
     "OfficialTournament": "Splatoon甲子園開催中！",
@@ -116,7 +116,6 @@
     "Sticker": "스티커",
     "AppName": "카탈로그",
     "Available": "교환할 수 있습니다",
-    "BigrunBonus": "빅 런 개최 중! 포인트 <em>1.2배</em>!",
     "BonusDescription": "카탈로그 레벨을 올려서<br />미스터리 박스를 획득하자!",
     "BonusGuide": "레벨 10마다 미스터리 박스를 획득할 수 있습니다",
     "BonusTitle": "보너스! 레벨 101～",
@@ -133,7 +132,8 @@
     "Signboard": "잡화점",
     "Title": "카탈로그",
     "Welcome": "어메이징한 카탈로그 배포 중!",
-    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!"
+    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!",
+    "BigrunBonus": "빅 런 개최 중! 포인트 <em>1.2배</em>!"
   },
   "Challenge": {
     "AboutGraffiti": "여행하다가 끝내주는 그라피티를 발견했으니까 선물할게～",
@@ -216,8 +216,6 @@
     "Cancel": "취소",
     "ClamBlitz": "랭크 바지락",
     "Close": "닫기",
-    "ColonRule": ": ",
-    "CoopBigRun": "빅 런",
     "CopyrightQrCode": "QR Code는 일본 및 여러 나라에서 DENSO WAVE INCORPORATED의 등록상표입니다",
     "Decide": "결정",
     "Download": "다운로드",
@@ -232,16 +230,17 @@
     "SplatZones": "랭크 에어리어",
     "TowerControl": "랭크 타워",
     "Tricolor": "트리컬러 어택",
-    "TricolorMatch": "트리컬러 매치",
     "TurfWar": "영역 배틀",
-    "WpnNotfound": "물음표",
-    "CoopTeamContest": "아르바이트 팀 콘테스트"
+    "ColonRule": ": ",
+    "CoopBigRun": "빅 런",
+    "TricolorMatch": "트리컬러 매치",
+    "CoopTeamContest": "아르바이트 팀 콘테스트",
+    "WpnNotfound": "물음표"
   },
   "CoopHistory": {
     "Available": "출현 수",
     "AvailableBoss": "출현한 두목연어",
     "AverageClearWaves": "평균 클리어 WAVE 수",
-    "Bigrun": "빅 런",
     "Bonus": "클리어 보너스",
     "BossAvailable": "두목연어 출현!",
     "Clear": "Clear!!",
@@ -297,6 +296,7 @@
     "WaveLevel0": "간조",
     "WaveLevel1": "보통",
     "WaveLevel2": "만조",
+    "Bigrun": "빅 런",
     "BigrunBronze": "동",
     "BigrunGold": "금",
     "BigrunSilver": "은",
@@ -305,15 +305,15 @@
   },
   "Error": {
     "BackToHome": "홈으로 돌아가기",
-    "CurrentlyNotAvailable": "현재 이용할 수 없습니다. 잠시 기다려 주십시오.",
     "Error": "에러",
     "ErrorOccurred": "에러가 발생했습니다",
-    "ErrorReopen": "로딩에 실패했습니다",
     "MaintenanceDescription": "현재 서버 점검 중입니다. 잠시 후에 다시 접속해 주십시오.",
     "MaintenanceTitle": "잠시 기다려 주십시오",
     "NetworkNotAvailable": "로딩에 실패했습니다. 통신 환경이 좋은 곳에서 다시 시도해 주십시오.",
-    "NotSupported": "오징어넷 3를 표시할 수 없습니다. 잠시 후 통신 환경이 좋은 장소에서 다시 시도해 주십시오.<br />문제가 해결되지 않을 경우, 브라우저가 최신 버전으로 업데이트되어 있는지 확인해 주십시오.<br />그래도 이 화면이 표시될 경우, 이용하시는 환경에서 오징어넷 3를 이용할 수 없을 가능성이 있습니다.",
-    "Reload": "새로 고침"
+    "Reload": "새로 고침",
+    "CurrentlyNotAvailable": "현재 이용할 수 없습니다. 잠시 기다려 주십시오.",
+    "ErrorReopen": "로딩에 실패했습니다",
+    "NotSupported": "오징어넷 3를 표시할 수 없습니다. 잠시 후 통신 환경이 좋은 장소에서 다시 시도해 주십시오.<br />문제가 해결되지 않을 경우, 브라우저가 최신 버전으로 업데이트되어 있는지 확인해 주십시오.<br />그래도 이 화면이 표시될 경우, 이용하시는 환경에서 오징어넷 3를 이용할 수 없을 가능성이 있습니다."
   },
   "FesRecord": {
     "AppName": "페스티벌",
@@ -323,7 +323,6 @@
     "ComingSoon": "개최 예정",
     "ContributionChallenge": "공헌도 챌린지",
     "ContributionRegular": "공헌도 오픈",
-    "ContributionTricolor": "공헌도 트리컬러 매치",
     "Defense": "수비",
     "FestRanking": "페스티벌 톱 100",
     "GotHoragai": "소라고둥 획득 개수",
@@ -350,24 +349,21 @@
     "VotingStatus": "친구 투표 상황",
     "WaitingForResult": "결과를 집계 중입니다",
     "Win": "WIN!",
-    "YourRecord": "당신의 기록"
-  },
-  "Footer": {
-    "BigrunAnnouncement": "<em>빅 런</em> 경보 발령! 연어 접근 주의!",
-    "BigrunNowOpening": "<em>빅 런</em> 발생 중! 연어로부터 타운을 지켜라!"
+    "YourRecord": "당신의 기록",
+    "ContributionTricolor": "공헌도 트리컬러 매치"
   },
   "FriendList": {
     "AppName": "친구 리스트",
     "InCoopGame": "아르바이트 중",
     "InVsGame": "시합 중",
     "IsLocked": "비밀번호 있음",
-    "NoFriends": "친구의 플레이 상황이 여기에 표시됩니다",
     "Offline": "오프라인",
     "Online": "온라인",
     "Recruiting": "모집 중",
     "Reload": "새로 고침",
     "Title": "친구 리스트",
     "VoiceChatEnabled": "보이스챗 가능",
+    "NoFriends": "친구의 플레이 상황이 여기에 표시됩니다",
     "InMiniGame": "영역 배틀러"
   },
   "GesoTown": {
@@ -431,27 +427,27 @@
   "History": {
     "AppName": "히스토리",
     "Badge": "배지",
-    "EstimatedRanking": "추정 순위",
     "FrequentlyUsedWeapon": "가장 많이 사용한 무기",
     "HighestUdemae": "최고 랭크",
-    "HighestXranking": "최고 X 랭킹・최고 X 파워",
     "Latest": "최근 3개월",
     "LatestBadge": "최근 획득한 배지",
     "Monthly": "월간",
     "Others": "기타",
-    "Rank": "레벨",
     "Season": "시즌",
     "ShowAllBadges": "모든 배지 보기",
     "ShowLess": "숨기기",
     "ShowMore": "더 보기",
-    "ShowXranking": "X 랭킹 보기",
     "Summary": "요약",
     "Title": "히스토리",
     "TotalTurfPoint": "지금까지 칠한 면적",
     "TotalWin": "총 승리 수",
-    "Udemae": "랭크",
     "Weapon": "무기 히스토리",
     "WeaponUsage": "무기 사용률",
+    "EstimatedRanking": "추정 순위",
+    "HighestXranking": "최고 X 랭킹・최고 X 파워",
+    "Rank": "레벨",
+    "ShowXranking": "X 랭킹 보기",
+    "Udemae": "랭크",
     "Xmatch": "X 매치",
     "PastXmatchAnnotation": "※X 매치 기록은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
   },
@@ -601,12 +597,8 @@
     "Future": "그다음",
     "League": "리그 매치",
     "Next": "다음",
-    "NoticeBigrun": "빅 런 접근 중!",
-    "NoticeLimited": "기간 한정 아르바이트 개최 예고!",
     "NowClosed": "페스티벌 매치 개최 중!",
     "Open": "오픈!",
-    "OpenBigrun": "빅 런 발생 중!",
-    "OpenLimited": "기간 한정 아르바이트 개최 중!",
     "Private": "프라이빗 매치",
     "Regular": "레귤러 매치",
     "SeeFestivalRecord": "페스티벌 기록 보기",
@@ -614,7 +606,11 @@
     "SuppliedWeapons": "지급 무기",
     "Title": "스케줄",
     "WinRateByRules": "룰별 승률",
-    "Xmatch": "X 매치"
+    "Xmatch": "X 매치",
+    "NoticeBigrun": "빅 런 접근 중!",
+    "NoticeLimited": "기간 한정 아르바이트 개최 예고!",
+    "OpenBigrun": "빅 런 발생 중!",
+    "OpenLimited": "기간 한정 아르바이트 개최 중!"
   },
   "VSHistory": {
     "100x": "100배 매치",
@@ -649,7 +645,6 @@
     "LatestBattle": "최근 배틀",
     "LatestTab": "최근",
     "Lose": "LOSE…",
-    "Measurement": "X 파워 계측 중",
     "NextBattle": "다음 배틀",
     "NoData": "배틀 기록이 없습니다",
     "NotAvailable": "배틀 기록을 표시할 수 없습니다",
@@ -662,10 +657,11 @@
     "Title": "배틀",
     "TryCount": "트라이 횟수",
     "UdemaePoint": "랭크 포인트",
-    "UdemaeReset": "도전 중지",
     "UdemaeUp": "랭크 업!",
     "Win": "WIN!",
     "WinMeterGuide": "승패 수에 대하여",
+    "Measurement": "X 파워 계측 중",
+    "UdemaeReset": "도전 중지",
     "Xcrown": "왕관",
     "Xmatch": "X 매치"
   },
@@ -684,26 +680,6 @@
     "Store": "구입 사이트로",
     "Store1": "My Nintendo Store",
     "Widgets": "위젯"
-  },
-  "XRanking": {
-    "All": "모두 표시",
-    "AppName": "X 랭킹",
-    "Atlantic": "그룹・아로메",
-    "Measurement": "계측 중",
-    "Open": "개최 중!!",
-    "Pacific": "그룹・라이즈",
-    "PastRankings": "과거 랭킹",
-    "Region": "그룹",
-    "SeeRanking": "랭킹 보기",
-    "SeeWeaponTop": "무기 톱 보기",
-    "SelectWeapon": "무기 선택하기",
-    "Title": "X 랭킹",
-    "Top500": "톱 500",
-    "TopPlayers": "톱 플레이어",
-    "WeaponTop": "무기 톱 플레이어",
-    "WeaponTopSingular": "무기 톱 플레이어",
-    "Xcrown": "왕관",
-    "PastRankingsAnnotation": "※과거 랭킹은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
   },
   "Widgets": {
     "AlbumDescription": "오징어넷 3의 앨범 이미지를 표시합니다.",
@@ -745,6 +721,30 @@
     "VshistoryTitle": "배틀 기록",
     "VshistoryWin": "WIN!"
   },
+  "Footer": {
+    "BigrunAnnouncement": "<em>빅 런</em> 경보 발령! 연어 접근 주의!",
+    "BigrunNowOpening": "<em>빅 런</em> 발생 중! 연어로부터 타운을 지켜라!"
+  },
+  "XRanking": {
+    "All": "모두 표시",
+    "AppName": "X 랭킹",
+    "Atlantic": "그룹・아로메",
+    "Measurement": "계측 중",
+    "Open": "개최 중!!",
+    "Pacific": "그룹・라이즈",
+    "PastRankings": "과거 랭킹",
+    "Region": "그룹",
+    "SeeRanking": "랭킹 보기",
+    "SeeWeaponTop": "무기 톱 보기",
+    "SelectWeapon": "무기 선택하기",
+    "Title": "X 랭킹",
+    "Top500": "톱 500",
+    "TopPlayers": "톱 플레이어",
+    "WeaponTop": "무기 톱 플레이어",
+    "WeaponTopSingular": "무기 톱 플레이어",
+    "Xcrown": "왕관",
+    "PastRankingsAnnotation": "※과거 랭킹은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
+  },
   "CoopRecord": {
     "AppName": "아르바이트",
     "Bigrun": "빅 런",
@@ -755,7 +755,7 @@
     "HighestScore": "하이 스코어",
     "More": "더 보기",
     "NoData": "기록이 없습니다",
-    "Title": "새먼 런 기록",
-    "TeamContest": "아르바이트 팀 콘테스트"
+    "TeamContest": "아르바이트 팀 콘테스트",
+    "Title": "새먼 런 기록"
   }
 }
