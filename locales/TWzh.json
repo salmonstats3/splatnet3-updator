@@ -85,6 +85,8 @@
     "Upland": "海女美術大學"
   },
   "Carousel": {
+    "BigrunOpening": "在大型跑中保護城鎮吧！",
+    "BigrunResult": "大型跑結果公布！",
     "CoopHistory": "SALMON RUN",
     "FestOpening": "祭典開幕！！",
     "FestResult": "祭典結果公布！！",
@@ -96,8 +98,6 @@
     "Robichi": "誠徵支持者！",
     "StatsLatestSeason": "前賽季的記錄在這裡！",
     "VsHistory": "對戰戰績",
-    "BigrunOpening": "在大型跑中保護城鎮吧！",
-    "BigrunResult": "大型跑結果公布！",
     "ExpansionPass": "「尚興市」發布中！",
     "ExpansionPass2": "「秩序篇」發布中！",
     "OfficialTournament": "Splatoon甲子園開催中！",
@@ -116,6 +116,7 @@
     "Sticker": "貼紙",
     "AppName": "目錄",
     "Available": "可兌換",
+    "BigrunBonus": "大型跑舉辦中！點數<em>1.2倍</em>！",
     "BonusDescription": "提升目錄等級<br />獲得神秘禮盒吧！",
     "BonusGuide": "等級每提升10皆可獲得神秘禮盒。",
     "BonusTitle": "獎勵！等級101～",
@@ -132,8 +133,7 @@
     "Signboard": "雜貨店",
     "Title": "目錄",
     "Welcome": "超魷型目錄發布中！",
-    "WelcomeDescription": "透過對戰累積目錄點數<br />獲得道具吧！",
-    "BigrunBonus": "大型跑舉辦中！點數<em>1.2倍</em>！"
+    "WelcomeDescription": "透過對戰累積目錄點數<br />獲得道具吧！"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅程的途中發現了超～酥脆的火熱塗鴉！傳給你看喔～",
@@ -216,6 +216,8 @@
     "Cancel": "取消",
     "ClamBlitz": "真格蛤蜊",
     "Close": "關閉",
+    "ColonRule": "：",
+    "CoopBigRun": "大型跑",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "確定",
     "Download": "下載",
@@ -230,17 +232,16 @@
     "SplatZones": "真格區域",
     "TowerControl": "真格塔樓",
     "Tricolor": "三色奪寶攻擊",
-    "TurfWar": "占地對戰",
-    "ColonRule": "：",
-    "CoopBigRun": "大型跑",
     "TricolorMatch": "三色奪寶比賽",
-    "CoopTeamContest": "團隊打工競賽",
-    "WpnNotfound": "？"
+    "TurfWar": "占地對戰",
+    "WpnNotfound": "問號",
+    "CoopTeamContest": "團隊打工競賽"
   },
   "CoopHistory": {
     "Available": "出現數",
     "AvailableBoss": "已出現的頭目鮭魚",
     "AverageClearWaves": "平均完成WAVE數",
+    "Bigrun": "大型跑",
     "Bonus": "完成獎勵",
     "BossAvailable": "頭目鮭魚出現！",
     "Clear": "Clear!!",
@@ -296,7 +297,6 @@
     "WaveLevel0": "乾潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "滿潮",
-    "Bigrun": "大型跑",
     "BigrunBronze": "銅",
     "BigrunGold": "金",
     "BigrunSilver": "銀",
@@ -305,15 +305,15 @@
   },
   "Error": {
     "BackToHome": "返回主頁",
+    "CurrentlyNotAvailable": "目前無法使用，請稍待片刻。",
     "Error": "錯誤",
     "ErrorOccurred": "發生錯誤。",
+    "ErrorReopen": "讀取失敗。",
     "MaintenanceDescription": "目前伺服器正在維護中，請稍後再重新連接。",
     "MaintenanceTitle": "請稍待片刻",
     "NetworkNotAvailable": "讀取失敗，請在良好的網路環境下重新再試一次。",
-    "Reload": "重新讀取",
-    "CurrentlyNotAvailable": "目前無法使用，請稍待片刻。",
-    "ErrorReopen": "讀取失敗。",
-    "NotSupported": "無法顯示「魷魚圈 3」。請過一段時間後在通訊環境良好的地方再次嘗試。<br />如果問題仍然無法解決，請確認瀏覽器是否已更新至最新版本。<br />如果仍然顯示此畫面，有可能是您的使用環境無法使用「魷魚圈 3」。"
+    "NotSupported": "無法顯示「魷魚圈 3」。請過一段時間後在通訊環境良好的地方再次嘗試。<br />如果問題仍然無法解決，請確認瀏覽器是否已更新至最新版本。<br />如果仍然顯示此畫面，有可能是您的使用環境無法使用「魷魚圈 3」。",
+    "Reload": "重新讀取"
   },
   "FesRecord": {
     "AppName": "祭典",
@@ -323,6 +323,7 @@
     "ComingSoon": "即將舉行",
     "ContributionChallenge": "貢獻度 挑戰",
     "ContributionRegular": "貢獻度 開放",
+    "ContributionTricolor": "貢獻度 三色奪寶比賽",
     "Defense": "防守",
     "FestRanking": "祭典100豪傑",
     "GotHoragai": "法螺獲得數量",
@@ -349,21 +350,24 @@
     "VotingStatus": "朋友的投票狀況",
     "WaitingForResult": "正在統計結果",
     "Win": "WIN！",
-    "YourRecord": "個人記錄",
-    "ContributionTricolor": "貢獻度 三色奪寶比賽"
+    "YourRecord": "個人記錄"
+  },
+  "Footer": {
+    "BigrunAnnouncement": "<em>大型跑</em>警報！小心鮭魚侵襲！",
+    "BigrunNowOpening": "<em>大型跑</em>發生中！保護城鎮免受鮭魚侵害！"
   },
   "FriendList": {
     "AppName": "朋友列表",
     "InCoopGame": "打工中",
     "InVsGame": "比賽中",
     "IsLocked": "有密碼",
+    "NoFriends": "朋友的遊玩狀況將在此顯示",
     "Offline": "離線",
     "Online": "線上",
     "Recruiting": "招募中",
     "Reload": "重新讀取",
     "Title": "朋友列表",
     "VoiceChatEnabled": "可以語音聊天",
-    "NoFriends": "朋友的遊玩狀況將在此顯示",
     "InMiniGame": "占地鬥士"
   },
   "GesoTown": {
@@ -427,27 +431,27 @@
   "History": {
     "AppName": "記錄",
     "Badge": "徽章",
+    "EstimatedRanking": "預估名次",
     "FrequentlyUsedWeapon": "最常使用的武器",
     "HighestUdemae": "最高技術",
+    "HighestXranking": "最高X排名‧最高X戰力",
     "Latest": "最近3個月",
     "LatestBadge": "最近獲得的徽章",
     "Monthly": "單月",
     "Others": "其他",
+    "Rank": "等級",
     "Season": "賽季",
     "ShowAllBadges": "查看所有徽章",
     "ShowLess": "減少顯示",
     "ShowMore": "顯示更多",
+    "ShowXranking": "查看X排名",
     "Summary": "總覽",
     "Title": "記錄",
     "TotalTurfPoint": "至今為止的塗墨面積",
     "TotalWin": "總獲勝數",
+    "Udemae": "技術",
     "Weapon": "武器記錄",
     "WeaponUsage": "武器使用率",
-    "EstimatedRanking": "預估名次",
-    "HighestXranking": "最高X排名‧最高X戰力",
-    "Rank": "等級",
-    "ShowXranking": "查看X排名",
-    "Udemae": "技術",
     "Xmatch": "X比賽",
     "PastXmatchAnnotation": "※X比賽的記錄將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。"
   },
@@ -597,8 +601,12 @@
     "Future": "下下次",
     "League": "聯盟比賽",
     "Next": "下次",
+    "NoticeBigrun": "大型跑接近中！",
+    "NoticeLimited": "期間限定打工舉行預告！",
     "NowClosed": "祭典比賽舉行中！",
     "Open": "開放！",
+    "OpenBigrun": "大型跑發生中！",
+    "OpenLimited": "期間限定打工舉行中！",
     "Private": "私人比賽",
     "Regular": "一般比賽",
     "SeeFestivalRecord": "查看祭典記錄",
@@ -606,11 +614,7 @@
     "SuppliedWeapons": "派發武器",
     "Title": "時間表",
     "WinRateByRules": "個別規則勝率",
-    "Xmatch": "X比賽",
-    "NoticeBigrun": "大型跑接近中！",
-    "NoticeLimited": "期間限定打工舉行預告！",
-    "OpenBigrun": "大型跑發生中！",
-    "OpenLimited": "期間限定打工舉行中！"
+    "Xmatch": "X比賽"
   },
   "VSHistory": {
     "100x": "100倍比賽",
@@ -645,6 +649,7 @@
     "LatestBattle": "最新的對戰",
     "LatestTab": "最近",
     "Lose": "LOSE……",
+    "Measurement": "X戰力計算中",
     "NextBattle": "下一場對戰",
     "NoData": "沒有對戰記錄",
     "NotAvailable": "無法顯示對戰記錄",
@@ -657,11 +662,10 @@
     "Title": "對戰",
     "TryCount": "奪取次數",
     "UdemaePoint": "技術點數",
+    "UdemaeReset": "挑戰中止",
     "UdemaeUp": "技術提升！",
     "Win": "WIN！",
     "WinMeterGuide": "關於勝敗數",
-    "Measurement": "X戰力計算中",
-    "UdemaeReset": "挑戰中止",
     "Xcrown": "王冠",
     "Xmatch": "X比賽"
   },
@@ -680,6 +684,26 @@
     "Store": "前往購買網站",
     "Store1": "My Nintendo Store",
     "Widgets": "小工具"
+  },
+  "XRanking": {
+    "All": "全部顯示",
+    "AppName": "X排名",
+    "Atlantic": "組別‧艾洛眼",
+    "Measurement": "計算中",
+    "Open": "舉行中！！",
+    "Pacific": "組別‧暇古",
+    "PastRankings": "過去的排名",
+    "Region": "組別",
+    "SeeRanking": "查看排名",
+    "SeeWeaponTop": "查看頂尖武器",
+    "SelectWeapon": "選擇武器",
+    "Title": "X排名",
+    "Top500": "Top 500",
+    "TopPlayers": "頂尖玩家",
+    "WeaponTop": "頂尖武器玩家",
+    "WeaponTopSingular": "頂尖武器玩家",
+    "Xcrown": "王冠",
+    "PastRankingsAnnotation": "※過去的排名將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。"
   },
   "Widgets": {
     "AlbumDescription": "顯示《魷魚圈 3》的相簿圖片",
@@ -721,30 +745,6 @@
     "VshistoryTitle": "對戰記錄",
     "VshistoryWin": "WIN！"
   },
-  "Footer": {
-    "BigrunAnnouncement": "<em>大型跑</em>警報！小心鮭魚侵襲！",
-    "BigrunNowOpening": "<em>大型跑</em>發生中！保護城鎮免受鮭魚侵害！"
-  },
-  "XRanking": {
-    "All": "全部顯示",
-    "AppName": "X排名",
-    "Atlantic": "組別‧艾洛眼",
-    "Measurement": "計算中",
-    "Open": "舉行中！！",
-    "Pacific": "組別‧暇古",
-    "PastRankings": "過去的排名",
-    "Region": "組別",
-    "SeeRanking": "查看排名",
-    "SeeWeaponTop": "查看頂尖武器",
-    "SelectWeapon": "選擇武器",
-    "Title": "X排名",
-    "Top500": "Top 500",
-    "TopPlayers": "頂尖玩家",
-    "WeaponTop": "頂尖武器玩家",
-    "WeaponTopSingular": "頂尖武器玩家",
-    "Xcrown": "王冠",
-    "PastRankingsAnnotation": "※過去的排名將會在賽季結束後，於統計完成時公布。統計可能需要幾天才能完成。"
-  },
   "CoopRecord": {
     "AppName": "打工",
     "Bigrun": "大型跑",
@@ -755,7 +755,7 @@
     "HighestScore": "最高分數",
     "More": "顯示更多",
     "NoData": "沒有記錄",
-    "TeamContest": "團隊打工競賽",
-    "Title": "SALMON RUN記錄"
+    "Title": "SALMON RUN記錄",
+    "TeamContest": "團隊打工競賽"
   }
 }
