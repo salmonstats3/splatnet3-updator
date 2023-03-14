@@ -85,6 +85,8 @@
     "Upland": "Inkblot Art Academy"
   },
   "Carousel": {
+    "BigrunOpening": "Protect the City from the Big Run!",
+    "BigrunResult": "Big Run Results!",
     "CoopHistory": "Salmon Run",
     "FestOpening": "Splatfest Open!",
     "FestResult": "Splatfest Results!",
@@ -96,8 +98,6 @@
     "Robichi": "Supporters Wanted!",
     "StatsLatestSeason": "View Season History",
     "VsHistory": "Battle Logs",
-    "BigrunOpening": "Protect the City from the Big Run!",
-    "BigrunResult": "Big Run Results!",
     "ExpansionPass": "Visit Expansion Pass Purchase Site",
     "ExpansionPass2": "Visit Expansion Pass Purchase Site",
     "OfficialTournament": "Splatoon甲子園開催中！",
@@ -116,6 +116,7 @@
     "Sticker": "Sticker",
     "AppName": "Catalog",
     "Available": "Exchangeable",
+    "BigrunBonus": "Big Run Open Now! Earn <em>1.2x</em> Points!",
     "BonusDescription": "Raise your catalog level<br />to get a Mystery Box!",
     "BonusGuide": "You can get a new Mystery Box for every 10 levels you gain.",
     "BonusTitle": "BONUS! Lv. 101",
@@ -132,8 +133,7 @@
     "Signboard": "Hotlantis",
     "Title": "Catalog",
     "Welcome": "New Catalog Hot off the Presses!",
-    "WelcomeDescription": "Earn Catalog Points from battles<br />to get inkredible items!",
-    "BigrunBonus": "Big Run Open Now! Earn <em>1.2x</em> Points!"
+    "WelcomeDescription": "Earn Catalog Points from battles<br />to get inkredible items!"
   },
   "Challenge": {
     "AboutGraffiti": "Whenever I spy a scorching-hot tag, I'll send it your way!",
@@ -216,6 +216,8 @@
     "Cancel": "Cancel",
     "ClamBlitz": "Clam Blitz",
     "Close": "Close",
+    "ColonRule": ": ",
+    "CoopBigRun": "Big Run",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "OK",
     "Download": "Download",
@@ -230,17 +232,16 @@
     "SplatZones": "Splat Zones",
     "TowerControl": "Tower Control",
     "Tricolor": "Tricolor Battle",
-    "TurfWar": "Turf War",
-    "ColonRule": ": ",
-    "CoopBigRun": "Big Run",
     "TricolorMatch": "Tricolor Battle",
-    "CoopTeamContest": "Eggstra Work",
-    "WpnNotfound": "Unknown"
+    "TurfWar": "Turf War",
+    "WpnNotfound": "Unknown",
+    "CoopTeamContest": "Eggstra Work"
   },
   "CoopHistory": {
     "Available": "Appearances ",
     "AvailableBoss": "King Salmonid Fought",
     "AverageClearWaves": "Average Waves Cleared",
+    "Bigrun": "Big Run",
     "Bonus": "Clear Bonus",
     "BossAvailable": "King Salmonid Sighting!",
     "Clear": "Clear!",
@@ -296,7 +297,6 @@
     "WaveLevel0": "Low Tide",
     "WaveLevel1": "Normal",
     "WaveLevel2": "High Tide",
-    "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Gold",
     "BigrunSilver": "Silver",
@@ -305,15 +305,15 @@
   },
   "Error": {
     "BackToHome": "Back to Home",
+    "CurrentlyNotAvailable": "Currently unavailable.<br />Please wait a bit, then try again.",
     "Error": "Error",
     "ErrorOccurred": "An error occurred.",
+    "ErrorReopen": "Loading failed.",
     "MaintenanceDescription": "The server is currently undergoing maintenance. Please wait a bit, then try again.",
     "MaintenanceTitle": "Standby...",
     "NetworkNotAvailable": "Loading failed. Please check your internet connection and try again.",
-    "Reload": "Refresh",
-    "CurrentlyNotAvailable": "Currently unavailable.<br />Please wait a bit, then try again.",
-    "ErrorReopen": "Loading failed.",
-    "NotSupported": "SplatNet 3 cannot be displayed. Please check your internet connection and wait a bit before trying again. If the problem isn't resolved, check your internet browser to make sure it has been updated to the latest version. If you still receive this message, it may be possible that SplatNet 3 is not compatible with your current settings or device."
+    "NotSupported": "SplatNet 3 cannot be displayed. Please check your internet connection and wait a bit before trying again. If the problem isn't resolved, check your internet browser to make sure it has been updated to the latest version. If you still receive this message, it may be possible that SplatNet 3 is not compatible with your current settings or device.",
+    "Reload": "Refresh"
   },
   "FesRecord": {
     "AppName": "Splatfest",
@@ -323,6 +323,7 @@
     "ComingSoon": "Coming Soon!",
     "ContributionChallenge": "Clout - Pro",
     "ContributionRegular": "Clout - Open",
+    "ContributionTricolor": "Tricolor Battle Clout",
     "Defense": "Defending",
     "FestRanking": "Splatfest Top 100",
     "GotHoragai": "Conch Shells Obtained",
@@ -349,21 +350,24 @@
     "VotingStatus": "How Your Friends Voted",
     "WaitingForResult": "Calculating results...",
     "Win": "VICTORY",
-    "YourRecord": "Your Stats",
-    "ContributionTricolor": "Tricolor Battle Clout"
+    "YourRecord": "Your Stats"
+  },
+  "Footer": {
+    "BigrunAnnouncement": "<em>Big Run</em> alert issued! Beware of approaching Salmonids!",
+    "BigrunNowOpening": "<em>Big Run</em> in progress! Protect the city from Salmonids!"
   },
   "FriendList": {
     "AppName": "Friend List",
     "InCoopGame": "Working",
     "InVsGame": "Playing",
     "IsLocked": "Password Locked",
+    "NoFriends": "When you add friends, their play statuses will display here.",
     "Offline": "Offline",
     "Online": "Online",
     "Recruiting": "Searching",
     "Reload": "Reload",
     "Title": "Friend List",
     "VoiceChatEnabled": "Voice Chat Available",
-    "NoFriends": "When you add friends, their play statuses will display here.",
     "InMiniGame": "Tableturf Battle"
   },
   "GesoTown": {
@@ -427,27 +431,27 @@
   "History": {
     "AppName": "History",
     "Badge": "Badges",
+    "EstimatedRanking": "Approximate Rank",
     "FrequentlyUsedWeapon": "Fave Weapons",
     "HighestUdemae": "All-Time Best",
+    "HighestXranking": "Best X Rank / Highest X Power",
     "Latest": "Last Three Months",
     "LatestBadge": "Recent Badges",
     "Monthly": "Months",
     "Others": "Other Weapons",
+    "Rank": "Level",
     "Season": "Season",
     "ShowAllBadges": "See All Badges",
     "ShowLess": "Show Less",
     "ShowMore": "More",
+    "ShowXranking": "View X Ranking",
     "Summary": "Summary",
     "Title": "History",
     "TotalTurfPoint": "Turf Inked",
     "TotalWin": "Total Wins",
+    "Udemae": "Rank",
     "Weapon": "Weapon Stats",
     "WeaponUsage": "Weapon Usage",
-    "EstimatedRanking": "Approximate Rank",
-    "HighestXranking": "Best X Rank / Highest X Power",
-    "Rank": "Level",
-    "ShowXranking": "View X Ranking",
-    "Udemae": "Rank",
     "Xmatch": "X Battle",
     "PastXmatchAnnotation": "X Battle stats will be calculated and revealed after the season ends."
   },
@@ -597,8 +601,12 @@
     "Future": "Future",
     "League": "League Battle",
     "Next": "Next",
+    "NoticeBigrun": "Big Run coming soon!",
+    "NoticeLimited": "Announcement: Limited-Time Job!",
     "NowClosed": "Splatfest Active!",
     "Open": "Now",
+    "OpenBigrun": "Big Run in progress!",
+    "OpenLimited": "Limited-time job available now!",
     "Private": "Private Battle",
     "Regular": "Regular Battle",
     "SeeFestivalRecord": "Splatfest Stats",
@@ -606,11 +614,7 @@
     "SuppliedWeapons": "Supplied Weapons",
     "Title": "Schedule",
     "WinRateByRules": "Win Rate by Mode",
-    "Xmatch": "X Battle",
-    "NoticeBigrun": "Big Run coming soon!",
-    "NoticeLimited": "Announcement: Limited-Time Job!",
-    "OpenBigrun": "Big Run in progress!",
-    "OpenLimited": "Limited-time job available now!"
+    "Xmatch": "X Battle"
   },
   "VSHistory": {
     "100x": "100x Battle",
@@ -645,6 +649,7 @@
     "LatestBattle": "Latest Battle",
     "LatestTab": "Latest",
     "Lose": "DEFEAT",
+    "Measurement": "Calculating X Power...",
     "NextBattle": "Next",
     "NoData": "No battle logs to display.",
     "NotAvailable": "Battle Log Unavailable",
@@ -657,11 +662,10 @@
     "Title": "Battles",
     "TryCount": "Attempts",
     "UdemaePoint": "Rank Points",
+    "UdemaeReset": "Series Interrupted",
     "UdemaeUp": "Promoted!",
     "Win": "VICTORY",
     "WinMeterGuide": "Wins and Losses",
-    "Measurement": "Calculating X Power...",
-    "UdemaeReset": "Series Interrupted",
     "Xcrown": "Crown",
     "Xmatch": "X Battle"
   },
@@ -680,6 +684,26 @@
     "Store": "Visit Purchase Site",
     "Store1": "My Nintendo Store",
     "Widgets": "Widgets"
+  },
+  "XRanking": {
+    "All": "Show All",
+    "AppName": "X Rankings",
+    "Atlantic": "Tentatek Division",
+    "Measurement": "TBD...",
+    "Open": "Now Open!",
+    "Pacific": "Takoroka Division",
+    "PastRankings": "Past Ranking",
+    "Region": "Division",
+    "SeeRanking": "View Ranking",
+    "SeeWeaponTop": "Top Weapon Wielders",
+    "SelectWeapon": "Select Weapon",
+    "Title": "X Rank Leaderboard",
+    "Top500": "Top 500",
+    "TopPlayers": "Top Players",
+    "WeaponTop": "Top Weapon Wielders",
+    "WeaponTopSingular": "Top Weapon Wielder",
+    "Xcrown": "Crown",
+    "PastRankingsAnnotation": "Past Ranking is calculated and revealed after the season ends. Please note that it may take a few days in some cases."
   },
   "Widgets": {
     "AlbumDescription": "See SplatNet 3's album images.",
@@ -721,30 +745,6 @@
     "VshistoryTitle": "Battle Logs",
     "VshistoryWin": "VICTORY"
   },
-  "Footer": {
-    "BigrunAnnouncement": "<em>Big Run</em> alert issued! Beware of approaching Salmonids!",
-    "BigrunNowOpening": "<em>Big Run</em> in progress! Protect the city from Salmonids!"
-  },
-  "XRanking": {
-    "All": "Show All",
-    "AppName": "X Rankings",
-    "Atlantic": "Tentatek Division",
-    "Measurement": "TBD...",
-    "Open": "Now Open!",
-    "Pacific": "Takoroka Division",
-    "PastRankings": "Past Ranking",
-    "Region": "Division",
-    "SeeRanking": "View Ranking",
-    "SeeWeaponTop": "Top Weapon Wielders",
-    "SelectWeapon": "Select Weapon",
-    "Title": "X Rank Leaderboard",
-    "Top500": "Top 500",
-    "TopPlayers": "Top Players",
-    "WeaponTop": "Top Weapon Wielders",
-    "WeaponTopSingular": "Top Weapon Wielder",
-    "Xcrown": "Crown",
-    "PastRankingsAnnotation": "Past Ranking is calculated and revealed after the season ends. Please note that it may take a few days in some cases."
-  },
   "CoopRecord": {
     "AppName": "Work",
     "Bigrun": "Big Run",
@@ -755,7 +755,7 @@
     "HighestScore": "High Score",
     "More": "See More",
     "NoData": "No records.",
-    "TeamContest": "Eggstra Work",
-    "Title": "Salmon Run Stats"
+    "Title": "Salmon Run Stats",
+    "TeamContest": "Eggstra Work"
   }
 }
