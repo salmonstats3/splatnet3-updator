@@ -85,8 +85,6 @@
     "Upland": "海女美術大学"
   },
   "Carousel": {
-    "BigrunOpening": "ビッグランから街を守れ！",
-    "BigrunResult": "ビッグラン結果発表！",
     "CoopHistory": "サーモンラン",
     "FestOpening": "フェス開催！！",
     "FestResult": "フェス結果発表！！",
@@ -98,6 +96,8 @@
     "Robichi": "支援者求む！",
     "StatsLatestSeason": "前シーズンのヒストリーはこちら！",
     "VsHistory": "バトル戦績",
+    "BigrunOpening": "ビッグランから街を守れ！",
+    "BigrunResult": "ビッグラン結果発表！",
     "ExpansionPass": "「ハイカラシティ」配信中！",
     "ExpansionPass2": "「サイド・オーダー」配信中！",
     "OfficialTournament": "Splatoon甲子園開催中！",
@@ -116,7 +116,6 @@
     "Sticker": "ステッカー",
     "AppName": "カタログ",
     "Available": "引き換えできます",
-    "BigrunBonus": "ビッグラン開催中！ポイント<em>1.2倍</em>！",
     "BonusDescription": "カタログレベルを上げて<br />ミステリーボックスをゲット！",
     "BonusGuide": "レベル10ごとにミステリーボックスをゲットできます",
     "BonusTitle": "ボーナス！",
@@ -133,7 +132,8 @@
     "Signboard": "ザッカ屋",
     "Title": "カタログ",
     "Welcome": "イカしたカタログ 配布中！",
-    "WelcomeDescription": "バトルでカタログポイントを貯めて<br />アイテムをゲットしよう！"
+    "WelcomeDescription": "バトルでカタログポイントを貯めて<br />アイテムをゲットしよう！",
+    "BigrunBonus": "ビッグラン開催中！ポイント<em>1.2倍</em>！"
   },
   "Challenge": {
     "AboutGraffiti": "旅の途中でテンションバクアゲ～！なグラフィティ見つけたから送るね～",
@@ -216,8 +216,6 @@
     "Cancel": "キャンセル",
     "ClamBlitz": "ガチアサリ",
     "Close": "閉じる",
-    "ColonRule": ": ",
-    "CoopBigRun": "ビッグラン",
     "CopyrightQrCode": "QRコードは、株式会社デンソーウェーブの登録商標です。",
     "Decide": "決定",
     "Download": "ダウンロード",
@@ -232,16 +230,17 @@
     "SplatZones": "ガチエリア",
     "TowerControl": "ガチヤグラ",
     "Tricolor": "トリカラアタック",
-    "TricolorMatch": "トリカラマッチ",
     "TurfWar": "ナワバリバトル",
-    "WpnNotfound": "はてな",
-    "CoopTeamContest": "バイトチームコンテスト"
+    "ColonRule": ": ",
+    "CoopBigRun": "ビッグラン",
+    "TricolorMatch": "トリカラマッチ",
+    "CoopTeamContest": "バイトチームコンテスト",
+    "WpnNotfound": "はてな"
   },
   "CoopHistory": {
     "Available": "出現数",
     "AvailableBoss": "出現したオカシラシャケ",
     "AverageClearWaves": "平均クリアWAVE数",
-    "Bigrun": "ビッグラン",
     "Bonus": "クリアボーナス",
     "BossAvailable": "オカシラシャケ出現！",
     "Clear": "Clear!!",
@@ -297,6 +296,7 @@
     "WaveLevel0": "干潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "満潮",
+    "Bigrun": "ビッグラン",
     "BigrunBronze": "銅",
     "BigrunGold": "金",
     "BigrunSilver": "銀",
@@ -305,15 +305,15 @@
   },
   "Error": {
     "BackToHome": "ホームに戻る",
-    "CurrentlyNotAvailable": "現在利用できません。しばらくお待ちください",
     "Error": "エラー",
     "ErrorOccurred": "エラーが発生しました",
-    "ErrorReopen": "読みこみに失敗しました",
     "MaintenanceDescription": "ただいまサーバーのメンテナンス中です。時間をおいて再度アクセスしてください。",
     "MaintenanceTitle": "しばらくお待ちください",
     "NetworkNotAvailable": "読みこみに失敗しました。<br />通信環境のよいところで再度お試しください。",
-    "NotSupported": "イカリング３を表示できません。しばらく時間をおいてから通信環境の良い場所で再度お試しください。<br />問題が解決しない場合は、ブラウザが最新版に更新されているか確認してください。<br />それでもこの画面が表示される場合は、ご利用の環境でイカリング３を利用できない可能性があります。",
-    "Reload": "再読みこみ"
+    "Reload": "再読みこみ",
+    "CurrentlyNotAvailable": "現在利用できません。しばらくお待ちください",
+    "ErrorReopen": "読みこみに失敗しました",
+    "NotSupported": "イカリング３を表示できません。しばらく時間をおいてから通信環境の良い場所で再度お試しください。<br />問題が解決しない場合は、ブラウザが最新版に更新されているか確認してください。<br />それでもこの画面が表示される場合は、ご利用の環境でイカリング３を利用できない可能性があります。"
   },
   "FesRecord": {
     "AppName": "フェス",
@@ -323,7 +323,6 @@
     "ComingSoon": "もうすぐ開催",
     "ContributionChallenge": "こうけん度 チャレンジ",
     "ContributionRegular": "こうけん度 オープン",
-    "ContributionTricolor": "こうけん度 トリカラマッチ",
     "Defense": "守備",
     "FestRanking": "フェス100ケツ",
     "GotHoragai": "ホラガイ獲得個数",
@@ -350,24 +349,21 @@
     "VotingStatus": "フレンドの投票状況",
     "WaitingForResult": "結果を集計中です",
     "Win": "WIN!",
-    "YourRecord": "あなたのきろく"
-  },
-  "Footer": {
-    "BigrunAnnouncement": "<em>ビッグラン</em>警報発令！シャケの接近に注意！",
-    "BigrunNowOpening": "<em>ビッグラン</em>発生中！シャケから街を守れ！"
+    "YourRecord": "あなたのきろく",
+    "ContributionTricolor": "こうけん度 トリカラマッチ"
   },
   "FriendList": {
     "AppName": "フレンドリスト",
     "InCoopGame": "バイト中",
     "InVsGame": "試合中",
     "IsLocked": "パスワードつき",
-    "NoFriends": "フレンドのプレイ状況がここに表示されます",
     "Offline": "オフライン",
     "Online": "オンライン",
     "Recruiting": "募集中",
     "Reload": "再読みこみ",
     "Title": "フレンドリスト",
     "VoiceChatEnabled": "ボイスチャットかのう",
+    "NoFriends": "フレンドのプレイ状況がここに表示されます",
     "InMiniGame": "ナワバトラー"
   },
   "GesoTown": {
@@ -431,27 +427,27 @@
   "History": {
     "AppName": "ヒストリー",
     "Badge": "バッジ",
-    "EstimatedRanking": "推定順位",
     "FrequentlyUsedWeapon": "もっともよく使ったブキ",
     "HighestUdemae": "最高ウデマエ",
-    "HighestXranking": "最高Xランキング・最高Xパワー",
     "Latest": "最近 3ヶ月",
     "LatestBadge": "最近ゲットしたバッジ",
     "Monthly": "月間",
     "Others": "その他",
-    "Rank": "ランク",
     "Season": "シーズン",
     "ShowAllBadges": "すべてのバッジを見る",
     "ShowLess": "表示を減らす",
     "ShowMore": "もっと見る",
-    "ShowXranking": "Xランキングを見る",
     "Summary": "サマリー",
     "Title": "ヒストリー",
     "TotalTurfPoint": "今まで塗った面積",
     "TotalWin": "総勝利数",
-    "Udemae": "ウデマエ",
     "Weapon": "ブキヒストリー",
     "WeaponUsage": "ブキ使用率",
+    "EstimatedRanking": "推定順位",
+    "HighestXranking": "最高Xランキング・最高Xパワー",
+    "Rank": "ランク",
+    "ShowXranking": "Xランキングを見る",
+    "Udemae": "ウデマエ",
     "Xmatch": "Xマッチ",
     "PastXmatchAnnotation": "※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
@@ -601,12 +597,8 @@
     "Future": "そのつぎ",
     "League": "リーグマッチ",
     "Next": "つぎ",
-    "NoticeBigrun": "ビッグラン接近中！",
-    "NoticeLimited": "期間限定バイト開催予告！",
     "NowClosed": "フェスマッチ開催中！",
     "Open": "オープン！",
-    "OpenBigrun": "ビッグラン発生中！",
-    "OpenLimited": "期間限定バイト開催中！",
     "Private": "プライベートマッチ",
     "Regular": "レギュラーマッチ",
     "SeeFestivalRecord": "フェスのきろくを見る",
@@ -614,7 +606,11 @@
     "SuppliedWeapons": "支給ブキ",
     "Title": "スケジュール",
     "WinRateByRules": "ルールごとの勝率",
-    "Xmatch": "Xマッチ"
+    "Xmatch": "Xマッチ",
+    "NoticeBigrun": "ビッグラン接近中！",
+    "NoticeLimited": "期間限定バイト開催予告！",
+    "OpenBigrun": "ビッグラン発生中！",
+    "OpenLimited": "期間限定バイト開催中！"
   },
   "VSHistory": {
     "100x": "１００倍マッチ",
@@ -649,7 +645,6 @@
     "LatestBattle": "最新のバトル",
     "LatestTab": "最近",
     "Lose": "LOSE...",
-    "Measurement": "Xパワー計測中",
     "NextBattle": "次のバトル",
     "NoData": "バトルのきろくがありません",
     "NotAvailable": "バトルのきろくを表示できません",
@@ -662,10 +657,11 @@
     "Title": "バトル",
     "TryCount": "トライかいすう",
     "UdemaePoint": "ウデマエポイント",
-    "UdemaeReset": "挑戦中止",
     "UdemaeUp": "ウデマエアップ！",
     "Win": "WIN!",
     "WinMeterGuide": "勝敗数について",
+    "Measurement": "Xパワー計測中",
+    "UdemaeReset": "挑戦中止",
     "Xcrown": "おうかん",
     "Xmatch": "Xマッチ"
   },
@@ -684,26 +680,6 @@
     "Store": "購入サイトへ",
     "Store1": "My Nintendo Store",
     "Widgets": "ウィジェット"
-  },
-  "XRanking": {
-    "All": "すべて表示",
-    "AppName": "Xランキング",
-    "Atlantic": "グループ・アロメ",
-    "Measurement": "計測中",
-    "Open": "開催中！！",
-    "Pacific": "グループ・ヤコ",
-    "PastRankings": "過去のランキング",
-    "Region": "グループ",
-    "SeeRanking": "ランキングを見る",
-    "SeeWeaponTop": "ブキトップを見る",
-    "SelectWeapon": "ブキを選ぶ",
-    "Title": "Xランキング",
-    "Top500": "トップ 500",
-    "TopPlayers": "トッププレイヤー",
-    "WeaponTop": "ブキトップ プレイヤー",
-    "WeaponTopSingular": "ブキトップ プレイヤー",
-    "Xcrown": "おうかん",
-    "PastRankingsAnnotation": "※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
   "Widgets": {
     "AlbumDescription": "イカリング３のアルバムの画像を表示します。",
@@ -745,6 +721,30 @@
     "VshistoryTitle": "バトルのきろく",
     "VshistoryWin": "WIN!"
   },
+  "Footer": {
+    "BigrunAnnouncement": "<em>ビッグラン</em>警報発令！シャケの接近に注意！",
+    "BigrunNowOpening": "<em>ビッグラン</em>発生中！シャケから街を守れ！"
+  },
+  "XRanking": {
+    "All": "すべて表示",
+    "AppName": "Xランキング",
+    "Atlantic": "グループ・アロメ",
+    "Measurement": "計測中",
+    "Open": "開催中！！",
+    "Pacific": "グループ・ヤコ",
+    "PastRankings": "過去のランキング",
+    "Region": "グループ",
+    "SeeRanking": "ランキングを見る",
+    "SeeWeaponTop": "ブキトップを見る",
+    "SelectWeapon": "ブキを選ぶ",
+    "Title": "Xランキング",
+    "Top500": "トップ 500",
+    "TopPlayers": "トッププレイヤー",
+    "WeaponTop": "ブキトップ プレイヤー",
+    "WeaponTopSingular": "ブキトップ プレイヤー",
+    "Xcrown": "おうかん",
+    "PastRankingsAnnotation": "※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
+  },
   "CoopRecord": {
     "AppName": "バイト",
     "Bigrun": "ビッグラン",
@@ -755,7 +755,7 @@
     "HighestScore": "ハイスコア",
     "More": "もっと見る",
     "NoData": "きろくがありません",
-    "Title": "サーモンランのきろく",
-    "TeamContest": "バイトチームコンテスト"
+    "TeamContest": "バイトチームコンテスト",
+    "Title": "サーモンランのきろく"
   }
 }
