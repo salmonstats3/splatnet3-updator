@@ -1,7 +1,7 @@
 //
 //  NameplateKey.swift
 //
-//  Created by tkgstrator on 2023/03/19
+//  Created by tkgstrator on 2023/03/20
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
