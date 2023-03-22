@@ -356,7 +356,7 @@ def _load_params(hash: LocaleHash) -> dict:
   with open(path, mode='r') as f:
     response = json.load(f)
     keys = list(map(lambda key: _camel_case(key), response.keys()))
-    values = response.values()
+    values = list(map(lambda x: x.replace('{ 0 }', ''), response.values()))
     return dict(zip(keys, values))
 
 def _camel_case(key: str):
@@ -366,6 +366,8 @@ def _camel_case(key: str):
   return camel_key
 
 def _append_prefix(dictionary: dict, prefix: str = None) -> dict:
+  if prefix == 'CoopHistory':
+    dictionary: dict = dict([i for i in dictionary.items() if i[0].find('Sake') >= 0])
   if prefix == 'CoopEvent':
     dictionary: dict = _event_replace(dict([i for i in dictionary.items() if i[0].find(prefix) >= 0]))
   if prefix == 'CoopGrade':
@@ -388,9 +390,10 @@ def _get_params(hash: LocaleHash, version: int) -> dict:
     contents.update(_append_prefix(response['CommonMsg/Weapon/WeaponParamName'], prefix='ParamName'))
     contents.update(_append_prefix(response['CommonMsg/Weapon/WeaponTypeName'], prefix='WeaponTypeName'))
     contents.update(_append_prefix(response['CommonMsg/Glossary'], prefix='CoopEvent'))
+    contents.update(_append_prefix(response['CommonMsg/Glossary'], prefix='CoopHistory'))
     contents.update(_append_prefix(response['CommonMsg/Coop/CoopStageName'], prefix='CoopStage'))
     contents.update(_load_params(hash))
 
     # 不要なキーが含まれるものは削除
-    contents = {key: value for key, value in contents.items() if 'Preview' not in key and '{' not in value}
+    contents = {key: value for key, value in contents.items() if 'Preview' not in key and '%' not in key}
     return contents

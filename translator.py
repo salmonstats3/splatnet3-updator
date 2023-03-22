@@ -5,10 +5,10 @@ import pandas as pd
 from dotenv import load_dotenv
 import numpy as np
 import datetime
+from googletrans import Translator
 
 load_dotenv()
 AUTH_KEY = os.getenv('AUTH_KEY')
-translator = deepl.Translator(AUTH_KEY)
 
 def translate():
   df = pd.read_csv('custom.csv', header=0, index_col=[0, 1, 2, 3])
@@ -17,7 +17,6 @@ def translate():
     for target_lang, value in values.items():
       source = key[2]
       if value is None and source is not np.nan:
-        print(f"Translate {source} to {value}")
         df.at[key, target_lang] = _translate(target_lang, source)
   df.to_csv('custom.csv')
 
@@ -48,9 +47,11 @@ def _translate(target: str, text: str) -> str:
     target = 'RU'
   # 中国語
   if target in ['zh-Hant', 'zh-Hans']:
-    target = 'ZH'
+    print(f'Translate(Google) {text} to {target}')
+    target = 'CH'
   if target in ['DE', 'ES', 'FR', 'IT', 'NL', 'RU', 'ZH', 'EN-GB']:
-    print(f'Translate {text} to {target}')
+    print(f'Translate(DeppL) {text} to {target}')
+    translator = deepl.Translator(AUTH_KEY)
     result = translator.translate_text(text, target_lang=target, source_lang='EN')
     return result.text
   else:

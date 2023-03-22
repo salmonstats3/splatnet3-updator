@@ -30,17 +30,28 @@ Catalog:
   CardPackFresh: Jeu de cartes classe
   CardSleeve: Motifs de cartes
   Complete: TERMINÉ !
+  Current:  / { 1 }
+  CurrentExtraLevel: Niv. 
+  CurrentPoint: 'Total :  p.'
+  DailyBonus: La première victoire du jour te rapporte <em></em> points !
   DrinkTicket: Ticket boisson
   Emote: Émoticône
+  EndOfSeason: <em></em> presque terminée ! Un bonus de fin d'une valeur de <em>1,2×</em>
+    tes points de catalogue est disponible !
   FesBonus: Festival en cours ! Remporte <em>1,2 x</em> plus de points !
   Figure: Objet de décoration
   FoodTicket: Ticket en-cas
   Got: En poche
   Guide: <em>Atteins le niveau 4 et rends-toi à Coolypso pour obtenir un catalogue !</em>
+  ItemAmount: x
   Level: Niveau
+  Limit: 'Jusqu''au '
   MysteryBox: Boîte mystère
   NamePlateBg: Bannière
   NextBonus: Suivant
+  Page: 'Page '
+  Pager: Page  / { 1 }
+  Period: ' En cours !'
   Point: Points
   Signboard: Coolypso
   Sticker: Autocollant
@@ -111,6 +122,7 @@ Challenge:
     les motifs de cartes obtenus en récompense.
   HowToPlay: L'Odyssée d'Omar démarre, et plus tu encres de territoire, plus tu obtiendras
     de points pour l'encourager. Qui sait, peut-être te rapportera-t-il même un souvenir !
+  Journey: 'Voyage '
   Journey2Description: Salut, ça pince ? J'me suis dit que comme prochaine étape,
     la région d'Chromapolis s'rait l'endroit rêvé.<br />Pour la p'tite histoire, c'est
     là qu'j'ai grandi, mais j'y suis pas r'tourné depuis un paquet de marées.<br />Alors
@@ -124,9 +136,12 @@ Challenge:
     il faut un bon braquet.
   LookingForSupporters: On cherche des assistants !
   Orange: Orange
+  Point: ' p.'
   PointForSupport: 'Points requis :'
+  PointNotEnough: (Il t'en manque encore .)
   Purple: Violette
   Red: Rouge
+  RemainsOfChallenge: Encore <span></span>.
   Rob: Omar
   RobJourney: Contribue à l'Odyssée d'Omar
   SelectColor: Choisis la couleur que tu veux télécharger.
@@ -153,6 +168,7 @@ Challenge:
   Turquoise: Turquoise
   White: Blanche
   Yellow: Jaune
+  YourPoint: 'Tu as  p. '
 Common:
   Cancel: Annuler
   ClamBlitz: Pluie de palourdes
@@ -252,6 +268,7 @@ CoopHistory:
   NotAvailable: Les stats de missions ne sont pas disponibles.
   NotAvailableDescription: Seules les 50 entrées les plus récentes sont disponibles.
   NotDefeated: Échec...
+  P:  p.
   PlayCount: Sessions de travail
   Previous: Précédent
   Private: Mission privée
@@ -266,6 +283,31 @@ CoopHistory:
   RegularPoint: Points actuels
   RescueCount: Collègues secourus
   RescuedCount: Secours reçus
+  SakeArtillery: Gros boulet
+  SakeArtilleryCannon: canon du Gros boulet
+  SakeBigBoss: Salmonarque
+  SakeBigBossGauge: Salmomètre
+  SakeDolphin: Ploufion
+  SakeFlyBagman: Barboteur
+  SakePillar: Pylônoïde
+  SakeRope: Salmophide
+  SakeSaucer: Couverclard
+  SakeTamaire: Salmonoïde de boue
+  Sakediver: Gobb
+  Sakedozer: Barbeurk
+  SakelienBomber: Tête-de-pneu
+  SakelienCupTwins: Aéro Ben
+  SakelienGiant: Salmotori
+  SakelienGolden: Dorax
+  SakelienLarge: Sumoche
+  SakelienShield: Bricabrute
+  SakelienSmall: Salmioche
+  SakelienSnake: Carnacier
+  SakelienStandard: Salmoche
+  SakelienTower: Marmirador
+  Sakepuncher: Vaisseau mère
+  SakepuncherBulletSimpl: Salmocoptère
+  Sakerocket: Crachin
   Scale: Écailles
   ScaleBronze: Écaille de bronze
   ScaleGold: Écaille d'or
@@ -277,11 +319,13 @@ CoopHistory:
   TeamContest: Défi œuf sup'
   Title: Salmon Run
   TotalPoint: Total des points
+  Wave: 'Vague '
   WaveLevel0: Marée basse
   WaveLevel1: Normal
   WaveLevel2: Marée haute
 CoopRecord:
   AppName: Missions
+  Attended: 'Nombre de participations : '
   Bigrun: Big Run
   BigrunBronze: Bronze
   BigrunGold: Or
@@ -327,6 +371,7 @@ FesRecord:
   ContributionRegular: Contribution (ouvert)
   ContributionTricolor: Contribution (match tricolore)
   Defense: En défense
+  FestPower: '{ 1 } Power : '
   FestRanking: Top 100 du festival
   GotHoragai: Conques obtenues
   GuideVote: Tu peux changer ton vote autant de fois que tu le souhaites avant de
@@ -342,6 +387,7 @@ FesRecord:
   PreVoteGuide: Découvre pour quelle équipe ont opté tes amis<br />et rassemble ton
     clan avant la bataille !
   PreVoteTitle: Quelle équipe va l'emporter ?<br />Cours voter !
+  Rank: '<small>Place : </small> - '
   Regular: Ouvert
   SeeAllVotes: Équipes de tes amis
   SeeFestRanking: Voir le top 100 du festival
@@ -355,10 +401,16 @@ FesRecord:
   VotingStatus: Votes de tes amis
   WaitingForResult: Calcul des résultats...
   Win: VICTOIRE
+  WinTeam: <span></span> l'emporte !
   YourRecord: Tes stats
 Footer:
   BigrunAnnouncement: Alerte <em>Big Run</em> ! Gare aux Salmonoïdes !
   BigrunNowOpening: <em>Big Run</em> en cours ! Protège la ville des Salmonoïdes !
+  EndOfSeason: <em></em> bientôt terminée !
+  FestAnnouncement: Le festival « <em></em> » a commencé ! Choisis ton camp et plonge
+    au cœur de l'action !
+  FestNowOpening: 'Le festival « <em></em> » a commencé ! Va voter sur le square pour
+    obtenir ton t-shirt festif ! '
 FriendList:
   AppName: Liste d'amis
   InCoopGame: Au travail...
@@ -379,6 +431,8 @@ GesoTown:
     SplatNet</em><br />et offre <em>différents bonus</em> !
   Feature: Chouchou du jour
   Featured: Chouchou du jour
+  FrequentGearPower: Bonus potentiels avec <strong></strong>
+  Limit: Jusqu'au <em></em>
   Money: Argent
   Next: Suivant
   NextFeature: Prochain chouchou
@@ -389,6 +443,8 @@ GesoTown:
   Pending: Vérification des stocks...
   Previous: Précédent
   RemainAlmostFinished: Se termine...
+  RemainHour: Plus que  h !
+  RemainMinute: Plus que  min !
   Remind: Tu as déjà passé une commande.
   RemindCaution: La commande actuelle sera annulée.
   Rule1: Tu ne peux commander qu'un article à la fois.
@@ -424,6 +480,7 @@ HeroRecord:
   RecruitmentSub: 'Un seul moyen de le savoir : tenter le mode Histoire !'
   SearchRatio: Taux d'exploration
   SeePhotograph: Voir la photo d'écran
+  Site: 'Secteur '
   Site1: Utopîle Futura
   Site2: Usine cocoon
   Site3: Cryophoria
@@ -433,8 +490,10 @@ HeroRecord:
   Title: Stats du mode Histoire
   Wallpaper: Papier peint spécial
 History:
+  AllBadges: Tous les badges ()
   AppName: Historique
   Badge: Badges
+  Count: <small> fois</small>
   EstimatedRanking: Classement estimé
   FrequentlyUsedWeapon: Armes de prédilection
   HighestUdemae: Record absolu
@@ -446,15 +505,18 @@ History:
   PastXmatchAnnotation: Les statistiques des matchs X sont calculés et publiés une
     fois la saison terminée.
   Rank: Niveau
+  Ranking: ''
   Season: Saison
   ShowAllBadges: Voir tous les badges
   ShowLess: Masquer
   ShowMore: Plus
   ShowXranking: Voir le classement de matchs X
+  Since: Joue depuis le  (Réactualisé le { 1 })
   Summary: Résumé
   Title: Historique
   TotalTurfPoint: Surface encrée
   TotalWin: Total de victoires
+  TurfPoint:  p.
   Udemae: Rang
   Weapon: Stats - armes
   WeaponUsage: Fréquence d'utilisation - armes
@@ -504,6 +566,7 @@ MyOutfits:
   CurrentGear: Équipement actuel
   CurrentWeapon: Arme actuelle
   ErrorSave: La sauvegarde a échoué.
+  Exp: Expérience <em></em>
   Filter: Filtre
   Gear: Équipement
   GearPower: Bonus
@@ -521,13 +584,19 @@ MyOutfits:
   NoGears: Aucun résultat
   NoWeapons: Aucun résultat
   Normal: Normal
+  Number: 'Tenue '
   'Off': Non
   'On': Oui
   OpenCameraOption: Afficher les paramètres de la caméra
+  RControl: ' : axe horizontal'
+  RHorizontal: ' : sensibilité'
   RHorizontalUnavailable: Sans effet lorsque le gyroscope est désactivé.
+  RVertical: ' : axe vertical'
   RVerticalUnavailable: Sans effet lorsque le gyroscope est activé.
+  Rarity: 'Nombre d''étoiles : '
   Reverse: Inversé
   Save: Sauvegarder
+  Select: 'Sélectionne '
   SelectCloth: Choisis un vêtement.
   SelectHead: Choisis un accessoire.
   SelectShoes: Choisis des chaussures.
@@ -540,6 +609,7 @@ MyOutfits:
   SubmitGear: OK
   SubmitWeapon: OK
   Title: Tenues favorites
+  TurfPoint: Surface encrée <em> p.</em>
   TvTabletopMode: Mode TV/Mode sur table
   Weapon: Armes
 ParamName:
@@ -560,6 +630,7 @@ PhotoAlbum:
   Title: Album
 QRCodeReader:
   AppName: QR Code
+  CheckinDate: 'Date et heure : '
   ConfirmationAllow: Autoriser
   ConfirmationDeny: Ne pas autoriser
   ErrorAlreadyGotDescription: Tu as déjà récupéré cette récompense.
@@ -594,6 +665,7 @@ Record:
   StageRecordAppName: Stages
   Sub: Secondaire
   Title: Stats
+  TotalTurfPoint:  p.
   TurfPoint: Surf. encrée
   UnplayedStages: Stages non parcourus
   UnusedWeapons: Pas encore obtenues
@@ -601,6 +673,7 @@ Record:
   WeaponRecord: Stats - armes
   WeaponRecordAppName: Armes
   WinCount: 'Victoires :'
+  WinRatio:  %
 Settings:
   Acknowledgements: Copyright
   AppName: Paramètres
@@ -628,19 +701,25 @@ StageSchedule:
   Eventmatch: L'événement a commencé !
   Festival: Festimatch
   FestivalAnnounced: Bientôt !
+  FestivalAt: 'Début :  !'
   FestivalAttack: En attaque
   FestivalDefense: En défense
   FestivalHolding: En cours !
+  FestivalPeriod: ' - { 1 }'
   Future: Prochains
   League: Match de ligue
   Next: Suivant
   NoticeBigrun: Big Run en approche !
-  NoticeLimited: Offre d'emploi à durée limitée !
+  NoticeLimited: Défi œuf sup' en approche !
   NowClosed: Festival en cours !
   Open: Actuel
   OpenBigrun: Big Run en cours !
-  OpenLimited: Offre d'emploi disponible !
+  OpenLimited: Défi œuf sup' disponible !
   Private: Match privé
+  Recruit: Un Big Run est en cours ! M. Ours SA embauche, tous types de profils acceptés
+    ! ()
+  RecruitTeamContest: 'Un défi œuf sup'' est disponible. Recrute des joueurs et fais
+    honneur à M. Ours SA ! '
   Regular: Match classique
   SeeFestivalRecord: Statistiques du festival
   SuppliedWeaponRandom: Aléatoire
@@ -657,21 +736,28 @@ VSHistory:
   AnnotationNocontest: Match annulé.
   AnnotationPenalty: Le match a été interrompu.
   Attack: En attaque
+  Average: Moyenne >  min
   AwardGold: Or
   AwardSilver: Argent
   Bankara: Match anarchie
   BankaraChallenge: Match anarchie (série)
   BankaraOpen: Match anarchie (ouvert)
   Cleaning: Résultats
+  Contribute: 'Contribution : '
+  Count: 'Progression : '
   DeathCount: Liquidations subies
   Defense: En défense
   Draw: ÉGALITÉ
   EquippedGear: Équipement utilisé
   EquippedWeapon: Arme utilisée
+  EstimatedRoomPower: '{ 1 } - Power cumulé des  joueurs : environ { 2 }'
   FesChallenge: Festimatch (série)
   FesOpen: Festimatch (ouvert)
+  FesTeam: 'Camp '
   FesWinProof: Star du festival
+  FestPower: '{ 1 } Power : '
   Festival: Festimatch
+  FestivalShell: 'Coquivals : '
   GoToStats: Retour au journal de matchs
   GotAwards: Médailles obtenues
   GotTricolorTreasure: Fontaine du fléau déployée
@@ -687,6 +773,7 @@ VSHistory:
   NoData: Il n'existe aucune donnée de match à afficher.
   NotAvailable: Données de match indisponibles
   NotAvailableDescription: Seules les 50 entrées les plus récentes sont disponibles.
+  OutfitBonus: (Bonus de synergie x)
   PreviousBattle: Précédent
   Private: Match privé
   Promo: Match de rang
@@ -694,13 +781,17 @@ VSHistory:
   SpCount: Utilisations de l'arme spéciale
   Title: Matchs
   TryCount: Tentatives
+  TurfPoint: ' p.'
   UdemaePoint: Points de rang
+  UdemaePointScore: ' p.'
   UdemaeReset: Série interrompue
   UdemaeUp: Tu t'améliores !
   Win: VICTOIRE
   WinMeterGuide: Victoires et défaites
+  Wins: 'Victoires consécutives : '
   Xcrown: Couronne
   Xmatch: Match X
+  Xpower: 'X Power : '
 WeaponTypeName:
   Blaster: Blasters
   Brush: Pinceaux
@@ -779,12 +870,15 @@ XRanking:
   All: Tout afficher
   AppName: Classements X
   Atlantic: Division OculR
+  EstimatedRank: 'Classement estimé : '
   Measurement: Calcul...
   Open: En cours !
   Pacific: Division Cubic
   PastRankings: Anciens classements
   PastRankingsAnnotation: Les anciens classements sont calculés et publiés une fois
     la saison terminée. (Dans certains cas, le calcul peut prendre plusieurs jours.)
+  Period: ' - { 1 }'
+  Rank: 'Pos. '
   Region: Division
   SeeRanking: Voir le classement
   SeeWeaponTop: Spécialistes de cette arme
@@ -795,3 +889,4 @@ XRanking:
   WeaponTop: Spécialistes de cette arme
   WeaponTopSingular: Spécialiste de cette arme
   Xcrown: Couronne
+  Xpower: '<small>X Power :</small> '

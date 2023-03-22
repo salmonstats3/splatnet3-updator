@@ -31,17 +31,28 @@ Catalog:
   CardPackFresh: Vers pakje kaarten
   CardSleeve: Kaartenhoesjes
   Complete: VOLTOOID!
+  Current: ' / { 1 }'
+  CurrentExtraLevel: 'Niveau '
+  CurrentPoint: Totaal  p
+  DailyBonus: Voor je eerste overwinning van vandaag heb je <em></em> punten verdiend!
   DrinkTicket: Drankcoupon
   Emote: Reactie
+  EndOfSeason: Het <em></em> is bijna voorbij, maar je kunt nu een eindspurtbonus
+    van <em>×1,2</em> cataloguspunten verdienen!
   FesBonus: Splatfest bezig! Verdien <em>1,2×</em> zo veel punten!
   Figure: Versiering
   FoodTicket: Voedselcoupon
   Got: Heb je al!
   Guide: <em>Bereik niveau 4 om een catalogus te kunnen halen in Aqua Morgana!</em>
+  ItemAmount: ×
   Level: Niveau
+  Limit: 'Tot '
   MysteryBox: Verrassingspakket
   NamePlateBg: Achtergrond
   NextBonus: Volgende
+  Page: 'Pagina '
+  Pager: Pagina  / { 1 }
+  Period: ' Nu bezig!'
   Point: Punten
   Signboard: Aqua Morgana
   Sticker: Sticker
@@ -113,6 +124,7 @@ Challenge:
   HowToPlay: Pelle gaat op reis, en hoe meer grond je met inkt bedekt, hoe meer punten
     je krijgt om hem mee aan te moedigen. Wie weet neemt hij wel een souvenir voor
     je mee!
+  Journey: e reis
   Journey2Description: Hé, guppen! De volgende stop op mijn Aardboltoer is Inkopolis.<br
     />Ik ben daar in de buurt opgegroeid, maar ik ben er al een tijdje niet meer geweest.
     Het is er vast nog net zo modieus als toen!<br />Dit is ook een beetje een reis
@@ -126,9 +138,12 @@ Challenge:
     Het is niet het aantal benen dat de fietser sneller maakt, maar zijn versnellingen.'
   LookingForSupporters: Helpers gezocht!
   Orange: Oranje
+  Point: ' p'
   PointForSupport: 'Benodigde punten:'
+  PointNotEnough: ' (je hebt nog  p extra nodig).'
   Purple: Paars
   Red: Rood
+  RemainsOfChallenge: Nog <span></span>
   Rob: Pelle
   RobJourney: Sponsor Pelles Aardboltoer
   SelectColor: Kies een kleur.
@@ -154,6 +169,7 @@ Challenge:
   Turquoise: Turkoois
   White: Wit
   Yellow: Geel
+  YourPoint: Je hebt  p
 Common:
   Cancel: Annuleren
   ClamBlitz: Schelpenstrijd
@@ -253,6 +269,7 @@ CoopHistory:
   NotAvailable: Werkverleden niet beschikbaar
   NotAvailableDescription: Alleen de 50 meest recente klussen zijn beschikbaar.
   NotDefeated: Mislukt...
+  P: ' p'
   PlayCount: Klussen
   Previous: Vorige klus
   Private: Privéklus
@@ -266,6 +283,31 @@ CoopHistory:
   RegularPoint: Huidig aantal punten
   RescueCount: Geredde teamgenoten
   RescuedCount: Aantal keer gered
+  SakeArtillery: Bombarie
+  SakeArtilleryCannon: Bombariekanon
+  SakeBigBoss: Salmonster
+  SakeBigBossGauge: Salmometer
+  SakeDolphin: Dompelaar
+  SakeFlyBagman: Zammel
+  SakePillar: Salmonoliet
+  SakeRope: Horroboros
+  SakeSaucer: Dreksel
+  SakeTamaire: Moddermuil
+  Sakediver: Snaai
+  Sakedozer: Griller
+  SakelienBomber: Staalkop
+  SakelienCupTwins: Salmodrone
+  SakelienGiant: Sumosalmo
+  SakelienGolden: Goldie
+  SakelienLarge: Sallog
+  SakelienShield: Jutter
+  SakelienSmall: Salmini
+  SakelienSnake: Staal
+  SakelienStandard: Salmo
+  SakelienTower: Staaplo
+  Sakepuncher: moederschip
+  SakepuncherBulletSimpl: Salmokopter
+  Sakerocket: Miezer
   Scale: Visschubben
   ScaleBronze: Bronzen schub
   ScaleGold: Gouden schub
@@ -277,11 +319,13 @@ CoopHistory:
   TeamContest: Bedrijfseitje
   Title: Salmon Run
   TotalPoint: Puntentotaal
+  Wave: e golf
   WaveLevel0: Eb
   WaveLevel1: Normaal
   WaveLevel2: Vloed
 CoopRecord:
   AppName: Klussen
+  Attended: 'Aantal keer meegedaan: '
   Bigrun: Big Run
   BigrunBronze: Brons
   BigrunGold: Goud
@@ -328,6 +372,7 @@ FesRecord:
   ContributionRegular: Invloed (open)
   ContributionTricolor: Invloed (driekleurengevecht)
   Defense: Verdediging
+  FestPower: '{ 1 }-kracht: '
   FestRanking: Splatfest Top 100
   GotHoragai: Ontvangen prijsschelpen
   GuideVote: Je kunt je antwoord op deze peiling zo vaak als je wilt veranderen voordat
@@ -343,6 +388,7 @@ FesRecord:
   PreVoteGuide: Bekijk met welk team je vrienden meedoen.<br />Verzamel je crew en
     bereid je voor!
   PreVoteTitle: Met welk team wil iedereen meedoen?<br />Stem nu!
+  Rank: e<small> plaats</small>
   Regular: Open
   SeeAllVotes: Teams van je vrienden
   SeeFestRanking: Splatfest Top 100 bekijken
@@ -356,10 +402,16 @@ FesRecord:
   VotingStatus: Zo hebben je vrienden gestemd
   WaitingForResult: Bezig de uitslag te berekenen...
   Win: Gewonnen!
+  WinTeam: <span></span> heeft gewonnen!
   YourRecord: Je statistieken
 Footer:
   BigrunAnnouncement: <em>Big Run</em>-alarm! De Salmonieten zijn in aantocht!
   BigrunNowOpening: <em>Big Run</em> aan de gang! Bescherm de stad tegen de Salmonieten!
+  EndOfSeason: Het <em></em> is bijna voorbij!
+  FestAnnouncement: Het <em></em>-Splatfest is geopend! Kies een team en duik in de
+    actie!
+  FestNowOpening: Het <em></em>-Splatfest is geopend! Kies op het plein je team en
+    ontvang je Splatfest-T-shirt!
 FriendList:
   AppName: Vriendenlijst
   InCoopGame: Aan het werk
@@ -380,6 +432,8 @@ GesoTown:
     <em>ongebruikelijke effecten</em>!
   Feature: Verse vangst
   Featured: Verse vangst
+  FrequentGearPower: Mogelijke effecten met <strong></strong>
+  Limit: Tot <em></em>
   Money: Geld
   Next: Verder
   NextFeature: Volgende vangst
@@ -390,6 +444,8 @@ GesoTown:
   Pending: Bezig beschikbaarheid te controleren...
   Previous: Terug
   RemainAlmostFinished: Nog maar kort!
+  RemainHour: Nog  uur!
+  RemainMinute: Nog  min.!
   Remind: Je hebt al iets besteld.
   RemindCaution: Je openstaande bestelling zal worden geannuleerd.
   Rule1: Je kunt maar één artikel tegelijk bestellen.
@@ -423,6 +479,7 @@ HeroRecord:
   RecruitmentSub: Kom erachter in het verhaal!
   SearchRatio: Verkend
   SeePhotograph: Foto bekijken
+  Site: 'Sector '
   Site1: Futura
   Site2: Alles Pluis-fabriek
   Site3: Behoudenhuizen
@@ -432,8 +489,10 @@ HeroRecord:
   Title: Statistieken (verhaal)
   Wallpaper: Speciaal wallpaper
 History:
+  AllBadges: Alle badges ()
   AppName: Terugblik
   Badge: Badges
+  Count: <small> keer</small>
   EstimatedRanking: Geschatte positie
   FrequentlyUsedWeapon: Favoriete wapens
   HighestUdemae: Record
@@ -445,15 +504,18 @@ History:
   PastXmatchAnnotation: De X-ranglijsten worden na afloop van het seizoen opgemaakt
     en gedeeld.
   Rank: Niveau
+  Ranking: ''
   Season: Seizoen
   ShowAllBadges: Alle badges bekijken
   ShowLess: Minder tonen
   ShowMore: Meer
   ShowXranking: X-ranglijsten
+  Since: 'Speelt sinds  (Bijgewerkt: { 1 })'
   Summary: Overzicht
   Title: Terugblik
   TotalTurfPoint: 'Geverfde grond:'
   TotalWin: Totale aantal overwinningen
+  TurfPoint: ' p'
   Udemae: Rang
   Weapon: Wapen
   WeaponUsage: Wapengebruik
@@ -502,6 +564,7 @@ MyOutfits:
   CurrentGear: Huidige uitrusting
   CurrentWeapon: Huidig wapen
   ErrorSave: Opslaan niet mogelijk.
+  Exp: Ervaring <em></em>
   Filter: Filteren
   Gear: Uitrusting
   GearPower: Effect
@@ -519,13 +582,19 @@ MyOutfits:
   NoGears: Geen passende uitrusting gevonden.
   NoWeapons: Geen passende wapens gevonden.
   Normal: Normaal
+  Number: 'Stijl '
   'Off': Uit
   'On': Aan
   OpenCameraOption: Camerabesturing tonen
+  RControl: ' Links/rechts'
+  RHorizontal: ' Gevoeligheid'
   RHorizontalUnavailable: Niet beschikbaar als je geen bewegingsbesturing gebruikt.
+  RVertical: ' Omhoog/omlaag'
   RVerticalUnavailable: Niet beschikbaar als je bewegingsbesturing gebruikt.
+  Rarity: 'Zeldzaamheid '
   Reverse: Omgekeerd
   Save: Opslaan
+  Select: ' selecteren'
   SelectCloth: Kleding kiezen
   SelectHead: Accessoire kiezen
   SelectShoes: Schoenen kiezen
@@ -538,6 +607,7 @@ MyOutfits:
   SubmitGear: Oké
   SubmitWeapon: Oké
   Title: Lievelingsstijlen
+  TurfPoint: Geverfde grond <em> p</em>
   TvTabletopMode: Tv-stijl/tafelstijl
   Weapon: Wapen
 ParamName:
@@ -558,6 +628,7 @@ PhotoAlbum:
   Title: Fotoalbum
 QRCodeReader:
   AppName: QR-codelezer
+  CheckinDate: 'Datum en tijd: '
   ConfirmationAllow: Toestaan
   ConfirmationDeny: Niet toestaan
   ErrorAlreadyGotDescription: Je hebt deze beloning al ontvangen.
@@ -591,6 +662,7 @@ Record:
   StageRecordAppName: Levels
   Sub: Subwapen
   Title: Statistieken
+  TotalTurfPoint:  p
   TurfPoint: Geverfde grond
   UnplayedStages: Niet gespeelde levels
   UnusedWeapons: Nog niet gekregen
@@ -598,6 +670,7 @@ Record:
   WeaponRecord: Wapens
   WeaponRecordAppName: Wapens
   WinCount: Overwinningen
+  WinRatio: '%'
 Settings:
   Acknowledgements: Copyrights
   AppName: Instellingen
@@ -625,19 +698,24 @@ StageSchedule:
   Eventmatch: Event nu bezig!
   Festival: Splatfest-gevecht
   FestivalAnnounced: Binnenkort!
+  FestivalAt: Begint om !
   FestivalAttack: Aanval
   FestivalDefense: Verdediging
   FestivalHolding: Nu bezig!
+  FestivalPeriod: ' - { 1 }'
   Future: Daarna
   League: Toernooigevecht
   Next: Volgende
   NoticeBigrun: Er komt een Big Run aan!
-  NoticeLimited: Tijdelijke klus aangeboden!
+  NoticeLimited: Bedrijfseitje aangekondigd!
   NowClosed: Splatfest!
   Open: Nu
   OpenBigrun: Big Run aan de gang!
-  OpenLimited: Tijdelijke klus direct beschikbaar!
+  OpenLimited: Bedrijfseitje direct beschikbaar!
   Private: Privégevecht
+  Recruit: Big Run aan de gang! Beer & Co zoekt werknemers! ()
+  RecruitTeamContest: 'Je kunt nu op een bedrijfseitje. Verzamel een paar collega''s
+    en eh... veel plezier? '
   Regular: Standaardgevecht
   SeeFestivalRecord: Splatfest-statistieken
   SuppliedWeaponRandom: Willekeurig
@@ -654,21 +732,28 @@ VSHistory:
   AnnotationNocontest: Ongeldig gevecht.
   AnnotationPenalty: Het gevecht is niet volledig afgemaakt.
   Attack: Aanval
+  Average: Gemiddelde over  min
   AwardGold: Goud
   AwardSilver: Zilver
   Bankara: Chaosgevecht
   BankaraChallenge: Chaosgevecht (sessie)
   BankaraOpen: Chaosgevecht (open)
   Cleaning: Uitslag
+  Contribute: 'Invloed: '
+  Count: 'Score: '
   DeathCount: Zelf uitgeschakeld
   Defense: Verdediging
   Draw: Gelijk
   EquippedGear: Gebruikte uitrusting
   EquippedWeapon: Gebruikt wapen
+  EstimatedRoomPower: 'Geschatte { 1 }-kracht ( spelers): { 2 }'
   FesChallenge: Splatfest-gevecht (sessie)
   FesOpen: Splatfest-gevecht (open)
+  FesTeam: 'Team '
   FesWinProof: Splatfest-embleem
+  FestPower: '{ 1 }-kracht: '
   Festival: Splatfest-gevecht
+  FestivalShell: 'Festivalschelpen: '
   GoToStats: Terug naar de gevechtsstatistieken
   GotAwards: Ontvangen medailles
   GotTricolorTreasure: Doemsprinkler ingezet
@@ -684,6 +769,7 @@ VSHistory:
   NoData: Er zijn geen gevechtsstatistieken.
   NotAvailable: Geen gevechtsstatistieken beschikbaar
   NotAvailableDescription: Alleen de 50 meest recente gegevens zijn beschikbaar.
+  OutfitBonus: (Teamspiritbonus ×)
   PreviousBattle: Vorige
   Private: Privégevecht
   Promo: Ranggevecht
@@ -691,13 +777,17 @@ VSHistory:
   SpCount: Speciale wapen gebruikt
   Title: Gevechten
   TryCount: Pogingen
+  TurfPoint: ' p'
   UdemaePoint: Rangpunten
+  UdemaePointScore: ' p'
   UdemaeReset: De reeks is afgebroken
   UdemaeUp: In rang gestegen!
   Win: Gewonnen!
   WinMeterGuide: Gewonnnen/verloren
+  Wins: 'Overwinningsreeks: '
   Xcrown: Kroon
   Xmatch: X-gevecht
+  Xpower: 'X-kracht: '
 WeaponTypeName:
   Blaster: Blasters
   Brush: Kwasten
@@ -773,12 +863,15 @@ XRanking:
   All: Alle tonen
   AppName: X-ranglijsten
   Atlantic: Tentatek-competitie
+  EstimatedRank: 'Geschatte positie: '
   Measurement: n.n.b.
   Open: Nu geopend!
   Pacific: Takoroka-competitie
   PastRankings: Eerdere ranglijst
   PastRankingsAnnotation: De eerdere ranglijst wordt na afloop van het seizoen opgemaakt
     en gedeeld. Dit kan in sommige gevallen enkele dagen duren.
+  Period: ' t/m { 1 }'
+  Rank: e
   Region: Competitie
   SeeRanking: Ranglijst
   SeeWeaponTop: Beste spelers per wapen
@@ -789,3 +882,4 @@ XRanking:
   WeaponTop: Beste spelers per wapen
   WeaponTopSingular: Beste speler met dit wapen
   Xcrown: Kroon
+  Xpower: '<small>X-kracht:</small> '

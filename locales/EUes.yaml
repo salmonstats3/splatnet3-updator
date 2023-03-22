@@ -22,7 +22,8 @@ Catalog:
   AppName: Catálogo
   Available: Intercambiable
   BigrunBonus: ¡Big Run en curso! ¡Obtén un <em>20 % extra</em> de puntos!
-  BonusDescription: ¡Aumenta tu nivel de catálogo para<br />poder obtener una caja
+  BonusDescription:
+    ¡Aumenta tu nivel de catálogo para<br />poder obtener una caja
     misteriosa!
   BonusGuide: Obtendrás una caja misteriosa por cada 10 niveles que subas.
   BonusTitle: ¡Bonificación por nivel 101!
@@ -31,65 +32,85 @@ Catalog:
   CardPackFresh: Paquete de cartas exclusivo
   CardSleeve: Fundas para cartas
   Complete: ¡Completo!
+  Current: " / { 1 }"
+  CurrentExtraLevel: "Nivel "
+  CurrentPoint: "Total:  p"
+  DailyBonus: ¡Has ganado <em></em> puntos por la primera victoria del día!
   DrinkTicket: Cupón de bebida
   Emote: Reacción
+  EndOfSeason: ¡<em></em> casi concluida! ¡Ocasión de obtener puntos de catálogo <em>×1,2</em>!
   FesBonus: ¡Festival en curso! ¡Obtén un <em>20 % extra</em> de puntos!
   Figure: Adorno
   FoodTicket: Cupón de comida
   Got: Disponible
   Guide: <em>¡Progresa hasta el nivel 4 para obtener el catálogo de Miscelánea Abisal!</em>
+  ItemAmount: ×
   Level: Nivel
-  MysteryBox: Caja misteriosa
+  Limit: "Hasta "
+  MysteryBox: Caja sorpresa
   NamePlateBg: Fondo
   NextBonus: Próximo
+  Page: "Página "
+  Pager: Página  / { 1 }
+  Period: " - { undefined } ¡En curso!"
   Point: Puntos
   Signboard: Miscelánea Abisal
   Sticker: Pegatina
   Title: Catálogo
   Welcome: ¡Tenemos nuevo catálogo!
-  WelcomeDescription: ¡Reúne puntos de catálogo en combate<br />para poder hacerte
+  WelcomeDescription:
+    ¡Reúne puntos de catálogo en combate<br />para poder hacerte
     con fabulosos artículos!
 Challenge:
   AboutGraffiti: ¡Te mandaré todos los grafitis molones que vaya encontrando por ahí!
   AppName: Ruta Adolfrito
   Black: Negro
   Blue: Azul
-  Challenge210Description: Ese cielo anaranjado... me recuerda al color del aceite
+  Challenge210Description:
+    Ese cielo anaranjado... me recuerda al color del aceite
     cuando tiene la temperatura ideal.
   Challenge210Reward: Alias
   Challenge210Title: Presa salmónida
-  Challenge21Description: Dicen que el arte alimenta el espíritu... ¿Más que unas
+  Challenge21Description:
+    Dicen que el arte alimenta el espíritu... ¿Más que unas
     buenas pirañas rebozadas?
   Challenge21Reward: Foto espectacular
   Challenge21Title: Museo del Pargo
-  Challenge22Description: Su comedor es sobresaliente. ¡Fríen con aceite de primera
+  Challenge22Description:
+    Su comedor es sobresaliente. ¡Fríen con aceite de primera
     calidad!
   Challenge22Reward: Pegatina chula
   Challenge22Title: Instituto Coralino
-  Challenge23Description: ¡Qué viento sopla aquí arriba! Hay que estar muy bien rebozado
+  Challenge23Description:
+    ¡Qué viento sopla aquí arriba! Hay que estar muy bien rebozado
     para no sentirlo hasta en los huesos.
   Challenge23Reward: Foto espectacular
   Challenge23Title: Puente Salmón
-  Challenge24Description: Ver al personal trabajando con soldadores me recuerda a
+  Challenge24Description:
+    Ver al personal trabajando con soldadores me recuerda a
     mi freidora portátil. ¡Qué hambre!
   Challenge24Reward: Pegatina chula
   Challenge24Title: Astillero Beluga
-  Challenge25Description: Es como si cierto aroma a fritura flotara en el ambiente...
+  Challenge25Description:
+    Es como si cierto aroma a fritura flotara en el ambiente...
     ¿Qué puedo prepararme de cena hoy?
   Challenge25Reward: Foto espectacular
   Challenge25Title: Complejo Medusa
-  Challenge26Description: ¡Ostras! ¡Venden un nuevo tipo de aceite para freír! ¡Y
+  Challenge26Description:
+    ¡Ostras! ¡Venden un nuevo tipo de aceite para freír! ¡Y
     está genial de precio!
   Challenge26Reward: Pegatina chula
   Challenge26Title: Ultramarinos Orca
   Challenge27Description: ¡En sitios así me emociono más que ante un plato de croquetas!
   Challenge27Reward: Foto espectacular
   Challenge27Title: Spa Cala Bacalao
-  Challenge28Description: Los vaivenes de la montaña rusa serían ideales para batir
+  Challenge28Description:
+    Los vaivenes de la montaña rusa serían ideales para batir
     masa de fritura sin mucho esfuerzo.
   Challenge28Reward: Fondo grafiti
   Challenge28Title: Pirañalandia
-  Challenge29Description: Qué paz y soledad se respiran aquí... Lo malo es que no
+  Challenge29Description:
+    Qué paz y soledad se respiran aquí... Lo malo es que no
     hay ni un triste puesto de comida.
   Challenge29Reward: Foto crepuscular
   Challenge29Title: Bahía Deriva
@@ -99,65 +120,79 @@ Challenge:
   Complete: ¡Completado!
   CompleteReward: Bonificación por completarlo
   CurrentPoint: Cuanto más terreno entintes, más ayudarás a Adolfrito.
-  DearAllOfYou: 'A mis sufridos colaboradores:'
+  DearAllOfYou: "A mis sufridos colaboradores:"
   DownloadGraffiti: Descargar grafiti
   DownloadIcon: Descargar iconos
   DownloadWallpaper: Descargar fondo de pantalla
   Green: Verde
   GuideGraffiti: ¡Mira qué chulada de grafiti! ¡Ahora puedes descargarlo!
-  GuideRewardByName: Para recibir tu alias como recompensa, visita el terminal del
+  GuideRewardByName:
+    Para recibir tu alias como recompensa, visita el terminal del
     vestíbulo en Splatoon 3.
   GuideRewardIcon: Descarga los iconos que hayas obtenido como recompensa.
   GuideRewardImage: Descarga las imágenes que hayas obtenido como recompensa.
-  GuideRewardSleeve: Para recibir las fundas como recompensa, visita el terminal del
+  GuideRewardSleeve:
+    Para recibir las fundas como recompensa, visita el terminal del
     vestíbulo en Splatoon 3.
-  HowToPlay: Adolfrito se ha marchado de viaje y tú puedes ayudarlo entintando todo
+  HowToPlay:
+    Adolfrito se ha marchado de viaje y tú puedes ayudarlo entintando todo
     lo posible y acumulando puntos. ¡Igual te acaba trayendo algún recuerdo!
-  Journey2Description: ¡Hola, chavalada! He decidido que la próxima parada en mi ruta
+  Journey: "Viaje "
+  Journey2Description:
+    ¡Hola, chavalada! He decidido que la próxima parada en mi ruta
     la haré en la región de Tintelia.<br />Ya hace una buena temporada que no asomo
     los bigotes por allí, así que será algo así como una<br />visita de redescubrimiento.
     Podré recordar mi pasado y dejarme llevar por las nuevas tendencias<br />que hayan
     surgido. ¡Basta de refritos! ¡Hay que modernizarse!
-  Journey2Gratitude: ¡Ya ves! Gracias a tu ayuda, he podido avanzar en mi viaje con
+  Journey2Gratitude:
+    ¡Ya ves! Gracias a tu ayuda, he podido avanzar en mi viaje con
     un toque extra de ánimo fritanguero que se suma a mi ya chisporroteante actitud.
     Para agradecértelo, te dejo una cosilla en el terminal del vestíbulo. ¡Que la
     disfrutes!
-  Journey2Title: ¡El viaje continúa!<br />Si hay algo más importante que entintar,
+  Journey2Title:
+    ¡El viaje continúa!<br />Si hay algo más importante que entintar,
     es recorrer el terreno entintado.
   LookingForSupporters: ¡Se buscan ayudantes!
   Orange: Naranja
-  PointForSupport: 'Puntos necesarios:'
+  Point: " p"
+  PointForSupport: "Puntos necesarios:"
+  PointNotEnough: " (necesitas  más)"
   Purple: Morado
   Red: Rojo
+  RemainsOfChallenge: "Restantes: <span></span>"
   Rob: Adolfrito
   RobJourney: Echa una mano a Adolfrito.
   SelectColor: Elige el color que quieras descargar.
   SelectSize: Elige el tamaño que quieras descargar.
   SendingPoint: Enviando puntos...
-  Story1: ¿Cómo va eso? Soy Adolfrito y he emprendido un gran viaje para cambiar el
+  Story1:
+    ¿Cómo va eso? Soy Adolfrito y he emprendido un gran viaje para cambiar el
     rumbo de mi vida. El caso es que ando un poco escaso de fondos... y ahí es donde
     tú podrías echarme un cable.
-  Story2: Para poder ver mundo, parece que no basta con tener una bicicleta y entusiasmo
+  Story2:
+    Para poder ver mundo, parece que no basta con tener una bicicleta y entusiasmo
     a raudales. ¡Pero no voy a desistir! De hecho, pienso compartir los hallazgos
     de mi viaje con todo aquel que me dé apoyo. Yo me esforzaré todo lo posible y
     tú... me ayudas como puedas.
-  Story3: ¡Imagina la de paisajes espectaculares que veremos y los momentos imborrables
+  Story3:
+    ¡Imagina la de paisajes espectaculares que veremos y los momentos imborrables
     que quedarán en nuestro recuerdo! Prometo que, para quienes me ayuden, será como
     estar ahí mismo conmigo. Bueno, ¡es hora de pedalear con pasión, cual sartén de
     aceite en ebullición! Cuento con vuestro apoyo... y los puntos que me proporcionéis.
   Support: Dar apoyo
   Supported: ¡Apoyo enviado!
-  TermOfUse: '* No distribuyas, edites ni uses la imagen con fines comerciales.'
+  TermOfUse: "* No distribuyas, edites ni uses la imagen con fines comerciales."
   Title: La ruta de Adolfrito
   Transparent: Sin color
   Turquoise: Turquesa
   White: Blanco
   Yellow: Amarillo
+  YourPoint: "Tus puntos:  p"
 Common:
   Cancel: Cancelar
   ClamBlitz: Asalto almeja
   Close: Cerrar
-  ColonRule: ': '
+  ColonRule: ": "
   CoopBigRun: Big Run
   CoopTeamContest: Alianza alevínica
   CopyrightQrCode: QR Code is a registered trademark of DENSO WAVE INCORPORATED.
@@ -209,11 +244,11 @@ CoopEvent:
   Mudmouth: Erupciones de morrolodos
   Rush: Avalanchas
   The: Aerocriaderos
-  Water: '-'
+  Water: "-"
 CoopGrade:
   Grade: Director
 CoopHistory:
-  Available: 'Apariciones '
+  Available: "Apariciones "
   AvailableBoss: Encuentro con el gran jefe
   AverageClearWaves: Media de ofensivas superadas
   Bigrun: Big Run
@@ -228,14 +263,14 @@ CoopHistory:
   DefeatBossCount: Grandes jefes eliminados
   Defeated: ¡Victoria!
   DefeatedEnemies: Grandes salmónidos eliminados
-  DefeatedEnemiesGuide: '* Entre paréntesis se indican los que tú has eliminado.'
+  DefeatedEnemiesGuide: "* Entre paréntesis se indican los que tú has eliminado."
   DeliverCount: Caviar rojo
   Enemy: Gran salmónido
   ExWave: Ofensiva extra
   Failure: Lástima...
   Gj: ✓
   GoToStats: Volver a los resultados de tareas
-  GoldenDeliverCount: 'Alevines '
+  GoldenDeliverCount: "Alevines "
   HighestScore: Récord
   History: Resultados de tareas
   JobPoint: Puntos
@@ -251,11 +286,13 @@ CoopHistory:
   NotAvailable: Resultados de tareas no disponibles
   NotAvailableDescription: Solo los 50 registros más recientes están disponibles.
   NotDefeated: No pudo ser...
-  PlayCount: 'Encargos completados   '
+  P: " p"
+  PlayCount: "Encargos completados   "
   Previous: Anterior
   Private: Trabajo privado
   Recruit: ¡Se busca personal!
-  RecruitDescription: Una labor apta incluso para gente sin experiencia. ¡Basta con
+  RecruitDescription:
+    Una labor apta incluso para gente sin experiencia. ¡Basta con
     tener energía y actitud positiva para ganar escamas de forma cómoda!
   RecruitTag1: ¡Es fácil!
   RecruitTag2: Recolección de caviar rojo
@@ -264,6 +301,31 @@ CoopHistory:
   RegularPoint: Saldo actual
   RescueCount: Compañeros rescatados
   RescuedCount: Número de rescates
+  SakeArtillery: Artilleroide
+  SakeArtilleryCannon: lanzador
+  SakeBigBoss: gran jefe salmónido
+  SakeBigBossGauge: salmómetro
+  SakeDolphin: Chapotero
+  SakeFlyBagman: Rastrerón
+  SakePillar: Viga
+  SakeRope: Dragón
+  SakeSaucer: Tapaollas
+  SakeTamaire: Morrolodo
+  Sakediver: Fáucex
+  Sakedozer: Chaparrilla
+  SakelienBomber: Ferroz
+  SakelienCupTwins: Drónido
+  SakelienGiant: Salmonote
+  SakelienGolden: Salmóreo
+  SakelienLarge: Escamacarra
+  SakelienShield: Chatarrónido
+  SakelienSmall: Cenutrín
+  SakelienSnake: Raspoide
+  SakelienStandard: Salmoche
+  SakelienTower: Pilónido
+  Sakepuncher: Aerocriadero
+  SakepuncherBulletSimpl: Salmocóptero
+  Sakerocket: Barreno
   Scale: Escamas
   ScaleBronze: Escama de bronce
   ScaleGold: Escama de oro
@@ -275,11 +337,13 @@ CoopHistory:
   TeamContest: Alianza alevínica
   Title: Salmon Run
   TotalPoint: Puntos totales
+  Wave: "Ofensiva "
   WaveLevel0: Marea baja
   WaveLevel1: Normal
   WaveLevel2: Marea alta
 CoopRecord:
   AppName: Encargos
+  Attended: "Participaciones: "
   Bigrun: Big Run
   BigrunBronze: Bronce
   BigrunGold: Oro
@@ -305,12 +369,15 @@ Error:
   Error: Error
   ErrorOccurred: Se ha producido un error.
   ErrorReopen: No se han podido cargar los datos.
-  MaintenanceDescription: Se están efectuando labores de mantenimiento en el servidor.
+  MaintenanceDescription:
+    Se están efectuando labores de mantenimiento en el servidor.
     Inténtalo de nuevo más tarde.
   MaintenanceTitle: Espera unos instantes...
-  NetworkNotAvailable: No se han podido cargar los datos. Comprueba tu conexión a
+  NetworkNotAvailable:
+    No se han podido cargar los datos. Comprueba tu conexión a
     internet y vuelve a intentarlo.
-  NotSupported: No se puede mostrar SplatNet 3. Comprueba tu conexión a internet y
+  NotSupported:
+    No se puede mostrar SplatNet 3. Comprueba tu conexión a internet y
     vuelve a intentarlo más tarde. Si el problema no se soluciona, comprueba que tu
     navegador de internet esté actualizado a la versión más reciente. Si sigue mostrándose
     este mensaje, es posible que SplatNet 3 no sea compatible con tu dispositivo o
@@ -319,16 +386,18 @@ Error:
 FesRecord:
   AppName: Festival
   Attack: Al ataque
-  Average: 'Media:'
+  Average: "Media:"
   Challenge: Formal
   ComingSoon: ¡Próximamente!
   ContributionChallenge: Aportación (formal)
   ContributionRegular: Aportación (informal)
   ContributionTricolor: Aportación (pugna tricolor)
   Defense: En defensa
+  FestPower: "Energía { 1 }: "
   FestRanking: 100 mejores del festival
   GotHoragai: Caracolas obtenidas
-  GuideVote: Puedes modificar tu respuesta a esta encuesta tantas veces como quieras
+  GuideVote:
+    Puedes modificar tu respuesta a esta encuesta tantas veces como quieras
     antes de unirte a un equipo.<br />Consulta lo que piensan hacer los demás y únete
     a un equipo votando en el terminal situado en la plaza de Tintelia.
   GuideWillParticipates: Tus amigos aún podrían cambiar de idea.
@@ -338,14 +407,16 @@ FesRecord:
   OnGoing: ¡En curso!
   PastFestivals: Festivales anteriores
   PreVoteButton: Encuesta en curso
-  PreVoteGuide: Consulta a qué equipos piensan unirse tus amigos.<br />¡Id preparando
+  PreVoteGuide:
+    Consulta a qué equipos piensan unirse tus amigos.<br />¡Id preparando
     vuestras formaciones para competir!
   PreVoteTitle: ¿A qué equipo pensáis apoyar?<br />¡La encuesta está en marcha!
+  Rank: "<small>Posición:</small>  - "
   Regular: Informal
   SeeAllVotes: Equipos de tus amigos
   SeeFestRanking: Ver los 100 mejores
   Title: Festivales
-  Total: 'Total:'
+  Total: "Total:"
   Undecided: Pendiente
   Vote: Piensa participar
   VoteRatio: Votos
@@ -354,11 +425,20 @@ FesRecord:
   VotingStatus: Votos de amigos
   WaitingForResult: Calculando los resultados...
   Win: Victoria
+  WinTeam: ¡Victoria de <span></span>!
   YourRecord: Tus estadísticas
 Footer:
-  BigrunAnnouncement: ¡Alerta de <em>Big Run</em>! ¡Atención a los salmónidos que
+  BigrunAnnouncement:
+    ¡Alerta de <em>Big Run</em>! ¡Atención a los salmónidos que
     se aproximan!
   BigrunNowOpening: ¡<em>Big Run</em> en marcha! ¡A defender la ciudad de los salmónidos!
+  EndOfSeason: ¡<em></em> casi concluida!
+  FestAnnouncement:
+    ¡El festival <em></em> está en marcha! ¡Apúntate a uno de los
+    bandos!
+  FestNowOpening:
+    ¡El festival <em></em> está en marcha! ¡Vota en la plaza y obtén
+    tu camiseta festiva!
 FriendList:
   AppName: Lista de amigos
   InCoopGame: Trabajando
@@ -375,10 +455,13 @@ FriendList:
 GesoTown:
   AppName: Tentatienda
   BackToGesotown: Volver a la Tentatienda
-  Description: ¡Una tienda con <em>equipamiento exclusivo de SplatNet</em><br />que
+  Description:
+    ¡Una tienda con <em>equipamiento exclusivo de SplatNet</em><br />que
     proporciona <em>diversas mejoras</em>!
   Feature: Sugerencia del día
   Featured: Sugerencia
+  FrequentGearPower: Posibles mejoras para <strong></strong>
+  Limit: Hasta el <em></em>
   Money: Dinero
   Next: Siguiente
   NextFeature: Siguiente
@@ -389,6 +472,8 @@ GesoTown:
   Pending: Comprobando existencias...
   Previous: Anterior
   RemainAlmostFinished: Finaliza en breve
+  RemainHour: Espera  h
+  RemainMinute: Espera  min
   Remind: Ya has encargado algún artículo.
   RemindCaution: Anularás el encargo actual.
   Rule1: Solo puede encargarse un artículo a la vez.
@@ -421,6 +506,7 @@ HeroRecord:
   RecruitmentSub: ¿Y si lo descubres probando el modo historia?
   SearchRatio: Tasa de exploración
   SeePhotograph: Ver captura
+  Site: "Zona "
   Site1: Isla utópica futura
   Site2: Fábrica de la armonía
   Site3: Ciudad criogénica
@@ -430,8 +516,10 @@ HeroRecord:
   Title: Estadísticas modo historia
   Wallpaper: Imagen de fondo especial
 History:
+  AllBadges: Todas las chapas ()
   AppName: Historial
   Badge: Chapas
+  Count: "<small>Veces:</small> "
   EstimatedRanking: Posición estimada
   FrequentlyUsedWeapon: Armas más usadas
   HighestUdemae: Mejor rango
@@ -440,26 +528,32 @@ History:
   LatestBadge: Chapas recientes
   Monthly: Mensual
   Others: Otras armas
-  PastXmatchAnnotation: Las estadísticas de los combates X se calculan y publican
+  PastXmatchAnnotation:
+    Las estadísticas de los combates X se calculan y publican
     al concluir la temporada.
   Rank: Nivel
+  Ranking: " "
   Season: Temporada
   ShowAllBadges: Ver todas las chapas
   ShowLess: Ver menos
   ShowMore: Ver más
   ShowXranking: Ver clasificación del rango X
+  Since: Desde el  (actualizado el { 1 })
   Summary: Resumen
   Title: Historial
-  TotalTurfPoint: 'Superficie pintada:'
+  TotalTurfPoint: "Superficie pintada:"
   TotalWin: Victorias totales
+  TurfPoint: " p"
   Udemae: Rango
   Weapon: Historial de armas
   WeaponUsage: Frecuencia de uso
   Xmatch: Combate X
 Landing:
-  Caution: '* Si no tienes la aplicación instalada, este botón no producirá ningún
-    efecto.'
-  Copyright: Apple y el logotipo de Apple son marcas comerciales de Apple Inc., registradas
+  Caution:
+    "* Si no tienes la aplicación instalada, este botón no producirá ningún
+    efecto."
+  Copyright:
+    Apple y el logotipo de Apple son marcas comerciales de Apple Inc., registradas
     en EE. UU. y otros países. App Store es una marca de servicio de Apple Inc. Google
     Play y el logotipo de Google Play son marcas comerciales de Google LLC.
   DlAppStore: Descargar de App Store
@@ -474,10 +568,12 @@ MemoryPlayer:
   Copied: Se ha efectuado la copia.
   Download: Descargar repeticiones de combates
   FailedDownload: No se ha podido programar la descarga.
-  Guide: Las repeticiones de combates descargadas se pueden ver en el terminal del
+  Guide:
+    Las repeticiones de combates descargadas se pueden ver en el terminal del
     vestíbulo de Splatoon 3.
   Loading: Cargando...
-  Notice: Se muestran los 50 registros más recientes.<br />Estarán disponibles durante
+  Notice:
+    Se muestran los 50 registros más recientes.<br />Estarán disponibles durante
     30 días.
   Placeholder: Introducir código
   ReplayCode: Código de descarga
@@ -497,15 +593,18 @@ MyOutfits:
   CloseCameraOption: No ver ajustes de la cámara
   Cloth: ropa
   CurrentEquipments: Equipamiento actual
-  CurrentEquipmentsGuide: Aquí se muestra el equipamiento que usaste en tu último
+  CurrentEquipmentsGuide:
+    Aquí se muestra el equipamiento que usaste en tu último
     combate.
   CurrentGear: Equipamiento actual
   CurrentWeapon: Arma actual
   ErrorSave: No se han podido guardar los datos.
+  Exp: "Experiencia: <em></em>"
   Filter: Filtrar
   Gear: Equipamiento
   GearPower: Potenciadores
-  GearPowerAnnotation: Los potenciadores secundarios proporcionan un 30 % del efecto
+  GearPowerAnnotation:
+    Los potenciadores secundarios proporcionan un 30 % del efecto
     del potenciador principal.
   Guide: ¡Prueba a crear atuendos favoritos!
   GuideGearPowerButton: Selecciona artículos para saber más sobre sus potenciadores.
@@ -519,13 +618,19 @@ MyOutfits:
   NoGears: No se encuentra ningún equipamiento.
   NoWeapons: No se encuentra ningún arma.
   Normal: Normal
-  'Off': 'No'
-  'On': Sí
+  Number: "Atuendo "
+  "Off": "No"
+  "On": Sí
   OpenCameraOption: Ver ajustes de la cámara
+  RControl: Control  horizontal
+  RHorizontal: "Sensibilidad de "
   RHorizontalUnavailable: Solo disponible cuando se usa el giroscopio.
+  RVertical: Control  vertical
   RVerticalUnavailable: No disponible cuando se usa el giroscopio.
+  Rarity: "Exclusividad: "
   Reverse: Invertido
   Save: Guardar
+  Select: "Elegir "
   SelectCloth: Seleccionar ropa
   SelectHead: Seleccionar accesorio
   SelectShoes: Seleccionar calzado
@@ -538,6 +643,7 @@ MyOutfits:
   SubmitGear: Aceptar
   SubmitWeapon: Aceptar
   Title: Atuendos favoritos
+  TurfPoint: "Superficie pintada: <em> p</em>"
   TvTabletopMode: Modo televisor/modo sobremesa
   Weapon: Arma
 ParamName:
@@ -557,6 +663,7 @@ PhotoAlbum:
   Title: Álbum de fotos
 QRCodeReader:
   AppName: Códigos QR
+  CheckinDate: "Fecha y hora: "
   ConfirmationAllow: Permitir
   ConfirmationDeny: No permitir
   ErrorAlreadyGotDescription: Ya has obtenido esta recompensa.
@@ -564,19 +671,23 @@ QRCodeReader:
   ErrorNotCompatibleDescription: El código QR no es válido para SplatNet 3.
   ErrorNotCompatibleTitle: Error
   ErrorRewardExpiredDescription: El código QR ya no es válido.
-  EuConfirmation: SplatNet 3 ofrece la posibilidad de registrarse en tiendas mediante
+  EuConfirmation:
+    SplatNet 3 ofrece la posibilidad de registrarse en tiendas mediante
     un código QR. Si utilizas el lector de códigos QR, se enviarán a Nintendo datos
     sobre el código QR que has leído, y podrás ver un registro de los códigos QR que
     se hayan escaneado con la aplicación. Esto podría permitir a Nintendo conocer
     tu ubicación.<br />No se guardarán tus selecciones, y se te solicitará consentimiento
     (artículo 6, apartado 1 (a) del RGPD) cada vez que uses el lector de códigos QR.
-  Guide: Descubre y lee códigos QR en lugares singulares<br />para conseguir recompensas
+  Guide:
+    Descubre y lee códigos QR en lugares singulares<br />para conseguir recompensas
     especiales.
   History: Historial
-  HowToGetReward: Para recibir la recompensa, visita<br />el terminal del vestíbulo
+  HowToGetReward:
+    Para recibir la recompensa, visita<br />el terminal del vestíbulo
     en Splatoon 3.
   NoData: Los códigos QR que hayas leído aparecerán aquí.
-  ReadQrcodeByCamera: Usa la cámara de tu dispositivo inteligente para leer un código
+  ReadQrcodeByCamera:
+    Usa la cámara de tu dispositivo inteligente para leer un código
     QR.
   ReadQrcodeByFile: Lee un código QR a partir de una imagen guardada.
   Title: Lector de códigos QR
@@ -592,6 +703,7 @@ Record:
   StageRecordAppName: Escenarios
   Sub: Secundaria
   Title: Estadísticas
+  TotalTurfPoint:  p
   TurfPoint: Sup. entintada
   UnplayedStages: Sin estrenar
   UnusedWeapons: No obtenidas aún
@@ -599,6 +711,7 @@ Record:
   WeaponRecord: Historial de armas
   WeaponRecordAppName: Armas
   WinCount: Victorias
+  WinRatio: " %"
 Settings:
   Acknowledgements: Derechos de autor
   AppName: Ajustes
@@ -626,19 +739,23 @@ StageSchedule:
   Eventmatch: ¡Evento en curso!
   Festival: Combate temático
   FestivalAnnounced: ¡Próximamente!
+  FestivalAt: ¡Comienza a las !
   FestivalAttack: Al ataque
   FestivalDefense: En defensa
   FestivalHolding: ¡En curso!
+  FestivalPeriod: " - { 1 }"
   Future: Posteriores
   League: Combate del torneo
   Next: Próximo
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de tarea temporal!
+  NoticeLimited: ¡Anuncio de alianza alevínica!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Tarea temporal disponible!
+  OpenLimited: ¡Alianza alevínica disponible!
   Private: Combate privado
+  Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()
+  RecruitTeamContest: "¡Forma una cuadrilla y participa en alianza alevínica! "
   Regular: Combate amistoso
   SeeFestivalRecord: Datos del festival
   SuppliedWeaponRandom: Al azar
@@ -650,26 +767,34 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
-  AnnotationExemption: Como uno o más jugadores no han podido continuar, el combate
+  AnnotationExemption:
+    Como uno o más jugadores no han podido continuar, el combate
     no se cuenta como derrota.
   AnnotationNocontest: Combate cancelado
   AnnotationPenalty: El combate no se disputó hasta el final.
   Attack: Al ataque
+  Average: Promedio en  min
   AwardGold: Oro
   AwardSilver: Plata
   Bankara: Combate caótico
   BankaraChallenge: Combate caótico (formal)
   BankaraOpen: Combate caótico (informal)
   Cleaning: Resultados
+  Contribute: "Aportación: "
+  Count: "Contador: "
   DeathCount: Veces que te han liquidado
   Defense: En defensa
   Draw: Empate
   EquippedGear: Equipamiento usado
   EquippedWeapon: Arma usada
+  EstimatedRoomPower: "Energía estimada ({ 1 },  jugs.): { 2 }"
   FesChallenge: Combate temático (formal)
   FesOpen: Combate temático (informal)
+  FesTeam: "Equipo "
   FesWinProof: Galardón festivo
+  FestPower: "Energía { 1 }: "
   Festival: Combate temático
+  FestivalShell: "Caparazones festivos: "
   GoToStats: Volver a los registros de combates
   GotAwards: Galardones recibidos
   GotTricolorTreasure: Surtidor fatal
@@ -684,22 +809,28 @@ VSHistory:
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles
-  NotAvailableDescription: Solo están disponibles los 50 registros más recientes de
+  NotAvailableDescription:
+    Solo están disponibles los 50 registros más recientes de
     cada modo.
+  OutfitBonus: (Bonificación de compañerismo ×)
   PreviousBattle: Anterior
   Private: Combate privado
-  Promo: 'Combate de rango '
+  Promo: "Combate de rango "
   Regular: Combate amistoso
   SpCount: Usos del arma especial
   Title: Combates
   TryCount: Intentos
+  TurfPoint: " p"
   UdemaePoint: Puntos de rango
+  UdemaePointScore: " p"
   UdemaeReset: Competición interrumpida
   UdemaeUp: ¡Nuevo rango!
   Win: Victoria
   WinMeterGuide: Victorias y derrotas
+  Wins: "Racha de victorias: "
   Xcrown: Corona
   Xmatch: Combate X
+  Xpower: "Energía X: "
 WeaponTypeName:
   Blaster: Devastadores
   Brush: Pinceles
@@ -713,11 +844,13 @@ WeaponTypeName:
   Spinner: Tintralladoras
   Stringer: Arcromatizadores
 Welcome:
-  About: SplatNet 3 es un servicio vinculado a Splatoon 3 y cuenta con otras funciones
+  About:
+    SplatNet 3 es un servicio vinculado a Splatoon 3 y cuenta con otras funciones
     además de las aquí descritas.
   Feature1: ¡Consulta registros de combates y los próximos escenarios y estilos!
   Feature1Alt: Registros de combates y calendario
-  Feature2: ¡Mantén tu estilo siempre a la última!<br />¡Podrás gestionar tus atuendos
+  Feature2:
+    ¡Mantén tu estilo siempre a la última!<br />¡Podrás gestionar tus atuendos
     favoritos cuando quieras!
   Feature3: ¡Ayuda a Adolfrito en su aventura<br />para conseguir objetos especiales!
   Feature4: ¡Encarga artículos exclusivos que solo están<br />disponibles en la Tentatienda!
@@ -735,9 +868,11 @@ Widgets:
   AlbumTitle: Álbum
   EquipmentsDescription: Muestra tu equipamiento actual en Splatoon 3.
   EquipmentsTitle: Equipamiento actual
-  ErrorsNoData: Este widget está vinculado a Splatoon 3. Los datos que emplea se recopilan
+  ErrorsNoData:
+    Este widget está vinculado a Splatoon 3. Los datos que emplea se recopilan
     cuando juegas.
-  ErrorsNotLoggedIn: Inicia la sesión en la aplicación para móviles Nintendo Switch
+  ErrorsNotLoggedIn:
+    Inicia la sesión en la aplicación para móviles Nintendo Switch
     Online.
   ErrorsOutOfService: No disponible actualmente
   ErrorsUpdateRequired: Actualiza la aplicación para móviles Nintendo Switch Online.
@@ -746,7 +881,8 @@ Widgets:
   StagesCoop: Salmon Run
   StagesDatetimeFormat: dd-MM HH:mm
   StagesDescription: Muestra el calendario de escenarios de Splatoon 3.
-  StagesDescriptionAndroid: Muestra el calendario de escenarios de Splatoon 3 y tu
+  StagesDescriptionAndroid:
+    Muestra el calendario de escenarios de Splatoon 3 y tu
     equipamiento actual.
   StagesFestMatch: ¡El festival ya está en marcha!
   StagesFestMatchAnnounced: ¡El festival comenzará en breve!
@@ -754,18 +890,18 @@ Widgets:
   StagesNoData: No hay calendario.
   StagesNowOpen: Actual
   StagesRegular: Combate amistoso
-  StagesSeparator: ' - '
+  StagesSeparator: " - "
   StagesSettingsMode: Modo
   StagesSuppliedWeapons: Armas asignadas
   StagesTimeFormat: HH:mm
   StagesTitle: Calendario de escenarios
   StagesXmatch: Combate X
   StagesYearDatetimeFormat: dd-MM-yyyy (HH:mm)
-  VsCount: 'Contador: %@'
+  VsCount: "Contador: %@"
   VsKnockout: ¡Palizón!
   VsNoData: Sin registros de combates
-  VsPercent: '%@ %'
-  VsTurfPoint: '%@ p'
+  VsPercent: "%@ %"
+  VsTurfPoint: "%@ p"
   VshistoryDescription: Muestra los registros de combates de Splatoon 3.
   VshistoryDraw: Empate
   VshistoryLose: Derrota
@@ -775,12 +911,16 @@ XRanking:
   All: Todas
   AppName: Clasifs. rango X
   Atlantic: División Arome
+  EstimatedRank: "Posición estimada: "
   Measurement: En cálculo
   Open: ¡En curso!
   Pacific: División Sepioca
   PastRankings: Clasificaciones previas
-  PastRankingsAnnotation: Las clasificaciones previas se calculan y publican cuando
+  PastRankingsAnnotation:
+    Las clasificaciones previas se calculan y publican cuando
     concluye la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles).
+  Period: " - { 1 }"
+  Rank: .º
   Region: División
   SeeRanking: Clasificación
   SeeWeaponTop: Mejores con esta arma
@@ -791,3 +931,4 @@ XRanking:
   WeaponTop: Mejores con esta arma
   WeaponTopSingular: Mejor con esta arma
   Xcrown: Corona
+  Xpower: "<small>Energía X:</small> "

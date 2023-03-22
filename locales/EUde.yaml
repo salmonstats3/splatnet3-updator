@@ -31,17 +31,28 @@ Catalog:
   CardPackFresh: Spritziges Kartenpäckchen
   CardSleeve: Kartenhüllen
   Complete: ABGESCHLOSSEN!
+  Current: /{ 1 }
+  CurrentExtraLevel: 'Stufe '
+  CurrentPoint: Insgesamt  P
+  DailyBonus: <em></em> Punkte für den ersten Sieg des Tages!
   DrinkTicket: Getränke-Coupon
   Emote: Emote
+  EndOfSeason: Die <em></em> ist fast vorbei, aber du kannst jetzt einen Endspurt-Bonus
+    von <em>×1,2</em> Katalogpunkten erhalten!
   FesBonus: Das Splatfest läuft! Verdiene <em>1,2-mal</em> so viele Punkte!
   Figure: Deko
   FoodTicket: Snack-Coupon
   Got: Schon erhalten
   Guide: <em>Erreiche Stufe 4 und hol dir im Hotlantis einen Katalog!</em>
+  ItemAmount: '× '
   Level: Stufe
+  Limit: 'Bis '
   MysteryBox: Überraschungsbox
   NamePlateBg: Banner
   NextBonus: Nächste
+  Page: 'Seite '
+  Pager: Seite /{ 1 }
+  Period: ' Jetzt geöffnet!'
   Point: Punkte
   Signboard: Hotlantis
   Sticker: Aufkleber
@@ -111,6 +122,7 @@ Challenge:
   GuideRewardSleeve: Hol dir deine Kartenhüllen am Lobby-Terminal in Splatoon 3 ab.
   HowToPlay: Shrimpson radelt los, und du kannst ihm helfen! Färbe, so viel du kannst,
     um Shrimpson Beine zu machen. Vielleicht schenkt er dir etwas Tolles!
+  Journey: 'Reise '
   Journey2Description: Hey, was läuft? Der nächste Halt meiner Tour ist Inkopolis.<br
     />Ist schon 'n Weilchen her, dass ich zuletzt da war, aber ich wette, da ist es
     immer noch stylish wie eh und je!<br />Ich klappere ein paar bekannte Orte ab
@@ -122,9 +134,12 @@ Challenge:
     sondern die Ausrüstung!
   LookingForSupporters: Hilfe gesucht!
   Orange: Orange
+  Point: ' P'
   PointForSupport: 'Benötigte Punkte:'
+  PointNotEnough: ' (Du benötigst weitere  P.)'
   Purple: Lila
   Red: Rot
+  RemainsOfChallenge: Noch <span></span>
   Rob: Shrimpson
   RobJourney: Mach Shrimpson Beine
   SelectColor: Wähle die gewünschte Farbe.
@@ -149,6 +164,7 @@ Challenge:
   Turquoise: Türkis
   White: Weiß
   Yellow: Gelb
+  YourPoint: Du hast  P.
 Common:
   Cancel: Abbrechen
   ClamBlitz: Muschelchaos
@@ -248,6 +264,7 @@ CoopHistory:
   NotAvailable: Schicht-Daten nicht verfügbar
   NotAvailableDescription: Nur die letzten 50 Einträge sind verfügbar.
   NotDefeated: Gescheitert...
+  P: ' P'
   PlayCount: Angetretene Schichten
   Previous: Zurück
   Private: Private Schicht
@@ -261,6 +278,31 @@ CoopHistory:
   RegularPoint: Punktestand
   RescueCount: Gerettete Teamkollegen
   RescuedCount: Benötigte Rettungen
+  SakeArtillery: Kanonya
+  SakeArtilleryCannon: Kanonya-Geschütz
+  SakeBigBoss: Ober-Salmonide
+  SakeBigBossGauge: Salmometer
+  SakeDolphin: Sturmreifer
+  SakeFlyBagman: Samko
+  SakePillar: Mobelisk
+  SakeRope: Horroboros
+  SakeSaucer: Deckler
+  SakeTamaire: Schlämmermaul
+  Sakediver: Grablax
+  Sakedozer: Killgrill
+  SakelienBomber: Bäm
+  SakelienCupTwins: Rakzak
+  SakelienGiant: Malmsalm
+  SakelienGolden: Goldie
+  SakelienLarge: Brocken
+  SakelienShield: Pfanndit
+  SakelienSmall: Salmini
+  SakelienSnake: Staal
+  SakelienStandard: Salmo
+  SakelienTower: Stapla
+  Sakepuncher: Mutterschiff
+  SakepuncherBulletSimpl: Kopta
+  Sakerocket: Regnar
   Scale: Schuppen
   ScaleBronze: Bronzeschuppe
   ScaleGold: Goldschuppe
@@ -272,11 +314,13 @@ CoopHistory:
   TeamContest: Team-Wettkampf
   Title: Salmon Run
   TotalPoint: Gesamtpunkte
+  Wave: 'Welle '
   WaveLevel0: Ebbe
   WaveLevel1: Normal
   WaveLevel2: Flut
 CoopRecord:
   AppName: Schicht
+  Attended: 'Teilnahmen: '
   Bigrun: Big Run
   BigrunBronze: Bronze
   BigrunGold: Gold
@@ -325,6 +369,7 @@ FesRecord:
   ContributionRegular: Beitrag – Offen
   ContributionTricolor: Beitrag – Dreifarb-Match
   Defense: Verteidiger
+  FestPower: '{ 1 }-Power: '
   FestRanking: Splatfest Top 100
   GotHoragai: Erhaltene Tritonshörner
   GuideVote: Du kannst deine Wahl in dieser Umfrage bis zu deiner endgültigen Entscheidung
@@ -340,6 +385,7 @@ FesRecord:
   PreVoteGuide: Sieh dir an, welchem Team deine Freunde beitreten.<br />Trommle deine
     Crew zusammen und macht euch bereit!
   PreVoteTitle: Für welches Team wollt ihr kämpfen?<br />Entscheidet euch jetzt!
+  Rank: .<small> Platz</small>
   Regular: Offen
   SeeAllVotes: Teams deiner Freunde
   SeeFestRanking: Splatfest Top 100
@@ -353,10 +399,15 @@ FesRecord:
   VotingStatus: So haben deine Freunde gewählt
   WaitingForResult: Ergebnisberechnung...
   Win: Sieg!
+  WinTeam: Sieg für <span></span>!
   YourRecord: Statistiken
 Footer:
   BigrunAnnouncement: <em>Big Run</em>! Alarm! Salmoniden im Anmarsch!
   BigrunNowOpening: <em>Big Run</em> läuft! Beschütze die Stadt vor den Salmoniden!
+  EndOfSeason: Die <em></em> ist fast vorbei!
+  FestAnnouncement: <em></em> Splatfest läuft! Wähle ein Team und nichts wie losgekleckst!
+  FestNowOpening: '<em></em> Das Splatfest hat begonnen! Wähle auf dem Platz dein
+    Team und schnapp dir dein Splatfest-T-Shirt! '
 FriendList:
   AppName: Freundesliste
   InCoopGame: Bei der Arbeit
@@ -377,6 +428,8 @@ GesoTown:
     Effekten</em>!
   Feature: Heutige Auswahl
   Featured: Lieferung
+  FrequentGearPower: Wahrscheinliche Effekte bei <strong></strong>
+  Limit: Bis <em></em>
   Money: Geld
   Next: Weiter
   NextFeature: Nächste Lieferung
@@ -387,6 +440,8 @@ GesoTown:
   Pending: Verfügbarkeit wird geprüft...
   Previous: Zurück
   RemainAlmostFinished: Bald vorbei!
+  RemainHour: 'Verbleibende Stunden: '
+  RemainMinute: 'Verbleibende Minuten: '
   Remind: Du hast bereits etwas bestellt.
   RemindCaution: Deine aktuelle Bestellung wird storniert.
   Rule1: Du kannst immer nur einen Ausrüstungsgegenstand bestellen.
@@ -421,6 +476,7 @@ HeroRecord:
   RecruitmentSub: Finde es im Story-Modus heraus!
   SearchRatio: Erkundung
   SeePhotograph: Schnappschuss ansehen
+  Site: 'Sektor '
   Site1: Utopia-Zukunftsinsel
   Site2: Harmonie-Fabrik
   Site3: Cryo-Hoffnungsstadt
@@ -430,8 +486,10 @@ HeroRecord:
   Title: Story-Modus
   Wallpaper: Spezial-Hintergrundbild
 History:
+  AllBadges: Alle Abzeichen ()
   AppName: Übersicht
   Badge: Abzeichen
+  Count: <small>-mal</small>
   EstimatedRanking: Geschätzte Platzierung
   FrequentlyUsedWeapon: Lieblingswaffen
   HighestUdemae: Rekord
@@ -443,15 +501,18 @@ History:
   PastXmatchAnnotation: X-Kampf-Statistiken werden jeweils nach Saison-Abschluss berechnet
     und veröffentlicht.
   Rank: Stufe
+  Ranking: ''
   Season: Saison
   ShowAllBadges: Alle Abzeichen ansehen
   ShowLess: Weniger zeigen
   ShowMore: Mehr zeigen
   ShowXranking: X-Ranglisten
+  Since: 'Im Spiel seit  (Update: { 1 })'
   Summary: Statistiken
   Title: Übersicht
   TotalTurfPoint: Eingefärbte Fläche
   TotalWin: Siege insgesamt
+  TurfPoint: ' P'
   Udemae: Rang
   Weapon: Waffen
   WeaponUsage: Waffennutzung
@@ -501,6 +562,7 @@ MyOutfits:
   CurrentGear: Momentane Ausrüstung
   CurrentWeapon: Momentane Waffe
   ErrorSave: Speichern nicht möglich.
+  Exp: Erfahrung <em></em>
   Filter: Filter
   Gear: Ausrüstung
   GearPower: Effekte
@@ -517,13 +579,19 @@ MyOutfits:
   NoGears: Keine entsprechende Ausrüstung gefunden.
   NoWeapons: Keine entsprechenden Waffen gefunden.
   Normal: Standard
+  Number: 'Style '
   'Off': Aus
   'On': Ein
   OpenCameraOption: Kamera-Optionen einblenden
+  RControl: ' x-Achse'
+  RHorizontal: ' Empfindlichkeit'
   RHorizontalUnavailable: Keine Auswirkungen bei deaktivierter Bewegungssteuerung.
+  RVertical: ' y-Achse'
   RVerticalUnavailable: Keine Auswirkungen bei aktiver Bewegungssteuerung.
+  Rarity: 'Sternenwert '
   Reverse: Invertiert
   Save: Speichern
+  Select: ' auswählen'
   SelectCloth: Kleidung wählen
   SelectHead: Kopf-Accessoire wählen
   SelectShoes: Schuhe wählen
@@ -536,6 +604,7 @@ MyOutfits:
   SubmitGear: OK
   SubmitWeapon: OK
   Title: Lieblings-Styles
+  TurfPoint: Eingefärbte Fläche <em> P</em>
   TvTabletopMode: TV-/Tisch-Modus
   Weapon: Waffe
 ParamName:
@@ -556,6 +625,7 @@ PhotoAlbum:
   Title: Fotoalbum
 QRCodeReader:
   AppName: QR-Code-Scanner
+  CheckinDate: 'Datum und Uhrzeit: '
   ConfirmationAllow: Erlauben
   ConfirmationDeny: Nicht erlauben
   ErrorAlreadyGotDescription: Du hast diese Belohnung bereits erhalten.
@@ -589,6 +659,7 @@ Record:
   StageRecordAppName: Arenen
   Sub: Sekundärwaffe
   Title: Statistiken
+  TotalTurfPoint:  P
   TurfPoint: Gefärbte Fläche
   UnplayedStages: Ungespielt
   UnusedWeapons: Noch freizuschaltende Waffen
@@ -596,6 +667,7 @@ Record:
   WeaponRecord: Waffen
   WeaponRecordAppName: Waffen
   WinCount: Siege
+  WinRatio: ' %'
 Settings:
   Acknowledgements: Copyrights
   AppName: Einstellungen
@@ -623,19 +695,24 @@ StageSchedule:
   Eventmatch: Event läuft jetzt!
   Festival: Splatfest-Kampf
   FestivalAnnounced: Demnächst!
+  FestivalAt: 'Start:  Uhr!'
   FestivalAttack: Angriff
   FestivalDefense: Verteidigung
   FestivalHolding: Läuft!
+  FestivalPeriod: ' - { 1 }'
   Future: Danach
   League: Ligakampf
   Next: Demnächst
   NoticeBigrun: 'Demnächst: Big Run!'
-  NoticeLimited: Ankündigung für zeitliche begrenzte Schichten!
+  NoticeLimited: 'Ankündigung: Team-Wettkampf demnächst verfügbar!'
   NowClosed: Splatfest!
   Open: Aktuell
   OpenBigrun: Big Run läuft jetzt!
-  OpenLimited: Zeitlich begrenzte Schichten jetzt verfügbar!
+  OpenLimited: Team-Wettkampf jetzt verfügbar!
   Private: Privater Kampf
+  Recruit: Big Run läuft! Die Bär GmbH stellt jeden ein! JEDEN! ()
+  RecruitTeamContest: 'Team-Wettkampf jetzt spielbar! Finde Mitarbeiter und rein ins...
+    Vergnügen? '
   Regular: Standardkampf
   SeeFestivalRecord: Splatfest-Statistiken
   SuppliedWeaponRandom: Zufall
@@ -652,21 +729,28 @@ VSHistory:
   AnnotationNocontest: Kein Ergebnis
   AnnotationPenalty: Der Kampf wurde nicht abgeschlossen.
   Attack: Angriff
+  Average: Durchschnitt über  Min.
   AwardGold: Gold
   AwardSilver: Silber
   Bankara: Anarchie-Kampf
   BankaraChallenge: Anarchie-Kampf (Serie)
   BankaraOpen: Anarchie-Kampf (Offen)
   Cleaning: Ergebnis
+  Contribute: 'Beitrag: '
+  Count: ''
   DeathCount: Erledigt worden
   Defense: Verteidigung
   Draw: Gleichauf
   EquippedGear: Genutzte Ausrüstung
   EquippedWeapon: Verwendete Waffe
+  EstimatedRoomPower: '{ 1 }-Power ( SP): ca. { 2 }<br />'
   FesChallenge: Splatfestkampf (Serie)
   FesOpen: Splatfestkampf (Offen)
+  FesTeam: 'Team '
   FesWinProof: Splatfest-Star
+  FestPower: '{ 1 }-Power: '
   Festival: Splatfest-Kampf
+  FestivalShell: 'Festmuscheln: '
   GoToStats: Zurück zu den Kampfstatistiken
   GotAwards: 'Gewonnene Medaillen:'
   GotTricolorTreasure: Giga-Sprenkler aktiviert
@@ -682,6 +766,7 @@ VSHistory:
   NoData: Keine Kampfstatistiken vorhanden.
   NotAvailable: Kampfstatistiken nicht verfügbar
   NotAvailableDescription: Nur die letzten 50 Einträge sind verfügbar.
+  OutfitBonus: (Synergie-Bonus ×)
   PreviousBattle: Zurück
   Private: Privater Kampf
   Promo: Aufstiegskampf
@@ -689,13 +774,17 @@ VSHistory:
   SpCount: Spezialwaffen-Einsätze
   Title: Kämpfe
   TryCount: Aktivierungen
+  TurfPoint: ' P'
   UdemaePoint: Rangpunkte
+  UdemaePointScore: ' P'
   UdemaeReset: Serie unterbrochen
   UdemaeUp: Rang erhöht!
   Win: Gewonnen
   WinMeterGuide: Siege/Niederlagen
+  Wins: 'Team-Siegesserie: '
   Xcrown: Krone
   Xmatch: X-Kampf
+  Xpower: 'X-Power: '
 WeaponTypeName:
   Blaster: Blaster
   Brush: Pinsel
@@ -770,12 +859,15 @@ XRanking:
   All: Alle zeigen
   AppName: X-Ranglisten
   Atlantic: Tentatek-Gruppe
+  EstimatedRank: 'Geschätzt: . Platz'
   Measurement: Offen
   Open: Jetzt offen!
   Pacific: Kalamati-Gruppe
   PastRankings: Vorherige Ranglisten
   PastRankingsAnnotation: Vorherige Ranglisten werden jeweils nach Saison-Abschluss
     berechnet und veröffentlicht. Dies kann unter Umständen mehrere Tage dauern.
+  Period: ' - { 1 }'
+  Rank: .
   Region: Gruppe
   SeeRanking: Rangliste
   SeeWeaponTop: Beste Spieler/Waffe
@@ -786,3 +878,4 @@ XRanking:
   WeaponTop: Beste Spieler/Waffe
   WeaponTopSingular: Bester mit dieser Waffe
   Xcrown: Krone
+  Xpower: '<small>X-Power</small> '

@@ -30,17 +30,28 @@ Catalog:
   CardPackFresh: Fresh Card Pack
   CardSleeve: Card Sleeves
   Complete: COMPLETE!
+  Current: /{ 1 }
+  CurrentExtraLevel: 'Lv. '
+  CurrentPoint: 'Total: p'
+  DailyBonus: You earned <em></em> points for the day's first victory!
   DrinkTicket: Drink Ticket
   Emote: Emote
+  EndOfSeason: <em></em> is almost over, but you can get a Closeout Bonus of <em>1.2x</em>
+    Catalog Points now!
   FesBonus: Splatfest Open Now! Earn <em>1.2x</em> Points!
   Figure: Decoration
   FoodTicket: Food Ticket
   Got: Got it!
   Guide: <em>Reach level 4 to get a catalog from Hotlantis!</em>
+  ItemAmount: x
   Level: Level
+  Limit: 'Until '
   MysteryBox: Mystery Box
   NamePlateBg: Banner
   NextBonus: Next
+  Page: 'Page '
+  Pager: Page /{ 1 }
+  Period: ' Open Now!'
   Point: Points
   Signboard: Hotlantis
   Sticker: Sticker
@@ -109,6 +120,7 @@ Challenge:
     reward card sleeves.
   HowToPlay: Crusty Sean's going on a journey, and the more you ink, the more points
     you'll get to cheer him along. Who knows, he might even bring you a souvenir!
+  Journey: 'Journey '
   Journey2Description: Hey, gang! I've decided that my next stop on the Wandercrust
     Tour will be Greater Inkopolis. <br />I actually grew up in the area, but I haven't
     been back in a hot minute. <br />So this journey will be all about self-discovery.
@@ -121,9 +133,12 @@ Challenge:
     legs but because of my gear ratio.
   LookingForSupporters: Helpers wanted!
   Orange: Orange
+  Point: p
   PointForSupport: 'Points Needed:'
+  PointNotEnough: ' (You need an additional p.)'
   Purple: Purple
   Red: Red
+  RemainsOfChallenge: <span></span> remaining.
   Rob: Crusty Sean
   RobJourney: Support the Wandercrust
   SelectColor: Please select a color to download.
@@ -150,6 +165,7 @@ Challenge:
   Turquoise: Turquoise
   White: White
   Yellow: Yellow
+  YourPoint: You have p.
 Common:
   Cancel: Cancel
   ClamBlitz: Clam Blitz
@@ -248,6 +264,7 @@ CoopHistory:
   NotAvailable: Job Logs Unavailable
   NotAvailableDescription: Only the 50 most recent entries are available.
   NotDefeated: Failed...
+  P: p
   PlayCount: Shifts worked
   Previous: Previous Job
   Private: Private Job
@@ -261,6 +278,31 @@ CoopHistory:
   RegularPoint: Current points
   RescueCount: Crew members rescued
   RescuedCount: Times Rescued
+  SakeArtillery: Big Shot
+  SakeArtilleryCannon: Big Shot launcher
+  SakeBigBoss: King Salmonid
+  SakeBigBossGauge: Salmometer
+  SakeDolphin: Flipper-Flopper
+  SakeFlyBagman: Snatcher
+  SakePillar: Fish Stick
+  SakeRope: Horrorboros
+  SakeSaucer: Slammin' Lid
+  SakeTamaire: Mudmouth
+  Sakediver: Maws
+  Sakedozer: Griller
+  SakelienBomber: Steelhead
+  SakelienCupTwins: Flyfish
+  SakelienGiant: Cohozuna
+  SakelienGolden: Goldie
+  SakelienLarge: Cohock
+  SakelienShield: Scrapper
+  SakelienSmall: Smallfry
+  SakelienSnake: Steel Eel
+  SakelienStandard: Chum
+  SakelienTower: Stinger
+  Sakepuncher: Mothership
+  SakepuncherBulletSimpl: Chinook
+  Sakerocket: Drizzler
   Scale: Scales
   ScaleBronze: Bronze Scale
   ScaleGold: Gold Scale
@@ -272,11 +314,13 @@ CoopHistory:
   TeamContest: Eggstra Work
   Title: Salmon Run
   TotalPoint: Total points
+  Wave: 'Wave '
   WaveLevel0: Low Tide
   WaveLevel1: Normal
   WaveLevel2: High Tide
 CoopRecord:
   AppName: Work
+  Attended: 'Times Participated: '
   Bigrun: Big Run
   BigrunBronze: Bronze
   BigrunGold: Gold
@@ -323,6 +367,7 @@ FesRecord:
   ContributionRegular: Clout - Open
   ContributionTricolor: Tricolor Battle Clout
   Defense: Defending
+  FestPower: '{ 1 } Power: '
   FestRanking: Splatfest Top 100
   GotHoragai: Conch Shells Obtained
   GuideVote: You can change your answer to this poll as many times as you like before
@@ -338,6 +383,7 @@ FesRecord:
   PreVoteGuide: Check out which team your friends are gonna join.<br />Gather your
     crew and get ready to splat!
   PreVoteTitle: Which team is everyone going with?<br />Vote now!
+  Rank: '<small>Place: </small> - '
   Regular: Open
   SeeAllVotes: Friends' Teams
   SeeFestRanking: View Splatfest Top 100
@@ -351,10 +397,15 @@ FesRecord:
   VotingStatus: How Your Friends Voted
   WaitingForResult: Calculating results...
   Win: VICTORY
+  WinTeam: <span></span> Wins!
   YourRecord: Your Stats
 Footer:
   BigrunAnnouncement: <em>Big Run</em> alert issued! Beware of approaching Salmonids!
   BigrunNowOpening: <em>Big Run</em> in progress! Protect the city from Salmonids!
+  EndOfSeason: <em></em> is almost over!
+  FestAnnouncement: <em></em> Splatfest open! Choose a team and dive in!
+  FestNowOpening: '<em></em> Splatfest open! Vote in the square to get your Splatfest
+    Tee! '
 FriendList:
   AppName: Friend List
   InCoopGame: Working
@@ -375,6 +426,8 @@ GesoTown:
     abilities</em>!
   Feature: The Daily Drop
   Featured: The Daily Drop
+  FrequentGearPower: Potential Abilities for <strong></strong>
+  Limit: Until <em></em>
   Money: Cash
   Next: Next
   NextFeature: The Next Drop
@@ -385,6 +438,8 @@ GesoTown:
   Pending: Checking availability...
   Previous: Previous
   RemainAlmostFinished: Ending Soon
+  RemainHour: 'Hours left: '
+  RemainMinute: 'Minutes left: '
   Remind: You already ordered something.
   RemindCaution: Current gear order will be canceled.
   Rule1: You can order one piece of gear at a time.
@@ -417,6 +472,7 @@ HeroRecord:
   RecruitmentSub: Why not try Story Mode and find out?
   SearchRatio: Exploration Rate
   SeePhotograph: View Snapshot
+  Site: 'Site '
   Site1: Future Utopia Island
   Site2: Cozy & Safe Factory
   Site3: Cryogenic Hopetown
@@ -426,8 +482,10 @@ HeroRecord:
   Title: Story Mode Stats
   Wallpaper: Special Wallpaper
 History:
+  AllBadges: All Badges ()
   AppName: History
   Badge: Badges
+  Count: <small> times</small>
   EstimatedRanking: Approximate Rank
   FrequentlyUsedWeapon: Fave Weapons
   HighestUdemae: All-Time Best
@@ -439,15 +497,18 @@ History:
   PastXmatchAnnotation: X Battle stats will be calculated and revealed after the season
     ends.
   Rank: Level
+  Ranking: <small></small>
   Season: Season
   ShowAllBadges: See All Badges
   ShowLess: Show Less
   ShowMore: More
   ShowXranking: View X Ranking
+  Since: Playing Since  (Updated { 1 })
   Summary: Summary
   Title: History
   TotalTurfPoint: Turf Inked
   TotalWin: Total Wins
+  TurfPoint: p
   Udemae: Rank
   Weapon: Weapon Stats
   WeaponUsage: Weapon Usage
@@ -496,6 +557,7 @@ MyOutfits:
   CurrentGear: Current Gear
   CurrentWeapon: Current Weapon
   ErrorSave: Could not save.
+  Exp: Experience <em></em>
   Filter: Filter
   Gear: Gear
   GearPower: Ability
@@ -512,13 +574,19 @@ MyOutfits:
   NoGears: No matching gear found.
   NoWeapons: No matching weapons found.
   Normal: Normal
+  Number: 'Fit '
   'Off': 'OFF'
   'On': 'ON'
   OpenCameraOption: Show Control Settings
+  RControl: ' Left/Right'
+  RHorizontal: ' Sensitivity'
   RHorizontalUnavailable: Disabled when motion controls are set to OFF.
+  RVertical: ' Up/Down'
   RVerticalUnavailable: Disabled when motion controls are ON.
+  Rarity: 'Star Power '
   Reverse: Inverted
   Save: Save
+  Select: 'Select '
   SelectCloth: Select Clothes
   SelectHead: Select Headgear
   SelectShoes: Select Shoes
@@ -531,6 +599,7 @@ MyOutfits:
   SubmitGear: OK
   SubmitWeapon: OK
   Title: Freshest Fits
+  TurfPoint: Turf Inked <em>p</em>
   TvTabletopMode: TV/Tabletop Mode
   Weapon: Weapon
 ParamName:
@@ -550,6 +619,7 @@ PhotoAlbum:
   Title: Photo Album
 QRCodeReader:
   AppName: QR Code Reader
+  CheckinDate: 'Date and Time: '
   ConfirmationAllow: Allow
   ConfirmationDeny: Don't Allow
   ErrorAlreadyGotDescription: You have already redeemed this reward.
@@ -583,6 +653,7 @@ Record:
   StageRecordAppName: Stages
   Sub: Sub
   Title: Stats
+  TotalTurfPoint: p
   TurfPoint: Turf Inked
   UnplayedStages: Unplayed Stages
   UnusedWeapons: Not Yet Obtained
@@ -590,6 +661,7 @@ Record:
   WeaponRecord: Weapon Stats
   WeaponRecordAppName: Weapons
   WinCount: Wins
+  WinRatio: '%'
 Settings:
   Acknowledgements: Copyrights
   AppName: Settings
@@ -617,19 +689,24 @@ StageSchedule:
   Eventmatch: Event Now Open!
   Festival: Splatfest Battle
   FestivalAnnounced: Coming Soon!
+  FestivalAt: Starts !
   FestivalAttack: Attacking
   FestivalDefense: Defending
   FestivalHolding: Now Open!
+  FestivalPeriod: ' - { 1 }'
   Future: Future
   League: League Battle
   Next: Next
   NoticeBigrun: Big Run coming soon!
-  NoticeLimited: 'Announcement: Limited-Time Job!'
+  NoticeLimited: 'Announcement: Eggstra Work coming soon!'
   NowClosed: Splatfest Active!
   Open: Now
   OpenBigrun: Big Run in progress!
-  OpenLimited: Limited-time job available now!
+  OpenLimited: Eggstra Work available now!
   Private: Private Battle
+  Recruit: 'Big Run happening now! Grizzco hiring ANYONE! '
+  RecruitTeamContest: 'Eggstra Work is available now. Recruit some coworkers and join
+    in the...fun? '
   Regular: Regular Battle
   SeeFestivalRecord: Splatfest Stats
   SuppliedWeaponRandom: Random
@@ -646,21 +723,28 @@ VSHistory:
   AnnotationNocontest: No contest.
   AnnotationPenalty: The match was not fully completed.
   Attack: Attacking
+  Average: Over  Min. Average
   AwardGold: Gold
   AwardSilver: Silver
   Bankara: Anarchy Battle
   BankaraChallenge: Anarchy Battle (Series)
   BankaraOpen: Anarchy Battle (Open)
   Cleaning: Results
+  Contribute: 'Clout: '
+  Count: 'Score: '
   DeathCount: Times Splatted
   Defense: Defending
   Draw: DRAW
   EquippedGear: Gear Used
   EquippedWeapon: Weapon Used
+  EstimatedRoomPower: '-Player { 1 } Power Estimate: { 2 }'
   FesChallenge: Splatfest Battle (Series)
   FesOpen: Splatfest Battle (Open)
+  FesTeam: 'Team '
   FesWinProof: Splatfest Star
+  FestPower: '{ 1 } Power: '
   Festival: Splatfest Battle
+  FestivalShell: 'Festival Shells: '
   GoToStats: Back to Battle Logs
   GotAwards: Medals Earned
   GotTricolorTreasure: Sprinkler of Doom Deployed
@@ -676,6 +760,7 @@ VSHistory:
   NoData: No battle logs to display.
   NotAvailable: Battle Log Unavailable
   NotAvailableDescription: Only the 50 most recent entries are available.
+  OutfitBonus: (Synergy Bonus x)
   PreviousBattle: Previous
   Private: Private Battle
   Promo: Rank-Up Battle
@@ -683,13 +768,17 @@ VSHistory:
   SpCount: Special-Weapon Uses
   Title: Battles
   TryCount: Attempts
+  TurfPoint: p
   UdemaePoint: Rank Points
+  UdemaePointScore: p
   UdemaeReset: Series Interrupted
   UdemaeUp: Promoted!
   Win: VICTORY
   WinMeterGuide: Wins and Losses
+  Wins: -WIN STREAK
   Xcrown: Crown
   Xmatch: X Battle
+  Xpower: 'X Power: '
 WeaponTypeName:
   Blaster: Blasters
   Brush: Brushes
@@ -764,12 +853,15 @@ XRanking:
   All: Show All
   AppName: X Rankings
   Atlantic: Tentatek Division
+  EstimatedRank: 'Approximate Rank: #'
   Measurement: TBD...
   Open: Now Open!
   Pacific: Takoroka Division
   PastRankings: Past Ranking
   PastRankingsAnnotation: Past Ranking is calculated and revealed after the season
     ends. Please note that it may take a few days in some cases.
+  Period: ' - { 1 }'
+  Rank: '#'
   Region: Division
   SeeRanking: View Ranking
   SeeWeaponTop: Top Weapon Wielders
@@ -780,3 +872,4 @@ XRanking:
   WeaponTop: Top Weapon Wielders
   WeaponTopSingular: Top Weapon Wielder
   Xcrown: Crown
+  Xpower: '<small>X Power:</small> '
