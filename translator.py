@@ -77,6 +77,8 @@ def gen_localized():
     os.makedirs(path, exist_ok=True)
     with open(f'{path}/Localizable.strings', mode='a', newline='') as f:
       for key, value in dict(zip(values.keys(), values.values)).items():
+        if type(value) is str:
+          value = value.replace('"', '')
         if target_lang == 'ja' and key not in 'Shakeall':
           outputs.append(f'\t/// {value}\n\tcase CoopHistory_{key}')
         if key not in ['Shakeall', 'Dummy']:

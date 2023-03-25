@@ -1,7 +1,7 @@
 //
 //  LocalizedType.swift
 //
-//  Created by tkgstrator on 2023/03/22
+//  Created by tkgstrator on 2023/03/26
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
@@ -217,6 +217,44 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopStage_Unknown
 	/// 海女美術大学
 	case CoopStage_Upland
+	/// ビッグランから街を守れ！
+	case Carousel_BigrunOpening
+	/// ビッグラン結果発表！
+	case Carousel_BigrunResult
+	/// サーモンラン
+	case Carousel_CoopHistory
+	/// 「ハイカラシティ」配信中！
+	case Carousel_ExpansionPass
+	/// 「サイド・オーダー」配信中！
+	case Carousel_ExpansionPass2
+	/// フェス開催！！
+	case Carousel_FestOpening
+	/// フェス結果発表！！
+	case Carousel_FestResult
+	/// ここだけの特別なギア販売中
+	case Carousel_Gesotown
+	/// 新たなヒーローの物語
+	case Carousel_HeroRecord
+	/// メモリープレーヤー
+	case Carousel_MemoryPlayer
+	/// マイコーデ
+	case Carousel_Myoutfits
+	/// Splatoon甲子園開催中！
+	case Carousel_OfficialTournament
+	/// Splatoon甲子園決勝戦
+	case Carousel_OfficialTournamentFinal
+	/// フォトアルバム
+	case Carousel_PhotoAlbum
+	/// 支援者求む！
+	case Carousel_Robichi
+	/// 前シーズンのヒストリーはこちら！
+	case Carousel_StatsLatestSeason
+	/// バイトチームコンテストに参加しよう！
+	case Carousel_TeamContestOpening
+	/// バイトチームコンテスト結果発表！
+	case Carousel_TeamContestResult
+	/// バトル戦績
+	case Carousel_VsHistory
 	/// 二つ名
 	case Catalog_Byname
 	/// カードパック
@@ -479,7 +517,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_GoToStats
 	/// 集めた金イクラ
 	case CoopHistory_GoldenDeliverCount
-	/// ハイスコア
+	/// 最高きろく
 	case CoopHistory_HighestScore
 	/// バイトヒストリー
 	case CoopHistory_History
@@ -1223,7 +1261,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_10x
 	/// ３３３倍マッチ
 	case VSHistory_333x
-	/// 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
+	/// 人数が少ない時間が続いたため、負けとしてカウントされませんでした
 	case VSHistory_AnnotationExemption
 	/// 無効試合になりました
 	case VSHistory_AnnotationNocontest
@@ -1559,84 +1597,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
-	/// 「ハイカラシティ」配信中！
-	case Carousel_ExpansionPass
-	/// 「サイド・オーダー」配信中！
-	case Carousel_ExpansionPass2
-	/// Splatoon甲子園開催中！
-	case Carousel_OfficialTournament
-	/// Splatoon甲子園決勝戦
-	case Carousel_OfficialTournamentFinal
-	/// バイトチームコンテストに参加しよう！
-	case Carousel_TeamContestOpening
-	/// バイトチームコンテスト結果発表！
-	case Carousel_TeamContestResult
-	/// オレンジの空がオイリーだよね～。
-	case Challenge_Challenge210Description
-	/// 二つ名
-	case Challenge_Challenge210Reward
-	/// シェケナダム
-	case Challenge_Challenge210Title
-	/// アートに触れるとハートの中心まで火が通るカンジするよね～！
-	case Challenge_Challenge21Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge21Reward
-	/// キンメダイ美術館
-	case Challenge_Challenge21Title
-	/// ここの食堂はフライがイケてるバクアゲスポットなんだ～。
-	case Challenge_Challenge22Description
-	/// 拾ったステッカー
-	case Challenge_Challenge22Reward
-	/// 海女美術大学
-	case Challenge_Challenge22Title
-	/// 橋の上は風が強くてコロモがめっちゃ飛ばされるんだよね！
-	case Challenge_Challenge23Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge23Reward
-	/// マサバ海峡大橋
-	case Challenge_Challenge23Title
-	/// 溶接の音とアゲる音って似てるから、テンションがバチバチアガっちゃうよ！
-	case Challenge_Challenge24Description
-	/// 拾ったステッカー
-	case Challenge_Challenge24Reward
-	/// チョウザメ造船
-	case Challenge_Challenge24Title
-	/// 夕飯時にフライの香りがすると、すぐ家に帰りたくなるよね～。
-	case Challenge_Challenge25Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge25Reward
-	/// ヒラメが丘団地
-	case Challenge_Challenge25Title
-	/// あ！新しいアゲ油売ってる！！
-	case Challenge_Challenge26Description
-	/// 拾ったステッカー
-	case Challenge_Challenge26Reward
-	/// ザトウマーケット
-	case Challenge_Challenge26Title
-	/// こんなアガる要素しかない場所、アガり過ぎ注意報だよ～！ジュワワ～！！！
-	case Challenge_Challenge27Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge27Reward
-	/// マヒマヒリゾート＆スパ
-	case Challenge_Challenge27Title
-	/// ジェットコースターに乗った後って、ナゼか身軽に感じるんだよね～。
-	case Challenge_Challenge28Description
-	/// グラフィティ壁紙
-	case Challenge_Challenge28Reward
-	/// スメーシーワールド
-	case Challenge_Challenge28Title
-	/// ハイカラ地方にもサクサク稼げるバイトがあるんだね～！って、ココどこ～？
-	case Challenge_Challenge29Description
-	/// めちゃたそがれフォト
-	case Challenge_Challenge29Reward
-	/// 難破船ドン・ブラコ
-	case Challenge_Challenge29Title
-	/// 「チャレンジャー・ロブ」としての次の目的地は『ハイカラ地方』に決めたよ～。<br />ってわけで、この旅を引き続き支援してくれるサポーターをパリッと募集するよ！<br />ハイカラ地方は、僕が旅を始める前に住んでた街もあるんだけど、いまもハイカラな香りたっぷりのツヤツヤアゲアゲな場所なんだよね～。<br />そういった思い出の場所を巡りながら、「過去の自分」も見つめ直して「いまの自分」を更にアゲ直したいんだよね！<br />この「二度アゲの旅」、ガチでホットっしょ？！ってことでヨロシク～！
-	case Challenge_Journey2Description
-	/// キミのおかげで、二度アゲの旅もカリッと終えられたよ！アリガト～！<br />お礼にコレ、アゲちゃうよ！<br />ロビー端末に送っておいたから受け取ってね～。
-	case Challenge_Journey2Gratitude
-	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
-	case Challenge_Journey2Title
 	/// About
 	case CoopHistory_About
 	/// 実測値
@@ -1801,6 +1761,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_TeamPointCard
 	/// 推定値を表示
 	case CoopHistory_UseEstimatedValue
+	/// Safariの認証を利用する
+	case CoopHistory_UseEmpheralSession
 	/// 報酬
 	case CoopHistory_CheckInReward
 	/// 過去に配布されていたQRコードの報酬を取得します。
@@ -1809,6 +1771,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_TeamResult
 	/// あなた
 	case CoopHistory_PlayerResult
+	/// なかまの平均
+	case CoopHistory_CrewAvgResult
 	/// なかま
 	case CoopHistory_CrewResult
 	/// Waves
@@ -1819,10 +1783,16 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_AverageValue
 	/// この機能を利用するにはiOS16以上にアップデートする必要があります。
 	case CoopHistory_RequirediOS16
+	/// このアプリを利用するにはニンテンドーアカウントでログインする必要があります。
+	case CoopHistory_RequiredSignIn
 	/// リザルト復元に成功しました。
 	case CoopHistory_RestoreSuccess
 	/// リザルト復元に失敗しました。未サポートの形式またはファイルが改ざんされているため署名が一致しません。
 	case CoopHistory_RestoreFailure
 	/// デベロッパの回答
 	case CoopHistory_DeveloperAnswer
+	/// サポートされていないバージョンでバックアップされたリザルトのため復元できませんでした。
+	case CoopHistory_MinimumVersion
+	/// バックアップの署名が一致しなかったため復元できませんでした。リザルトが改ざんされている可能性があります。
+	case CoopHistory_InvalidSignature
 }

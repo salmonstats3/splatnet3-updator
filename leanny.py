@@ -356,7 +356,7 @@ def _load_params(hash: LocaleHash) -> dict:
   with open(path, mode='r') as f:
     response = json.load(f)
     keys = list(map(lambda key: _camel_case(key), response.keys()))
-    values = list(map(lambda x: x.replace('{ 0 }', ''), response.values()))
+    values = list(map(lambda x: x.replace('{ 0 }', '').replace('"', ''), response.values()))
     return dict(zip(keys, values))
 
 def _camel_case(key: str):
@@ -395,5 +395,5 @@ def _get_params(hash: LocaleHash, version: int) -> dict:
     contents.update(_load_params(hash))
 
     # 不要なキーが含まれるものは削除
-    contents = {key: value for key, value in contents.items() if 'Preview' not in key and '%' not in key}
+    contents = {key: value for key, value in contents.items() if 'Preview' not in key and "%" not in key }
     return contents
