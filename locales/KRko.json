@@ -129,7 +129,7 @@
     "JobRatio": "평가 비율",
     "KumaPointCard": "Mr. 베어 포인트 카드",
     "Latest": "최근 히스토리",
-    "Limited": "기간 한정",
+    "LimitedPoint": "현재 기간 한정 포인트",
     "MonthlyReward": "이달의 기어",
     "Next": "다음 히스토리",
     "Ng": "NG",
@@ -158,14 +158,14 @@
     "SeeSchedule": "스케줄 보기",
     "SmellMeter": "두목 게이지",
     "SupplyWeapon": "지급 무기",
+    "TeamContest": "아르바이트 팀 콘테스트",
     "Title": "새먼 런",
     "TotalPoint": "누적 포인트",
     "Wave": "WAVE ",
     "WaveLevel0": "간조",
     "WaveLevel1": "보통",
     "WaveLevel2": "만조",
-    "LimitedPoint": "현재 기간 한정 포인트",
-    "TeamContest": "아르바이트 팀 콘테스트"
+    "Limited": "기간 한정"
   },
   "CoopStage": {
     "Carousel": "초밥 월드",
@@ -176,27 +176,6 @@
     "Tutorial": "연어말이 요새",
     "Unknown": "???",
     "Upland": "해녀 미술 대학"
-  },
-  "Carousel": {
-    "BigrunOpening": "빅 런으로부터 타운을 지켜라!",
-    "BigrunResult": "빅 런 결과 발표!",
-    "CoopHistory": "새먼 런",
-    "FestOpening": "페스티벌 개최!!",
-    "FestResult": "페스티벌 결과 발표!!",
-    "Gesotown": "이곳에서만 구할 수 있는 특별한 기어 판매 중",
-    "HeroRecord": "새로운 히어로의 이야기",
-    "MemoryPlayer": "메모리 플레이어",
-    "Myoutfits": "마이 코디",
-    "PhotoAlbum": "포토 앨범",
-    "Robichi": "서포터 구함!",
-    "StatsLatestSeason": "이전 시즌 히스토리 확인하기",
-    "VsHistory": "배틀 전적",
-    "ExpansionPass": "「오더폴리스 시티」 배포 중!",
-    "ExpansionPass2": "「사이드 오더」 배포 중!",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
-    "TeamContestOpening": "아르바이트 팀 콘테스트에 참가하자!",
-    "TeamContestResult": "아르바이트 팀 콘테스트 결과 발표!"
   },
   "Catalog": {
     "Byname": "별명",
@@ -219,6 +198,7 @@
     "CurrentPoint": "누적 p",
     "DailyBonus": "오늘 첫 승리 시 누구나 <em></em>포인트 획득!",
     "DrinkTicket": "드링크 티켓",
+    "EndOfSeason": "<em></em> 종료가 머지않았습니다. 카탈로그 포인트 <em>1.2배</em> 서비스 중!",
     "FesBonus": "페스티벌 개최 중! 포인트 <em>1.2배</em>!",
     "FoodTicket": "푸드 티켓",
     "Got": "획득!",
@@ -235,8 +215,7 @@
     "Signboard": "잡화점",
     "Title": "카탈로그",
     "Welcome": "어메이징한 카탈로그 배포 중!",
-    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!",
-    "EndOfSeason": "<em></em> 종료가 머지않았습니다. 카탈로그 포인트 <em>1.2배</em> 서비스 중!"
+    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!"
   },
   "Challenge": {
     "AboutGraffiti": "여행하다가 끝내주는 그라피티를 발견했으니까 선물할게～",
@@ -326,6 +305,7 @@
     "Close": "닫기",
     "ColonRule": ": ",
     "CoopBigRun": "빅 런",
+    "CoopTeamContest": "아르바이트 팀 콘테스트",
     "CopyrightQrCode": "QR Code는 일본 및 여러 나라에서 DENSO WAVE INCORPORATED의 등록상표입니다",
     "Decide": "결정",
     "Download": "다운로드",
@@ -342,11 +322,11 @@
     "Tricolor": "트리컬러 어택",
     "TricolorMatch": "트리컬러 매치",
     "TurfWar": "영역 배틀",
-    "WpnNotfound": "물음표",
-    "CoopTeamContest": "아르바이트 팀 콘테스트"
+    "WpnNotfound": "물음표"
   },
   "CoopRecord": {
     "AppName": "아르바이트",
+    "Attended": "참가 횟수: ",
     "Bigrun": "빅 런",
     "BigrunBronze": "동",
     "BigrunGold": "금",
@@ -355,9 +335,8 @@
     "HighestScore": "하이 스코어",
     "More": "더 보기",
     "NoData": "기록이 없습니다",
-    "Title": "새먼 런 기록",
-    "Attended": "참가 횟수: ",
-    "TeamContest": "아르바이트 팀 콘테스트"
+    "TeamContest": "아르바이트 팀 콘테스트",
+    "Title": "새먼 런 기록"
   },
   "Error": {
     "BackToHome": "홈으로 돌아가기",
@@ -421,6 +400,7 @@
   "FriendList": {
     "AppName": "친구 리스트",
     "InCoopGame": "아르바이트 중",
+    "InMiniGame": "영역 배틀러",
     "InVsGame": "시합 중",
     "IsLocked": "비밀번호 있음",
     "NoFriends": "친구의 플레이 상황이 여기에 표시됩니다",
@@ -429,8 +409,7 @@
     "Recruiting": "모집 중",
     "Reload": "새로 고침",
     "Title": "친구 리스트",
-    "VoiceChatEnabled": "보이스챗 가능",
-    "InMiniGame": "영역 배틀러"
+    "VoiceChatEnabled": "보이스챗 가능"
   },
   "GesoTown": {
     "AppName": "오징어넷 숍",
@@ -508,6 +487,7 @@
     "LatestBadge": "최근 획득한 배지",
     "Monthly": "월간",
     "Others": "기타",
+    "PastXmatchAnnotation": "※X 매치 기록은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다.",
     "Rank": "레벨",
     "Ranking": "<small>위</small>",
     "Season": "시즌",
@@ -524,8 +504,7 @@
     "Udemae": "랭크",
     "Weapon": "무기 히스토리",
     "WeaponUsage": "무기 사용률",
-    "Xmatch": "X 매치",
-    "PastXmatchAnnotation": "※X 매치 기록은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
+    "Xmatch": "X 매치"
   },
   "Landing": {
     "Caution": "※앱을 설치하지 않은 분은 이 버튼을 눌러도 기동하지 않습니다",
@@ -580,6 +559,7 @@
     "Gyro": "자이로 조작 감도",
     "GyroControl": "자이로 조작",
     "HandheldMode": "휴대 모드",
+    "Hashtag": "마이코디",
     "Head": "액세서리",
     "Main": "메인 웨펀",
     "NoGears": "일치하는 기어가 없습니다",
@@ -603,6 +583,7 @@
     "SelectShoes": "신발 선택하기",
     "SelectSlot": "저장 위치 선택",
     "SelectWeapon": "무기 선택하기",
+    "Share": "공유",
     "Shoes": "신발",
     "Special": "스페셜 웨펀",
     "Sub": "서브 웨펀",
@@ -611,9 +592,7 @@
     "Title": "마이 코디",
     "TurfPoint": "지금까지 칠한 면적 <em>p</em>",
     "TvTabletopMode": "TV 모드/테이블 모드",
-    "Weapon": "무기",
-    "Hashtag": "마이코디",
-    "Share": "공유"
+    "Weapon": "무기"
   },
   "PhotoAlbum": {
     "Annotation": "사진은 20장까지 업로드할 수 있습니다<br />저장 기간은 3개월입니다",
@@ -666,8 +645,8 @@
     "Acknowledgements": "권리 표기",
     "AppName": "설정",
     "Credits": "크레디트",
-    "Title": "설정",
-    "ExpansionPass": "익스팬션 패스 구입 사이트로"
+    "ExpansionPass": "익스팬션 패스 구입 사이트로",
+    "Title": "설정"
   },
   "StageSchedule": {
     "Bankara": "카오폴리스 매치",
@@ -694,14 +673,14 @@
     "OpenLimited": "기간 한정 아르바이트 개최 중!",
     "Private": "프라이빗 매치",
     "Recruit": "빅 런이 온다! 아르바이트 대모집 ",
+    "RecruitTeamContest": "아르바이트 팀 콘테스트! 팀을 만들어 참가하자! ",
     "Regular": "레귤러 매치",
     "SeeFestivalRecord": "페스티벌 기록 보기",
     "SuppliedWeaponRandom": "랜덤",
     "SuppliedWeapons": "지급 무기",
     "Title": "스케줄",
     "WinRateByRules": "룰별 승률",
-    "Xmatch": "X 매치",
-    "RecruitTeamContest": "아르바이트 팀 콘테스트! 팀을 만들어 참가하자! "
+    "Xmatch": "X 매치"
   },
   "VSHistory": {
     "100x": "100배 매치",
@@ -793,6 +772,7 @@
     "Open": "개최 중!!",
     "Pacific": "그룹・라이즈",
     "PastRankings": "과거 랭킹",
+    "PastRankingsAnnotation": "※과거 랭킹은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다.",
     "Period": " - { 1 }",
     "Rank": "<small>위</small>",
     "Region": "그룹",
@@ -805,8 +785,28 @@
     "WeaponTop": "무기 톱 플레이어",
     "WeaponTopSingular": "무기 톱 플레이어",
     "Xcrown": "왕관",
-    "Xpower": "<small>X 파워</small> ",
-    "PastRankingsAnnotation": "※과거 랭킹은 시즌 종료 후 집계가 완료된 다음 공개됩니다. 집계 완료에는 수일이 경과될 수 있습니다."
+    "Xpower": "<small>X 파워</small> "
+  },
+  "Carousel": {
+    "BigrunOpening": "빅 런으로부터 타운을 지켜라!",
+    "BigrunResult": "빅 런 결과 발표!",
+    "CoopHistory": "새먼 런",
+    "FestOpening": "페스티벌 개최!!",
+    "FestResult": "페스티벌 결과 발표!!",
+    "Gesotown": "이곳에서만 구할 수 있는 특별한 기어 판매 중",
+    "HeroRecord": "새로운 히어로의 이야기",
+    "MemoryPlayer": "메모리 플레이어",
+    "Myoutfits": "마이 코디",
+    "PhotoAlbum": "포토 앨범",
+    "Robichi": "서포터 구함!",
+    "StatsLatestSeason": "이전 시즌 히스토리 확인하기",
+    "VsHistory": "배틀 전적",
+    "ExpansionPass": "「오더폴리스 시티」 배포 중!",
+    "ExpansionPass2": "「사이드 오더」 배포 중!",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
+    "TeamContestOpening": "아르바이트 팀 콘테스트에 참가하자!",
+    "TeamContestResult": "아르바이트 팀 콘테스트 결과 발표!"
   },
   "Widgets": {
     "AlbumDescription": "오징어넷 3의 앨범 이미지를 표시합니다.",
