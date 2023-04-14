@@ -129,7 +129,7 @@
     "JobRatio": "Grado",
     "KumaPointCard": "Tarjeta de Don Oso",
     "Latest": "Más reciente",
-    "LimitedPoint": "Puntos especiales actuales",
+    "Limited": "Solo por tiempo limitado",
     "MonthlyReward": "Objeto del mes",
     "Next": "Siguiente",
     "Ng": "✘",
@@ -158,14 +158,14 @@
     "SeeSchedule": "Ver calendario",
     "SmellMeter": "salmómetro",
     "SupplyWeapon": "Armas disponibles",
-    "TeamContest": "Recolección extra",
     "Title": "Salmon Run",
     "TotalPoint": "Puntos totales",
     "Wave": "Oleada ",
     "WaveLevel0": "Marea baja",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Marea alta",
-    "Limited": "Solo por tiempo limitado"
+    "LimitedPoint": "Puntos especiales actuales",
+    "TeamContest": "Recolección extra"
   },
   "CoopStage": {
     "Carousel": "Pirañalandia",
@@ -181,22 +181,22 @@
     "BigrunOpening": "¡Big Run! ¡A defender la ciudad!",
     "BigrunResult": "¡Resultados de Big Run!",
     "CoopHistory": "Salmon Run",
-    "ExpansionPass": "Visita el sitio del pase de expansión",
-    "ExpansionPass2": "Visita el sitio del pase de expansión",
     "FestOpening": "¡Festival en marcha!",
     "FestResult": "Resultados del festival",
     "Gesotown": "Tenemos artículos exclusivos de SplatNet.",
     "HeroRecord": "La historia continúa...",
     "MemoryPlayer": "Repeticiones",
     "Myoutfits": "Tus atuendos",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "Álbum de fotos",
     "Robichi": "¡Se buscan ayudantes!",
     "StatsLatestSeason": "Recuerda la última temporada",
+    "VsHistory": "Registros de combates",
+    "ExpansionPass": "Visita el sitio del pase de expansión",
+    "ExpansionPass2": "Visita el sitio del pase de expansión",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "¡Participa en la recolección extra!",
-    "TeamContestResult": "¡Resultados de la recolección extra!",
-    "VsHistory": "Registros de combates"
+    "TeamContestResult": "¡Resultados de la recolección extra!"
   },
   "Catalog": {
     "Byname": "Apodo",
@@ -219,7 +219,6 @@
     "CurrentPoint": "Total: p.",
     "DailyBonus": "¡Ganaste <em></em> puntos por la primera victoria del día!",
     "DrinkTicket": "Boleto de bebida",
-    "EndOfSeason": "¡<em></em> casi concluida! ¡Pero todavía puedes obtener puntos de catálogo <em>x1.2</em>!",
     "FesBonus": "¡Festival en curso! ¡Obtén un <em>20 % extra</em> de puntos!",
     "FoodTicket": "Boleto de comida",
     "Got": "Lo tienes",
@@ -236,7 +235,8 @@
     "Signboard": "Miscelánea Abisal",
     "Title": "Catálogo",
     "Welcome": "¡Tenemos nuevo catálogo!",
-    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!"
+    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!",
+    "EndOfSeason": "¡<em></em> casi concluida! ¡Pero todavía puedes obtener puntos de catálogo <em>x1.2</em>!"
   },
   "Challenge": {
     "AboutGraffiti": "¡Te mandaré todos los grafitis geniales que vaya encontrando por ahí!",
@@ -326,7 +326,6 @@
     "Close": "Cerrar",
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
-    "CoopTeamContest": "Recolección extra",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "Aceptar",
     "Download": "Descargar",
@@ -343,11 +342,11 @@
     "Tricolor": "Combate tricolor",
     "TricolorMatch": "Combate tricolor",
     "TurfWar": "Territorial",
-    "WpnNotfound": "Vacía"
+    "WpnNotfound": "Vacía",
+    "CoopTeamContest": "Recolección extra"
   },
   "CoopRecord": {
     "AppName": "Encargos",
-    "Attended": "Participaciones: ",
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronce",
     "BigrunGold": "Oro",
@@ -356,8 +355,9 @@
     "HighestScore": "Récord",
     "More": "Ver más",
     "NoData": "Sin datos",
-    "TeamContest": "Recolección extra",
-    "Title": "Estadísticas"
+    "Title": "Estadísticas",
+    "Attended": "Participaciones: ",
+    "TeamContest": "Recolección extra"
   },
   "Error": {
     "BackToHome": "Volver al inicio",
@@ -421,7 +421,6 @@
   "FriendList": {
     "AppName": "Lista de amigos",
     "InCoopGame": "Trabajando",
-    "InMiniGame": "Combate carterritorial",
     "InVsGame": "Jugando",
     "IsLocked": "Con contraseña",
     "NoFriends": "Aquí podrás ver el estatus de los amigos que agregues.",
@@ -430,7 +429,8 @@
     "Recruiting": "Buscando...",
     "Reload": "Actualizar",
     "Title": "Lista de amigos",
-    "VoiceChatEnabled": "Chat de voz disponible"
+    "VoiceChatEnabled": "Chat de voz disponible",
+    "InMiniGame": "Combate carterritorial"
   },
   "GesoTown": {
     "AppName": "Tienda SplatNet",
@@ -508,7 +508,6 @@
     "LatestBadge": "Distintivos recientes",
     "Monthly": "Mensual",
     "Others": "Otras armas",
-    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada.",
     "Rank": "Nivel",
     "Ranking": " ",
     "Season": "Temporada",
@@ -525,7 +524,8 @@
     "Udemae": "Rango",
     "Weapon": "Armas",
     "WeaponUsage": "Frecuencia de uso",
-    "Xmatch": "Combate X"
+    "Xmatch": "Combate X",
+    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada."
   },
   "Landing": {
     "Caution": "Nota: Este botón no hará nada si no tienes la aplicación instalada.",
@@ -580,7 +580,6 @@
     "Gyro": "Sensibilidad del giroscopio",
     "GyroControl": "Control por movimiento",
     "HandheldMode": "Modo portátil",
-    "Hashtag": "TusAtuendos",
     "Head": "accesorios",
     "Main": "Arma principal",
     "NoGears": "No se encontró ningún equipamiento.",
@@ -604,7 +603,6 @@
     "SelectShoes": "Seleccionar calzado",
     "SelectSlot": "¿Cuál atuendo quieres remplazar?",
     "SelectWeapon": "Seleccionar arma",
-    "Share": "Compartir",
     "Shoes": "calzado",
     "Special": "Arma especial",
     "Sub": "Arma secundaria",
@@ -613,7 +611,9 @@
     "Title": "Tus atuendos",
     "TurfPoint": "Territorio pintado: <em>p.</em>",
     "TvTabletopMode": "Modo televisor/semiportátil",
-    "Weapon": "Arma"
+    "Weapon": "Arma",
+    "Hashtag": "TusAtuendos",
+    "Share": "Compartir"
   },
   "PhotoAlbum": {
     "Annotation": "Puedes guardar hasta 20 fotos.<br />Estarán disponibles durante 3 meses.",
@@ -666,8 +666,8 @@
     "Acknowledgements": "Derechos de autor",
     "AppName": "Ajustes",
     "Credits": "Créditos",
-    "ExpansionPass": "Visita el sitio del pase de expansión",
-    "Title": "Ajustes"
+    "Title": "Ajustes",
+    "ExpansionPass": "Visita el sitio del pase de expansión"
   },
   "StageSchedule": {
     "Bankara": "Combate caótico",
@@ -687,27 +687,27 @@
     "League": "Combate de liga",
     "Next": "Siguiente",
     "NoticeBigrun": "¡Big Run a la vista!",
-    "NoticeLimited": "¡Anuncio de recolección extra!",
+    "NoticeLimited": "¡Anuncio de tarea temporal!",
     "NowClosed": "¡Festival en curso!",
     "Open": "Actual",
     "OpenBigrun": "¡Big Run en marcha!",
-    "OpenLimited": "¡Recolección extra disponible!",
+    "OpenLimited": "¡Tarea temporal disponible!",
     "Private": "Combate privado",
     "Recruit": "¡Tenemos Big Run! ¡Don Oso, S. A. busca personal! ()",
-    "RecruitTeamContest": "¡Reúne un grupo de trabajo y aprovecha la recolección extra! ",
     "Regular": "Combate amistoso",
     "SeeFestivalRecord": "Datos del festival",
     "SuppliedWeaponRandom": "Al azar",
     "SuppliedWeapons": "Armas disponibles",
     "Title": "Calendario",
     "WinRateByRules": "Tasa de victorias",
-    "Xmatch": "Combate X"
+    "Xmatch": "Combate X",
+    "RecruitTeamContest": "¡Reúne un grupo de trabajo y aprovecha la recolección extra! "
   },
   "VSHistory": {
     "100x": "Bonificación ×100",
     "10x": "Bonificación ×10",
     "333x": "Bonificación ×333",
-    "AnnotationExemption": "Algunos jugadores se desconectaron. El combate se considera empatado.",
+    "AnnotationExemption": "Como uno o más jugadores no pudieron continuar, el combate no se cuenta como derrota.",
     "AnnotationNocontest": "Combate cancelado",
     "AnnotationPenalty": "El combate no se disputó hasta el final.",
     "Attack": "Al ataque",
@@ -793,7 +793,6 @@
     "Open": "¡En curso!",
     "Pacific": "División Pulpioka",
     "PastRankings": "Clasificaciones previas",
-    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando termina la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles).",
     "Period": " - { 1 }",
     "Rank": ".º",
     "Region": "División",
@@ -806,7 +805,8 @@
     "WeaponTop": "Mejores con esta arma",
     "WeaponTopSingular": "Mejor con esta arma",
     "Xcrown": "Corona",
-    "Xpower": "<small>Fuerza X:</small> "
+    "Xpower": "<small>Fuerza X:</small> ",
+    "PastRankingsAnnotation": "Las clasificaciones previas se calculan y publican cuando termina la temporada (en ciertos casos, pueden tardar algunos días en estar disponibles)."
   },
   "Widgets": {
     "AlbumDescription": "Muestra las imágenes del álbum de SplatNet 3.",

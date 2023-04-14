@@ -123,13 +123,13 @@
     "Gj": "GJ!",
     "GoToStats": "返回打工历史一览",
     "GoldenDeliverCount": "已收集的金鲑鱼卵",
-    "HighestScore": "最高纪录",
+    "HighestScore": "最高分数",
     "History": "打工历史",
     "JobPoint": "获得点数",
     "JobRatio": "评价倍率",
     "KumaPointCard": "熊先生点数卡",
     "Latest": "前往最新的打工",
-    "LimitedPoint": "目前的期间限定点数",
+    "Limited": "期间限定",
     "MonthlyReward": "本月的装备",
     "Next": "下一个打工",
     "Ng": "NG",
@@ -158,14 +158,14 @@
     "SeeSchedule": "查看日程",
     "SmellMeter": "头目槽",
     "SupplyWeapon": "发放武器",
-    "TeamContest": "团队打工竞赛",
     "Title": "鲑鱼跑",
     "TotalPoint": "累计点数",
     "Wave": "WAVE ",
     "WaveLevel0": "干潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "满潮",
-    "Limited": "期间限定"
+    "LimitedPoint": "目前的期间限定点数",
+    "TeamContest": "团队打工竞赛"
   },
   "CoopStage": {
     "Carousel": "醋饭海洋世界",
@@ -181,22 +181,22 @@
     "BigrunOpening": "保护城镇免受大型跑侵害！",
     "BigrunResult": "大型跑结果公布！",
     "CoopHistory": "鲑鱼跑",
-    "ExpansionPass": "“尚兴市”发布中！",
-    "ExpansionPass2": "“秩序篇”发布中！",
     "FestOpening": "祭典开始！！",
     "FestResult": "祭典结果公布！！",
     "Gesotown": "正在售卖独家特殊装备",
     "HeroRecord": "全新的英雄故事",
     "MemoryPlayer": "记忆播放器",
     "Myoutfits": "个人穿搭",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "相册",
     "Robichi": "寻求支援者！",
     "StatsLatestSeason": "之前赛季的历史在这里！",
+    "VsHistory": "对战战绩",
+    "ExpansionPass": "“尚兴市”发布中！",
+    "ExpansionPass2": "“秩序篇”发布中！",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "参加团队打工竞赛吧！",
-    "TeamContestResult": "团队打工竞赛结果公布！",
-    "VsHistory": "对战战绩"
+    "TeamContestResult": "团队打工竞赛结果公布！"
   },
   "Catalog": {
     "Byname": "称号",
@@ -219,7 +219,6 @@
     "CurrentPoint": "累计 p",
     "DailyBonus": "今日首次获胜，可获得整整<em></em>点点数！",
     "DrinkTicket": "饮料券",
-    "EndOfSeason": "<em></em> 即将结束。现在可获得<em>1.2倍</em>的目录点数！",
     "FesBonus": "祭典举行中！获得的点数<em>1.2倍</em>！",
     "FoodTicket": "餐券",
     "Got": "获得！",
@@ -236,7 +235,8 @@
     "Signboard": "杂货店",
     "Title": "目录",
     "Welcome": "正在发放超鱿型的目录！",
-    "WelcomeDescription": "通过对战积攒目录点数<br />来获得道具吧！"
+    "WelcomeDescription": "通过对战积攒目录点数<br />来获得道具吧！",
+    "EndOfSeason": "<em></em> 即将结束。现在可获得<em>1.2倍</em>的目录点数！"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅途中找到了“超酥脆～！”的涂鸦，发给你哦～",
@@ -326,7 +326,6 @@
     "Close": "关闭",
     "ColonRule": "：",
     "CoopBigRun": "大型跑",
-    "CoopTeamContest": "团队打工竞赛",
     "CopyrightQrCode": "QR Code为DENSO WAVE INCORPORATED在日本及外国的注册商标",
     "Decide": "确定",
     "Download": "下载",
@@ -343,11 +342,11 @@
     "Tricolor": "三色夺宝攻击",
     "TricolorMatch": "三色夺宝比赛",
     "TurfWar": "占地对战",
-    "WpnNotfound": "问号"
+    "WpnNotfound": "问号",
+    "CoopTeamContest": "团队打工竞赛"
   },
   "CoopRecord": {
     "AppName": "打工",
-    "Attended": "参加次数：",
     "Bigrun": "大型跑",
     "BigrunBronze": "铜",
     "BigrunGold": "金",
@@ -356,8 +355,9 @@
     "HighestScore": "最高分数",
     "More": "显示更多",
     "NoData": "无记录",
-    "TeamContest": "团队打工竞赛",
-    "Title": "鲑鱼跑记录"
+    "Title": "鲑鱼跑记录",
+    "Attended": "参加次数：",
+    "TeamContest": "团队打工竞赛"
   },
   "Error": {
     "BackToHome": "返回主页",
@@ -421,7 +421,6 @@
   "FriendList": {
     "AppName": "好友列表",
     "InCoopGame": "打工中",
-    "InMiniGame": "占地斗士",
     "InVsGame": "比赛中",
     "IsLocked": "有密码",
     "NoFriends": "好友的游玩状况将显示在此处",
@@ -430,7 +429,8 @@
     "Recruiting": "募集中",
     "Reload": "重新读取",
     "Title": "好友列表",
-    "VoiceChatEnabled": "可以语音聊天"
+    "VoiceChatEnabled": "可以语音聊天",
+    "InMiniGame": "占地斗士"
   },
   "GesoTown": {
     "AppName": "鱿鱼须商城",
@@ -508,7 +508,6 @@
     "LatestBadge": "最近获得的徽章",
     "Monthly": "单月",
     "Others": "其他",
-    "PastXmatchAnnotation": "※X比赛记录将会在赛季结束后统计再公布。可能需要几天才能完成统计。",
     "Rank": "等级",
     "Ranking": "<small>第</small><small>名</small>",
     "Season": "赛季",
@@ -525,7 +524,8 @@
     "Udemae": "技术",
     "Weapon": "武器历史",
     "WeaponUsage": "武器使用率",
-    "Xmatch": "X比赛"
+    "Xmatch": "X比赛",
+    "PastXmatchAnnotation": "※X比赛记录将会在赛季结束后统计再公布。可能需要几天才能完成统计。"
   },
   "Landing": {
     "Caution": "※若未安装软件，即使按此按键也无法打开软件",
@@ -580,7 +580,6 @@
     "Gyro": "陀螺仪操作灵敏度",
     "GyroControl": "陀螺仪操作",
     "HandheldMode": "掌上模式",
-    "Hashtag": "个人穿搭",
     "Head": "头部装备",
     "Main": "主要武器",
     "NoGears": "没有符合条件的装备",
@@ -604,7 +603,6 @@
     "SelectShoes": "选择鞋子",
     "SelectSlot": "选择保存位置",
     "SelectWeapon": "选择武器",
-    "Share": "分享",
     "Shoes": "鞋子",
     "Special": "特殊武器",
     "Sub": "次要武器",
@@ -613,7 +611,9 @@
     "Title": "个人穿搭",
     "TurfPoint": "至今为止的涂墨面积 <em>p</em>",
     "TvTabletopMode": "TV模式/桌面模式",
-    "Weapon": "武器"
+    "Weapon": "武器",
+    "Hashtag": "个人穿搭",
+    "Share": "分享"
   },
   "PhotoAlbum": {
     "Annotation": "最多可上传20张照片，<br />保存期限为3个月",
@@ -666,8 +666,8 @@
     "Acknowledgements": "权利标识",
     "AppName": "设置",
     "Credits": "制作人员",
-    "ExpansionPass": "前往扩展票的购买网站",
-    "Title": "设置"
+    "Title": "设置",
+    "ExpansionPass": "前往扩展票的购买网站"
   },
   "StageSchedule": {
     "Bankara": "蛮颓比赛",
@@ -687,27 +687,27 @@
     "League": "联盟比赛",
     "Next": "下次",
     "NoticeBigrun": "大型跑正在接近！",
-    "NoticeLimited": "团队打工竞赛举行预告！",
+    "NoticeLimited": "期间限定打工举行预告！",
     "NowClosed": "祭典比赛举行中！",
     "Open": "开放！",
     "OpenBigrun": "大型跑正在发生！",
-    "OpenLimited": "团队打工竞赛举行中！",
+    "OpenLimited": "期间限定打工举行中！",
     "Private": "私人比赛",
     "Recruit": "大型跑即将到来！！大量募集打工人员！ ",
-    "RecruitTeamContest": "团队打工竞赛！组成队伍参加吧！",
     "Regular": "一般比赛",
     "SeeFestivalRecord": "查看祭典记录",
     "SuppliedWeaponRandom": "随机",
     "SuppliedWeapons": "发放武器",
     "Title": "日程",
     "WinRateByRules": "各规则的胜率",
-    "Xmatch": "X比赛"
+    "Xmatch": "X比赛",
+    "RecruitTeamContest": "团队打工竞赛！组成队伍参加吧！"
   },
   "VSHistory": {
     "100x": "100倍比赛",
     "10x": "10倍比赛",
     "333x": "333倍比赛",
-    "AnnotationExemption": "由于人数过少的情况持续过久，本场对战不会记作败北",
+    "AnnotationExemption": "由于有玩家中断连接，本场对战不会以落败计算。",
     "AnnotationNocontest": "本场对战已被判定为无效比赛。",
     "AnnotationPenalty": "对战未能正常结束。",
     "Attack": "进攻",
@@ -793,7 +793,6 @@
     "Open": "举行中！！",
     "Pacific": "组别·暇古",
     "PastRankings": "以往的排名",
-    "PastRankingsAnnotation": "※过去的排名将会在赛季结束后统计再公布。可能需要几天才能完成统计。",
     "Period": " - { 1 }",
     "Rank": "<small>第</small><small>名</small>",
     "Region": "组别",
@@ -806,7 +805,8 @@
     "WeaponTop": "顶级武器玩家",
     "WeaponTopSingular": "顶级武器玩家",
     "Xcrown": "王冠",
-    "Xpower": "<small>X战力</small> "
+    "Xpower": "<small>X战力</small> ",
+    "PastRankingsAnnotation": "※过去的排名将会在赛季结束后统计再公布。可能需要几天才能完成统计。"
   },
   "Widgets": {
     "AlbumDescription": "显示《鱿鱼圈 3》的相册图片",
