@@ -121,20 +121,20 @@
     "ExWave": "Vague +",
     "Failure": "Échec...",
     "Gj": "✓",
-    "GoToStats": "Retour aux stats de missions",
+    "GoToStats": "Retour aux stats de boulots",
     "GoldenDeliverCount": "Œufs dorés collectés",
-    "HighestScore": "Record",
-    "History": "Stats de missions",
+    "HighestScore": "Record absolu",
+    "History": "Stats de boulots",
     "JobPoint": "Tes points",
     "JobRatio": "Éval.",
     "KumaPointCard": "Carte point M. Ours",
-    "Latest": "Dernière mission",
-    "Limited": "Pour une durée limitée",
+    "Latest": "Dernier boulot",
+    "LimitedPoint": "Points de prix spéciaux actuels",
     "MonthlyReward": "Pièce d'équipement du mois",
     "Next": "Suivant",
     "Ng": "✘",
-    "NoData": "Aucune stat de mission disponible.",
-    "NotAvailable": "Les stats de missions ne sont pas disponibles.",
+    "NoData": "Aucune stat de boulot disponible.",
+    "NotAvailable": "Les stats de boulots ne sont pas disponibles.",
     "NotAvailableDescription": "Seules les 50 entrées les plus récentes sont disponibles.",
     "NotDefeated": "Échec...",
     "P": " p.",
@@ -146,7 +146,7 @@
     "RecruitTag1": "C'est facile!",
     "RecruitTag2": "La collecte d'œufs, c'est le fun et ça rapporte!",
     "RecruitTitle": "La collecte d'œufs, un travail de rêve!",
-    "Regular": "Mission normale",
+    "Regular": "Boulot normal",
     "RegularPoint": "Points actuels",
     "RescueCount": "Collègues secourus",
     "RescuedCount": "Secours reçus",
@@ -158,14 +158,14 @@
     "SeeSchedule": "Consulter l'horaire",
     "SmellMeter": "Salmomètre",
     "SupplyWeapon": "Armes fournies",
+    "TeamContest": "Défi œuf sup'",
     "Title": "Salmon Run",
     "TotalPoint": "Total des points",
     "Wave": "Vague ",
     "WaveLevel0": "Marée basse",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Marée haute",
-    "LimitedPoint": "Points de prix spéciaux actuels",
-    "TeamContest": "Défi œuf sup'"
+    "Limited": "Pour une durée limitée"
   },
   "CoopStage": {
     "Carousel": "Parc Carapince",
@@ -181,22 +181,22 @@
     "BigrunOpening": "Protège la ville pendant le Big Run!",
     "BigrunResult": "Résultats du Big Run publiés!",
     "CoopHistory": "Salmon Run",
+    "ExpansionPass": "Visiter le site d'achat de la Passe d'extension",
+    "ExpansionPass2": "Visiter le site d'achat de la Passe d'extension",
     "FestOpening": "Festival en cours!",
     "FestResult": "Résultats du festival!",
     "Gesotown": "Équipement exclusif Boutique SplatNet",
     "HeroRecord": "L'histoire continue...",
     "MemoryPlayer": "Vidéos",
     "Myoutfits": "Tenues favorites",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "Album photo",
     "Robichi": "On cherche des supporteurs!",
     "StatsLatestSeason": "Voir l'historique de la saison.",
-    "VsHistory": "Journal de matchs",
-    "ExpansionPass": "Visiter le site d'achat de la Passe d'extension",
-    "ExpansionPass2": "Visiter le site d'achat de la Passe d'extension",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "Viens faire des œufs sup'!",
-    "TeamContestResult": "Résultats du défi œuf sup'!"
+    "TeamContestResult": "Résultats du défi œuf sup'!",
+    "VsHistory": "Journal de matchs"
   },
   "Catalog": {
     "Byname": "Titre",
@@ -219,6 +219,7 @@
     "CurrentPoint": "Total :  p.",
     "DailyBonus": "La première victoire du jour te rapporte <em></em> points!",
     "DrinkTicket": "Bon breuvage",
+    "EndOfSeason": "<em></em> presque terminée! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible!",
     "FesBonus": "Festival en cours! Remporte <em>1,2 x</em> plus de points!",
     "FoodTicket": "Bon repas",
     "Got": "En poche",
@@ -235,8 +236,7 @@
     "Signboard": "Coolypso",
     "Title": "Catalogue",
     "Welcome": "Un nouveau catalogue est disponible!",
-    "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables!",
-    "EndOfSeason": "<em></em> presque terminée! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible!"
+    "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables!"
   },
   "Challenge": {
     "AboutGraffiti": "Si j'tombe sur un graffiti qui m'plaît, j'te l'envoie!",
@@ -251,7 +251,7 @@
     "CurrentPoint": "Plus tu encres de terrain, mieux tu peux soutenir Omar!",
     "DearAllOfYou": "Mes chers céphalopotes...",
     "DownloadGraffiti": "Télécharger un graffiti",
-    "DownloadIcon": "Télécharger icônes",
+    "DownloadIcon": "Icônes de téléchargement",
     "DownloadWallpaper": "Télécharger un fond d'écran",
     "Green": "Verte",
     "GuideGraffiti": "Pas mal, ce graffiti, non? Eh bien il est à toi!",
@@ -326,6 +326,7 @@
     "Close": "Fermer",
     "ColonRule": " : ",
     "CoopBigRun": "Big Run",
+    "CoopTeamContest": "Défi œuf sup'",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "OK",
     "Download": "Télécharger",
@@ -342,11 +343,11 @@
     "Tricolor": "Match tricolore",
     "TricolorMatch": "Match tricolore",
     "TurfWar": "Guerre de territoire",
-    "WpnNotfound": "Inconnu",
-    "CoopTeamContest": "Défi œuf sup'"
+    "WpnNotfound": "Inconnu"
   },
   "CoopRecord": {
     "AppName": "Missions",
+    "Attended": "Nombre de participations : ",
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Or",
@@ -355,9 +356,8 @@
     "HighestScore": "Record",
     "More": "Afficher plus d'infos",
     "NoData": "Aucune donnée",
-    "Title": "Statistiques",
-    "Attended": "Nombre de participations : ",
-    "TeamContest": "Défi œuf sup'"
+    "TeamContest": "Défi œuf sup'",
+    "Title": "Statistiques"
   },
   "Error": {
     "BackToHome": "Retour à l'accueil",
@@ -421,6 +421,7 @@
   "FriendList": {
     "AppName": "Liste d'amis",
     "InCoopGame": "Au travail...",
+    "InMiniGame": "Match de C et T",
     "InVsGame": "En jeu...",
     "IsLocked": "Mot de passe verrouillé",
     "NoFriends": "Le statut de jeu de tes amis sera indiqué ici.",
@@ -429,8 +430,7 @@
     "Recruiting": "Recherche...",
     "Reload": "Actualiser",
     "Title": "Liste d'amis",
-    "VoiceChatEnabled": "Bavardage disponible",
-    "InMiniGame": "Match de C et T"
+    "VoiceChatEnabled": "Bavardage disponible"
   },
   "GesoTown": {
     "AppName": "Boutique SplatNet",
@@ -508,6 +508,7 @@
     "LatestBadge": "Badges récents",
     "Monthly": "Mois",
     "Others": "Autres armes",
+    "PastXmatchAnnotation": "Les statistiques des matchs X sont calculées et publiées une fois la saison terminée.",
     "Rank": "Niveau",
     "Ranking": "",
     "Season": "Saison",
@@ -524,8 +525,7 @@
     "Udemae": "Rang",
     "Weapon": "Stats - armes",
     "WeaponUsage": "Fréquence d'utilisation - armes",
-    "Xmatch": "Match X",
-    "PastXmatchAnnotation": "Les statistiques des matchs X sont calculées et publiées une fois la saison terminée."
+    "Xmatch": "Match X"
   },
   "Landing": {
     "Caution": "Si l'application n'est pas installée, appuyer sur ce bouton n'aura aucun effet.",
@@ -580,6 +580,7 @@
     "Gyro": "Sensibilité du gyroscope",
     "GyroControl": "Gyroscope",
     "HandheldMode": "Mode portable",
+    "Hashtag": "TenuesFavorites",
     "Head": "Accessoires",
     "Main": "Arme principale",
     "NoGears": "Aucun résultat",
@@ -603,6 +604,7 @@
     "SelectShoes": "Choisis des chaussures.",
     "SelectSlot": "Choisis quelle tenue tu veux remplacer.",
     "SelectWeapon": "Choisis une arme.",
+    "Share": "Partager",
     "Shoes": "Chaussures",
     "Special": "Arme spéciale",
     "Sub": "Arme secondaire",
@@ -611,9 +613,7 @@
     "Title": "Tenues favorites",
     "TurfPoint": "Surface encrée <em> p.</em>",
     "TvTabletopMode": "Mode TV/Mode sur table",
-    "Weapon": "Armes",
-    "Hashtag": "TenuesFavorites",
-    "Share": "Partager"
+    "Weapon": "Armes"
   },
   "PhotoAlbum": {
     "Annotation": "Tu peux enregistrer jusqu'à 20 photos.<br />Elles seront accessibles pendant trois mois.",
@@ -666,8 +666,8 @@
     "Acknowledgements": "Droits d'auteur",
     "AppName": "Paramètres",
     "Credits": "Crédits",
-    "Title": "Paramètres",
-    "ExpansionPass": "Visiter le site d'achat de la Passe d'extension"
+    "ExpansionPass": "Visiter le site d'achat de la Passe d'extension",
+    "Title": "Paramètres"
   },
   "StageSchedule": {
     "Bankara": "Match anarchie",
@@ -687,27 +687,27 @@
     "League": "Match de ligue",
     "Next": "Suivant",
     "NoticeBigrun": "Big Run en approche!",
-    "NoticeLimited": "Offre d'emploi à durée limitée!",
+    "NoticeLimited": "Défi œuf sup' en approche!",
     "NowClosed": "Festival en cours!",
     "Open": "Actuel",
     "OpenBigrun": "Big Run en cours!",
-    "OpenLimited": "Offre d'emploi disponible!",
+    "OpenLimited": "Défi œuf sup' disponible!",
     "Private": "Match privé",
     "Recruit": "Un Big Run est en cours! M. Ours Cie embauche, tous types de profils acceptés! ()",
+    "RecruitTeamContest": "Un défi œuf sup' est disponible. Recrute des joueurs et fais honneur à M. Ours Cie! ",
     "Regular": "Match classique",
     "SeeFestivalRecord": "Statistiques du festival",
     "SuppliedWeaponRandom": "Aléatoire",
     "SuppliedWeapons": "Armes fournies",
     "Title": "Horaire",
     "WinRateByRules": "Taux de victoire par mode",
-    "Xmatch": "Match X",
-    "RecruitTeamContest": "Un défi œuf sup' est disponible. Recrute des joueurs et fais honneur à M. Ours Cie! "
+    "Xmatch": "Match X"
   },
   "VSHistory": {
     "100x": "Match ×100",
     "10x": "Match ×10",
     "333x": "Match ×333",
-    "AnnotationExemption": "Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs n'ont pas pu poursuivre le match.",
+    "AnnotationExemption": "Le match est considéré comme une égalité, car des joueurs se sont déconnectés tôt dans la partie.",
     "AnnotationNocontest": "Match annulé.",
     "AnnotationPenalty": "Le match a été interrompu.",
     "Attack": "En attaque",
@@ -793,6 +793,7 @@
     "Open": "En cours!",
     "Pacific": "Division Pionic",
     "PastRankings": "Anciens classements",
+    "PastRankingsAnnotation": "Les anciens classements sont calculés et publiés une fois la saison terminée. (Dans certains cas, le calcul peut prendre plusieurs jours.)",
     "Period": " - { 1 }",
     "Rank": "#",
     "Region": "Division",
@@ -805,8 +806,7 @@
     "WeaponTop": "Spécialistes de chaque arme",
     "WeaponTopSingular": "Spécialiste de cette arme",
     "Xcrown": "Couronne",
-    "Xpower": "<small>Force X :</small> ",
-    "PastRankingsAnnotation": "Les anciens classements sont calculés et publiés une fois la saison terminée. (Dans certains cas, le calcul peut prendre plusieurs jours.)"
+    "Xpower": "<small>Force X :</small> "
   },
   "Widgets": {
     "AlbumDescription": "Voir les images de l'album de SplatNet 3.",
