@@ -129,7 +129,7 @@
     "JobRatio": "Pay Grade",
     "KumaPointCard": "Grizzco Point Card",
     "Latest": "Last Job",
-    "LimitedPoint": "Current special bonus points",
+    "Limited": "Limited Time Only",
     "MonthlyReward": "This Month's Gear",
     "Next": "Next Job",
     "Ng": "✘",
@@ -158,14 +158,14 @@
     "SeeSchedule": "View Schedule",
     "SmellMeter": "Salmometer",
     "SupplyWeapon": "Supplied Weapons",
-    "TeamContest": "Eggstra Work",
     "Title": "Salmon Run",
     "TotalPoint": "Total points",
     "Wave": "Wave ",
     "WaveLevel0": "Low Tide",
     "WaveLevel1": "Normal",
     "WaveLevel2": "High Tide",
-    "Limited": "Limited Time Only"
+    "LimitedPoint": "Current special bonus points",
+    "TeamContest": "Eggstra Work"
   },
   "CoopStage": {
     "Carousel": "Wahoo World",
@@ -181,22 +181,22 @@
     "BigrunOpening": "Protect the City from the Big Run!",
     "BigrunResult": "Big Run Results!",
     "CoopHistory": "Salmon Run",
-    "ExpansionPass": "Visit Expansion Pass Purchase Site",
-    "ExpansionPass2": "Visit Expansion Pass Purchase Site",
     "FestOpening": "Splatfest Open!",
     "FestResult": "Splatfest Results!",
     "Gesotown": "Exclusive SplatNet Gear",
     "HeroRecord": "The Story Continues...",
     "MemoryPlayer": "View Replays",
     "Myoutfits": "Freshest Fits",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "Photo Album",
     "Robichi": "Supporters Wanted!",
     "StatsLatestSeason": "View Season History",
+    "VsHistory": "Battle Logs",
+    "ExpansionPass": "Visit Expansion Pass Purchase Site",
+    "ExpansionPass2": "Visit Expansion Pass Purchase Site",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "Sign Up for Some Eggstra Work!",
-    "TeamContestResult": "Eggstra Work Results!",
-    "VsHistory": "Battle Logs"
+    "TeamContestResult": "Eggstra Work Results!"
   },
   "Catalog": {
     "Byname": "Title",
@@ -219,7 +219,6 @@
     "CurrentPoint": "Total: p",
     "DailyBonus": "You earned <em></em> points for the day's first victory!",
     "DrinkTicket": "Drink Ticket",
-    "EndOfSeason": "<em></em> is almost over, but you can get a Closeout Bonus of <em>1.2x</em> Catalog Points now!",
     "FesBonus": "Splatfest Open Now! Earn <em>1.2x</em> Points!",
     "FoodTicket": "Food Ticket",
     "Got": "Got it!",
@@ -236,7 +235,8 @@
     "Signboard": "Hotlantis",
     "Title": "Catalog",
     "Welcome": "New Catalog Hot off the Presses!",
-    "WelcomeDescription": "Earn Catalog Points from battles<br />to get inkredible items!"
+    "WelcomeDescription": "Earn Catalog Points from battles<br />to get inkredible items!",
+    "EndOfSeason": "<em></em> is almost over, but you can get a Closeout Bonus of <em>1.2x</em> Catalog Points now!"
   },
   "Challenge": {
     "AboutGraffiti": "Whenever I spy a scorching-hot tag, I'll send it your way!",
@@ -326,7 +326,6 @@
     "Close": "Close",
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
-    "CoopTeamContest": "Eggstra Work",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "OK",
     "Download": "Download",
@@ -343,11 +342,11 @@
     "Tricolor": "Tricolor Battle",
     "TricolorMatch": "Tricolor Battle",
     "TurfWar": "Turf War",
-    "WpnNotfound": "Unknown"
+    "WpnNotfound": "Unknown",
+    "CoopTeamContest": "Eggstra Work"
   },
   "CoopRecord": {
     "AppName": "Work",
-    "Attended": "Times Participated: ",
     "Bigrun": "Big Run",
     "BigrunBronze": "Bronze",
     "BigrunGold": "Gold",
@@ -356,8 +355,9 @@
     "HighestScore": "High Score",
     "More": "See More",
     "NoData": "No records.",
-    "TeamContest": "Eggstra Work",
-    "Title": "Salmon Run Stats"
+    "Title": "Salmon Run Stats",
+    "Attended": "Times Participated: ",
+    "TeamContest": "Eggstra Work"
   },
   "Error": {
     "BackToHome": "Back to Home",
@@ -421,7 +421,6 @@
   "FriendList": {
     "AppName": "Friend List",
     "InCoopGame": "Working",
-    "InMiniGame": "Tableturf Battle",
     "InVsGame": "Playing",
     "IsLocked": "Password Locked",
     "NoFriends": "When you add friends, their play statuses will display here.",
@@ -430,7 +429,8 @@
     "Recruiting": "Searching",
     "Reload": "Reload",
     "Title": "Friend List",
-    "VoiceChatEnabled": "Voice Chat Available"
+    "VoiceChatEnabled": "Voice Chat Available",
+    "InMiniGame": "Tableturf Battle"
   },
   "GesoTown": {
     "AppName": "SplatNet Shop",
@@ -508,7 +508,6 @@
     "LatestBadge": "Recent Badges",
     "Monthly": "Months",
     "Others": "Other Weapons",
-    "PastXmatchAnnotation": "X Battle stats will be calculated and revealed after the season ends.",
     "Rank": "Level",
     "Ranking": "<small></small>",
     "Season": "Season",
@@ -525,7 +524,8 @@
     "Udemae": "Rank",
     "Weapon": "Weapon Stats",
     "WeaponUsage": "Weapon Usage",
-    "Xmatch": "X Battle"
+    "Xmatch": "X Battle",
+    "PastXmatchAnnotation": "X Battle stats will be calculated and revealed after the season ends."
   },
   "Landing": {
     "Caution": "Note: If you don't have the app installed, pressing this button does nothing.",
@@ -580,7 +580,6 @@
     "Gyro": "Motion-Control Sensitivity",
     "GyroControl": "Motion Controls",
     "HandheldMode": "Handheld Mode",
-    "Hashtag": "FreshestFits",
     "Head": "Headgear",
     "Main": "Main Weapon",
     "NoGears": "No matching gear found.",
@@ -604,7 +603,6 @@
     "SelectShoes": "Select Shoes",
     "SelectSlot": "Choose which Freshest Fit to replace.",
     "SelectWeapon": "Select Weapon",
-    "Share": "Share",
     "Shoes": "Shoes",
     "Special": "Special Weapon",
     "Sub": "Sub Weapon",
@@ -613,7 +611,9 @@
     "Title": "Freshest Fits",
     "TurfPoint": "Turf Inked <em>p</em>",
     "TvTabletopMode": "TV/Tabletop Mode",
-    "Weapon": "Weapon"
+    "Weapon": "Weapon",
+    "Hashtag": "FreshestFits",
+    "Share": "Share"
   },
   "PhotoAlbum": {
     "Annotation": "Up to 20 photos may be stored.<br />They will be available for 3 months.",
@@ -666,8 +666,8 @@
     "Acknowledgements": "Copyrights",
     "AppName": "Settings",
     "Credits": "Credits",
-    "ExpansionPass": "Visit Expansion Pass Purchase Site",
-    "Title": "Settings"
+    "Title": "Settings",
+    "ExpansionPass": "Visit Expansion Pass Purchase Site"
   },
   "StageSchedule": {
     "Bankara": "Anarchy Battle",
@@ -694,14 +694,14 @@
     "OpenLimited": "Limited-time job available now!",
     "Private": "Private Battle",
     "Recruit": "Big Run happening now! Grizzco hiring ANYONE! ",
-    "RecruitTeamContest": "Eggstra Work is available now. Recruit some coworkers and join in the...fun? ",
     "Regular": "Regular Battle",
     "SeeFestivalRecord": "Splatfest Stats",
     "SuppliedWeaponRandom": "Random",
     "SuppliedWeapons": "Supplied Weapons",
     "Title": "Schedule",
     "WinRateByRules": "Win Rate by Mode",
-    "Xmatch": "X Battle"
+    "Xmatch": "X Battle",
+    "RecruitTeamContest": "Eggstra Work is available now. Recruit some coworkers and join in the...fun? "
   },
   "VSHistory": {
     "100x": "100x Battle",
@@ -793,7 +793,6 @@
     "Open": "Now Open!",
     "Pacific": "Takoroka Division",
     "PastRankings": "Past Ranking",
-    "PastRankingsAnnotation": "Past Ranking is calculated and revealed after the season ends. Please note that it may take a few days in some cases.",
     "Period": " - { 1 }",
     "Rank": "#",
     "Region": "Division",
@@ -806,7 +805,8 @@
     "WeaponTop": "Top Weapon Wielders",
     "WeaponTopSingular": "Top Weapon Wielder",
     "Xcrown": "Crown",
-    "Xpower": "<small>X Power:</small> "
+    "Xpower": "<small>X Power:</small> ",
+    "PastRankingsAnnotation": "Past Ranking is calculated and revealed after the season ends. Please note that it may take a few days in some cases."
   },
   "Widgets": {
     "AlbumDescription": "See SplatNet 3's album images.",

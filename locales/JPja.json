@@ -129,7 +129,7 @@
     "JobRatio": "評価レート",
     "KumaPointCard": "クマサンポイントカード",
     "Latest": "最新のバイトへ",
-    "LimitedPoint": "現在の期間限定ポイント",
+    "Limited": "期間限定",
     "MonthlyReward": "今月のギア",
     "Next": "次のバイト",
     "Ng": "NG",
@@ -158,14 +158,14 @@
     "SeeSchedule": "スケジュールを見る",
     "SmellMeter": "オカシラゲージ",
     "SupplyWeapon": "支給ブキ",
-    "TeamContest": "バイトチームコンテスト",
     "Title": "サーモンラン",
     "TotalPoint": "るいけいポイント",
     "Wave": "WAVE ",
     "WaveLevel0": "干潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "満潮",
-    "Limited": "期間限定"
+    "LimitedPoint": "現在の期間限定ポイント",
+    "TeamContest": "バイトチームコンテスト"
   },
   "CoopStage": {
     "Carousel": "スメーシーワールド",
@@ -181,22 +181,22 @@
     "BigrunOpening": "ビッグランから街を守れ！",
     "BigrunResult": "ビッグラン結果発表！",
     "CoopHistory": "サーモンラン",
-    "ExpansionPass": "「ハイカラシティ」配信中！",
-    "ExpansionPass2": "「サイド・オーダー」配信中！",
     "FestOpening": "フェス開催！！",
     "FestResult": "フェス結果発表！！",
     "Gesotown": "ここだけの特別なギア販売中",
     "HeroRecord": "新たなヒーローの物語",
     "MemoryPlayer": "メモリープレーヤー",
     "Myoutfits": "マイコーデ",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "フォトアルバム",
     "Robichi": "支援者求む！",
     "StatsLatestSeason": "前シーズンのヒストリーはこちら！",
+    "VsHistory": "バトル戦績",
+    "ExpansionPass": "「ハイカラシティ」配信中！",
+    "ExpansionPass2": "「サイド・オーダー」配信中！",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "バイトチームコンテストに参加しよう！",
-    "TeamContestResult": "バイトチームコンテスト結果発表！",
-    "VsHistory": "バトル戦績"
+    "TeamContestResult": "バイトチームコンテスト結果発表！"
   },
   "Catalog": {
     "Byname": "二つ名",
@@ -219,7 +219,6 @@
     "CurrentPoint": "るいけい  p",
     "DailyBonus": "本日初勝利でもれなく<em></em>ポイントゲット！",
     "DrinkTicket": "ドリンクチケット",
-    "EndOfSeason": "もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！",
     "FesBonus": "フェス開催中！ポイント<em>1.2倍</em>！",
     "FoodTicket": "フードチケット",
     "Got": "ゲット！",
@@ -236,7 +235,8 @@
     "Signboard": "ザッカ屋",
     "Title": "カタログ",
     "Welcome": "イカしたカタログ 配布中！",
-    "WelcomeDescription": "バトルでカタログポイントを貯めて<br />アイテムをゲットしよう！"
+    "WelcomeDescription": "バトルでカタログポイントを貯めて<br />アイテムをゲットしよう！",
+    "EndOfSeason": "もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！"
   },
   "Challenge": {
     "AboutGraffiti": "旅の途中でテンションバクアゲ～！なグラフィティ見つけたから送るね～",
@@ -326,7 +326,6 @@
     "Close": "閉じる",
     "ColonRule": ": ",
     "CoopBigRun": "ビッグラン",
-    "CoopTeamContest": "バイトチームコンテスト",
     "CopyrightQrCode": "QRコードは、株式会社デンソーウェーブの登録商標です。",
     "Decide": "決定",
     "Download": "ダウンロード",
@@ -343,11 +342,11 @@
     "Tricolor": "トリカラアタック",
     "TricolorMatch": "トリカラマッチ",
     "TurfWar": "ナワバリバトル",
-    "WpnNotfound": "はてな"
+    "WpnNotfound": "はてな",
+    "CoopTeamContest": "バイトチームコンテスト"
   },
   "CoopRecord": {
     "AppName": "バイト",
-    "Attended": "参加回数： ",
     "Bigrun": "ビッグラン",
     "BigrunBronze": "銅",
     "BigrunGold": "金",
@@ -356,8 +355,9 @@
     "HighestScore": "ハイスコア",
     "More": "もっと見る",
     "NoData": "きろくがありません",
-    "TeamContest": "バイトチームコンテスト",
-    "Title": "サーモンランのきろく"
+    "Title": "サーモンランのきろく",
+    "Attended": "参加回数： ",
+    "TeamContest": "バイトチームコンテスト"
   },
   "Error": {
     "BackToHome": "ホームに戻る",
@@ -421,7 +421,6 @@
   "FriendList": {
     "AppName": "フレンドリスト",
     "InCoopGame": "バイト中",
-    "InMiniGame": "ナワバトラー",
     "InVsGame": "試合中",
     "IsLocked": "パスワードつき",
     "NoFriends": "フレンドのプレイ状況がここに表示されます",
@@ -430,7 +429,8 @@
     "Recruiting": "募集中",
     "Reload": "再読みこみ",
     "Title": "フレンドリスト",
-    "VoiceChatEnabled": "ボイスチャットかのう"
+    "VoiceChatEnabled": "ボイスチャットかのう",
+    "InMiniGame": "ナワバトラー"
   },
   "GesoTown": {
     "AppName": "ゲソタウン",
@@ -508,7 +508,6 @@
     "LatestBadge": "最近ゲットしたバッジ",
     "Monthly": "月間",
     "Others": "その他",
-    "PastXmatchAnnotation": "※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。",
     "Rank": "ランク",
     "Ranking": "<small>位</small>",
     "Season": "シーズン",
@@ -525,7 +524,8 @@
     "Udemae": "ウデマエ",
     "Weapon": "ブキヒストリー",
     "WeaponUsage": "ブキ使用率",
-    "Xmatch": "Xマッチ"
+    "Xmatch": "Xマッチ",
+    "PastXmatchAnnotation": "※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
   "Landing": {
     "Caution": "※アプリをインストールしていない方は、このボタンを押しても開きません",
@@ -580,7 +580,6 @@
     "Gyro": "ジャイロ操作感度",
     "GyroControl": "ジャイロ操作",
     "HandheldMode": "携帯モード",
-    "Hashtag": "マイコーデ",
     "Head": "アタマ",
     "Main": "メインウェポン",
     "NoGears": "一致するギアがありません",
@@ -604,7 +603,6 @@
     "SelectShoes": "クツを選ぶ",
     "SelectSlot": "保存先の選択",
     "SelectWeapon": "ブキを選ぶ",
-    "Share": "シェア",
     "Shoes": "クツ",
     "Special": "スペシャルウェポン",
     "Sub": "サブウェポン",
@@ -613,7 +611,9 @@
     "Title": "マイコーデ",
     "TurfPoint": "今まで塗った面積 <em>p</em>",
     "TvTabletopMode": "TVモード/テーブルモード",
-    "Weapon": "ブキ"
+    "Weapon": "ブキ",
+    "Hashtag": "マイコーデ",
+    "Share": "シェア"
   },
   "PhotoAlbum": {
     "Annotation": "写真は20枚までアップロードできます<br />保存期間は3ヶ月です",
@@ -666,8 +666,8 @@
     "Acknowledgements": "権利表記",
     "AppName": "設定",
     "Credits": "クレジット",
-    "ExpansionPass": "エキスパンション・パス 購入サイトへ",
-    "Title": "設定"
+    "Title": "設定",
+    "ExpansionPass": "エキスパンション・パス 購入サイトへ"
   },
   "StageSchedule": {
     "Bankara": "バンカラマッチ",
@@ -694,14 +694,14 @@
     "OpenLimited": "期間限定バイト開催中！",
     "Private": "プライベートマッチ",
     "Recruit": "ビッグランがやってくる！！バイト大募集 ",
-    "RecruitTeamContest": "バイトチームコンテスト！チームを組んで参加しよう！  ",
     "Regular": "レギュラーマッチ",
     "SeeFestivalRecord": "フェスのきろくを見る",
     "SuppliedWeaponRandom": "ランダム",
     "SuppliedWeapons": "支給ブキ",
     "Title": "スケジュール",
     "WinRateByRules": "ルールごとの勝率",
-    "Xmatch": "Xマッチ"
+    "Xmatch": "Xマッチ",
+    "RecruitTeamContest": "バイトチームコンテスト！チームを組んで参加しよう！  "
   },
   "VSHistory": {
     "100x": "１００倍マッチ",
@@ -793,7 +793,6 @@
     "Open": "開催中！！",
     "Pacific": "グループ・ヤコ",
     "PastRankings": "過去のランキング",
-    "PastRankingsAnnotation": "※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。",
     "Period": " - { 1 }",
     "Rank": "<small>位</small>",
     "Region": "グループ",
@@ -806,7 +805,8 @@
     "WeaponTop": "ブキトップ プレイヤー",
     "WeaponTopSingular": "ブキトップ プレイヤー",
     "Xcrown": "おうかん",
-    "Xpower": "<small>Xパワー</small> "
+    "Xpower": "<small>Xパワー</small> ",
+    "PastRankingsAnnotation": "※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。"
   },
   "Widgets": {
     "AlbumDescription": "イカリング３のアルバムの画像を表示します。",
