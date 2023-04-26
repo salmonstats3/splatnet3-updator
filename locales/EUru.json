@@ -129,7 +129,7 @@
     "JobRatio": "Должность",
     "KumaPointCard": "Отчетная карта",
     "Latest": "Послед. смена",
-    "Limited": "Только временно",
+    "LimitedPoint": "Сейчас спецочков:",
     "MonthlyReward": "Снаряжение месяца",
     "Next": "След. смена",
     "Ng": "✘",
@@ -158,14 +158,14 @@
     "SeeSchedule": "Дата/период",
     "SmellMeter": "Король-шкала",
     "SupplyWeapon": "Табельное оружие",
+    "TeamContest": "Икорный овертайм",
     "Title": "Salmon Run",
     "TotalPoint": "Всего очков:",
     "Wave": "Волна ",
     "WaveLevel0": "Отлив",
     "WaveLevel1": "Норм.",
     "WaveLevel2": "Прилив",
-    "LimitedPoint": "Сейчас спецочков:",
-    "TeamContest": "Икорный овертайм"
+    "Limited": "Только временно"
   },
   "CoopStage": {
     "Carousel": "Луна-парк «Язь»",
@@ -181,22 +181,22 @@
     "BigrunOpening": "Защити город от набега самонидов Big Run!",
     "BigrunResult": "Итоги Big Run",
     "CoopHistory": "Salmon Run",
+    "ExpansionPass": "К информации о талоне на расширение",
+    "ExpansionPass2": "К информации о талоне на расширение",
     "FestOpening": "Идет Сплатфест!",
     "FestResult": "Итоги Сплатфеста",
     "Gesotown": "Эксклюзивное снаряжение из SplatNet",
     "HeroRecord": "История продолжается...",
     "MemoryPlayer": "Повторы",
     "Myoutfits": "Свежие прикиды",
+    "OfficialTournament": "Splatoon甲子園開催中！",
+    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "PhotoAlbum": "Альбом",
     "Robichi": "Нужны помощники!",
     "StatsLatestSeason": "Смотреть журнал сезона.",
-    "VsHistory": "Протоколы боев",
-    "ExpansionPass": "К информации о талоне на расширение",
-    "ExpansionPass2": "К информации о талоне на расширение",
-    "OfficialTournament": "Splatoon甲子園開催中！",
-    "OfficialTournamentFinal": "Splatoon甲子園決勝戦",
     "TeamContestOpening": "Нужны работники для икорного овертайма!",
-    "TeamContestResult": "Итоги икорного овертайма"
+    "TeamContestResult": "Итоги икорного овертайма",
+    "VsHistory": "Протоколы боев"
   },
   "Catalog": {
     "Byname": "Титул",
@@ -219,6 +219,7 @@
     "CurrentPoint": "Всего:  очк.",
     "DailyBonus": "За первую победу дня ты получаешь <em></em> очк.",
     "DrinkTicket": "Талон на напиток",
+    "EndOfSeason": "<em></em> подходит к концу, но ты еще можешь получить финишный бонус: <em>x1,2</em> очк. каталога!",
     "FesBonus": "Идет Сплатфест! Заработай <em>в 1,2 раза</em> больше очков!",
     "FoodTicket": "Талон на закуску",
     "Got": "Ура!",
@@ -235,8 +236,7 @@
     "Signboard": "Хитлантида",
     "Title": "Каталог",
     "Welcome": "Новое издание каталога!",
-    "WelcomeDescription": "Зарабатывай очки каталога в боях, чтобы<br />получить красочные предметы!",
-    "EndOfSeason": "<em></em> подходит к концу, но ты еще можешь получить финишный бонус: <em>x1,2</em> очк. каталога!"
+    "WelcomeDescription": "Зарабатывай очки каталога в боях, чтобы<br />получить красочные предметы!"
   },
   "Challenge": {
     "AboutGraffiti": "Если увижу с пылу с жару новый бейдж, сразу тебе пришлю!",
@@ -326,6 +326,7 @@
     "Close": "Закрыть",
     "ColonRule": ": ",
     "CoopBigRun": "Big Run",
+    "CoopTeamContest": "Икорный овертайм",
     "CopyrightQrCode": "QR Code is a registered trademark of DENSO WAVE INCORPORATED.",
     "Decide": "OK",
     "Download": "Загрузить",
@@ -342,11 +343,11 @@
     "Tricolor": "Трехцветный бой",
     "TricolorMatch": "Трехцветный бой",
     "TurfWar": "Бой за район",
-    "WpnNotfound": "Нет данных",
-    "CoopTeamContest": "Икорный овертайм"
+    "WpnNotfound": "Нет данных"
   },
   "CoopRecord": {
     "AppName": "Смена",
+    "Attended": "Смен: ",
     "Bigrun": "Big Run",
     "BigrunBronze": "Бронза",
     "BigrunGold": "Золото",
@@ -355,9 +356,8 @@
     "HighestScore": "Рекорд",
     "More": "Подробнее",
     "NoData": "Данных нет.",
-    "Title": "Статистика",
-    "Attended": "Смен: ",
-    "TeamContest": "Икорный овертайм"
+    "TeamContest": "Икорный овертайм",
+    "Title": "Статистика"
   },
   "Error": {
     "BackToHome": "На главную",
@@ -421,6 +421,7 @@
   "FriendList": {
     "AppName": "Список друзей",
     "InCoopGame": "Работает",
+    "InMiniGame": "Карты и район",
     "InVsGame": "Играет",
     "IsLocked": "Требуется пароль",
     "NoFriends": "Здесь будет отображаться игровой статус твоих друзей.",
@@ -429,8 +430,7 @@
     "Recruiting": "Идет поиск...",
     "Reload": "Перезагрузить",
     "Title": "Список друзей",
-    "VoiceChatEnabled": "Доступен голосовой чат",
-    "InMiniGame": "Карты и район"
+    "VoiceChatEnabled": "Доступен голосовой чат"
   },
   "GesoTown": {
     "AppName": "Щупозон",
@@ -508,6 +508,7 @@
     "LatestBadge": "Новые значки",
     "Monthly": "По месяцам",
     "Others": "Другое оружие",
+    "PastXmatchAnnotation": "Рейтинг боев X подсчитывается и публикуется после окончания сезона.",
     "Rank": "Уровень",
     "Ranking": "",
     "Season": "Сезон",
@@ -524,8 +525,7 @@
     "Udemae": "Разряд",
     "Weapon": "Оружие",
     "WeaponUsage": "Использование оружия",
-    "Xmatch": "Бой X",
-    "PastXmatchAnnotation": "Рейтинг боев X подсчитывается и публикуется после окончания сезона."
+    "Xmatch": "Бой X"
   },
   "Landing": {
     "Caution": "Примечание: если приложение не установлено, при нажатии кнопки ничего не произойдет.",
@@ -580,6 +580,7 @@
     "Gyro": "Чувствительность управления движением",
     "GyroControl": "Управление движением",
     "HandheldMode": "Портативный режим",
+    "Hashtag": "СвежиеПрикиды",
     "Head": "Аксессуары",
     "Main": "Основное оружие",
     "NoGears": "Нет подходящего снаряжения.",
@@ -603,6 +604,7 @@
     "SelectShoes": "Выбор обуви",
     "SelectSlot": "Выбери свежий прикид, который хочешь заменить.",
     "SelectWeapon": "Выбор оружия",
+    "Share": "Поделиться",
     "Shoes": "Обувь",
     "Special": "Особое оружие",
     "Sub": "Запасное оружие",
@@ -611,9 +613,7 @@
     "Title": "Свежие прикиды",
     "TurfPoint": "За прокрас: <em> очк.</em>",
     "TvTabletopMode": "Режим ТВ / настольный",
-    "Weapon": "Оружие",
-    "Hashtag": "СвежиеПрикиды",
-    "Share": "Поделиться"
+    "Weapon": "Оружие"
   },
   "PhotoAlbum": {
     "Annotation": "Можно сохранить до 20 снимков, которые<br />будут доступны в течение 3 месяцев.",
@@ -666,8 +666,8 @@
     "Acknowledgements": "Авторские права",
     "AppName": "Настройки",
     "Credits": "Над игрой работали",
-    "Title": "Настройки",
-    "ExpansionPass": "К информации о талоне на расширение"
+    "ExpansionPass": "К информации о талоне на расширение",
+    "Title": "Настройки"
   },
   "StageSchedule": {
     "Bankara": "Стихийный бой",
@@ -694,14 +694,14 @@
     "OpenLimited": "Доступна временная смена!",
     "Private": "Частный бой",
     "Recruit": "Идет Big Run! «Потапыч Inc.» нанимает всех подряд! Всех-всех! ()",
+    "RecruitTeamContest": "Доступен икорный овертайм. Собери себе команду коллег для особой порции... веселья! ",
     "Regular": "Бой салаг",
     "SeeFestivalRecord": "Сплатфесты",
     "SuppliedWeaponRandom": "Случайное",
     "SuppliedWeapons": "Табельное оружие",
     "Title": "Расписание",
     "WinRateByRules": "Доля побед по режимам",
-    "Xmatch": "Бой X",
-    "RecruitTeamContest": "Доступен икорный овертайм. Собери себе команду коллег для особой порции... веселья! "
+    "Xmatch": "Бой X"
   },
   "VSHistory": {
     "100x": "Бой x100",
@@ -793,6 +793,7 @@
     "Open": "Идет!",
     "Pacific": "«Рыбок»",
     "PastRankings": "Предыдущий рейтинг",
+    "PastRankingsAnnotation": "Предыдущий рейтинг подсчитывается и публикуется после окончания сезона. В некоторых случаях это может занять несколько дней.",
     "Period": "–{ 1 }",
     "Rank": "-е",
     "Region": "Группа",
@@ -805,8 +806,7 @@
     "WeaponTop": "Топ по оружию",
     "WeaponTopSingular": "Топ с этим оружием",
     "Xcrown": "Корона",
-    "Xpower": "<small>Сила X: </small> ",
-    "PastRankingsAnnotation": "Предыдущий рейтинг подсчитывается и публикуется после окончания сезона. В некоторых случаях это может занять несколько дней."
+    "Xpower": "<small>Сила X: </small> "
   },
   "Widgets": {
     "AlbumDescription": "Просмотр изображений в альбоме приложения SplatNet 3.",
