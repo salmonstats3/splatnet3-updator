@@ -1,7 +1,7 @@
 //
 //  SpecialKey.swift
 //
-//  Created by tkgstrator on 2023/05/19
+//  Created by tkgstrator on 2023/05/20
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
