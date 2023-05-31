@@ -35,6 +35,7 @@ public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	case Npl_Lot_Season01_Lv01 = 10001
 	case Npl_Lot_Season02_Lv01 = 10002
 	case Npl_Lot_Season03_Lv01 = 10003
+	case Npl_Lot_Season04_Lv01 = 10004
 	case Npl_Catalog_Season01_Lv01 = 11001
 	case Npl_Catalog_Season01_Lv02 = 11002
 	case Npl_Catalog_Season01_Lv03 = 11003
@@ -121,4 +122,6 @@ public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	case Npl_Catalog_Season02_Lv02 = 12002
 	case Npl_Catalog_Season03_Lv01 = 13001
 	case Npl_Catalog_Season03_Lv02 = 13002
+	case Npl_Catalog_Season04_Lv01 = 14001
+	case Npl_Catalog_Season04_Lv02 = 14002
 }

@@ -26,6 +26,7 @@ public enum WeaponId: Int, CaseIterable, Identifiable, Codable {
 	case Blaster_LightShort = 230
 	case Blaster_Light = 240
 	case Blaster_LightLong = 250
+	case Blaster_Precision = 260
 	case Shooter_TripleQuick = 300
 	case Shooter_TripleMiddle = 310
 	case Shooter_Flash = 400
@@ -36,6 +37,7 @@ public enum WeaponId: Int, CaseIterable, Identifiable, Codable {
 	case Roller_Wide = 1040
 	case Brush_Mini = 1100
 	case Brush_Normal = 1110
+	case Brush_Heavy = 1120
 	case Charger_Quick = 2000
 	case Charger_Normal = 2010
 	case Charger_NormalScope = 2020

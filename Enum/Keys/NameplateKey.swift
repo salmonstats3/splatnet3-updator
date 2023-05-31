@@ -35,6 +35,7 @@ public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	case Npl_Lot_Season01_Lv01 = "d87178ea1709a65e5dd47c21ba6fb9b51764c239bc250e5414c617d31f693d11"
 	case Npl_Lot_Season02_Lv01 = "a2c9afd0d033065eca435f8a7a5b30ef57332f877a9f2abf188ec0176bcc5251"
 	case Npl_Lot_Season03_Lv01 = "e34674b786f053bfa6cf333be8244ad2841bad1b3c5a80fb0b350776682b79c3"
+	case Npl_Lot_Season04_Lv01 = "1fbb6e0b870be1ad6af84a0078bd527be317b956c6f687933866f258725e85f5"
 	case Npl_Catalog_Season01_Lv01 = "3fec40e770ba4df4fb8d6a0598f0820e045411e3d5cab77c4a47aef0a0e3b8a9"
 	case Npl_Catalog_Season01_Lv02 = "4944de43d46fb4e0514c287791171a9a44753a69229d04d53d9c1f4c2c9e5f23"
 	case Npl_Catalog_Season01_Lv03 = "d7b61473019f6ac56967bbd306f9d703302f411ff030976660cda56e6f967ea0"
@@ -121,4 +122,6 @@ public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	case Npl_Catalog_Season02_Lv02 = "c24871495b3eed22bb3cf89bb43ce93da65c3b150be5130ca3406bf6110e7e2d"
 	case Npl_Catalog_Season03_Lv01 = "cd7c47e48eee51dd1fb89831e6c6c82aaeb114c3f88bf49bae7821679e432d99"
 	case Npl_Catalog_Season03_Lv02 = "3dcb58e2c8401d34947e8a7971badf044f7e8383109351ab88f7434a018605a3"
+	case Npl_Catalog_Season04_Lv01 = "9d143f0d5a368a3e18aa40b9dba62022303edc1f390f4b17c7b6a500bd05f9e4"
+	case Npl_Catalog_Season04_Lv02 = "f2c78dd66cabbfe12813a059b5c1bfe15592b1f351df6297e329842fad8b14a0"
 }
