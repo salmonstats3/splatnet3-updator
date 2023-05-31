@@ -359,6 +359,16 @@ Error:
     3 nicht mit deinen momentanen Einstellungen oder deinem Smartgerät kompatibel
     ist.
   Reload: Aktualisieren
+EventMatchRanking:
+  AppName: Event-Kampf
+  More: Mehr zeigen
+  Pair: Duo
+  Ranking: Ranglisten
+  Rules: Regeln
+  Solo: Solo
+  Team: Team
+  Title: Event-Kampf
+  Top100: Top 100
 FesRecord:
   AppName: Splatfest
   Attack: Angreifer
@@ -405,6 +415,7 @@ Footer:
   BigrunAnnouncement: <em>Big Run</em>! Alarm! Salmoniden im Anmarsch!
   BigrunNowOpening: <em>Big Run</em> läuft! Beschütze die Stadt vor den Salmoniden!
   EndOfSeason: Die <em></em> ist fast vorbei!
+  EventMatchNowOpening: 'Jetzt spielbar: <em></em>!'
   FestAnnouncement: <em></em> Splatfest läuft! Wähle ein Team und nichts wie losgekleckst!
   FestNowOpening: '<em></em> Das Splatfest hat begonnen! Wähle auf dem Platz dein
     Team und schnapp dir dein Splatfest-T-Shirt! '
@@ -488,10 +499,17 @@ HeroRecord:
 History:
   AllBadges: Alle Abzeichen ()
   AppName: Übersicht
+  Attended: 'Teilnahmen: '
   Badge: Abzeichen
+  BankaraOpen: Anarchie-Kampf (Offen)
+  Bronze: Bronze
   Count: <small>-mal</small>
   EstimatedRanking: Geschätzte Platzierung
+  Event: Event-Kampf
   FrequentlyUsedWeapon: Lieblingswaffen
+  Gold: Gold
+  HighestLeaguePowerPair: Rekord Liga-Power – Duo
+  HighestLeaguePowerTeam: Rekord Liga-Power – Team
   HighestUdemae: Rekord
   HighestXranking: Rekord Platzierung/X-Power
   Latest: Letzte 3 Monate
@@ -507,6 +525,7 @@ History:
   ShowLess: Weniger zeigen
   ShowMore: Mehr zeigen
   ShowXranking: X-Ranglisten
+  Silver: Silber
   Since: 'Im Spiel seit  (Update: { 1 })'
   Summary: Statistiken
   Title: Übersicht
@@ -668,6 +687,60 @@ Record:
   WeaponRecordAppName: Waffen
   WinCount: Siege
   WinRatio: ' %'
+RoomCreator:
+  Annotation01: Im Gegensatz zu Standard-Privatkämpfen kann an diesem Kampf jeder
+    Spieler teilnehmen, der über die URL verfügt.
+  Annotation02: Freunde oder Channel-Mitglieder können diesem Raum über die Freundesliste
+    bzw. ihre Benachrichtigungen beitreten, auch wenn sie nicht über die Einladungs-URL
+    verfügen.
+  Annotation03: 'Hinweis: In diesem Raum kann kein Voice-Chat genutzt werden.'
+  AppName: Raum-Erstellung
+  Approve: Raum betreten
+  Back: Zurück zur Hauptseite
+  Cancel: Abbrechen
+  CloseRoom: Einladungs-URL deaktivieren
+  CloseRoomGuide: Nach Deaktivierung der Einladungs-URL kann der zuvor erstellte Raum
+    in Splatoon 3 nicht mehr betreten werden.
+  ConfirmCloseRoom: Einladungs-URL deaktivieren?
+  ConfirmRemoveRoom: Du hast bereits einen Raum erstellt. Möchtest du deine Einladungs-URL
+    deaktivieren und stattdessen diesem Raum beitreten?
+  ConfirmRemoveRoomCancel: Nein
+  ConfirmRemoveRoomOk: Ja
+  Decline: Abgebrochen!
+  DeclineGuide: Dieser Raum kann durch erneuten Zugriff auf die Einladungs-URL erneut
+    betreten werden.
+  ErrorAlreadyExist: Du hast bereits einen Raum erstellt. Es kann jeweils nur ein
+    Raum gleichzeitig erstellt werden.
+  ErrorMakeRoom: Erstellung des Raums nicht möglich.
+  Guide: Teile nach Erstellen des Raums die URL,<br />um andere zu einem privaten
+    Kampf einzuladen!
+  HowToActivate: Raum betreten
+  HowToActivateGuide: Bitte wähle in Splatoon 3 in der „Freunde“-Kategorie des Lobby-Menüs
+    die Option „Über SplatNet 3 erstellter Raum“.
+  HowToJoin: Bitte betritt diesen Raum in Splatoon 3 unter „Freunde“.
+  InvalidateInvitation: Deaktivieren
+  Invitation: Du hast eine Einladung zum Betreten eines Raums erhalten.
+  InvitationGuide: Betrittst du diesen Raum, wird in Splatoon 3 im „Freunde“-Menü
+    die Option „Über SplatNet 3 erstellter Raum“ hinzugefügt.
+  InvitationUrl: Einladungs-URL
+  InviteGuest: Raum wurde erstellt!
+  MakeRoom: Raum erstellen
+  NotFound: Es wurde kein Raum gefunden.
+  NotFoundGuide: Die URL ist möglicherweise fehlerhaft oder der Raum wurde bereits
+    geschlossen.
+  Password: Code festlegen
+  PasswordCancel: Keinen Code festlegen
+  PasswordGuide: Codes gestatten es Freunden und Channel-Mitgliedern, Räumen ohne
+    Einladungs-URL beizutreten. Wird die Option „Über SplatNet 3 erstellter Raum“
+    genutzt, ist kein Code erforderlich.
+  PasswordHelp: Bitte gib einen vierstelligen Code ein.
+  Room: 'Zum Beitritt verfügbare Räume:'
+  ShareInvitationUrl: URL teilen!
+  ShareInvitationUrlGuide: Eingeladene Spieler können mithilfe eines Smartgeräts mit
+    installierter Nintendo Switch Online-App auf diese URL zugreifen.
+  ShareUrl: URL teilen
+  Subtitle: Hier erstellst du Räume für private Kämpfe!
+  Title: Raum-Erstellung
 Settings:
   Acknowledgements: Copyrights
   AppName: Einstellungen
@@ -692,6 +765,14 @@ StageSchedule:
   BankaraOpenChallenge: Serie
   Coop: Salmon Run
   CoopCurrentPeriodStart: JETZT GEÖFFNET!
+  Event: Event-Kampf
+  EventCurrentSchedule: Aktuell
+  EventFuture: Danach
+  EventHolding: Läuft!
+  EventNext: Demnächst
+  EventNextSchedule: Als Nächstes
+  EventNoData: Momentan sind keine Event-Kämpfe geplant.
+  EventUnknownData: ???
   Eventmatch: Event läuft jetzt!
   Festival: Splatfest-Kampf
   FestivalAnnounced: Demnächst!
@@ -701,6 +782,7 @@ StageSchedule:
   FestivalHolding: Läuft!
   FestivalPeriod: ' - { 1 }'
   Future: Danach
+  GuideOpenBrowser: Text wird als neues Browserfenster geöffnet.
   League: Ligakampf
   Next: Demnächst
   NoticeBigrun: 'Demnächst: Big Run!'
@@ -714,6 +796,8 @@ StageSchedule:
   RecruitTeamContest: 'Team-Wettkampf jetzt spielbar! Finde Mitarbeiter und rein ins...
     Vergnügen? '
   Regular: Standardkampf
+  Rules: Regeln lesen
+  SeeAllRules: Detaillierte Regeln lesen
   SeeFestivalRecord: Splatfest-Statistiken
   SuppliedWeaponRandom: Zufall
   SuppliedWeapons: Verfügbare Waffen
@@ -735,6 +819,7 @@ VSHistory:
   Bankara: Anarchie-Kampf
   BankaraChallenge: Anarchie-Kampf (Serie)
   BankaraOpen: Anarchie-Kampf (Offen)
+  BankaraPower: 'Anarchie-Power: '
   Cleaning: Ergebnis
   Contribute: 'Beitrag: '
   Count: ''
@@ -744,6 +829,11 @@ VSHistory:
   EquippedGear: Genutzte Ausrüstung
   EquippedWeapon: Verwendete Waffe
   EstimatedRoomPower: '{ 1 }-Power ( SP): ca. { 2 }<br />'
+  Event: Event-Kampf
+  EventPair: 'Duo - '
+  EventPower: 'Event-Power: '
+  EventSolo: 'Solo - '
+  EventTeam: 'Team - '
   FesChallenge: Splatfestkampf (Serie)
   FesOpen: Splatfestkampf (Offen)
   FesTeam: 'Team '
@@ -762,6 +852,7 @@ VSHistory:
   LatestTab: Zuletzt
   Lose: Verloren
   Measurement: 'X-Power: Noch offen'
+  MeasurementEventPower: 'Event-Power: Noch offen'
   NextBattle: Weiter
   NoData: Keine Kampfstatistiken vorhanden.
   NotAvailable: Kampfstatistiken nicht verfügbar
@@ -772,6 +863,7 @@ VSHistory:
   Promo: Aufstiegskampf
   Regular: Standardkampf
   SpCount: Spezialwaffen-Einsätze
+  TeamId: 'Team-ID: '
   Title: Kämpfe
   TryCount: Aktivierungen
   TurfPoint: ' P'

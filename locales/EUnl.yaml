@@ -362,6 +362,16 @@ Error:
     blijft zien, dan wordt SplatNet 3 mogelijk niet ondersteund door je huidige apparaat
     of met je huidige instellingen.
   Reload: Opnieuw laden
+EventMatchRanking:
+  AppName: Eventgevecht
+  More: Meer info
+  Pair: Duo
+  Ranking: Ranglijsten
+  Rules: Regels
+  Solo: Solo
+  Team: Team
+  Title: Eventgevecht
+  Top100: Top 100
 FesRecord:
   AppName: Splatfest
   Attack: Aanval
@@ -408,6 +418,7 @@ Footer:
   BigrunAnnouncement: <em>Big Run</em>-alarm! De Salmonieten zijn in aantocht!
   BigrunNowOpening: <em>Big Run</em> aan de gang! Bescherm de stad tegen de Salmonieten!
   EndOfSeason: Het <em></em> is bijna voorbij!
+  EventMatchNowOpening: 'Nu bezig: <em></em>!'
   FestAnnouncement: Het <em></em>-Splatfest is geopend! Kies een team en duik in de
     actie!
   FestNowOpening: Het <em></em>-Splatfest is geopend! Kies op het plein je team en
@@ -491,10 +502,17 @@ HeroRecord:
 History:
   AllBadges: Alle badges ()
   AppName: Terugblik
+  Attended: 'Aantal keer meegedaan: '
   Badge: Badges
+  BankaraOpen: Chaosgevecht (open)
+  Bronze: Brons
   Count: <small> keer</small>
   EstimatedRanking: Geschatte positie
+  Event: Eventgevecht
   FrequentlyUsedWeapon: Favoriete wapens
+  Gold: Goud
+  HighestLeaguePowerPair: Grootste toernooikracht (duo)
+  HighestLeaguePowerTeam: Grootste toernooikracht (team)
   HighestUdemae: Record
   HighestXranking: Hoogste X-ranglijstpositie / X-kracht
   Latest: Laatste drie maanden
@@ -510,6 +528,7 @@ History:
   ShowLess: Minder tonen
   ShowMore: Meer
   ShowXranking: X-ranglijsten
+  Silver: Zilver
   Since: 'Speelt sinds  (Bijgewerkt: { 1 })'
   Summary: Overzicht
   Title: Terugblik
@@ -671,6 +690,57 @@ Record:
   WeaponRecordAppName: Wapens
   WinCount: Overwinningen
   WinRatio: '%'
+RoomCreator:
+  Annotation01: Elke speler die de URL kent, kan aan dit gevecht meedoen, anders dan
+    bij normale privégevechten.
+  Annotation02: Vrienden of andere spelers in je poel kunnen deze kamer betreden via
+    het vriendenmenu of via de berichten, zelfs als ze de uitnodigings-URL niet hebben.
+  Annotation03: Houd er ook rekening mee dat voicechat niet kan worden gebruikt in
+    deze kamer.
+  AppName: Kamer maken
+  Approve: Kamer betreden
+  Back: Naar het beginscherm
+  Cancel: Annuleren
+  CloseRoom: Uitnodigings-URL deactiveren
+  CloseRoomGuide: Als je de uitnodigings-URL deactiveert, kun je de door jou gemaakte
+    kamer niet meer betreden.
+  ConfirmCloseRoom: Wil je de uitnodigings-URL deactiveren?
+  ConfirmRemoveRoom: Je hebt al een kamer gemaakt. Wil je je uitnodigings-URL deactiveren
+    en deze kamer betreden?
+  ConfirmRemoveRoomCancel: Nee
+  ConfirmRemoveRoomOk: Ja
+  Decline: Geannuleerd
+  DeclineGuide: Je kunt deze kamer betreden door de uitnodigings-URL opnieuw te openen.
+  ErrorAlreadyExist: Je hebt al een kamer gemaakt. Je kunt er maar één tegelijk maken.
+  ErrorMakeRoom: Er kan geen kamer worden gemaakt.
+  Guide: Zodra je kamer is gemaakt, kun je<br />de URL delen om anderen uit te<br
+    />nodigen voor een privégevecht.
+  HowToActivate: Kamer betreden
+  HowToActivateGuide: Kies KAMER DIE VIA SPLATNET 3 IS GEMAAKT in het vriendenmenu
+    in Splatoon 3.
+  HowToJoin: Betreed deze kamer via het vriendenmenu in Splatoon 3.
+  InvalidateInvitation: Deactiveren
+  Invitation: Je bent in een kamer uitgenodigd.
+  InvitationGuide: Als je deze kamer betreedt, wordt de optie 'Kamer die via SplatNet
+    3 is gemaakt' toegevoegd aan het vriendenmenu in Splatoon 3.
+  InvitationUrl: Uitnodigings-URL
+  InviteGuest: Kamer gemaakt!
+  MakeRoom: Kamer maken
+  NotFound: Er is geen kamer gevonden.
+  NotFoundGuide: Mogelijk is de URL onjuist of is de kamer al gesloten.
+  Password: Code instellen
+  PasswordCancel: Geen code instellen
+  PasswordGuide: Met een code kunnen vrienden en spelers in je poel zonder uitnodigings-URL
+    een kamer betreden. Bij het kiezen van de optie 'Kamer die via SplatNet 3 is gemaakt'
+    is er geen code nodig.
+  PasswordHelp: Voer een code van vier cijfers in.
+  Room: 'Betreedbare kamers:'
+  ShareInvitationUrl: Deel de URL!
+  ShareInvitationUrlGuide: Uitgenodigde spelers kunnen de uitnodigings-URL openen
+    op een smartapparaat waarop de Nintendo Switch Online-app is geïnstalleerd.
+  ShareUrl: URL delen
+  Subtitle: Hier kun je kamers maken voor privégevechten!
+  Title: Kamer maken
 Settings:
   Acknowledgements: Copyrights
   AppName: Instellingen
@@ -695,6 +765,14 @@ StageSchedule:
   BankaraOpenChallenge: Sessie
   Coop: Salmon Run
   CoopCurrentPeriodStart: NU GEOPEND!
+  Event: Eventgevecht
+  EventCurrentSchedule: Nu
+  EventFuture: Daarna
+  EventHolding: Nu bezig!
+  EventNext: Volgende keer
+  EventNextSchedule: Volgende
+  EventNoData: Er zijn momenteel geen eventgevechten gepland.
+  EventUnknownData: ???
   Eventmatch: Event nu bezig!
   Festival: Splatfest-gevecht
   FestivalAnnounced: Binnenkort!
@@ -704,6 +782,7 @@ StageSchedule:
   FestivalHolding: Nu bezig!
   FestivalPeriod: ' - { 1 }'
   Future: Daarna
+  GuideOpenBrowser: Hierdoor opent zich een nieuw browservenster.
   League: Toernooigevecht
   Next: Volgende
   NoticeBigrun: Er komt een Big Run aan!
@@ -717,6 +796,8 @@ StageSchedule:
   RecruitTeamContest: 'Je kunt nu op een bedrijfseitje. Verzamel een paar collega''s
     en eh... veel plezier? '
   Regular: Standaardgevecht
+  Rules: Regels bekijken
+  SeeAllRules: Uitgebreide regels bekijken
   SeeFestivalRecord: Splatfest-statistieken
   SuppliedWeaponRandom: Willekeurig
   SuppliedWeapons: Beschikbare wapens
@@ -738,6 +819,7 @@ VSHistory:
   Bankara: Chaosgevecht
   BankaraChallenge: Chaosgevecht (sessie)
   BankaraOpen: Chaosgevecht (open)
+  BankaraPower: 'Chaoskracht: '
   Cleaning: Uitslag
   Contribute: 'Invloed: '
   Count: 'Score: '
@@ -747,6 +829,11 @@ VSHistory:
   EquippedGear: Gebruikte uitrusting
   EquippedWeapon: Gebruikt wapen
   EstimatedRoomPower: 'Geschatte { 1 }-kracht ( spelers): { 2 }'
+  Event: Eventgevecht
+  EventPair: 'Duo - '
+  EventPower: 'Eventkracht: '
+  EventSolo: 'Solo - '
+  EventTeam: 'Team - '
   FesChallenge: Splatfest-gevecht (sessie)
   FesOpen: Splatfest-gevecht (open)
   FesTeam: 'Team '
@@ -765,6 +852,7 @@ VSHistory:
   LatestTab: Laatste
   Lose: Verloren...
   Measurement: 'X-kracht: onbekend'
+  MeasurementEventPower: 'Eventkracht: onbekend'
   NextBattle: Volgende
   NoData: Er zijn geen gevechtsstatistieken.
   NotAvailable: Geen gevechtsstatistieken beschikbaar
@@ -775,6 +863,7 @@ VSHistory:
   Promo: Ranggevecht
   Regular: Standaardgevecht
   SpCount: Speciale wapen gebruikt
+  TeamId: 'Team-ID: '
   Title: Gevechten
   TryCount: Pogingen
   TurfPoint: ' p'

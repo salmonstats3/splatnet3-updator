@@ -359,6 +359,16 @@ Error:
     este mensaje, es posible que SplatNet 3 no sea compatible con tu dispositivo o
     con los ajustes actuales.
   Reload: Actualizar
+EventMatchRanking:
+  AppName: Combate evento
+  More: Ver más
+  Pair: En pareja
+  Ranking: Clasificaciones
+  Rules: Reglas
+  Solo: En solitario
+  Team: En equipo
+  Title: Combate evento
+  Top100: 100 mejores
 FesRecord:
   AppName: Festival
   Attack: Al ataque
@@ -406,6 +416,7 @@ Footer:
     se aproximan!
   BigrunNowOpening: ¡<em>Big Run</em> en marcha! ¡A defender la ciudad de los salmónidos!
   EndOfSeason: ¡<em></em> casi concluida!
+  EventMatchNowOpening: ¡<em></em> en marcha!
   FestAnnouncement: ¡El festival <em></em> está en marcha! ¡Apúntate a uno de los
     bandos!
   FestNowOpening: ¡El festival <em></em> está en marcha! ¡Vota en la plaza y obtén
@@ -488,10 +499,17 @@ HeroRecord:
 History:
   AllBadges: Todas las chapas ()
   AppName: Historial
+  Attended: 'Participaciones: '
   Badge: Chapas
+  BankaraOpen: Combates caóticos (informales)
+  Bronze: Bronce
   Count: '<small>Veces:</small> '
   EstimatedRanking: Posición estimada
+  Event: Combates evento
   FrequentlyUsedWeapon: Armas más usadas
+  Gold: Oro
+  HighestLeaguePowerPair: Máx. energía en torneo (pareja)
+  HighestLeaguePowerTeam: Máx. energía en torneo (equipo)
   HighestUdemae: Mejor rango
   HighestXranking: Mejor clasificación del rango X / Mayor energía X
   Latest: Últimos 3 meses
@@ -507,6 +525,7 @@ History:
   ShowLess: Ver menos
   ShowMore: Ver más
   ShowXranking: Ver clasificación del rango X
+  Silver: Plata
   Since: Desde el  (actualizado el { 1 })
   Summary: Resumen
   Title: Historial
@@ -671,6 +690,58 @@ Record:
   WeaponRecordAppName: Armas
   WinCount: Victorias
   WinRatio: ' %'
+RoomCreator:
+  Annotation01: Al contrario que en los combates privados ordinarios, aquí puede participar
+    cualquier jugador que conozca la URL de invitación.
+  Annotation02: Otros jugadores del canal y tus amigos podrán acceder por medio de
+    la lista de amigos o las notificaciones, incluso si no disponen de URL de invitación.
+  Annotation03: Ten en cuenta que en esta sala no puede usarse el chat de voz.
+  AppName: Creación de sala
+  Approve: Entrar en la sala
+  Back: Volver al inicio
+  Cancel: Cancelar
+  CloseRoom: Anular la URL de invitación
+  CloseRoomGuide: Si anulas la URL de invitación, ya no podrás entrar en la sala que
+    habías creado.
+  ConfirmCloseRoom: ¿Quieres anular la URL de invitación?
+  ConfirmRemoveRoom: Ya has creado una sala. ¿Quieres anular la URL de invitación
+    y entrar en esta sala?
+  ConfirmRemoveRoomCancel: 'No'
+  ConfirmRemoveRoomOk: Sí
+  Decline: Se ha cancelado la operación.
+  DeclineGuide: Para entrar en la sala, accede de nuevo a la URL de invitación.
+  ErrorAlreadyExist: Ya has creado una sala. No puede crearse más de una sala a la
+    vez.
+  ErrorMakeRoom: No se puede crear la sala.
+  Guide: Una vez creada una sala, comparte su URL para<br />invitar a otros jugadores
+    a un combate privado.
+  HowToActivate: Entrar en la sala
+  HowToActivateGuide: Accede a la lista de amigos en el menú de combates del juego
+    Splatoon 3 y selecciona la sala creada por medio de SplatNet 3.
+  HowToJoin: Entra en la sala desde la lista de amigos del juego Splatoon 3.
+  InvalidateInvitation: Anular
+  Invitation: Te han invitado a entrar en una sala.
+  InvitationGuide: Si entras en la sala, esta se añadirá a la lista de amigos del
+    juego Splatoon 3 como «sala creada mediante SplatNet 3».
+  InvitationUrl: URL de invitación
+  InviteGuest: Se ha creado la sala.
+  MakeRoom: Crear una sala
+  NotFound: No se encuentra ninguna sala.
+  NotFoundGuide: Es posible que la URL de invitación sea incorrecta o la sala se haya
+    cerrado ya.
+  Password: Establecer clave
+  PasswordCancel: Sin clave
+  PasswordGuide: Esta clave es necesaria para que miembros del canal y amigos puedan
+    entrar en la sala sin usar una URL de invitación. Cuando se selecciona la opción
+    «Sala creada mediante SplatNet 3», no hace falta una clave.
+  PasswordHelp: Introduce un número de cuatro cifras.
+  Room: 'Salas disponibles:'
+  ShareInvitationUrl: ¡Comparte la URL con quien quieras!
+  ShareInvitationUrlGuide: Quien invites podrá acceder a la URL de invitación si tiene
+    instalada la aplicación Nintendo Switch Online en su teléfono móvil.
+  ShareUrl: Compartir la URL
+  Subtitle: ¡Aquí puedes crear salas para combates privados!
+  Title: Crear una sala
 Settings:
   Acknowledgements: Derechos de autor
   AppName: Ajustes
@@ -695,6 +766,14 @@ StageSchedule:
   BankaraOpenChallenge: Formal
   Coop: Salmon Run
   CoopCurrentPeriodStart: ¡En curso!
+  Event: Combate evento
+  EventCurrentSchedule: Actualmente
+  EventFuture: Más adelante
+  EventHolding: ¡En curso!
+  EventNext: A continuación
+  EventNextSchedule: Próximamente
+  EventNoData: Calendario sin determinar
+  EventUnknownData: (?)
   Eventmatch: ¡Evento en curso!
   Festival: Combate temático
   FestivalAnnounced: ¡Próximamente!
@@ -704,6 +783,7 @@ StageSchedule:
   FestivalHolding: ¡En curso!
   FestivalPeriod: ' - { 1 }'
   Future: Posteriores
+  GuideOpenBrowser: Se abrirá una nueva ventana del navegador.
   League: Combate del torneo
   Next: Próximo
   NoticeBigrun: ¡Big Run a la vista!
@@ -716,6 +796,8 @@ StageSchedule:
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()
   RecruitTeamContest: '¡Forma una cuadrilla y participa en alianza alevínica! '
   Regular: Combate amistoso
+  Rules: Ver las reglas
+  SeeAllRules: Reglas detalladas
   SeeFestivalRecord: Datos del festival
   SuppliedWeaponRandom: Al azar
   SuppliedWeapons: Armas asignadas
@@ -737,6 +819,7 @@ VSHistory:
   Bankara: Combate caótico
   BankaraChallenge: Combate caótico (formal)
   BankaraOpen: Combate caótico (informal)
+  BankaraPower: 'Energía caótica: '
   Cleaning: Resultados
   Contribute: 'Aportación: '
   Count: 'Contador: '
@@ -746,6 +829,11 @@ VSHistory:
   EquippedGear: Equipamiento usado
   EquippedWeapon: Arma usada
   EstimatedRoomPower: 'Energía estimada ({ 1 },  jugs.): { 2 }'
+  Event: Combate evento
+  EventPair: 'En pareja - '
+  EventPower: 'Energía evento: '
+  EventSolo: 'En solitario - '
+  EventTeam: 'En equipo - '
   FesChallenge: Combate temático (formal)
   FesOpen: Combate temático (informal)
   FesTeam: 'Equipo '
@@ -764,6 +852,7 @@ VSHistory:
   LatestTab: Últimos
   Lose: Derrota
   Measurement: Calculando energía X...
+  MeasurementEventPower: Calculando energía evento...
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles
@@ -775,6 +864,7 @@ VSHistory:
   Promo: 'Combate de rango '
   Regular: Combate amistoso
   SpCount: Usos del arma especial
+  TeamId: 'ID del equipo: '
   Title: Combates
   TryCount: Intentos
   TurfPoint: ' p'

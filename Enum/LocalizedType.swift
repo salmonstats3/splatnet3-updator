@@ -217,32 +217,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopStage_Unknown
 	/// 海女美術大学
 	case CoopStage_Upland
-	/// ビッグランから街を守れ！
-	case Carousel_BigrunOpening
-	/// ビッグラン結果発表！
-	case Carousel_BigrunResult
-	/// サーモンラン
-	case Carousel_CoopHistory
-	/// フェス開催！！
-	case Carousel_FestOpening
-	/// フェス結果発表！！
-	case Carousel_FestResult
-	/// ここだけの特別なギア販売中
-	case Carousel_Gesotown
-	/// 新たなヒーローの物語
-	case Carousel_HeroRecord
-	/// メモリープレーヤー
-	case Carousel_MemoryPlayer
-	/// マイコーデ
-	case Carousel_Myoutfits
-	/// フォトアルバム
-	case Carousel_PhotoAlbum
-	/// 支援者求む！
-	case Carousel_Robichi
-	/// 前シーズンのヒストリーはこちら！
-	case Carousel_StatsLatestSeason
-	/// バトル戦績
-	case Carousel_VsHistory
 	/// 二つ名
 	case Catalog_Byname
 	/// カードパック
@@ -283,6 +257,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Catalog_DailyBonus
 	/// ドリンクチケット
 	case Catalog_DrinkTicket
+	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
+	case Catalog_EndOfSeason
 	/// フェス開催中！ポイント<em>1.2倍</em>！
 	case Catalog_FesBonus
 	/// フードチケット
@@ -325,66 +301,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Black
 	/// ブルー
 	case Challenge_Blue
-	/// オレンジの空がオイリーだよね～。
-	case Challenge_Challenge210Description
-	/// 二つ名
-	case Challenge_Challenge210Reward
-	/// シェケナダム
-	case Challenge_Challenge210Title
-	/// アートに触れるとハートの中心まで火が通るカンジするよね～！
-	case Challenge_Challenge21Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge21Reward
-	/// キンメダイ美術館
-	case Challenge_Challenge21Title
-	/// ここの食堂はフライがイケてるバクアゲスポットなんだ～。
-	case Challenge_Challenge22Description
-	/// 拾ったステッカー
-	case Challenge_Challenge22Reward
-	/// 海女美術大学
-	case Challenge_Challenge22Title
-	/// 橋の上は風が強くてコロモがめっちゃ飛ばされるんだよね！
-	case Challenge_Challenge23Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge23Reward
-	/// マサバ海峡大橋
-	case Challenge_Challenge23Title
-	/// 溶接の音とアゲる音って似てるから、テンションがバチバチアガっちゃうよ！
-	case Challenge_Challenge24Description
-	/// 拾ったステッカー
-	case Challenge_Challenge24Reward
-	/// チョウザメ造船
-	case Challenge_Challenge24Title
-	/// 夕飯時にフライの香りがすると、すぐ家に帰りたくなるよね～。
-	case Challenge_Challenge25Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge25Reward
-	/// ヒラメが丘団地
-	case Challenge_Challenge25Title
-	/// あ！新しいアゲ油売ってる！！
-	case Challenge_Challenge26Description
-	/// 拾ったステッカー
-	case Challenge_Challenge26Reward
-	/// ザトウマーケット
-	case Challenge_Challenge26Title
-	/// こんなアガる要素しかない場所、アガり過ぎ注意報だよ～！ジュワワ～！！！
-	case Challenge_Challenge27Description
-	/// めちゃ映えフォト
-	case Challenge_Challenge27Reward
-	/// マヒマヒリゾート＆スパ
-	case Challenge_Challenge27Title
-	/// ジェットコースターに乗った後って、ナゼか身軽に感じるんだよね～。
-	case Challenge_Challenge28Description
-	/// グラフィティ壁紙
-	case Challenge_Challenge28Reward
-	/// スメーシーワールド
-	case Challenge_Challenge28Title
-	/// ハイカラ地方にもサクサク稼げるバイトがあるんだね～！って、ココどこ～？
-	case Challenge_Challenge29Description
-	/// めちゃたそがれフォト
-	case Challenge_Challenge29Reward
-	/// 難破船ドン・ブラコ
-	case Challenge_Challenge29Title
 	/// チャレンジャー
 	case Challenge_Challenger
 	/// 支援するチャレンジを選ぶ
@@ -421,12 +337,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_HowToPlay
 	/// ジャーニー 
 	case Challenge_Journey
-	/// 「チャレンジャー・ロブ」としての次の目的地は『ハイカラ地方』に決めたよ～。<br />ってわけで、この旅を引き続き支援してくれるサポーターをパリッと募集するよ！<br />ハイカラ地方は、僕が旅を始める前に住んでた街もあるんだけど、いまもハイカラな香りたっぷりのツヤツヤアゲアゲな場所なんだよね～。<br />そういった思い出の場所を巡りながら、「過去の自分」も見つめ直して「いまの自分」を更にアゲ直したいんだよね！<br />この「二度アゲの旅」、ガチでホットっしょ？！ってことでヨロシク～！
-	case Challenge_Journey2Description
-	/// キミのおかげで、二度アゲの旅もカリッと終えられたよ！アリガト～！<br />お礼にコレ、アゲちゃうよ！<br />ロビー端末に送っておいたから受け取ってね～。
-	case Challenge_Journey2Gratitude
-	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
-	case Challenge_Journey2Title
 	/// 支援者求ム！
 	case Challenge_LookingForSupporters
 	/// オレンジ
@@ -487,6 +397,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_ColonRule
 	/// ビッグラン
 	case Common_CoopBigRun
+	/// バイトチームコンテスト
+	case Common_CoopTeamContest
 	/// QRコードは、株式会社デンソーウェーブの登録商標です。
 	case Common_CopyrightQrCode
 	/// 決定
@@ -519,6 +431,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_TricolorMatch
 	/// ナワバリバトル
 	case Common_TurfWar
+	/// はてな
+	case Common_WpnNotfound
 	/// 出現数
 	case CoopHistory_Available
 	/// 出現したオカシラシャケ
@@ -527,6 +441,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_AverageClearWaves
 	/// ビッグラン
 	case CoopHistory_Bigrun
+	/// 銅
+	case CoopHistory_BigrunBronze
+	/// 金
+	case CoopHistory_BigrunGold
+	/// 銀
+	case CoopHistory_BigrunSilver
 	/// クリアボーナス
 	case CoopHistory_Bonus
 	/// オカシラシャケ出現！
@@ -571,8 +491,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_KumaPointCard
 	/// 最新のバイトへ
 	case CoopHistory_Latest
-	/// 期間限定
-	case CoopHistory_Limited
+	/// 現在の期間限定ポイント
+	case CoopHistory_LimitedPoint
 	/// 今月のギア
 	case CoopHistory_MonthlyReward
 	/// 次のバイト
@@ -629,6 +549,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_SmellMeter
 	/// 支給ブキ
 	case CoopHistory_SupplyWeapon
+	/// バイトチームコンテスト
+	case CoopHistory_TeamContest
 	/// サーモンラン
 	case CoopHistory_Title
 	/// るいけいポイント
@@ -641,6 +563,30 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_WaveLevel1
 	/// 満潮
 	case CoopHistory_WaveLevel2
+	/// バイト
+	case CoopRecord_AppName
+	/// 参加回数： 
+	case CoopRecord_Attended
+	/// ビッグラン
+	case CoopRecord_Bigrun
+	/// 銅
+	case CoopRecord_BigrunBronze
+	/// 金
+	case CoopRecord_BigrunGold
+	/// 銀
+	case CoopRecord_BigrunSilver
+	/// 最高評価
+	case CoopRecord_HighestJobRate
+	/// ハイスコア
+	case CoopRecord_HighestScore
+	/// もっと見る
+	case CoopRecord_More
+	/// きろくがありません
+	case CoopRecord_NoData
+	/// バイトチームコンテスト
+	case CoopRecord_TeamContest
+	/// サーモンランのきろく
+	case CoopRecord_Title
 	/// ホームに戻る
 	case Error_BackToHome
 	/// 現在利用できません。しばらくお待ちください
@@ -661,6 +607,24 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Error_NotSupported
 	/// 再読みこみ
 	case Error_Reload
+	/// イベントマッチ
+	case EventMatchRanking_AppName
+	/// もっと見る
+	case EventMatchRanking_More
+	/// ペア
+	case EventMatchRanking_Pair
+	/// ランキング
+	case EventMatchRanking_Ranking
+	/// ルール確認
+	case EventMatchRanking_Rules
+	/// ソロ
+	case EventMatchRanking_Solo
+	/// チーム
+	case EventMatchRanking_Team
+	/// イベントマッチ
+	case EventMatchRanking_Title
+	/// トップ100
+	case EventMatchRanking_Top100
 	/// フェス
 	case FesRecord_AppName
 	/// 攻撃
@@ -743,6 +707,10 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Footer_BigrunNowOpening
 	/// もうすぐ <em></em> が終了します。
 	case Footer_EndOfSeason
+	/// もうすぐ <em></em> が終了します。
+	case Footer_EndOfSeason_
+	/// イベントマッチ：<em></em>開催中！
+	case Footer_EventMatchNowOpening
 	/// <em></em> フェス開催！アンケートに回答してフレンドと一緒に参加しよう！
 	case Footer_FestAnnouncement
 	/// <em></em> フェス開催中！広場で投票してフェスTをゲットしよう！
@@ -751,6 +719,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case FriendList_AppName
 	/// バイト中
 	case FriendList_InCoopGame
+	/// ナワバトラー
+	case FriendList_InMiniGame
 	/// 試合中
 	case FriendList_InVsGame
 	/// パスワードつき
@@ -891,14 +861,28 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_AllBadges
 	/// ヒストリー
 	case History_AppName
+	/// 参加回数： 
+	case History_Attended
 	/// バッジ
 	case History_Badge
+	/// バンカラマッチ オープン
+	case History_BankaraOpen
+	/// 銅
+	case History_Bronze
 	/// <small>回</small>
 	case History_Count
 	/// 推定順位
 	case History_EstimatedRanking
+	/// イベントマッチ
+	case History_Event
 	/// もっともよく使ったブキ
 	case History_FrequentlyUsedWeapon
+	/// 金
+	case History_Gold
+	/// 最高リーグパワー ペア
+	case History_HighestLeaguePowerPair
+	/// 最高リーグパワー チーム
+	case History_HighestLeaguePowerTeam
 	/// 最高ウデマエ
 	case History_HighestUdemae
 	/// 最高Xランキング・最高Xパワー
@@ -911,6 +895,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_Monthly
 	/// その他
 	case History_Others
+	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case History_PastXmatchAnnotation
 	/// ランク
 	case History_Rank
 	/// <small>位</small>
@@ -925,6 +911,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_ShowMore
 	/// Xランキングを見る
 	case History_ShowXranking
+	/// 銀
+	case History_Silver
 	///  からプレイ（{ 1 } 更新）
 	case History_Since
 	/// サマリー
@@ -1041,6 +1029,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case MyOutfits_GyroControl
 	/// 携帯モード
 	case MyOutfits_HandheldMode
+	/// マイコーデ
+	case MyOutfits_Hashtag
 	/// アタマ
 	case MyOutfits_Head
 	/// メインウェポン
@@ -1087,6 +1077,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case MyOutfits_SelectSlot
 	/// ブキを選ぶ
 	case MyOutfits_SelectWeapon
+	/// シェア
+	case MyOutfits_Share
 	/// クツ
 	case MyOutfits_Shoes
 	/// スペシャルウェポン
@@ -1187,12 +1179,92 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Record_WinCount
 	/// %
 	case Record_WinRatio
+	/// 通常のプライベートマッチと異なり、招待URLを知っているプレイヤーは誰でも参加することができます。
+	case RoomCreator_Annotation01
+	/// フレンドやチャンネルのメンバーは招待URLを知らなくてもフレンドリストや通知からこの部屋に合流することが可能です。
+	case RoomCreator_Annotation02
+	/// また、この部屋ではボイスチャットを利用できません。
+	case RoomCreator_Annotation03
+	/// ヘヤタテ
+	case RoomCreator_AppName
+	/// 部屋に参加する
+	case RoomCreator_Approve
+	/// ホームに戻る
+	case RoomCreator_Back
+	/// やっぱりやめる
+	case RoomCreator_Cancel
+	/// 招待URLを無効にする
+	case RoomCreator_CloseRoom
+	/// 招待URLを無効にすると、「イカリング３で作った部屋」に参加できなくなります。
+	case RoomCreator_CloseRoomGuide
+	/// 招待URLを無効にしますか？
+	case RoomCreator_ConfirmCloseRoom
+	/// あなたはすでにヘヤタテで部屋を作っています。あなたの招待URLを無効にし、この部屋に参加しますか？
+	case RoomCreator_ConfirmRemoveRoom
+	/// 参加しない
+	case RoomCreator_ConfirmRemoveRoomCancel
+	/// 参加する
+	case RoomCreator_ConfirmRemoveRoomOk
+	/// キャンセルしました
+	case RoomCreator_Decline
+	/// もう一度招待URLにアクセスすると、部屋に参加することができます。
+	case RoomCreator_DeclineGuide
+	/// すでに部屋を作っています。「ヘヤタテ」で作ることのできる部屋は同時にひとつまでです。
+	case RoomCreator_ErrorAlreadyExist
+	/// 部屋を作ることができませんでした。
+	case RoomCreator_ErrorMakeRoom
+	/// 部屋のURLをシェアして、<br />プライベートマッチに招待することができます。
+	case RoomCreator_Guide
+	/// 部屋に入る
+	case RoomCreator_HowToActivate
+	/// スプラトゥーン3のロビーメニューのフレンドリストに追加された「イカリング３で作った部屋」に入ってください。
+	case RoomCreator_HowToActivateGuide
+	/// フレンドリストから、この部屋に合流してください。
+	case RoomCreator_HowToJoin
+	/// 無効にする
+	case RoomCreator_InvalidateInvitation
+	/// 部屋に招待されました
+	case RoomCreator_Invitation
+	/// 部屋に参加するとスプラトゥーン3のフレンドリストに「イカリング３で作った部屋」が追加されます。
+	case RoomCreator_InvitationGuide
+	/// 招待URL
+	case RoomCreator_InvitationUrl
+	/// 部屋ができました
+	case RoomCreator_InviteGuest
+	/// 部屋をつくる
+	case RoomCreator_MakeRoom
+	/// 部屋が見つかりません
+	case RoomCreator_NotFound
+	/// URLが間違っているか、すでに部屋が閉じられている場合があります。
+	case RoomCreator_NotFoundGuide
+	/// パスワードを設定する
+	case RoomCreator_Password
+	/// パスワードを設定しない
+	case RoomCreator_PasswordCancel
+	/// このパスワードはフレンドやチャンネルのメンバーが招待URLを使わずに部屋に合流する場合に必要です。<br />「イカリング３で作った部屋」から入る場合はパスワードは不要です。
+	case RoomCreator_PasswordGuide
+	/// 4桁の数字を入力してください
+	case RoomCreator_PasswordHelp
+	/// 参加できる部屋
+	case RoomCreator_Room
+	/// 招待したい人にURLをシェア！
+	case RoomCreator_ShareInvitationUrl
+	/// Nintendo Switch Onlineアプリがインストールされたスマートフォンで、招待URLにアクセスしてもらいましょう。
+	case RoomCreator_ShareInvitationUrlGuide
+	/// URLをシェア
+	case RoomCreator_ShareUrl
+	/// 便利な部屋作成サービス
+	case RoomCreator_Subtitle
+	/// ヘヤタテ
+	case RoomCreator_Title
 	/// 権利表記
 	case Settings_Acknowledgements
 	/// 設定
 	case Settings_AppName
 	/// クレジット
 	case Settings_Credits
+	/// エキスパンション・パス 購入サイトへ
+	case Settings_ExpansionPass
 	/// 設定
 	case Settings_Title
 	/// バンカラマッチ
@@ -1205,6 +1277,22 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Coop
 	/// NOW OPEN！
 	case StageSchedule_CoopCurrentPeriodStart
+	/// イベントマッチ
+	case StageSchedule_Event
+	/// いま
+	case StageSchedule_EventCurrentSchedule
+	/// そのつぎ
+	case StageSchedule_EventFuture
+	/// 開催中！
+	case StageSchedule_EventHolding
+	/// 次回
+	case StageSchedule_EventNext
+	/// つぎ
+	case StageSchedule_EventNextSchedule
+	/// スケジュールが未定です
+	case StageSchedule_EventNoData
+	/// ?????
+	case StageSchedule_EventUnknownData
 	/// イベント開催！
 	case StageSchedule_Eventmatch
 	/// フェスマッチ
@@ -1223,8 +1311,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_FestivalPeriod
 	/// そのつぎ
 	case StageSchedule_Future
-	/// リーグマッチ
-	case StageSchedule_League
+	/// Webブラウザが開きます
+	case StageSchedule_GuideOpenBrowser
 	/// つぎ
 	case StageSchedule_Next
 	/// ビッグラン接近中！
@@ -1243,8 +1331,14 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Private
 	/// ビッグランがやってくる！！バイト大募集 
 	case StageSchedule_Recruit
+	/// バイトチームコンテスト！チームを組んで参加しよう！  
+	case StageSchedule_RecruitTeamContest
 	/// レギュラーマッチ
 	case StageSchedule_Regular
+	/// ルールを見る
+	case StageSchedule_Rules
+	/// 詳しいルールはこちら
+	case StageSchedule_SeeAllRules
 	/// フェスのきろくを見る
 	case StageSchedule_SeeFestivalRecord
 	/// ランダム
@@ -1283,6 +1377,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_BankaraChallenge
 	/// バンカラマッチ オープン
 	case VSHistory_BankaraOpen
+	/// バンカラパワー 
+	case VSHistory_BankaraPower
 	/// 清算
 	case VSHistory_Cleaning
 	/// こうけん度 
@@ -1299,8 +1395,16 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_EquippedGear
 	/// そうびしていたブキ
 	case VSHistory_EquippedWeapon
-	/// 人の { 1 } パワー 推定 { 2 }
-	case VSHistory_EstimatedRoomPower
+	/// イベントマッチ
+	case VSHistory_Event
+	/// ペア
+	case VSHistory_EventPair
+	/// イベントパワー 
+	case VSHistory_EventPower
+	/// ソロ
+	case VSHistory_EventSolo
+	/// チーム
+	case VSHistory_EventTeam
 	/// フェスマッチ（チャレンジ）
 	case VSHistory_FesChallenge
 	/// フェスマッチ（オープン）
@@ -1337,6 +1441,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_Lose
 	/// Xパワー計測中
 	case VSHistory_Measurement
+	/// イベントパワー 計測中
+	case VSHistory_MeasurementEventPower
 	/// 次のバトル
 	case VSHistory_NextBattle
 	/// バトルのきろくがありません
@@ -1357,6 +1463,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_Regular
 	/// スペシャルウェポンはつどうかいすう
 	case VSHistory_SpCount
+	/// Team ID: 
+	case VSHistory_TeamId
 	/// バトル
 	case VSHistory_Title
 	/// トライかいすう
@@ -1427,6 +1535,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Pacific
 	/// 過去のランキング
 	case XRanking_PastRankings
+	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case XRanking_PastRankingsAnnotation
 	///  - { 1 }
 	case XRanking_Period
 	/// <small>位</small>
@@ -1453,62 +1563,104 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Xcrown
 	/// <small>Xパワー</small> 
 	case XRanking_Xpower
-	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
-	case Catalog_EndOfSeason
-	/// バイトチームコンテスト
-	case Common_CoopTeamContest
-	/// はてな
-	case Common_WpnNotfound
-	/// 銅
-	case CoopHistory_BigrunBronze
-	/// 金
-	case CoopHistory_BigrunGold
-	/// 銀
-	case CoopHistory_BigrunSilver
-	/// 現在の期間限定ポイント
-	case CoopHistory_LimitedPoint
-	/// バイトチームコンテスト
-	case CoopHistory_TeamContest
-	/// バイト
-	case CoopRecord_AppName
-	/// 参加回数： 
-	case CoopRecord_Attended
-	/// ビッグラン
-	case CoopRecord_Bigrun
-	/// 銅
-	case CoopRecord_BigrunBronze
-	/// 金
-	case CoopRecord_BigrunGold
-	/// 銀
-	case CoopRecord_BigrunSilver
-	/// 最高評価
-	case CoopRecord_HighestJobRate
-	/// ハイスコア
-	case CoopRecord_HighestScore
-	/// もっと見る
-	case CoopRecord_More
-	/// きろくがありません
-	case CoopRecord_NoData
-	/// バイトチームコンテスト
-	case CoopRecord_TeamContest
-	/// サーモンランのきろく
-	case CoopRecord_Title
-	/// もうすぐ <em></em> が終了します。
-	case Footer_EndOfSeason_
-	/// ナワバトラー
-	case FriendList_InMiniGame
-	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case History_PastXmatchAnnotation
+	/// ビッグランから街を守れ！
+	case Carousel_BigrunOpening
+	/// ビッグラン結果発表！
+	case Carousel_BigrunResult
+	/// サーモンラン
+	case Carousel_CoopHistory
+	/// フェス開催！！
+	case Carousel_FestOpening
+	/// フェス結果発表！！
+	case Carousel_FestResult
+	/// ここだけの特別なギア販売中
+	case Carousel_Gesotown
+	/// 新たなヒーローの物語
+	case Carousel_HeroRecord
+	/// メモリープレーヤー
+	case Carousel_MemoryPlayer
 	/// マイコーデ
-	case MyOutfits_Hashtag
-	/// シェア
-	case MyOutfits_Share
-	/// エキスパンション・パス 購入サイトへ
-	case Settings_ExpansionPass
-	/// バイトチームコンテスト！チームを組んで参加しよう！  
-	case StageSchedule_RecruitTeamContest
-	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case XRanking_PastRankingsAnnotation
+	case Carousel_Myoutfits
+	/// フォトアルバム
+	case Carousel_PhotoAlbum
+	/// 支援者求む！
+	case Carousel_Robichi
+	/// 前シーズンのヒストリーはこちら！
+	case Carousel_StatsLatestSeason
+	/// バトル戦績
+	case Carousel_VsHistory
+	/// オレンジの空がオイリーだよね～。
+	case Challenge_Challenge210Description
+	/// 二つ名
+	case Challenge_Challenge210Reward
+	/// シェケナダム
+	case Challenge_Challenge210Title
+	/// アートに触れるとハートの中心まで火が通るカンジするよね～！
+	case Challenge_Challenge21Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge21Reward
+	/// キンメダイ美術館
+	case Challenge_Challenge21Title
+	/// ここの食堂はフライがイケてるバクアゲスポットなんだ～。
+	case Challenge_Challenge22Description
+	/// 拾ったステッカー
+	case Challenge_Challenge22Reward
+	/// 海女美術大学
+	case Challenge_Challenge22Title
+	/// 橋の上は風が強くてコロモがめっちゃ飛ばされるんだよね！
+	case Challenge_Challenge23Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge23Reward
+	/// マサバ海峡大橋
+	case Challenge_Challenge23Title
+	/// 溶接の音とアゲる音って似てるから、テンションがバチバチアガっちゃうよ！
+	case Challenge_Challenge24Description
+	/// 拾ったステッカー
+	case Challenge_Challenge24Reward
+	/// チョウザメ造船
+	case Challenge_Challenge24Title
+	/// 夕飯時にフライの香りがすると、すぐ家に帰りたくなるよね～。
+	case Challenge_Challenge25Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge25Reward
+	/// ヒラメが丘団地
+	case Challenge_Challenge25Title
+	/// あ！新しいアゲ油売ってる！！
+	case Challenge_Challenge26Description
+	/// 拾ったステッカー
+	case Challenge_Challenge26Reward
+	/// ザトウマーケット
+	case Challenge_Challenge26Title
+	/// こんなアガる要素しかない場所、アガり過ぎ注意報だよ～！ジュワワ～！！！
+	case Challenge_Challenge27Description
+	/// めちゃ映えフォト
+	case Challenge_Challenge27Reward
+	/// マヒマヒリゾート＆スパ
+	case Challenge_Challenge27Title
+	/// ジェットコースターに乗った後って、ナゼか身軽に感じるんだよね～。
+	case Challenge_Challenge28Description
+	/// グラフィティ壁紙
+	case Challenge_Challenge28Reward
+	/// スメーシーワールド
+	case Challenge_Challenge28Title
+	/// ハイカラ地方にもサクサク稼げるバイトがあるんだね～！って、ココどこ～？
+	case Challenge_Challenge29Description
+	/// めちゃたそがれフォト
+	case Challenge_Challenge29Reward
+	/// 難破船ドン・ブラコ
+	case Challenge_Challenge29Title
+	/// 「チャレンジャー・ロブ」としての次の目的地は『ハイカラ地方』に決めたよ～。<br />ってわけで、この旅を引き続き支援してくれるサポーターをパリッと募集するよ！<br />ハイカラ地方は、僕が旅を始める前に住んでた街もあるんだけど、いまもハイカラな香りたっぷりのツヤツヤアゲアゲな場所なんだよね～。<br />そういった思い出の場所を巡りながら、「過去の自分」も見つめ直して「いまの自分」を更にアゲ直したいんだよね！<br />この「二度アゲの旅」、ガチでホットっしょ？！ってことでヨロシク～！
+	case Challenge_Journey2Description
+	/// キミのおかげで、二度アゲの旅もカリッと終えられたよ！アリガト～！<br />お礼にコレ、アゲちゃうよ！<br />ロビー端末に送っておいたから受け取ってね～。
+	case Challenge_Journey2Gratitude
+	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
+	case Challenge_Journey2Title
+	/// 期間限定
+	case CoopHistory_Limited
+	/// リーグマッチ
+	case StageSchedule_League
+	/// 人の { 1 } パワー 推定 { 2 }
+	case VSHistory_EstimatedRoomPower
 	/// 「ハイカラシティ」配信中！
 	case Carousel_ExpansionPass
 	/// 「サイド・オーダー」配信中！

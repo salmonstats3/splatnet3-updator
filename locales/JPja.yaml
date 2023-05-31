@@ -327,6 +327,16 @@ Error:
   NotSupported: イカリング３を表示できません。しばらく時間をおいてから通信環境の良い場所で再度お試しください。<br />問題が解決しない場合は、ブラウザが最新版に更新されているか確認してください。<br
     />それでもこの画面が表示される場合は、ご利用の環境でイカリング３を利用できない可能性があります。
   Reload: 再読みこみ
+EventMatchRanking:
+  AppName: イベントマッチ
+  More: もっと見る
+  Pair: ペア
+  Ranking: ランキング
+  Rules: ルール確認
+  Solo: ソロ
+  Team: チーム
+  Title: イベントマッチ
+  Top100: トップ100
 FesRecord:
   AppName: フェス
   Attack: 攻撃
@@ -370,6 +380,7 @@ Footer:
   BigrunAnnouncement: <em>ビッグラン</em>警報発令！シャケの接近に注意！
   BigrunNowOpening: <em>ビッグラン</em>発生中！シャケから街を守れ！
   EndOfSeason: もうすぐ <em></em> が終了します。
+  EventMatchNowOpening: イベントマッチ：<em></em>開催中！
   FestAnnouncement: <em></em> フェス開催！アンケートに回答してフレンドと一緒に参加しよう！
   FestNowOpening: <em></em> フェス開催中！広場で投票してフェスTをゲットしよう！
 FriendList:
@@ -449,10 +460,17 @@ HeroRecord:
 History:
   AllBadges: すべてのバッジ（）
   AppName: ヒストリー
+  Attended: '参加回数： '
   Badge: バッジ
+  BankaraOpen: バンカラマッチ オープン
+  Bronze: 銅
   Count: <small>回</small>
   EstimatedRanking: 推定順位
+  Event: イベントマッチ
   FrequentlyUsedWeapon: もっともよく使ったブキ
+  Gold: 金
+  HighestLeaguePowerPair: 最高リーグパワー ペア
+  HighestLeaguePowerTeam: 最高リーグパワー チーム
   HighestUdemae: 最高ウデマエ
   HighestXranking: 最高Xランキング・最高Xパワー
   Latest: 最近 3ヶ月
@@ -467,6 +485,7 @@ History:
   ShowLess: 表示を減らす
   ShowMore: もっと見る
   ShowXranking: Xランキングを見る
+  Silver: 銀
   Since: ' からプレイ（{ 1 } 更新）'
   Summary: サマリー
   Title: ヒストリー
@@ -618,6 +637,46 @@ Record:
   WeaponRecordAppName: ブキ
   WinCount: 勝利数
   WinRatio: '%'
+RoomCreator:
+  Annotation01: 通常のプライベートマッチと異なり、招待URLを知っているプレイヤーは誰でも参加することができます。
+  Annotation02: フレンドやチャンネルのメンバーは招待URLを知らなくてもフレンドリストや通知からこの部屋に合流することが可能です。
+  Annotation03: また、この部屋ではボイスチャットを利用できません。
+  AppName: ヘヤタテ
+  Approve: 部屋に参加する
+  Back: ホームに戻る
+  Cancel: やっぱりやめる
+  CloseRoom: 招待URLを無効にする
+  CloseRoomGuide: 招待URLを無効にすると、「イカリング３で作った部屋」に参加できなくなります。
+  ConfirmCloseRoom: 招待URLを無効にしますか？
+  ConfirmRemoveRoom: あなたはすでにヘヤタテで部屋を作っています。あなたの招待URLを無効にし、この部屋に参加しますか？
+  ConfirmRemoveRoomCancel: 参加しない
+  ConfirmRemoveRoomOk: 参加する
+  Decline: キャンセルしました
+  DeclineGuide: もう一度招待URLにアクセスすると、部屋に参加することができます。
+  ErrorAlreadyExist: すでに部屋を作っています。「ヘヤタテ」で作ることのできる部屋は同時にひとつまでです。
+  ErrorMakeRoom: 部屋を作ることができませんでした。
+  Guide: 部屋のURLをシェアして、<br />プライベートマッチに招待することができます。
+  HowToActivate: 部屋に入る
+  HowToActivateGuide: スプラトゥーン3のロビーメニューのフレンドリストに追加された「イカリング３で作った部屋」に入ってください。
+  HowToJoin: フレンドリストから、この部屋に合流してください。
+  InvalidateInvitation: 無効にする
+  Invitation: 部屋に招待されました
+  InvitationGuide: 部屋に参加するとスプラトゥーン3のフレンドリストに「イカリング３で作った部屋」が追加されます。
+  InvitationUrl: 招待URL
+  InviteGuest: 部屋ができました
+  MakeRoom: 部屋をつくる
+  NotFound: 部屋が見つかりません
+  NotFoundGuide: URLが間違っているか、すでに部屋が閉じられている場合があります。
+  Password: パスワードを設定する
+  PasswordCancel: パスワードを設定しない
+  PasswordGuide: このパスワードはフレンドやチャンネルのメンバーが招待URLを使わずに部屋に合流する場合に必要です。<br />「イカリング３で作った部屋」から入る場合はパスワードは不要です。
+  PasswordHelp: 4桁の数字を入力してください
+  Room: 参加できる部屋
+  ShareInvitationUrl: 招待したい人にURLをシェア！
+  ShareInvitationUrlGuide: Nintendo Switch Onlineアプリがインストールされたスマートフォンで、招待URLにアクセスしてもらいましょう。
+  ShareUrl: URLをシェア
+  Subtitle: 便利な部屋作成サービス
+  Title: ヘヤタテ
 Settings:
   Acknowledgements: 権利表記
   AppName: 設定
@@ -642,6 +701,14 @@ StageSchedule:
   BankaraOpenChallenge: チャレンジ
   Coop: サーモンラン
   CoopCurrentPeriodStart: NOW OPEN！
+  Event: イベントマッチ
+  EventCurrentSchedule: いま
+  EventFuture: そのつぎ
+  EventHolding: 開催中！
+  EventNext: 次回
+  EventNextSchedule: つぎ
+  EventNoData: スケジュールが未定です
+  EventUnknownData: ?????
   Eventmatch: イベント開催！
   Festival: フェスマッチ
   FestivalAnnounced: もうすぐ開催
@@ -651,6 +718,7 @@ StageSchedule:
   FestivalHolding: 開催中！
   FestivalPeriod: ' - { 1 }'
   Future: そのつぎ
+  GuideOpenBrowser: Webブラウザが開きます
   League: リーグマッチ
   Next: つぎ
   NoticeBigrun: ビッグラン接近中！
@@ -663,6 +731,8 @@ StageSchedule:
   Recruit: 'ビッグランがやってくる！！バイト大募集 '
   RecruitTeamContest: 'バイトチームコンテスト！チームを組んで参加しよう！  '
   Regular: レギュラーマッチ
+  Rules: ルールを見る
+  SeeAllRules: 詳しいルールはこちら
   SeeFestivalRecord: フェスのきろくを見る
   SuppliedWeaponRandom: ランダム
   SuppliedWeapons: 支給ブキ
@@ -683,6 +753,7 @@ VSHistory:
   Bankara: バンカラマッチ
   BankaraChallenge: バンカラマッチ チャレンジ
   BankaraOpen: バンカラマッチ オープン
+  BankaraPower: 'バンカラパワー '
   Cleaning: 清算
   Contribute: 'こうけん度 '
   Count: カウント
@@ -692,6 +763,11 @@ VSHistory:
   EquippedGear: そうびしていたギア
   EquippedWeapon: そうびしていたブキ
   EstimatedRoomPower: 人の { 1 } パワー 推定 { 2 }
+  Event: イベントマッチ
+  EventPair: ペア
+  EventPower: 'イベントパワー '
+  EventSolo: ソロ
+  EventTeam: チーム
   FesChallenge: フェスマッチ（チャレンジ）
   FesOpen: フェスマッチ（オープン）
   FesTeam: チーム
@@ -710,6 +786,7 @@ VSHistory:
   LatestTab: 最近
   Lose: LOSE...
   Measurement: Xパワー計測中
+  MeasurementEventPower: イベントパワー 計測中
   NextBattle: 次のバトル
   NoData: バトルのきろくがありません
   NotAvailable: バトルのきろくを表示できません
@@ -720,6 +797,7 @@ VSHistory:
   Promo: 昇格戦
   Regular: レギュラーマッチ
   SpCount: スペシャルウェポンはつどうかいすう
+  TeamId: 'Team ID: '
   Title: バトル
   TryCount: トライかいすう
   TurfPoint: p

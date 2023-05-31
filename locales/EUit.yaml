@@ -360,6 +360,16 @@ Error:
     più recente. Se ricevi ancora questo messaggio, SplatNet 3 potrebbe non essere
     compatibile con le tue impostazioni o con il tuo dispositivo.
   Reload: Aggiorna
+EventMatchRanking:
+  AppName: Partita evento
+  More: Scopri di più
+  Pair: A coppie
+  Ranking: Classifiche
+  Rules: Regole
+  Solo: In solitaria
+  Team: A squadre
+  Title: Partita evento
+  Top100: Top 100
 FesRecord:
   AppName: Festival
   Attack: In attacco
@@ -406,6 +416,7 @@ Footer:
   BigrunAnnouncement: Allerta <em>Big Run</em>! Attenzione ai Salmonoidi in arrivo!
   BigrunNowOpening: <em>Big Run</em> in corso! Proteggi la città dai Salmonoidi!
   EndOfSeason: <em></em> quasi finita!
+  EventMatchNowOpening: <em></em> ora disponibile!
   FestAnnouncement: Festival <em></em> in corso! Scegli una squadra e gettati nella
     mischia!
   FestNowOpening: Festival <em></em> in corso! Vota in piazza per ottenere la tua
@@ -489,10 +500,17 @@ HeroRecord:
 History:
   AllBadges: Tutte le spille ()
   AppName: Statistiche
+  Attended: 'Partecipazioni: '
   Badge: Spille
+  BankaraOpen: Partita anarchica (Aperta)
+  Bronze: Bronzo
   Count: '<small>Volte:</small> '
   EstimatedRanking: Posizione stimata
+  Event: Partita evento
   FrequentlyUsedWeapon: Armi preferite
+  Gold: Oro
+  HighestLeaguePowerPair: Record energia lega (coppia)
+  HighestLeaguePowerTeam: Record energia lega (squadra)
   HighestUdemae: Miglior rango
   HighestXranking: Miglior classifica X/Record energia X
   Latest: Ultimi 3 mesi
@@ -508,6 +526,7 @@ History:
   ShowLess: Mostra meno
   ShowMore: Altro
   ShowXranking: Vedi classifica X
+  Silver: Argento
   Since: 'Giochi dal giorno  (aggiornato: { 1 })'
   Summary: Sommario
   Title: Statistiche
@@ -670,6 +689,56 @@ Record:
   WeaponRecordAppName: Armi
   WinCount: Vittorie
   WinRatio: '%'
+RoomCreator:
+  Annotation01: A differenza delle normali partite private, qualsiasi giocatore che
+    conosce l'indirizzo può partecipare a questa partita.
+  Annotation02: Amici o altri giocatori nel tuo canale possono accedere a questa stanza
+    tramite il menu Amici o l'opzione Notifiche, anche se non hanno l'indirizzo d'invito.
+  Annotation03: Ricorda che la chat vocale non può essere usata in questa stanza.
+  AppName: Creare una stanza
+  Approve: Accedi alla stanza
+  Back: Torna alla pagina iniziale
+  Cancel: Annulla
+  CloseRoom: Disattiva indirizzo d'invito
+  CloseRoomGuide: Disattivando l'indirizzo d'invito non potrai accedere alla stanza
+    che hai creato.
+  ConfirmCloseRoom: Vuoi disattivare l'indirizzo d'invito?
+  ConfirmRemoveRoom: Hai già creato una stanza. Vuoi disattivare il tuo indirizzo
+    d'invito e accedere a questa stanza?
+  ConfirmRemoveRoomCancel: 'No'
+  ConfirmRemoveRoomOk: Sì
+  Decline: Accesso annullato
+  DeclineGuide: Puoi riprovare ad accedere a questa stanza usando l'indirizzo d'invito.
+  ErrorAlreadyExist: Esiste già una stanza, è possibile crearne solo una alla volta.
+  ErrorMakeRoom: Impossibile creare una stanza
+  Guide: Dopo aver creato la stanza, invita altri giocatori<br />alla partita privata
+    inviandogli l'indirizzo.
+  HowToActivate: Accedere a una stanza
+  HowToActivateGuide: Seleziona Stanza creata tramite SplatNet 3 nel menu Amici di
+    Splatoon 3.
+  HowToJoin: Accedi a questa stanza dal menu Amici di Splatoon 3.
+  InvalidateInvitation: Disattiva
+  Invitation: Hai ricevuto un inivito a unirti a una stanza.
+  InvitationGuide: Se accedi a questa stanza, nel menu Amici di Splatoon 3 comparirà
+    l'opzione Stanza creata tramite SplatNet 3.
+  InvitationUrl: Indirizzo d'invito
+  InviteGuest: Stanza creata!
+  MakeRoom: Crea una stanza
+  NotFound: Impossibile trovare una stanza.
+  NotFoundGuide: L'indirizzo potrebbe essere sbagliato o la stanza non più disponibile.
+  Password: Imposta codice
+  PasswordCancel: Non impostare codice
+  PasswordGuide: Imposta un codice per consentire ad amici e membri del canale di
+    accedere a una stanza senza indirizzo d'invito.<br />Il codice non è necessario
+    se si seleziona l'opzione Stanza creata tramite SplatNet 3.
+  PasswordHelp: Inserisci un codice di 4 numeri.
+  Room: 'Stanze accessibili:'
+  ShareInvitationUrl: Invia l'indirizzo!
+  ShareInvitationUrlGuide: I giocatori invitati possono usare l'indirizzo ricevuto
+    tramite l'app per dispositivi smart Nintendo Switch Online.
+  ShareUrl: Invia indirizzo
+  Subtitle: Qui puoi creare una stanza per le partite private!
+  Title: Creare una stanza
 Settings:
   Acknowledgements: Copyright
   AppName: Impostazioni
@@ -694,6 +763,14 @@ StageSchedule:
   BankaraOpenChallenge: Serie
   Coop: Salmon Run
   CoopCurrentPeriodStart: IN CORSO!
+  Event: Partita evento
+  EventCurrentSchedule: Attuale
+  EventFuture: In futuro
+  EventHolding: In corso!
+  EventNext: A seguire
+  EventNextSchedule: A seguire
+  EventNoData: Non ci sono partite evento in programma.
+  EventUnknownData: ???
   Eventmatch: Evento ora in corso!
   Festival: Partita tematica
   FestivalAnnounced: In arrivo!
@@ -703,6 +780,7 @@ StageSchedule:
   FestivalHolding: In corso!
   FestivalPeriod: ' - { 1 }'
   Future: Successivi
+  GuideOpenBrowser: Si aprirà una nuova pagina del browser.
   League: Partita di lega
   Next: Prossimo
   NoticeBigrun: Big Run in arrivo!
@@ -716,6 +794,8 @@ StageSchedule:
   RecruitTeamContest: 'È disponibile la sfida tra colleghi. Radunane qualcuno e unisciti
     al... divertimento? '
   Regular: Partita amichevole
+  Rules: Vedi regole
+  SeeAllRules: Vedi regole dettagliate
   SeeFestivalRecord: Statistiche festival
   SuppliedWeaponRandom: Casuale
   SuppliedWeapons: Armi fornite
@@ -737,6 +817,7 @@ VSHistory:
   Bankara: Partita anarchica
   BankaraChallenge: Partita anarchica (Serie)
   BankaraOpen: Partita anarchica (Aperta)
+  BankaraPower: 'Energia anarchica: '
   Cleaning: Risultati
   Contribute: 'Contributo: '
   Count: 'Punteggio: '
@@ -746,6 +827,11 @@ VSHistory:
   EquippedGear: Oggetti utilizzati
   EquippedWeapon: Arma utilizzata
   EstimatedRoomPower: '(Giocatori: ) - Energia { 1 } stimata: { 2 }'
+  Event: Partita evento
+  EventPair: 'A coppie - '
+  EventPower: 'Energia evento: '
+  EventSolo: 'In solitaria - '
+  EventTeam: 'In squadra - '
   FesChallenge: Partita tematica (Serie)
   FesOpen: Partita tematica (Aperta)
   FesTeam: 'Squadra '
@@ -764,6 +850,7 @@ VSHistory:
   LatestTab: Recenti
   Lose: Sconfitta
   Measurement: Calcolo energia X...
+  MeasurementEventPower: Calcolo energia evento...
   NextBattle: Successiva
   NoData: Non ci sono statistiche di battaglia.
   NotAvailable: Statistiche di battaglia non disponibili
@@ -774,6 +861,7 @@ VSHistory:
   Promo: Partita di promozione
   Regular: Partita amichevole
   SpCount: Utilizzi dell'arma speciale
+  TeamId: 'ID squadra: '
   Title: Battaglie
   TryCount: Tentativi
   TurfPoint: p

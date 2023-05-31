@@ -357,6 +357,16 @@ Error:
     still receive this message, it may be possible that SplatNet 3 is not compatible
     with your current settings or device.
   Reload: Refresh
+EventMatchRanking:
+  AppName: Challenge
+  More: See More
+  Pair: Duo
+  Ranking: Rankings
+  Rules: Rules
+  Solo: Solo
+  Team: Team
+  Title: Challenge
+  Top100: Top 100
 FesRecord:
   AppName: Splatfest
   Attack: Attacking
@@ -403,6 +413,7 @@ Footer:
   BigrunAnnouncement: <em>Big Run</em> alert issued! Beware of approaching Salmonids!
   BigrunNowOpening: <em>Big Run</em> in progress! Protect the city from Salmonids!
   EndOfSeason: <em></em> is almost over!
+  EventMatchNowOpening: <em></em> Open Now!
   FestAnnouncement: <em></em> Splatfest open! Choose a team and dive in!
   FestNowOpening: '<em></em> Splatfest open! Vote in the square to get your Splatfest
     Tee! '
@@ -484,10 +495,17 @@ HeroRecord:
 History:
   AllBadges: All Badges ()
   AppName: History
+  Attended: 'Times Participated: '
   Badge: Badges
+  BankaraOpen: Anarchy Battle (Open)
+  Bronze: Bronze
   Count: <small> times</small>
   EstimatedRanking: Approximate Rank
+  Event: Challenge
   FrequentlyUsedWeapon: Fave Weapons
+  Gold: Gold
+  HighestLeaguePowerPair: Highest League Power - Pair
+  HighestLeaguePowerTeam: Highest League Power - Team
   HighestUdemae: All-Time Best
   HighestXranking: Best X Rank / Highest X Power
   Latest: Last Three Months
@@ -503,6 +521,7 @@ History:
   ShowLess: Show Less
   ShowMore: More
   ShowXranking: View X Ranking
+  Silver: Silver
   Since: Playing Since  (Updated { 1 })
   Summary: Summary
   Title: History
@@ -662,6 +681,57 @@ Record:
   WeaponRecordAppName: Weapons
   WinCount: Wins
   WinRatio: '%'
+RoomCreator:
+  Annotation01: Any player who knows the URL can join this battle, unlike regular
+    Private Battles.
+  Annotation02: Friends or other players in your Pool can join this room via the Friends
+    menu or Notifications, even if they don't have the invitation URL.
+  Annotation03: Also, please note that voice chat cannot be used in this room.
+  AppName: Room Creation
+  Approve: Join Room
+  Back: Back to Home
+  Cancel: Cancel
+  CloseRoom: Disable Invitation URL
+  CloseRoomGuide: If you disable the invitation URL, you'll be unable to join the
+    room you created.
+  ConfirmCloseRoom: Disable invitation URL?
+  ConfirmRemoveRoom: You've already created a room. Do you want to disable your invitation
+    URL and join this room?
+  ConfirmRemoveRoomCancel: Don't Join
+  ConfirmRemoveRoomOk: Join
+  Decline: Canceled
+  DeclineGuide: You can join this room by accessing the invitation URL once again.
+  ErrorAlreadyExist: You've already created a room. You can only create one room at
+    a time.
+  ErrorMakeRoom: Unable to create a room.
+  Guide: Once your room is created, share the<br />URL to invite others to a Private
+    Battle.
+  HowToActivate: Enter Room
+  HowToActivateGuide: Please select Room Created via SplatNet 3 from the Friends menu
+    in the Splatoon 3 game.
+  HowToJoin: Please join this room from the Friends menu in the Splatoon 3 game.
+  InvalidateInvitation: Disable
+  Invitation: You've been invited to join a room.
+  InvitationGuide: If you join this room, Room Created via SplatNet 3 will be added
+    to the Friends menu in the Splatoon 3 game.
+  InvitationUrl: Invitation URL
+  InviteGuest: Room created!
+  MakeRoom: Create a Room
+  NotFound: Unable to find a room.
+  NotFoundGuide: The URL may be incorrect, or the room may already be closed.
+  Password: Set Password
+  PasswordCancel: Don't Set Password
+  PasswordGuide: Require a password in order for friends and Pool members to join
+    a room without an invitation URL. A password isn't required when selecting the
+    Room Created via SplatNet 3 option.
+  PasswordHelp: Please enter a four-digit number.
+  Room: 'Rooms that are joinable:'
+  ShareInvitationUrl: Share URL!
+  ShareInvitationUrlGuide: Invitees can access the invitation URL from a smart device
+    with the Nintendo Switch Online app installed.
+  ShareUrl: Share URL
+  Subtitle: Create rooms for Private Battles right here!
+  Title: Room Creation
 Settings:
   Acknowledgements: Copyrights
   AppName: Settings
@@ -686,6 +756,14 @@ StageSchedule:
   BankaraOpenChallenge: Series
   Coop: Salmon Run
   CoopCurrentPeriodStart: NOW OPEN!
+  Event: Challenge
+  EventCurrentSchedule: Now
+  EventFuture: Future
+  EventHolding: Now Open!
+  EventNext: Next Time
+  EventNextSchedule: Next
+  EventNoData: No Challenges currently scheduled.
+  EventUnknownData: ???
   Eventmatch: Event Now Open!
   Festival: Splatfest Battle
   FestivalAnnounced: Coming Soon!
@@ -695,6 +773,7 @@ StageSchedule:
   FestivalHolding: Now Open!
   FestivalPeriod: ' - { 1 }'
   Future: Future
+  GuideOpenBrowser: This will open a new browser window.
   League: League Battle
   Next: Next
   NoticeBigrun: Big Run coming soon!
@@ -708,6 +787,8 @@ StageSchedule:
   RecruitTeamContest: 'Eggstra Work is available now. Recruit some coworkers and join
     in the...fun? '
   Regular: Regular Battle
+  Rules: See Rules
+  SeeAllRules: See Detailed Rules
   SeeFestivalRecord: Splatfest Stats
   SuppliedWeaponRandom: Random
   SuppliedWeapons: Supplied Weapons
@@ -728,6 +809,7 @@ VSHistory:
   Bankara: Anarchy Battle
   BankaraChallenge: Anarchy Battle (Series)
   BankaraOpen: Anarchy Battle (Open)
+  BankaraPower: 'Anarchy Power: '
   Cleaning: Results
   Contribute: 'Clout: '
   Count: 'Score: '
@@ -737,6 +819,11 @@ VSHistory:
   EquippedGear: Gear Used
   EquippedWeapon: Weapon Used
   EstimatedRoomPower: '-Player { 1 } Power Estimate: { 2 }'
+  Event: Challenge
+  EventPair: 'Duo - '
+  EventPower: 'Challenge Power: '
+  EventSolo: 'Solo - '
+  EventTeam: 'Team - '
   FesChallenge: Splatfest Battle (Series)
   FesOpen: Splatfest Battle (Open)
   FesTeam: 'Team '
@@ -755,6 +842,7 @@ VSHistory:
   LatestTab: Latest
   Lose: DEFEAT
   Measurement: Calculating X Power...
+  MeasurementEventPower: Calculating Challenge Power...
   NextBattle: Next
   NoData: No battle logs to display.
   NotAvailable: Battle Log Unavailable
@@ -765,6 +853,7 @@ VSHistory:
   Promo: Rank-Up Battle
   Regular: Regular Battle
   SpCount: Special-Weapon Uses
+  TeamId: 'Team ID: '
   Title: Battles
   TryCount: Attempts
   TurfPoint: p

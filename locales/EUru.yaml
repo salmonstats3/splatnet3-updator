@@ -356,6 +356,16 @@ Error:
     получать это сообщение, вероятно, приложение SplatNet 3 несовместимо с твоими
     текущими настройками или устройством.
   Reload: Обновить
+EventMatchRanking:
+  AppName: Бой-событие
+  More: Подробнее
+  Pair: «Дуэты»
+  Ranking: Рейтинги
+  Rules: Правила
+  Solo: «Соло»
+  Team: «4 на 4»
+  Title: Бой-событие
+  Top100: ТОП-100
 FesRecord:
   AppName: Сплатфест
   Attack: Нападающие
@@ -403,6 +413,7 @@ Footer:
     наступают!
   BigrunNowOpening: <em>Big Run</em> в самом разгаре! Защити город от самонидов!
   EndOfSeason: <em></em> подходит к концу!
+  EventMatchNowOpening: Идет «<em></em>»!
   FestAnnouncement: <em></em> Идет Сплатфест! Выбери команду и присоединяйся!
   FestNowOpening: <em></em> Идет Сплатфест! Проголосуй на площади и получи Сплатфест-майку!
 FriendList:
@@ -485,10 +496,17 @@ HeroRecord:
 History:
   AllBadges: Все значки ()
   AppName: Хроника
+  Attended: 'Смен: '
   Badge: Значки
+  BankaraOpen: Стихийный бой (открытый)
+  Bronze: Бронза
   Count: ''
   EstimatedRanking: Предполагаемое место
+  Event: Бой-событие
   FrequentlyUsedWeapon: Любимое оружие
+  Gold: Золото
+  HighestLeaguePowerPair: 'Топ-сила в лиге: «Дуэты»'
+  HighestLeaguePowerTeam: 'Топ-сила в лиге: «4 на 4»'
   HighestUdemae: Рекорды
   HighestXranking: Топ в Разряде X / топ-сила X
   Latest: За последние три месяца
@@ -504,6 +522,7 @@ History:
   ShowLess: Меньше
   ShowMore: Больше
   ShowXranking: Разряд X
+  Silver: Серебро
   Since: В игре с  (обновление { 1 })
   Summary: Сводка
   Title: Хроника
@@ -668,6 +687,57 @@ Record:
   WeaponRecordAppName: Оружие
   WinCount: 'Побед:'
   WinRatio: '%'
+RoomCreator:
+  Annotation01: В отличие от частных боев, по ссылке-приглашению к бою может присоединиться
+    любой игрок.
+  Annotation02: Друзья или другие игроки, которые являются подписчиками твоего канала,
+    могут присоединиться к бою через меню Друзья или Уведомления, даже если у них
+    нет ссылки-приглашения.
+  Annotation03: Учти, что в этом бое невозможно пользоваться голосовым чатом.
+  AppName: Создание боя
+  Approve: Присоединиться к бою
+  Back: Назад на главный экран
+  Cancel: Отмена
+  CloseRoom: Отключить ссылку-приглашение
+  CloseRoomGuide: Если отключить ссылку-приглашение, то нельзя будет присоединиться
+    к собственному бою.
+  ConfirmCloseRoom: Отключить ссылку-приглашение?
+  ConfirmRemoveRoom: Тобой уже был создан бой. Хочешь отключить ссылку-приглашение
+    и присоединиться к этому бою?
+  ConfirmRemoveRoomCancel: Нет
+  ConfirmRemoveRoomOk: Да
+  Decline: Отменено
+  DeclineGuide: Ты можешь присоединиться к этому бою, еще раз пройдя по ссылке-приглашению.
+  ErrorAlreadyExist: Твой бой уже создан. Одновременно можно создать только один бой.
+  ErrorMakeRoom: Невозможно создать бой.
+  Guide: После того как создашь бой, поделись ссылкой<br />с другими игроками и проведи
+    частный бой!
+  HowToActivate: Присоединиться к бою
+  HowToActivateGuide: Выбери «Бой, созданный с помощью SplatNet 3» в меню Друзья в
+    игре Splatoon 3.
+  HowToJoin: Присоединись к бою из меню Друзья в игре Splatoon 3.
+  InvalidateInvitation: Отключить
+  Invitation: Получено приглашение присоединиться к бою.
+  InvitationGuide: Если присоединишься к этому бою, то в меню Друзья в игре Splatoon
+    3 будет добавлена опция «Бой, созданный с помощью SplatNet 3».
+  InvitationUrl: Ссылка-приглашение
+  InviteGuest: Бой создан!
+  MakeRoom: Создать бой
+  NotFound: Невозможно найти бой.
+  NotFoundGuide: Ссылка неверна или бой уже завершен.
+  Password: Установить пароль
+  PasswordCancel: Без пароля
+  PasswordGuide: Без ссылки-приглашения друзья и подписчики канала могут присоединиться
+    к игре только с паролем. Пароль не нужен, если выбрана опция «Бой, созданный с
+    помощью SplatNet 3».
+  PasswordHelp: Введи 4-значное число.
+  Room: 'Доступные бои:'
+  ShareInvitationUrl: Поделиться ссылкой!
+  ShareInvitationUrlGuide: Приглашенные игроки могут пройти по ссылке со смарт-устройства,
+    если на нем установлено приложение Nintendo Switch Online.
+  ShareUrl: Поделиться ссылкой
+  Subtitle: Здесь можно создавать частные бои!
+  Title: Создание боя
 Settings:
   Acknowledgements: Авторские права
   AppName: Настройки
@@ -692,6 +762,14 @@ StageSchedule:
   BankaraOpenChallenge: Серия
   Coop: Salmon Run
   CoopCurrentPeriodStart: Идет!
+  Event: Бой-событие
+  EventCurrentSchedule: Сейчас
+  EventFuture: Скоро
+  EventHolding: Идет!
+  EventNext: Следующий
+  EventNextSchedule: Следующий
+  EventNoData: Бои-события в настоящий момент не запланированы.
+  EventUnknownData: ???
   Eventmatch: Идет!
   Festival: Сплатфест-бой
   FestivalAnnounced: Скоро!
@@ -701,6 +779,7 @@ StageSchedule:
   FestivalHolding: Идет!
   FestivalPeriod: ' - { 1 }'
   Future: Скоро
+  GuideOpenBrowser: Будет открыто новое окно браузера.
   League: Бой лиги
   Next: Следующий
   NoticeBigrun: Big Run скоро начнется!
@@ -714,6 +793,8 @@ StageSchedule:
   RecruitTeamContest: 'Доступен икорный овертайм. Собери себе команду коллег для особой
     порции... веселья! '
   Regular: Бой салаг
+  Rules: Правила
+  SeeAllRules: Подробные правила
   SeeFestivalRecord: Сплатфесты
   SuppliedWeaponRandom: Случайное
   SuppliedWeapons: Табельное оружие
@@ -734,6 +815,7 @@ VSHistory:
   Bankara: Стихийный бой
   BankaraChallenge: Стихийный бой (серия)
   BankaraOpen: Стихийный бой (открытый)
+  BankaraPower: 'Сила стихии: '
   Cleaning: Итоги
   Contribute: 'Вклад: '
   Count: 'Счет: '
@@ -743,6 +825,11 @@ VSHistory:
   EquippedGear: Снаряжение в бою
   EquippedWeapon: Оружие в бою
   EstimatedRoomPower: 'Вероятная сила { 1 } команды из : { 2 }'
+  Event: Бой-событие
+  EventPair: '«Дуэты» — '
+  EventPower: 'Сила события: '
+  EventSolo: '«Соло» — '
+  EventTeam: '«4 на 4» — '
   FesChallenge: Сплатфест-бой (серия)
   FesOpen: Сплатфест-бой (открытый)
   FesTeam: Команда «»
@@ -761,6 +848,7 @@ VSHistory:
   LatestTab: Недавние бои
   Lose: Провал
   Measurement: Данных о силе X нет...
+  MeasurementEventPower: Сила события вычисляется...
   NextBattle: Следующий
   NoData: Нет протоколов боев.
   NotAvailable: Протокол боя недоступен
@@ -771,6 +859,7 @@ VSHistory:
   Promo: Бой за разряд
   Regular: Бой салаг
   SpCount: Использований особого оружия
+  TeamId: 'Код команды: '
   Title: Итоги боев
   TryCount: Попыток
   TurfPoint: ' очк.'

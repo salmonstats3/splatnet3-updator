@@ -332,6 +332,16 @@ Error:
     않을 경우, 브라우저가 최신 버전으로 업데이트되어 있는지 확인해 주십시오.<br />그래도 이 화면이 표시될 경우, 이용하시는 환경에서 오징어넷
     3를 이용할 수 없을 가능성이 있습니다.
   Reload: 새로 고침
+EventMatchRanking:
+  AppName: 이벤트 매치
+  More: 더 보기
+  Pair: 페어
+  Ranking: 랭킹
+  Rules: 룰 확인
+  Solo: 솔로
+  Team: 팀
+  Title: 이벤트 매치
+  Top100: 톱 100
 FesRecord:
   AppName: 페스티벌
   Attack: 공격
@@ -376,6 +386,7 @@ Footer:
   BigrunAnnouncement: <em>빅 런</em> 경보 발령! 연어 접근 주의!
   BigrunNowOpening: <em>빅 런</em> 발생 중! 연어로부터 타운을 지켜라!
   EndOfSeason: <em></em> 종료가 머지않았습니다.
+  EventMatchNowOpening: <em></em> 이벤트 매치 개최 중!
   FestAnnouncement: <em></em> 페스티벌 개최! 설문에 대답하고 친구와 함께 참가하자!
   FestNowOpening: <em></em> 페스티벌 개최 중! 광장에서 투표하고 페스티벌 T를 획득하자!
 FriendList:
@@ -455,10 +466,17 @@ HeroRecord:
 History:
   AllBadges: 모든 배지()
   AppName: 히스토리
+  Attended: '참가 횟수: '
   Badge: 배지
+  BankaraOpen: 카오폴리스 매치 오픈
+  Bronze: 동
   Count: <small>회</small>
   EstimatedRanking: 추정 순위
+  Event: 이벤트 매치
   FrequentlyUsedWeapon: 가장 많이 사용한 무기
+  Gold: 금
+  HighestLeaguePowerPair: 최고 리그 파워 페어
+  HighestLeaguePowerTeam: 최고 리그 파워 팀
   HighestUdemae: 최고 랭크
   HighestXranking: 최고 X 랭킹・최고 X 파워
   Latest: 최근 3개월
@@ -473,6 +491,7 @@ History:
   ShowLess: 숨기기
   ShowMore: 더 보기
   ShowXranking: X 랭킹 보기
+  Silver: 은
   Since: 부터 플레이({ 1 } 업데이트)
   Summary: 요약
   Title: 히스토리
@@ -626,6 +645,47 @@ Record:
   WeaponRecordAppName: 무기
   WinCount: 승리 수
   WinRatio: '%'
+RoomCreator:
+  Annotation01: 일반 프라이빗 매치와는 달리 초대 URL을 아는 플레이어는 누구든 참가할 수 있습니다.
+  Annotation02: 친구 및 채널 멤버는 초대 URL을 몰라도 친구 리스트 및 알림에서 이 방에 합류할 수 있습니다.
+  Annotation03: 또한, 이 방에서는 보이스챗을 이용할 수 없습니다.
+  AppName: 방 만들기
+  Approve: 방에 참가하기
+  Back: 홈으로 돌아가기
+  Cancel: 역시 그만두기
+  CloseRoom: 초대 URL 무효화하기
+  CloseRoomGuide: 초대 URL을 무효화하면 「오징어넷 3에서 만든 방」에 참가할 수 없게 됩니다.
+  ConfirmCloseRoom: 초대 URL을 무효화하겠습니까?
+  ConfirmRemoveRoom: 당신은 이미 방 만들기로 만든 방이 있습니다. 당신의 초대 URL을 무효화하고 이 방에 참가하겠습니까?
+  ConfirmRemoveRoomCancel: 참가하지 않기
+  ConfirmRemoveRoomOk: 참가하기
+  Decline: 취소했습니다
+  DeclineGuide: 다시 한번 초대 URL에 접속하면 방에 참가할 수 있습니다.
+  ErrorAlreadyExist: 이미 만들어진 방이 있습니다. 「방 만들기」로 만들 수 있는 방은 동시에 1개까지입니다.
+  ErrorMakeRoom: 방을 만들지 못했습니다.
+  Guide: 방의 URL을 공유하여<br />프라이빗 매치에 초대할 수 있습니다.
+  HowToActivate: 방에 들어가기
+  HowToActivateGuide: 스플래툰 3 로비 메뉴의 친구 리스트에 추가된 「오징어넷 3에서 만든 방」에 들어가 주십시오.
+  HowToJoin: 친구 리스트에서 이 방에 합류해 주십시오.
+  InvalidateInvitation: 무효화하기
+  Invitation: 방에 초대되었습니다
+  InvitationGuide: 방에 참가하면 스플래툰 3의 친구 리스트에 「오징어넷 3에서 만든 방」이 추가됩니다.
+  InvitationUrl: 초대 URL
+  InviteGuest: 방이 만들어졌습니다
+  MakeRoom: 방 만들기
+  NotFound: 방을 찾을 수 없습니다
+  NotFoundGuide: URL이 잘못되었거나 이미 없어진 방일 수 있습니다.
+  Password: 비밀번호 설정하기
+  PasswordCancel: 비밀번호 설정하지 않기
+  PasswordGuide: 이 비밀번호는 친구 및 채널 멤버가 초대 URL을 사용하지 않고 방에 합류할 경우에 필요합니다.<br />「오징어넷
+    3에서 만든 방」에서 입장할 경우에는 불필요합니다.
+  PasswordHelp: 4자리 숫자를 입력해 주십시오
+  Room: 참가할 수 있는 방
+  ShareInvitationUrl: 초대하고 싶은 사람에게 URL 공유하기
+  ShareInvitationUrlGuide: Nintendo Switch Online 앱이 설치된 스마트폰으로 초대 URL에 접속해야 합니다.
+  ShareUrl: URL 공유
+  Subtitle: 편리한 방 만들기 서비스
+  Title: 방 만들기
 Settings:
   Acknowledgements: 권리 표기
   AppName: 설정
@@ -650,6 +710,14 @@ StageSchedule:
   BankaraOpenChallenge: 챌린지
   Coop: 새먼 런
   CoopCurrentPeriodStart: NOW OPEN!
+  Event: 이벤트 매치
+  EventCurrentSchedule: 지금
+  EventFuture: 그다음
+  EventHolding: 개최 중!
+  EventNext: 예고
+  EventNextSchedule: 다음
+  EventNoData: 스케줄이 미정입니다
+  EventUnknownData: ?????
   Eventmatch: 이벤트 개최!
   Festival: 페스티벌 매치
   FestivalAnnounced: 개최 예정
@@ -659,6 +727,7 @@ StageSchedule:
   FestivalHolding: 개최 중!
   FestivalPeriod: ' - { 1 }'
   Future: 그다음
+  GuideOpenBrowser: 웹 브라우저가 열립니다
   League: 리그 매치
   Next: 다음
   NoticeBigrun: 빅 런 접근 중!
@@ -671,6 +740,8 @@ StageSchedule:
   Recruit: '빅 런이 온다! 아르바이트 대모집 '
   RecruitTeamContest: '아르바이트 팀 콘테스트! 팀을 만들어 참가하자! '
   Regular: 레귤러 매치
+  Rules: 룰 보기
+  SeeAllRules: 자세한 룰 보기
   SeeFestivalRecord: 페스티벌 기록 보기
   SuppliedWeaponRandom: 랜덤
   SuppliedWeapons: 지급 무기
@@ -691,6 +762,7 @@ VSHistory:
   Bankara: 카오폴리스 매치
   BankaraChallenge: 카오폴리스 매치 챌린지
   BankaraOpen: 카오폴리스 매치 오픈
+  BankaraPower: '카오폴리스 파워: '
   Cleaning: 정산
   Contribute: '공헌도 '
   Count: ' 카운트'
@@ -700,6 +772,11 @@ VSHistory:
   EquippedGear: 장비했던 기어
   EquippedWeapon: 장비했던 무기
   EstimatedRoomPower: 명의 { 1 } 파워 추정 { 2 }
+  Event: 이벤트 매치
+  EventPair: 페어
+  EventPower: '이벤트 파워: '
+  EventSolo: 솔로
+  EventTeam: 팀
   FesChallenge: 페스티벌 매치(챌린지)
   FesOpen: 페스티벌 매치(오픈)
   FesTeam: ' 팀'
@@ -718,6 +795,7 @@ VSHistory:
   LatestTab: 최근
   Lose: LOSE…
   Measurement: X 파워 계측 중
+  MeasurementEventPower: 이벤트 파워 계측 중
   NextBattle: 다음 배틀
   NoData: 배틀 기록이 없습니다
   NotAvailable: 배틀 기록을 표시할 수 없습니다
@@ -728,6 +806,7 @@ VSHistory:
   Promo: 승급전
   Regular: 레귤러 매치
   SpCount: 스페셜 웨펀 발동 횟수
+  TeamId: 'Team ID: '
   Title: 배틀
   TryCount: 트라이 횟수
   TurfPoint: p
