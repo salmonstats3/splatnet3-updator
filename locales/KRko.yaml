@@ -229,7 +229,7 @@ CoopHistory:
   Gj: GJ!
   GoToStats: 아르바이트 히스토리 목록으로 돌아가기
   GoldenDeliverCount: 모은 황금 연어알
-  HighestScore: 최고 기록
+  HighestScore: 하이 스코어
   History: 아르바이트 히스토리
   JobPoint: 획득 포인트
   JobRatio: 평가 비율
@@ -733,11 +733,11 @@ StageSchedule:
   League: 리그 매치
   Next: 다음
   NoticeBigrun: 빅 런 접근 중!
-  NoticeLimited: 아르바이트 팀 콘테스트 개최 예고!
+  NoticeLimited: 기간 한정 아르바이트 개최 예고!
   NowClosed: 페스티벌 매치 개최 중!
   Open: 오픈!
   OpenBigrun: 빅 런 발생 중!
-  OpenLimited: 아르바이트 팀 콘테스트 개최 중!
+  OpenLimited: 기간 한정 아르바이트 개최 중!
   Private: 프라이빗 매치
   Recruit: '빅 런이 온다! 아르바이트 대모집 '
   RecruitTeamContest: '아르바이트 팀 콘테스트! 팀을 만들어 참가하자! '
@@ -754,7 +754,7 @@ VSHistory:
   100x: 100배 매치
   10x: 10배 매치
   333x: 333배 매치
-  AnnotationExemption: 장시간 적은 인원수로 플레이했으므로 패배로 카운트되지 않았습니다
+  AnnotationExemption: 통신을 종료한 플레이어가 있으므로 패배로 카운트되지 않았습니다
   AnnotationNocontest: 시합이 무효 처리되었습니다
   AnnotationPenalty: 시합이 정상적으로 종료되지 않았습니다
   Attack: 공격
