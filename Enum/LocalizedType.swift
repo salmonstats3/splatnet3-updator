@@ -205,12 +205,16 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopStage_Carousel
 	/// ムニ・エール海洋発電所
 	case CoopStage_Shakedent
+	/// すじこジャンクション跡
+	case CoopStage_Shakehighway
 	/// 難破船ドン・ブラコ
 	case CoopStage_Shakeship
 	/// アラマキ砦
 	case CoopStage_Shakespiral
 	/// シェケナダム
 	case CoopStage_Shakeup
+	/// マテガイ放水路
+	case CoopStage_Temple
 	/// アラマキ砦
 	case CoopStage_Tutorial
 	/// ？？？
