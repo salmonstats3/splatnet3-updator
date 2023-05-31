@@ -23,8 +23,8 @@ Catalog:
   Available: Intercambiable
   BigrunBonus: ¡Big Run en curso! ¡Obtén un <em>20 % extra</em> de puntos!
   BonusDescription: ¡Aumenta tu nivel de catálogo para<br />poder obtener una caja
-    sorpresa!
-  BonusGuide: Obtendrás una caja sorpresa por cada 10 niveles que subas.
+    misteriosa!
+  BonusGuide: Obtendrás una caja misteriosa por cada 10 niveles que subas.
   BonusTitle: ¡Bonificación por nivel 101!
   Byname: Alias
   CardPack: Paquete de cartas
@@ -46,7 +46,7 @@ Catalog:
   ItemAmount: ×
   Level: Nivel
   Limit: 'Hasta '
-  MysteryBox: Caja sorpresa
+  MysteryBox: Caja misteriosa
   NamePlateBg: Fondo
   NextBonus: Próximo
   Page: 'Página '
@@ -789,11 +789,11 @@ StageSchedule:
   League: Combate del torneo
   Next: Próximo
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de alianza alevínica!
+  NoticeLimited: ¡Anuncio de tarea temporal!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Alianza alevínica disponible!
+  OpenLimited: ¡Tarea temporal disponible!
   Private: Combate privado
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()
   RecruitTeamContest: '¡Forma una cuadrilla y participa en alianza alevínica! '
@@ -810,8 +810,8 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
-  AnnotationExemption: Algunos jugadores se han desconectado. El combate se considera
-    empatado.
+  AnnotationExemption: Como uno o más jugadores no han podido continuar, el combate
+    no se cuenta como derrota.
   AnnotationNocontest: Combate cancelado
   AnnotationPenalty: El combate no se disputó hasta el final.
   Attack: Al ataque
