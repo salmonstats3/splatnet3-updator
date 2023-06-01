@@ -249,7 +249,7 @@ CoopHistory:
   Gj: ✓
   GoToStats: Назад к рабочим показателям
   GoldenDeliverCount: 'Золотых икринок:'
-  HighestScore: Рекорд
+  HighestScore: Рекорды
   History: Рабочие показатели
   JobPoint: Твои очки
   JobRatio: Должность
@@ -528,9 +528,9 @@ History:
   Since: В игре с  (обновление { 1 })
   Summary: Сводка
   Title: Хроника
-  TotalTurfPoint: Очки за прокрас
+  TotalTurfPoint: Прокрас
   TotalWin: Всего побед
-  TurfPoint: ''
+  TurfPoint: ' очк.'
   Udemae: Разряд
   Weapon: Оружие
   WeaponUsage: Использование оружия
@@ -785,11 +785,11 @@ StageSchedule:
   League: Бой лиги
   Next: Следующий
   NoticeBigrun: Big Run скоро начнется!
-  NoticeLimited: 'Объявление: временная смена!'
+  NoticeLimited: 'Объявление: скоро начнется икорный овертайм!'
   NowClosed: Идет Сплатфест!
   Open: Сейчас
   OpenBigrun: Идет Big Run!
-  OpenLimited: Доступна временная смена!
+  OpenLimited: Доступен икорный овертайм!
   Private: Частный бой
   Recruit: Идет Big Run! «Потапыч Inc.» нанимает всех подряд! Всех-всех! ()
   RecruitTeamContest: 'Доступен икорный овертайм. Собери себе команду коллег для особой
@@ -807,8 +807,7 @@ VSHistory:
   100x: Бой x100
   10x: Бой x10
   333x: Бой x333
-  AnnotationExemption: Так как некоторые игроки не смогли продолжить бой, поражение
-    не будет засчитано.
+  AnnotationExemption: Из-за недостаточного количества игроков бой завершен вничью.
   AnnotationNocontest: Результатов нет.
   AnnotationPenalty: Бой не был завершен.
   Attack: Нападающие
