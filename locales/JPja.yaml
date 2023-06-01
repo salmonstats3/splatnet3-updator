@@ -225,7 +225,7 @@ CoopHistory:
   Gj: GJ!
   GoToStats: バイトヒストリー一覧に戻る
   GoldenDeliverCount: 集めた金イクラ
-  HighestScore: 最高きろく
+  HighestScore: ハイスコア
   History: バイトヒストリー
   JobPoint: 獲得ポイント
   JobRatio: 評価レート
@@ -724,11 +724,11 @@ StageSchedule:
   League: リーグマッチ
   Next: つぎ
   NoticeBigrun: ビッグラン接近中！
-  NoticeLimited: バイトチームコンテスト開催予告！
+  NoticeLimited: 期間限定バイト開催予告！
   NowClosed: フェスマッチ開催中！
   Open: オープン！
   OpenBigrun: ビッグラン発生中！
-  OpenLimited: バイトチームコンテスト開催中！
+  OpenLimited: 期間限定バイト開催中！
   Private: プライベートマッチ
   Recruit: 'ビッグランがやってくる！！バイト大募集 '
   RecruitTeamContest: 'バイトチームコンテスト！チームを組んで参加しよう！  '
@@ -745,7 +745,7 @@ VSHistory:
   100x: １００倍マッチ
   10x: １０倍マッチ
   333x: ３３３倍マッチ
-  AnnotationExemption: 人数が少ない時間が続いたため、負けとしてカウントされませんでした
+  AnnotationExemption: 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
   AnnotationNocontest: 無効試合になりました
   AnnotationPenalty: 正常に試合が終了しませんでした
   Attack: 攻撃
