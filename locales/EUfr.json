@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Les invités peuvent accéder à l'adresse d'invitation depuis un appareil connecté sur lequel l'appli Nintendo Switch Online a été installée.",
     "ShareUrl": "Partager l'adresse Internet",
     "Subtitle": "Crée des sessions pour des matchs privés directement d'ici !",
-    "Title": "Créer session"
+    "Title": "Créer session",
+    "Annotation04": "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes."
   }
 }

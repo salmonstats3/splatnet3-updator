@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Nintendo Switch Online 앱이 설치된 스마트폰으로 초대 URL에 접속해야 합니다.",
     "ShareUrl": "URL 공유",
     "Subtitle": "편리한 방 만들기 서비스",
-    "Title": "방 만들기"
+    "Title": "방 만들기",
+    "Annotation04": "방이 30분 이상 비워져 있으면 자동으로 폐쇄됩니다."
   }
 }

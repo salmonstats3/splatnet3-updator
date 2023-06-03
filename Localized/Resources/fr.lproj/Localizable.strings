@@ -871,6 +871,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "Viens faire des œufs sup' !";
 Carousel_TeamContestResult = "Résultats du défi œuf sup' !";
+RoomCreator_Annotation04 = "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes.";
 CoopHistory_About = "À propos de";
 CoopHistory_ActualValue = "Réel";
 CoopHistory_Appearances = "Apparitions";

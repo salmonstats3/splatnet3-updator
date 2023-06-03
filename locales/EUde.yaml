@@ -696,6 +696,7 @@ RoomCreator:
     bzw. ihre Benachrichtigungen beitreten, auch wenn sie nicht über die Einladungs-URL
     verfügen.
   Annotation03: 'Hinweis: In diesem Raum kann kein Voice-Chat genutzt werden.'
+  Annotation04: 'Leere Räume werden nach 30 Minuten automatisch geschlossen.   '
   AppName: Raum-Erstellung
   Approve: Raum betreten
   Back: Zurück zur Hauptseite

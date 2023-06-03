@@ -871,6 +871,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "Meld je aan voor een bedrijfseitje!";
 Carousel_TeamContestResult = "Bedrijfseitje-uitslag!";
+RoomCreator_Annotation04 = "Een kamer zonder spelers wordt na 30 minuten automatisch gesloten.";
 CoopHistory_About = "Over";
 CoopHistory_ActualValue = "Werkelijk";
 CoopHistory_Appearances = "Verschijningen";

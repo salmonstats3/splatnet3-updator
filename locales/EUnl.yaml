@@ -699,6 +699,7 @@ RoomCreator:
     het vriendenmenu of via de berichten, zelfs als ze de uitnodigings-URL niet hebben.
   Annotation03: Houd er ook rekening mee dat voicechat niet kan worden gebruikt in
     deze kamer.
+  Annotation04: Een kamer zonder spelers wordt na 30 minuten automatisch gesloten.
   AppName: Kamer maken
   Approve: Kamer betreden
   Back: Naar het beginscherm

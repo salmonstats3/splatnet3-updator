@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Eingeladene Spieler können mithilfe eines Smartgeräts mit installierter Nintendo Switch Online-App auf diese URL zugreifen.",
     "ShareUrl": "URL teilen",
     "Subtitle": "Hier erstellst du Räume für private Kämpfe!",
-    "Title": "Raum-Erstellung"
+    "Title": "Raum-Erstellung",
+    "Annotation04": "Leere Räume werden nach 30 Minuten automatisch geschlossen.   "
   }
 }

@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "¡Participa en alianza alevínica!";
 Carousel_TeamContestResult = "¡Hay resultados de alianza alevínica!";
+RoomCreator_Annotation04 = "Las salas vacías se cierran automáticamente pasados 30 minutos.";
 CoopHistory_About = "Acerca de";
 CoopHistory_ActualValue = "Actual";
 CoopHistory_Appearances = "Comparecencias";

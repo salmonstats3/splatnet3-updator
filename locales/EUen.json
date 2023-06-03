@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Invitees can access the invitation URL from a smart device with the Nintendo Switch Online app installed.",
     "ShareUrl": "Share URL",
     "Subtitle": "Create rooms for Private Battles right here!",
-    "Title": "Room Creation"
+    "Title": "Room Creation",
+    "Annotation04": "Once created, the room will close automatically if it has been empty for 30 minutes or longer."
   }
 }

@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "バイトチームコンテストに参加しよう！";
 Carousel_TeamContestResult = "バイトチームコンテスト結果発表！";
+RoomCreator_Annotation04 = "作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。";
 CoopHistory_About = "About";
 CoopHistory_ActualValue = "実測値";
 CoopHistory_Appearances = "外観";

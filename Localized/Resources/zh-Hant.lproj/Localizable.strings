@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "參加團隊打工競賽吧！";
 Carousel_TeamContestResult = "團隊打工競賽結果公布！";
+RoomCreator_Annotation04 = "如果超過30分鐘都沒有人進入已建立的房間，房間就會自動關閉。";
 CoopHistory_About = "關於";
 CoopHistory_ActualValue = "實際的";
 CoopHistory_Appearances = "外觀";

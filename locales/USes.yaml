@@ -696,6 +696,7 @@ RoomCreator:
   Annotation02: Otros jugadores del canal y tus amigos podrán unirse por medio de
     la lista de amigos o las notificaciones, incluso si no tienen el enlace de invitación.
   Annotation03: Ten en cuenta que en este grupo no puede usarse el chat de voz.
+  Annotation04: Los grupos vacíos se cierran automáticamente luego de 30 minutos.
   AppName: Grupos
   Approve: Unirse al grupo
   Back: Volver al inicio

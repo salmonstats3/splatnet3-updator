@@ -643,6 +643,7 @@ RoomCreator:
   Annotation01: 此房間與一般的私人比賽不同，所有知道邀請URL的玩家都可以參加。
   Annotation02: 朋友或頻道成員即使不知道邀請URL，也可以透過通知或是朋友列表前往此房間會合。
   Annotation03: 此外，在此房間中將無法使用語音聊天。
+  Annotation04: 如果超過30分鐘都沒有人進入已建立的房間，房間就會自動關閉。
   AppName: 建房
   Approve: 參加房間
   Back: 返回主頁

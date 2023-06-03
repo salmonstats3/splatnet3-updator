@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "Sign Up for Some Eggstra Work!";
 Carousel_TeamContestResult = "Eggstra Work Results!";
+RoomCreator_Annotation04 = "Once created, the room will close automatically if it has been empty for 30 minutes or longer.";
 CoopHistory_About = "About";
 CoopHistory_ActualValue = "Actual";
 CoopHistory_Appearances = "Appearances";

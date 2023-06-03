@@ -651,6 +651,7 @@ RoomCreator:
   Annotation01: 일반 프라이빗 매치와는 달리 초대 URL을 아는 플레이어는 누구든 참가할 수 있습니다.
   Annotation02: 친구 및 채널 멤버는 초대 URL을 몰라도 친구 리스트 및 알림에서 이 방에 합류할 수 있습니다.
   Annotation03: 또한, 이 방에서는 보이스챗을 이용할 수 없습니다.
+  Annotation04: 방이 30분 이상 비워져 있으면 자동으로 폐쇄됩니다.
   AppName: 방 만들기
   Approve: 방에 참가하기
   Back: 홈으로 돌아가기

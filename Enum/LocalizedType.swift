@@ -1753,6 +1753,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Carousel_TeamContestOpening
 	/// バイトチームコンテスト結果発表！
 	case Carousel_TeamContestResult
+	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
+	case RoomCreator_Annotation04
 	/// About
 	case CoopHistory_About
 	/// 実測値

@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Quien invites podrá acceder a la URL de invitación si tiene instalada la aplicación Nintendo Switch Online en su teléfono móvil.",
     "ShareUrl": "Compartir la URL",
     "Subtitle": "¡Aquí puedes crear salas para combates privados!",
-    "Title": "Crear una sala"
+    "Title": "Crear una sala",
+    "Annotation04": "Las salas vacías se cierran automáticamente pasados 30 minutos."
   }
 }

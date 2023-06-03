@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "請對方透過已安裝Nintendo Switch Online應用程式的智慧型手機開啟邀請URL吧！",
     "ShareUrl": "分享URL",
     "Subtitle": "便利的房間建立服務",
-    "Title": "建房"
+    "Title": "建房",
+    "Annotation04": "如果超過30分鐘都沒有人進入已建立的房間，房間就會自動關閉。"
   }
 }

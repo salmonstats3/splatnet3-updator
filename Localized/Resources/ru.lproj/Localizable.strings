@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "Нужны работники для икорного овертайма!";
 Carousel_TeamContestResult = "Итоги икорного овертайма";
+RoomCreator_Annotation04 = "Если в комнате нет игроков в течение 30 минут, то она будет автоматически закрыта.";
 CoopHistory_About = "О сайте";
 CoopHistory_ActualValue = "Фактический";
 CoopHistory_Appearances = "Внешний вид";

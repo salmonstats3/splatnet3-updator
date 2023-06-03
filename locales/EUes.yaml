@@ -698,6 +698,7 @@ RoomCreator:
   Annotation02: Otros jugadores del canal y tus amigos podrán acceder por medio de
     la lista de amigos o las notificaciones, incluso si no disponen de URL de invitación.
   Annotation03: Ten en cuenta que en esta sala no puede usarse el chat de voz.
+  Annotation04: Las salas vacías se cierran automáticamente pasados 30 minutos.
   AppName: Creación de sala
   Approve: Entrar en la sala
   Back: Volver al inicio

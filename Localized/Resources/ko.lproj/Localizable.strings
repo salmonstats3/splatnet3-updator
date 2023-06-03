@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "아르바이트 팀 콘테스트에 참가하자!";
 Carousel_TeamContestResult = "아르바이트 팀 콘테스트 결과 발표!";
+RoomCreator_Annotation04 = "방이 30분 이상 비워져 있으면 자동으로 폐쇄됩니다.";
 CoopHistory_About = "소개";
 CoopHistory_ActualValue = "실제의";
 CoopHistory_Appearances = "외모";

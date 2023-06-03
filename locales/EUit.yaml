@@ -697,6 +697,7 @@ RoomCreator:
   Annotation02: Amici o altri giocatori nel tuo canale possono accedere a questa stanza
     tramite il menu Amici o l'opzione Notifiche, anche se non hanno l'indirizzo d'invito.
   Annotation03: Ricorda che la chat vocale non può essere usata in questa stanza.
+  Annotation04: Una stanza senza giocatori verrà chiusa dopo 30 minuti.
   AppName: Creare una stanza
   Approve: Accedi alla stanza
   Back: Torna alla pagina iniziale

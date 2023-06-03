@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "Team-Wettkämpfer gesucht!";
 Carousel_TeamContestResult = "Team-Wettkampf-Ergebnisse!";
+RoomCreator_Annotation04 = "Leere Räume werden nach 30 Minuten automatisch geschlossen.   ";
 CoopHistory_About = "Über";
 CoopHistory_ActualValue = "Aktuell";
 CoopHistory_Appearances = "Auftritte";

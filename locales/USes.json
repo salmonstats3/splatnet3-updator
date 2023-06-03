@@ -928,6 +928,7 @@
     "ShareInvitationUrlGuide": "Los invitados podrán acceder al enlace mediante un dispositivo inteligente que tenga instalada la aplicación Nintendo Switch Online.",
     "ShareUrl": "Compartir enlace",
     "Subtitle": "¡Aquí puedes crear grupos para combates privados!",
-    "Title": "Grupos"
+    "Title": "Grupos",
+    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos."
   }
 }

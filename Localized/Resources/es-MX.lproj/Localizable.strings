@@ -870,6 +870,7 @@ Carousel_OfficialTournament = "Splatoon甲子園開催中！";
 Carousel_OfficialTournamentFinal = "Splatoon甲子園決勝戦";
 Carousel_TeamContestOpening = "¡Participa en la recolección extra!";
 Carousel_TeamContestResult = "¡Resultados de la recolección extra!";
+RoomCreator_Annotation04 = "Los grupos vacíos se cierran automáticamente luego de 30 minutos.";
 CoopHistory_About = "Acerca de";
 CoopHistory_ActualValue = "Actual";
 CoopHistory_Appearances = "Comparecencias";
