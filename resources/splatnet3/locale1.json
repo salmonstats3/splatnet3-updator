@@ -777,5 +777,6 @@
   "Carousel.official_tournament": "Splatoon甲子園開催中！",
   "Carousel.official_tournament_final": "Splatoon甲子園決勝戦",
   "Carousel.team_contest_opening": "Sign Up for Some Eggstra Work!",
-  "Carousel.team_contest_result": "Eggstra Work Results!"
+  "Carousel.team_contest_result": "Eggstra Work Results!",
+  "RoomCreator.annotation04": "Once created, the room will close automatically if it has been empty for 30 minutes or longer."
 }
