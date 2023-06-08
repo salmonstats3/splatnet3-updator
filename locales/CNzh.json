@@ -667,6 +667,7 @@
     "Annotation01": "与一般的私人比赛不同，知道邀请URL的玩家都可以参加。",
     "Annotation02": "好友或频道内的成员即使不知道邀请URL，也可以通过好友列表或通知会合至该房间。",
     "Annotation03": "另外，在该房间中无法使用语音聊天。",
+    "Annotation04": "如果超过30分钟都没有人进入已创建的房间，房间就会自动关闭。",
     "AppName": "建房",
     "Approve": "参加房间",
     "Back": "返回主页",
@@ -702,8 +703,7 @@
     "ShareInvitationUrlGuide": "让对方用安装了Nintendo Switch Online软件的智能手机访问“邀请URL”吧。",
     "ShareUrl": "分享URL",
     "Subtitle": "便利的创建房间服务",
-    "Title": "建房",
-    "Annotation04": "如果超过30分钟都没有人进入已创建的房间，房间就会自动关闭。"
+    "Title": "建房"
   },
   "Settings": {
     "Acknowledgements": "权利标识",
