@@ -667,6 +667,7 @@
     "Annotation01": "Im Gegensatz zu Standard-Privatkämpfen kann an diesem Kampf jeder Spieler teilnehmen, der über die URL verfügt.",
     "Annotation02": "Freunde oder Channel-Mitglieder können diesem Raum über die Freundesliste bzw. ihre Benachrichtigungen beitreten, auch wenn sie nicht über die Einladungs-URL verfügen.",
     "Annotation03": "Hinweis: In diesem Raum kann kein Voice-Chat genutzt werden.",
+    "Annotation04": "Leere Räume werden nach 30 Minuten automatisch geschlossen.   ",
     "AppName": "Raum-Erstellung",
     "Approve": "Raum betreten",
     "Back": "Zurück zur Hauptseite",
@@ -702,8 +703,7 @@
     "ShareInvitationUrlGuide": "Eingeladene Spieler können mithilfe eines Smartgeräts mit installierter Nintendo Switch Online-App auf diese URL zugreifen.",
     "ShareUrl": "URL teilen",
     "Subtitle": "Hier erstellst du Räume für private Kämpfe!",
-    "Title": "Raum-Erstellung",
-    "Annotation04": "Leere Räume werden nach 30 Minuten automatisch geschlossen.   "
+    "Title": "Raum-Erstellung"
   },
   "Settings": {
     "Acknowledgements": "Copyrights",

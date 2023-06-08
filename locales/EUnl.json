@@ -667,6 +667,7 @@
     "Annotation01": "Elke speler die de URL kent, kan aan dit gevecht meedoen, anders dan bij normale privégevechten.",
     "Annotation02": "Vrienden of andere spelers in je poel kunnen deze kamer betreden via het vriendenmenu of via de berichten, zelfs als ze de uitnodigings-URL niet hebben.",
     "Annotation03": "Houd er ook rekening mee dat voicechat niet kan worden gebruikt in deze kamer.",
+    "Annotation04": "Een kamer zonder spelers wordt na 30 minuten automatisch gesloten.",
     "AppName": "Kamer maken",
     "Approve": "Kamer betreden",
     "Back": "Naar het beginscherm",
@@ -702,8 +703,7 @@
     "ShareInvitationUrlGuide": "Uitgenodigde spelers kunnen de uitnodigings-URL openen op een smartapparaat waarop de Nintendo Switch Online-app is geïnstalleerd.",
     "ShareUrl": "URL delen",
     "Subtitle": "Hier kun je kamers maken voor privégevechten!",
-    "Title": "Kamer maken",
-    "Annotation04": "Een kamer zonder spelers wordt na 30 minuten automatisch gesloten."
+    "Title": "Kamer maken"
   },
   "Settings": {
     "Acknowledgements": "Copyrights",

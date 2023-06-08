@@ -667,6 +667,7 @@
     "Annotation01": "Tous les joueurs connaissant l'adresse Internet peuvent rejoindre le match, contrairement aux matchs privés habituels.",
     "Annotation02": "Tes amis et les autres joueurs du canal peuvent rejoindre cette session via le menu Amis ou les notifications, même s'ils ne disposent pas de l'adresse d'invitation.",
     "Annotation03": "Par ailleurs, le bavardage ne peut pas être utilisé dans cette session.",
+    "Annotation04": "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes.",
     "AppName": "Créer session",
     "Approve": "Rejoindre la session",
     "Back": "Retour à l'accueil",
@@ -702,8 +703,7 @@
     "ShareInvitationUrlGuide": "Les invités peuvent accéder à l'adresse d'invitation depuis un appareil intelligent sur lequel l'application Nintendo Switch Online a été installée.",
     "ShareUrl": "Partager l'adresse Internet",
     "Subtitle": "Crée des sessions pour des matchs privés directement d'ici!",
-    "Title": "Créer session",
-    "Annotation04": "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes."
+    "Title": "Créer session"
   },
   "Settings": {
     "Acknowledgements": "Droits d'auteur",
