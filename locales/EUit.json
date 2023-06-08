@@ -667,7 +667,6 @@
     "Annotation01": "A differenza delle normali partite private, qualsiasi giocatore che conosce l'indirizzo può partecipare a questa partita.",
     "Annotation02": "Amici o altri giocatori nel tuo canale possono accedere a questa stanza tramite il menu Amici o l'opzione Notifiche, anche se non hanno l'indirizzo d'invito.",
     "Annotation03": "Ricorda che la chat vocale non può essere usata in questa stanza.",
-    "Annotation04": "Una stanza senza giocatori verrà chiusa dopo 30 minuti.",
     "AppName": "Creare una stanza",
     "Approve": "Accedi alla stanza",
     "Back": "Torna alla pagina iniziale",
@@ -703,7 +702,8 @@
     "ShareInvitationUrlGuide": "I giocatori invitati possono usare l'indirizzo ricevuto tramite l'app per dispositivi smart Nintendo Switch Online.",
     "ShareUrl": "Invia indirizzo",
     "Subtitle": "Qui puoi creare una stanza per le partite private!",
-    "Title": "Creare una stanza"
+    "Title": "Creare una stanza",
+    "Annotation04": "Una stanza senza giocatori verrà chiusa dopo 30 minuti."
   },
   "Settings": {
     "Acknowledgements": "Copyright",

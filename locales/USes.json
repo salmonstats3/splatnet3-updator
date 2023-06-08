@@ -667,7 +667,6 @@
     "Annotation01": "Al contrario que en los combates privados ordinarios, aquí puede participar cualquier jugador que tenga el enlace de invitación.",
     "Annotation02": "Otros jugadores del canal y tus amigos podrán unirse por medio de la lista de amigos o las notificaciones, incluso si no tienen el enlace de invitación.",
     "Annotation03": "Ten en cuenta que en este grupo no puede usarse el chat de voz.",
-    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos.",
     "AppName": "Grupos",
     "Approve": "Unirse al grupo",
     "Back": "Volver al inicio",
@@ -703,7 +702,8 @@
     "ShareInvitationUrlGuide": "Los invitados podrán acceder al enlace mediante un dispositivo inteligente que tenga instalada la aplicación Nintendo Switch Online.",
     "ShareUrl": "Compartir enlace",
     "Subtitle": "¡Aquí puedes crear grupos para combates privados!",
-    "Title": "Grupos"
+    "Title": "Grupos",
+    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos."
   },
   "Settings": {
     "Acknowledgements": "Derechos de autor",

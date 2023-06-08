@@ -1189,8 +1189,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case RoomCreator_Annotation02
 	/// また、この部屋ではボイスチャットを利用できません。
 	case RoomCreator_Annotation03
-	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
-	case RoomCreator_Annotation04
 	/// ヘヤタテ
 	case RoomCreator_AppName
 	/// 部屋に参加する
@@ -1569,6 +1567,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Xcrown
 	/// <small>Xパワー</small> 
 	case XRanking_Xpower
+	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
+	case RoomCreator_Annotation04
 	/// ビッグランから街を守れ！
 	case Carousel_BigrunOpening
 	/// ビッグラン結果発表！
@@ -1595,6 +1595,10 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Carousel_StatsLatestSeason
 	/// バトル戦績
 	case Carousel_VsHistory
+	/// 期間限定
+	case CoopHistory_Limited
+	/// リーグマッチ
+	case StageSchedule_League
 	/// オレンジの空がオイリーだよね～。
 	case Challenge_Challenge210Description
 	/// 二つ名
@@ -1661,10 +1665,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Gratitude
 	/// 旅の途中<br />～どの道を塗るかより、塗った道をどう進むか～
 	case Challenge_Journey2Title
-	/// 期間限定
-	case CoopHistory_Limited
-	/// リーグマッチ
-	case StageSchedule_League
 	/// 人の { 1 } パワー 推定 { 2 }
 	case VSHistory_EstimatedRoomPower
 	/// 「ハイカラシティ」配信中！

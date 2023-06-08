@@ -667,7 +667,6 @@
     "Annotation01": "Al contrario que en los combates privados ordinarios, aquí puede participar cualquier jugador que conozca la URL de invitación.",
     "Annotation02": "Otros jugadores del canal y tus amigos podrán acceder por medio de la lista de amigos o las notificaciones, incluso si no disponen de URL de invitación.",
     "Annotation03": "Ten en cuenta que en esta sala no puede usarse el chat de voz.",
-    "Annotation04": "Las salas vacías se cierran automáticamente pasados 30 minutos.",
     "AppName": "Creación de sala",
     "Approve": "Entrar en la sala",
     "Back": "Volver al inicio",
@@ -703,7 +702,8 @@
     "ShareInvitationUrlGuide": "Quien invites podrá acceder a la URL de invitación si tiene instalada la aplicación Nintendo Switch Online en su teléfono móvil.",
     "ShareUrl": "Compartir la URL",
     "Subtitle": "¡Aquí puedes crear salas para combates privados!",
-    "Title": "Crear una sala"
+    "Title": "Crear una sala",
+    "Annotation04": "Las salas vacías se cierran automáticamente pasados 30 minutos."
   },
   "Settings": {
     "Acknowledgements": "Derechos de autor",
