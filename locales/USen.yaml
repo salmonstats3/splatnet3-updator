@@ -249,7 +249,7 @@ CoopHistory:
   Gj: ✓
   GoToStats: Back to Job Logs
   GoldenDeliverCount: Golden Eggs collected
-  HighestScore: High Score
+  HighestScore: All-Time Best
   History: Job Logs
   JobPoint: Your Points
   JobRatio: Pay Grade
@@ -781,11 +781,11 @@ StageSchedule:
   League: League Battle
   Next: Next
   NoticeBigrun: Big Run coming soon!
-  NoticeLimited: 'Announcement: Limited-Time Job!'
+  NoticeLimited: 'Announcement: Eggstra Work coming soon!'
   NowClosed: Splatfest Active!
   Open: Now
   OpenBigrun: Big Run in progress!
-  OpenLimited: Limited-time job available now!
+  OpenLimited: Eggstra Work available now!
   Private: Private Battle
   Recruit: 'Big Run happening now! Grizzco hiring ANYONE! '
   RecruitTeamContest: 'Eggstra Work is available now. Recruit some coworkers and join
@@ -803,8 +803,7 @@ VSHistory:
   100x: 100x Battle
   10x: 10x Battle
   333x: 333x Battle
-  AnnotationExemption: Because one or more players were not able to continue, the
-    match will not count as a loss.
+  AnnotationExemption: Some players disconnected early on, so the match was a draw.
   AnnotationNocontest: No contest.
   AnnotationPenalty: The match was not fully completed.
   Attack: Attacking
