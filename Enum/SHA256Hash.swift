@@ -1,7 +1,7 @@
 //
 //  SHA256Hash.swift
 //
-//  Created by tkgstrator on 2023/06/19
+//  Created by tkgstrator on 2023/06/20
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
