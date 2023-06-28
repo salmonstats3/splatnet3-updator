@@ -563,7 +563,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_GoToStats
 	/// 集めた金イクラ
 	case CoopHistory_GoldenDeliverCount
-	/// ハイスコア
+	/// 最高きろく
 	case CoopHistory_HighestScore
 	/// バイトヒストリー
 	case CoopHistory_History
@@ -1233,7 +1233,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Next
 	/// ビッグラン接近中！
 	case StageSchedule_NoticeBigrun
-	/// 期間限定バイト開催予告！
+	/// バイトチームコンテスト開催予告！
 	case StageSchedule_NoticeLimited
 	/// フェスマッチ開催中！
 	case StageSchedule_NowClosed
@@ -1241,7 +1241,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Open
 	/// ビッグラン発生中！
 	case StageSchedule_OpenBigrun
-	/// 期間限定バイト開催中！
+	/// バイトチームコンテスト開催中！
 	case StageSchedule_OpenLimited
 	/// プライベートマッチ
 	case StageSchedule_Private
@@ -1267,7 +1267,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_10x
 	/// ３３３倍マッチ
 	case VSHistory_333x
-	/// 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
+	/// 人数が少ない時間が続いたため、負けとしてカウントされませんでした
 	case VSHistory_AnnotationExemption
 	/// 無効試合になりました
 	case VSHistory_AnnotationNocontest
@@ -1457,6 +1457,18 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Xcrown
 	/// <small>Xパワー</small> 
 	case XRanking_Xpower
+	/// 「ハイカラシティ」配信中！
+	case Carousel_ExpansionPass
+	/// 「サイド・オーダー」配信中！
+	case Carousel_ExpansionPass2
+	/// Splatoon甲子園開催中！
+	case Carousel_OfficialTournament
+	/// Splatoon甲子園決勝戦
+	case Carousel_OfficialTournamentFinal
+	/// バイトチームコンテストに参加しよう！
+	case Carousel_TeamContestOpening
+	/// バイトチームコンテスト結果発表！
+	case Carousel_TeamContestResult
 	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
 	case Catalog_EndOfSeason
 	/// バイトチームコンテスト
@@ -1497,6 +1509,22 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopRecord_TeamContest
 	/// サーモンランのきろく
 	case CoopRecord_Title
+	/// もうすぐ <em></em> が終了します。
+	case Footer_EndOfSeason_
+	/// ナワバトラー
+	case FriendList_InMiniGame
+	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case History_PastXmatchAnnotation
+	/// マイコーデ
+	case MyOutfits_Hashtag
+	/// シェア
+	case MyOutfits_Share
+	/// エキスパンション・パス 購入サイトへ
+	case Settings_ExpansionPass
+	/// バイトチームコンテスト！チームを組んで参加しよう！  
+	case StageSchedule_RecruitTeamContest
+	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case XRanking_PastRankingsAnnotation
 	/// イベントマッチ
 	case EventMatchRanking_AppName
 	/// もっと見る
@@ -1515,12 +1543,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case EventMatchRanking_Title
 	/// トップ100
 	case EventMatchRanking_Top100
-	/// もうすぐ <em></em> が終了します。
-	case Footer_EndOfSeason_
 	/// イベントマッチ：<em></em>開催中！
 	case Footer_EventMatchNowOpening
-	/// ナワバトラー
-	case FriendList_InMiniGame
 	/// 参加回数： 
 	case History_Attended
 	/// バンカラマッチ オープン
@@ -1535,20 +1559,16 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_HighestLeaguePowerPair
 	/// 最高リーグパワー チーム
 	case History_HighestLeaguePowerTeam
-	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case History_PastXmatchAnnotation
 	/// 銀
 	case History_Silver
-	/// マイコーデ
-	case MyOutfits_Hashtag
-	/// シェア
-	case MyOutfits_Share
 	/// 通常のプライベートマッチと異なり、招待URLを知っているプレイヤーは誰でも参加することができます。
 	case RoomCreator_Annotation01
 	/// フレンドやチャンネルのメンバーは招待URLを知らなくてもフレンドリストや通知からこの部屋に合流することが可能です。
 	case RoomCreator_Annotation02
 	/// また、この部屋ではボイスチャットを利用できません。
 	case RoomCreator_Annotation03
+	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
+	case RoomCreator_Annotation04
 	/// ヘヤタテ
 	case RoomCreator_AppName
 	/// 部屋に参加する
@@ -1621,8 +1641,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case RoomCreator_Subtitle
 	/// ヘヤタテ
 	case RoomCreator_Title
-	/// エキスパンション・パス 購入サイトへ
-	case Settings_ExpansionPass
 	/// イベントマッチ
 	case StageSchedule_Event
 	/// いま
@@ -1641,8 +1659,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_EventUnknownData
 	/// Webブラウザが開きます
 	case StageSchedule_GuideOpenBrowser
-	/// バイトチームコンテスト！チームを組んで参加しよう！  
-	case StageSchedule_RecruitTeamContest
 	/// ルールを見る
 	case StageSchedule_Rules
 	/// 詳しいルールはこちら
@@ -1663,10 +1679,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_MeasurementEventPower
 	/// Team ID: 
 	case VSHistory_TeamId
-	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case XRanking_PastRankingsAnnotation
-	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
-	case RoomCreator_Annotation04
 	/// イカリング３のアルバムの画像を表示します。
 	case Widgets_AlbumDescription
 	/// スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！
@@ -1743,18 +1755,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
-	/// 「ハイカラシティ」配信中！
-	case Carousel_ExpansionPass
-	/// 「サイド・オーダー」配信中！
-	case Carousel_ExpansionPass2
-	/// Splatoon甲子園開催中！
-	case Carousel_OfficialTournament
-	/// Splatoon甲子園決勝戦
-	case Carousel_OfficialTournamentFinal
-	/// バイトチームコンテストに参加しよう！
-	case Carousel_TeamContestOpening
-	/// バイトチームコンテスト結果発表！
-	case Carousel_TeamContestResult
 	/// About
 	case CoopHistory_About
 	/// 実測値
