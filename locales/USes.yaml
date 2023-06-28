@@ -787,11 +787,11 @@ StageSchedule:
   League: Combate de liga
   Next: Siguiente
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de recolección extra!
+  NoticeLimited: ¡Anuncio de tarea temporal!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Recolección extra disponible!
+  OpenLimited: ¡Tarea temporal disponible!
   Private: Combate privado
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca personal! ()
   RecruitTeamContest: '¡Reúne un grupo de trabajo y aprovecha la recolección extra! '
@@ -808,8 +808,8 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
-  AnnotationExemption: Algunos jugadores se desconectaron. El combate se considera
-    empatado.
+  AnnotationExemption: Como uno o más jugadores no pudieron continuar, el combate
+    no se cuenta como derrota.
   AnnotationNocontest: Combate cancelado
   AnnotationPenalty: El combate no se disputó hasta el final.
   Attack: Al ataque
