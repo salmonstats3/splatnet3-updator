@@ -514,7 +514,6 @@
     "Weapon": "Armas",
     "WeaponUsage": "Frecuencia de uso",
     "Xmatch": "Combate X",
-    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada.",
     "Attended": "Participaciones: ",
     "BankaraOpen": "Combate caótico (informal)",
     "Bronze": "Bronce",
@@ -522,6 +521,7 @@
     "Gold": "Oro",
     "HighestLeaguePowerPair": "Máx. fuerza de liga (pareja)",
     "HighestLeaguePowerTeam": "Máx. fuerza de liga (equipo)",
+    "PastXmatchAnnotation": "Las estadísticas de los combates X se calculan y publican al concluir la temporada.",
     "Silver": "Plata"
   },
   "Landing": {
@@ -684,11 +684,11 @@
     "League": "Combate de liga",
     "Next": "Siguiente",
     "NoticeBigrun": "¡Big Run a la vista!",
-    "NoticeLimited": "¡Anuncio de recolección extra!",
+    "NoticeLimited": "¡Anuncio de tarea temporal!",
     "NowClosed": "¡Festival en curso!",
     "Open": "Actual",
     "OpenBigrun": "¡Big Run en marcha!",
-    "OpenLimited": "¡Recolección extra disponible!",
+    "OpenLimited": "¡Tarea temporal disponible!",
     "Private": "Combate privado",
     "Recruit": "¡Tenemos Big Run! ¡Don Oso, S. A. busca personal! ()",
     "Regular": "Combate amistoso",
@@ -698,7 +698,6 @@
     "Title": "Calendario",
     "WinRateByRules": "Tasa de victorias",
     "Xmatch": "Combate X",
-    "RecruitTeamContest": "¡Reúne un grupo de trabajo y aprovecha la recolección extra! ",
     "Event": "Combate especial",
     "EventCurrentSchedule": "Actual",
     "EventFuture": "Posterior",
@@ -708,6 +707,7 @@
     "EventNoData": "Calendario sin determinar",
     "EventUnknownData": "(?)",
     "GuideOpenBrowser": "Se abrirá una nueva ventana del navegador.",
+    "RecruitTeamContest": "¡Reúne un grupo de trabajo y aprovecha la recolección extra! ",
     "Rules": "Ver las reglas",
     "SeeAllRules": "Reglas detalladas"
   },
@@ -715,7 +715,7 @@
     "100x": "Bonificación ×100",
     "10x": "Bonificación ×10",
     "333x": "Bonificación ×333",
-    "AnnotationExemption": "Algunos jugadores se desconectaron. El combate se considera empatado.",
+    "AnnotationExemption": "Como uno o más jugadores no pudieron continuar, el combate no se cuenta como derrota.",
     "AnnotationNocontest": "Combate cancelado",
     "AnnotationPenalty": "El combate no se disputó hasta el final.",
     "Attack": "Al ataque",
@@ -853,7 +853,6 @@
     "Annotation01": "Al contrario que en los combates privados ordinarios, aquí puede participar cualquier jugador que tenga el enlace de invitación.",
     "Annotation02": "Otros jugadores del canal y tus amigos podrán unirse por medio de la lista de amigos o las notificaciones, incluso si no tienen el enlace de invitación.",
     "Annotation03": "Ten en cuenta que en este grupo no puede usarse el chat de voz.",
-    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos.",
     "AppName": "Grupos",
     "Approve": "Unirse al grupo",
     "Back": "Volver al inicio",
@@ -889,7 +888,8 @@
     "ShareInvitationUrlGuide": "Los invitados podrán acceder al enlace mediante un dispositivo inteligente que tenga instalada la aplicación Nintendo Switch Online.",
     "ShareUrl": "Compartir enlace",
     "Subtitle": "¡Aquí puedes crear grupos para combates privados!",
-    "Title": "Grupos"
+    "Title": "Grupos",
+    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos."
   },
   "Widgets": {
     "AlbumDescription": "Muestra las imágenes del álbum de SplatNet 3.",
