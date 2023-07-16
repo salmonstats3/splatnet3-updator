@@ -1,7 +1,7 @@
 //
 //  BadgeKey.swift
 //
-//  Created by tkgstrator on 2023/07/15
+//  Created by tkgstrator on 2023/07/16
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
