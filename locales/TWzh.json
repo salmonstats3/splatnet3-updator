@@ -165,7 +165,9 @@
     "BigrunGold": "金",
     "BigrunSilver": "銀",
     "LimitedPoint": "現有的期間限定點數",
-    "TeamContest": "團隊打工競賽"
+    "TeamContest": "團隊打工競賽",
+    "Annotation01": "每個班次的打工次數不包括因連線中斷等理由而中斷的打工。",
+    "PlayCountBySchedule": "場打工"
   },
   "CoopStage": {
     "Carousel": "醋飯海洋世界",
@@ -238,7 +240,8 @@
     "Title": "目錄",
     "Welcome": "超魷型目錄發布中！",
     "WelcomeDescription": "透過對戰累積目錄點數<br />獲得道具吧！",
-    "EndOfSeason": "<em></em>即將結束，目錄點數<em>1.2倍</em>放送中！"
+    "EndOfSeason": "<em></em>即將結束，目錄點數<em>1.2倍</em>放送中！",
+    "GearSkillChip": "裝備能力碎片"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅程的途中發現了超～酥脆的火熱塗鴉！傳給你看喔～",
@@ -332,7 +335,7 @@
     "Decide": "確定",
     "Download": "下載",
     "End": "結束",
-    "GearPowerBlank": "？",
+    "GearPowerBlank": "問號",
     "Home": "主頁",
     "Ikaring3": "魷魚圈 3",
     "NowLoading": "載入中",
@@ -684,11 +687,11 @@
     "League": "聯盟比賽",
     "Next": "下次",
     "NoticeBigrun": "大型跑接近中！",
-    "NoticeLimited": "期間限定打工舉行預告！",
+    "NoticeLimited": "團隊打工競賽舉行預告！",
     "NowClosed": "祭典比賽舉行中！",
     "Open": "開放！",
     "OpenBigrun": "大型跑發生中！",
-    "OpenLimited": "期間限定打工舉行中！",
+    "OpenLimited": "團隊打工競賽舉行中！",
     "Private": "私人比賽",
     "Recruit": "大型跑要來了！！打工大招募 ",
     "Regular": "一般比賽",
@@ -780,9 +783,10 @@
     "EventPower": "活動戰力 ",
     "EventSolo": "單排",
     "EventTeam": "隊伍",
-    "MeasurementEventPower": "活動戰力計算中",
+    "MeasurementEventPower": "計算中",
     "TeamId": "Team ID：",
-    "EstimatedRoomPower": "人的{ 1 }戰力預估值{ 2 }"
+    "EstimatedRoomPower": "人的{ 1 }戰力預估值{ 2 }",
+    "AbortedMeasurementEventPower": "計算中止"
   },
   "Welcome": {
     "About": "《魷魚圈 3》是《斯普拉遁 3》的連動服務。除了這裡介紹的功能之外，還有很多各式各樣的用途。",

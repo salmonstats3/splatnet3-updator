@@ -42,6 +42,7 @@ Catalog:
   FesBonus: Festival in corso! Moltiplica i punti <em>×1,2</em>!
   Figure: Decorazione
   FoodTicket: Coupon cibo
+  GearSkillChip: Frammenti di abilità
   Got: Urrà!
   Guide: <em>Raggiungi il livello 4 per ottenere un catalogo da Misto mare!</em>
   ItemAmount: ×
@@ -183,7 +184,7 @@ Common:
   GearPowerBlank: Sconosciuto
   Home: Pagina iniziale
   Ikaring3: SplatNet 3
-  NowLoading: Caricamento in corso...
+  NowLoading: Caricamento...
   PullToRefresh: Scorri per aggiornare
   Rainmaker: Bazookarp
   Share: Condividi
@@ -229,6 +230,8 @@ CoopEvent:
 CoopGrade:
   Grade: Dirigente
 CoopHistory:
+  Annotation01: I lavori che si sono conclusi prematuramente a causa di disconnessioni
+    o di altri problemi non sono inclusi nel totale dei lavori di un turno.
   Available: 'Apparizioni '
   AvailableBoss: Salmonarca affrontato
   AverageClearWaves: Media ondate superate
@@ -269,6 +272,7 @@ CoopHistory:
   NotDefeated: Missione fallita...
   P: p
   PlayCount: Lavori completati
+  PlayCountBySchedule: 'Numero di lavori: '
   Previous: Precedente
   Private: Lavoro privato
   Recruit: Assunzioni aperte!
@@ -782,16 +786,16 @@ StageSchedule:
   FestivalDefense: In difesa
   FestivalHolding: In corso!
   FestivalPeriod: ' - { 1 }'
-  Future: Successivi
+  Future: In futuro
   GuideOpenBrowser: Si aprirà una nuova pagina del browser.
   League: Partita di lega
-  Next: Prossimo
+  Next: A seguire
   NoticeBigrun: Big Run in arrivo!
-  NoticeLimited: Annuncio di lavoro a tempo determinato!
+  NoticeLimited: 'Annuncio: sfida tra colleghi in arrivo!'
   NowClosed: Festival in corso!
-  Open: In corso!
+  Open: In corso
   OpenBigrun: Big Run in corso!
-  OpenLimited: Lavoro a tempo determinato ora disponibile!
+  OpenLimited: Sfida tra colleghi ora disponibile!
   Private: Partita privata
   Recruit: Big Run in corso! La Ursus & Co assume CHIUNQUE! ()
   RecruitTeamContest: 'È disponibile la sfida tra colleghi. Radunane qualcuno e unisciti
@@ -809,6 +813,7 @@ VSHistory:
   100x: Battaglia ×100
   10x: Battaglia ×10
   333x: Battaglia ×333
+  AbortedMeasurementEventPower: Calcolo annullato.
   AnnotationExemption: Uno o più giocatori non hanno potuto continuare, quindi la
     partita non verrà contata come una sconfitta.
   AnnotationNocontest: Partita nulla.
@@ -853,7 +858,7 @@ VSHistory:
   LatestTab: Recenti
   Lose: Sconfitta
   Measurement: Calcolo energia X...
-  MeasurementEventPower: Calcolo energia evento...
+  MeasurementEventPower: Calcolo in corso...
   NextBattle: Successiva
   NoData: Non ci sono statistiche di battaglia.
   NotAvailable: Statistiche di battaglia non disponibili

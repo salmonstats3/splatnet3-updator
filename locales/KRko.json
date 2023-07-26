@@ -165,7 +165,9 @@
     "BigrunGold": "금",
     "BigrunSilver": "은",
     "LimitedPoint": "현재 기간 한정 포인트",
-    "TeamContest": "아르바이트 팀 콘테스트"
+    "TeamContest": "아르바이트 팀 콘테스트",
+    "Annotation01": "아르바이트 횟수에는 통신 종료로 중단된 아르바이트가 포함되지 않습니다",
+    "PlayCountBySchedule": "아르바이트 횟수: "
   },
   "CoopStage": {
     "Carousel": "초밥 월드",
@@ -238,7 +240,8 @@
     "Title": "카탈로그",
     "Welcome": "어메이징한 카탈로그 배포 중!",
     "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!",
-    "EndOfSeason": "<em></em> 종료가 머지않았습니다. 카탈로그 포인트 <em>1.2배</em> 서비스 중!"
+    "EndOfSeason": "<em></em> 종료가 머지않았습니다. 카탈로그 포인트 <em>1.2배</em> 서비스 중!",
+    "GearSkillChip": "기어 파워 파편"
   },
   "Challenge": {
     "AboutGraffiti": "여행하다가 끝내주는 그라피티를 발견했으니까 선물할게～",
@@ -684,11 +687,11 @@
     "League": "리그 매치",
     "Next": "다음",
     "NoticeBigrun": "빅 런 접근 중!",
-    "NoticeLimited": "기간 한정 아르바이트 개최 예고!",
+    "NoticeLimited": "아르바이트 팀 콘테스트 개최 예고!",
     "NowClosed": "페스티벌 매치 개최 중!",
     "Open": "오픈!",
     "OpenBigrun": "빅 런 발생 중!",
-    "OpenLimited": "기간 한정 아르바이트 개최 중!",
+    "OpenLimited": "아르바이트 팀 콘테스트 개최 중!",
     "Private": "프라이빗 매치",
     "Recruit": "빅 런이 온다! 아르바이트 대모집 ",
     "Regular": "레귤러 매치",
@@ -780,9 +783,10 @@
     "EventPower": "이벤트 파워: ",
     "EventSolo": "솔로",
     "EventTeam": "팀",
-    "MeasurementEventPower": "이벤트 파워 계측 중",
+    "MeasurementEventPower": "계측 중",
     "TeamId": "Team ID: ",
-    "EstimatedRoomPower": "명의 { 1 } 파워 추정 { 2 }"
+    "EstimatedRoomPower": "명의 { 1 } 파워 추정 { 2 }",
+    "AbortedMeasurementEventPower": "계측 중지"
   },
   "Welcome": {
     "About": "오징어넷 3는 스플래툰 3와 연동하는 서비스입니다.<br />이곳에서 소개한 것들 외에도 다양한 기능이 있습니다.",

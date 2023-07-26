@@ -41,6 +41,7 @@ Catalog:
   FesBonus: ¡Festival en curso! ¡Obtén un <em>20 % extra</em> de puntos!
   Figure: Adorno
   FoodTicket: Cupón de comida
+  GearSkillChip: Fragmentos de potenciador
   Got: Disponible
   Guide: <em>¡Progresa hasta el nivel 4 para obtener el catálogo de Miscelánea Abisal!</em>
   ItemAmount: ×
@@ -228,6 +229,8 @@ CoopEvent:
 CoopGrade:
   Grade: Director
 CoopHistory:
+  Annotation01: No se cuentan los encargos interrumpidos por problemas en la conexión
+    u otras causas.
   Available: 'Apariciones '
   AvailableBoss: Encuentro con el gran jefe
   AverageClearWaves: Media de ofensivas superadas
@@ -268,6 +271,7 @@ CoopHistory:
   NotDefeated: No pudo ser...
   P: ' p'
   PlayCount: 'Encargos completados   '
+  PlayCountBySchedule: 'Encargos: '
   Previous: Anterior
   Private: Trabajo privado
   Recruit: ¡Se busca personal!
@@ -790,11 +794,11 @@ StageSchedule:
   League: Combate del torneo
   Next: Próximo
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de tarea temporal!
+  NoticeLimited: ¡Anuncio de alianza alevínica!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Tarea temporal disponible!
+  OpenLimited: ¡Alianza alevínica disponible!
   Private: Combate privado
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()
   RecruitTeamContest: '¡Forma una cuadrilla y participa en alianza alevínica! '
@@ -811,6 +815,7 @@ VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10
   333x: Bonificación ×333
+  AbortedMeasurementEventPower: Cálculo interrumpido
   AnnotationExemption: Como uno o más jugadores no han podido continuar, el combate
     no se cuenta como derrota.
   AnnotationNocontest: Combate cancelado
@@ -855,7 +860,7 @@ VSHistory:
   LatestTab: Últimos
   Lose: Derrota
   Measurement: Calculando energía X...
-  MeasurementEventPower: Calculando energía evento...
+  MeasurementEventPower: Calculando...
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles

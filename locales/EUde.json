@@ -165,7 +165,9 @@
     "BigrunGold": "Gold",
     "BigrunSilver": "Silber",
     "LimitedPoint": "Spezial-Bonuspunktestand",
-    "TeamContest": "Team-Wettkampf"
+    "TeamContest": "Team-Wettkampf",
+    "Annotation01": "Schichten, die aus unvorhergesehenen Gründen abgebrochen wurden (etwa durch Verbindungsfehler), werden nicht gezählt.",
+    "PlayCountBySchedule": "Anzahl Schichten: "
   },
   "CoopStage": {
     "Carousel": "Flunder-Funpark",
@@ -238,7 +240,8 @@
     "Title": "Katalog",
     "Welcome": "Druckfrischer Katalog!",
     "WelcomeDescription": "Verdiene in Kämpfen Katalogpunkte<br />und schnapp dir tinttastische Preise!",
-    "EndOfSeason": "Die <em></em> ist fast vorbei, aber du kannst jetzt einen Endspurt-Bonus von <em>×1,2</em> Katalogpunkten erhalten!"
+    "EndOfSeason": "Die <em></em> ist fast vorbei, aber du kannst jetzt einen Endspurt-Bonus von <em>×1,2</em> Katalogpunkten erhalten!",
+    "GearSkillChip": "Effekt-Fragmente"
   },
   "Challenge": {
     "AboutGraffiti": "Wenn ich ein heißes Tag sehe, schicke ich es dir!",
@@ -411,7 +414,7 @@
     "AppName": "Freundesliste",
     "InCoopGame": "Bei der Arbeit",
     "InVsGame": "Im Spiel",
-    "IsLocked": "Passwortgeschützt",
+    "IsLocked": "Mit Code",
     "NoFriends": "Der Spielstatus deiner Freunde wird hier angezeigt.",
     "Offline": "Offline",
     "Online": "Online",
@@ -684,11 +687,11 @@
     "League": "Ligakampf",
     "Next": "Demnächst",
     "NoticeBigrun": "Demnächst: Big Run!",
-    "NoticeLimited": "Ankündigung für zeitliche begrenzte Schichten!",
+    "NoticeLimited": "Ankündigung: Team-Wettkampf demnächst verfügbar!",
     "NowClosed": "Splatfest!",
     "Open": "Aktuell",
     "OpenBigrun": "Big Run läuft jetzt!",
-    "OpenLimited": "Zeitlich begrenzte Schichten jetzt verfügbar!",
+    "OpenLimited": "Team-Wettkampf jetzt verfügbar!",
     "Private": "Privater Kampf",
     "Recruit": "Big Run läuft! Die Bär GmbH stellt jeden ein! JEDEN! ()",
     "Regular": "Standardkampf",
@@ -780,9 +783,10 @@
     "EventPower": "Event-Power: ",
     "EventSolo": "Solo - ",
     "EventTeam": "Team - ",
-    "MeasurementEventPower": "Event-Power: Noch offen",
+    "MeasurementEventPower": "Berechnung noch offen...",
     "TeamId": "Team-ID: ",
-    "EstimatedRoomPower": "{ 1 }-Power ( SP): ca. { 2 }<br />"
+    "EstimatedRoomPower": "{ 1 }-Power ( SP): ca. { 2 }<br />",
+    "AbortedMeasurementEventPower": "Berechnung abgebrochen."
   },
   "Welcome": {
     "About": "SplatNet 3 ist ein mit Splatoon 3 verbundener Service. Es gibt noch weitere Funktionen, die hier nicht aufgeführt sind.",

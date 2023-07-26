@@ -40,6 +40,7 @@ Catalog:
   FesBonus: 페스티벌 개최 중! 포인트 <em>1.2배</em>!
   Figure: 장식품
   FoodTicket: 푸드 티켓
+  GearSkillChip: 기어 파워 파편
   Got: 획득!
   Guide: <em>레벨을 4까지 올려 잡화점에서 카탈로그를 받자!</em>
   ItemAmount: x
@@ -206,6 +207,7 @@ CoopEvent:
 CoopGrade:
   Grade: 전설
 CoopHistory:
+  Annotation01: 아르바이트 횟수에는 통신 종료로 중단된 아르바이트가 포함되지 않습니다
   Available: 출현 수
   AvailableBoss: 출현한 두목연어
   AverageClearWaves: 평균 클리어 WAVE 수
@@ -246,6 +248,7 @@ CoopHistory:
   NotDefeated: 쓰러뜨리지 못했다…
   P: p
   PlayCount: 아르바이트 횟수
+  PlayCountBySchedule: '아르바이트 횟수: '
   Previous: 이전 히스토리
   Private: 프라이빗
   Recruit: 스태프 모집!
@@ -734,11 +737,11 @@ StageSchedule:
   League: 리그 매치
   Next: 다음
   NoticeBigrun: 빅 런 접근 중!
-  NoticeLimited: 기간 한정 아르바이트 개최 예고!
+  NoticeLimited: 아르바이트 팀 콘테스트 개최 예고!
   NowClosed: 페스티벌 매치 개최 중!
   Open: 오픈!
   OpenBigrun: 빅 런 발생 중!
-  OpenLimited: 기간 한정 아르바이트 개최 중!
+  OpenLimited: 아르바이트 팀 콘테스트 개최 중!
   Private: 프라이빗 매치
   Recruit: '빅 런이 온다! 아르바이트 대모집 '
   RecruitTeamContest: '아르바이트 팀 콘테스트! 팀을 만들어 참가하자! '
@@ -755,6 +758,7 @@ VSHistory:
   100x: 100배 매치
   10x: 10배 매치
   333x: 333배 매치
+  AbortedMeasurementEventPower: 계측 중지
   AnnotationExemption: 통신을 종료한 플레이어가 있으므로 패배로 카운트되지 않았습니다
   AnnotationNocontest: 시합이 무효 처리되었습니다
   AnnotationPenalty: 시합이 정상적으로 종료되지 않았습니다
@@ -798,7 +802,7 @@ VSHistory:
   LatestTab: 최근
   Lose: LOSE…
   Measurement: X 파워 계측 중
-  MeasurementEventPower: 이벤트 파워 계측 중
+  MeasurementEventPower: 계측 중
   NextBattle: 다음 배틀
   NoData: 배틀 기록이 없습니다
   NotAvailable: 배틀 기록을 표시할 수 없습니다

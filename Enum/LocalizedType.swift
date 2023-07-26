@@ -679,7 +679,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Footer_BigrunAnnouncement
 	/// <em>ビッグラン</em>発生中！シャケから街を守れ！
 	case Footer_BigrunNowOpening
-	/// もうすぐ <em></em> が終了します。
+	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
 	case Footer_EndOfSeason
 	/// <em></em> フェス開催！アンケートに回答してフレンドと一緒に参加しよう！
 	case Footer_FestAnnouncement
@@ -1167,7 +1167,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Next
 	/// ビッグラン接近中！
 	case StageSchedule_NoticeBigrun
-	/// 期間限定バイト開催予告！
+	/// バイトチームコンテスト開催予告！
 	case StageSchedule_NoticeLimited
 	/// フェスマッチ開催中！
 	case StageSchedule_NowClosed
@@ -1175,7 +1175,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Open
 	/// ビッグラン発生中！
 	case StageSchedule_OpenBigrun
-	/// 期間限定バイト開催中！
+	/// バイトチームコンテスト開催中！
 	case StageSchedule_OpenLimited
 	/// プライベートマッチ
 	case StageSchedule_Private
@@ -1591,7 +1591,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_EventSolo
 	/// チーム
 	case VSHistory_EventTeam
-	/// イベントパワー 計測中
+	/// 計測中
 	case VSHistory_MeasurementEventPower
 	/// Team ID: 
 	case VSHistory_TeamId
@@ -1755,6 +1755,14 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
+	/// ギアパワーのかけら
+	case Catalog_GearSkillChip
+	/// シフトごとのバイト回数には通信切断などで中断したバイトは含まれません
+	case CoopHistory_Annotation01
+	/// バイト
+	case CoopHistory_PlayCountBySchedule
+	/// 計測中止
+	case VSHistory_AbortedMeasurementEventPower
 	/// About
 	case CoopHistory_About
 	/// 実測値

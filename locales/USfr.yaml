@@ -41,6 +41,7 @@ Catalog:
   FesBonus: Festival en cours! Remporte <em>1,2 x</em> plus de points!
   Figure: Objet de décoration
   FoodTicket: Bon repas
+  GearSkillChip: 'Fragments de bonus '
   Got: En poche
   Guide: <em>Atteins le niveau 4 et rends-toi à Coolypso pour obtenir un catalogue!</em>
   ItemAmount: x
@@ -229,6 +230,8 @@ CoopEvent:
 CoopGrade:
   Grade: Légende
 CoopHistory:
+  Annotation01: Les missions interrompues suite à des déconnexions ou d'autres problèmes
+    ne sont pas comptabilisées.
   Available: Apparus 
   AvailableBoss: Salmonarque combattu
   AverageClearWaves: 'Vagues terminées (moyenne) :'
@@ -270,6 +273,7 @@ CoopHistory:
   NotDefeated: Échec...
   P:  p.
   PlayCount: Sessions de travail
+  PlayCountBySchedule: 'Nombre de missions : '
   Previous: Précédent
   Private: Mission privée
   Recruit: On embauche!
@@ -794,17 +798,17 @@ StageSchedule:
   FestivalDefense: En défense
   FestivalHolding: En cours!
   FestivalPeriod: ' - { 1 }'
-  Future: Prochains
+  Future: Plus tard
   GuideOpenBrowser: Cette opération entraînera l'ouverture d'une nouvelle fenêtre
     de navigateur.
   League: Match de ligue
-  Next: Suivant
+  Next: Tout à l'heure
   NoticeBigrun: Big Run en approche!
-  NoticeLimited: Offre d'emploi à durée limitée!
+  NoticeLimited: Défi œuf sup' en approche!
   NowClosed: Festival en cours!
   Open: Actuel
   OpenBigrun: Big Run en cours!
-  OpenLimited: Offre d'emploi disponible!
+  OpenLimited: Défi œuf sup' disponible!
   Private: Match privé
   Recruit: Un Big Run est en cours! M. Ours Cie embauche, tous types de profils acceptés!
     ()
@@ -823,6 +827,7 @@ VSHistory:
   100x: Match ×100
   10x: Match ×10
   333x: Match ×333
+  AbortedMeasurementEventPower: Calcul de la Force d'épreuve annulé.
   AnnotationExemption: Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs
     n'ont pas pu poursuivre le match.
   AnnotationNocontest: Match annulé.

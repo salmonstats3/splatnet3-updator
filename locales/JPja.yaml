@@ -40,6 +40,7 @@ Catalog:
   FesBonus: フェス開催中！ポイント<em>1.2倍</em>！
   Figure: オキモノ
   FoodTicket: フードチケット
+  GearSkillChip: ギアパワーのかけら
   Got: ゲット！
   Guide: <em>ランクを4まで上げてザッカ屋でカタログを受け取ろう！</em>
   ItemAmount: x
@@ -202,6 +203,7 @@ CoopEvent:
 CoopGrade:
   Grade: でんせつ
 CoopHistory:
+  Annotation01: シフトごとのバイト回数には通信切断などで中断したバイトは含まれません
   Available: 出現数
   AvailableBoss: 出現したオカシラシャケ
   AverageClearWaves: 平均クリアWAVE数
@@ -242,6 +244,7 @@ CoopHistory:
   NotDefeated: 倒せなかった...
   P: p
   PlayCount: バイト回数
+  PlayCountBySchedule: バイト
   Previous: 前のバイト
   Private: プライベート
   Recruit: スタッフ募集！
@@ -725,11 +728,11 @@ StageSchedule:
   League: リーグマッチ
   Next: つぎ
   NoticeBigrun: ビッグラン接近中！
-  NoticeLimited: 期間限定バイト開催予告！
+  NoticeLimited: バイトチームコンテスト開催予告！
   NowClosed: フェスマッチ開催中！
   Open: オープン！
   OpenBigrun: ビッグラン発生中！
-  OpenLimited: 期間限定バイト開催中！
+  OpenLimited: バイトチームコンテスト開催中！
   Private: プライベートマッチ
   Recruit: 'ビッグランがやってくる！！バイト大募集 '
   RecruitTeamContest: 'バイトチームコンテスト！チームを組んで参加しよう！  '
@@ -746,6 +749,7 @@ VSHistory:
   100x: １００倍マッチ
   10x: １０倍マッチ
   333x: ３３３倍マッチ
+  AbortedMeasurementEventPower: 計測中止
   AnnotationExemption: 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
   AnnotationNocontest: 無効試合になりました
   AnnotationPenalty: 正常に試合が終了しませんでした
@@ -789,7 +793,7 @@ VSHistory:
   LatestTab: 最近
   Lose: LOSE...
   Measurement: Xパワー計測中
-  MeasurementEventPower: イベントパワー 計測中
+  MeasurementEventPower: 計測中
   NextBattle: 次のバトル
   NoData: バトルのきろくがありません
   NotAvailable: バトルのきろくを表示できません

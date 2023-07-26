@@ -165,7 +165,9 @@
     "BigrunGold": "金",
     "BigrunSilver": "銀",
     "LimitedPoint": "現在の期間限定ポイント",
-    "TeamContest": "バイトチームコンテスト"
+    "TeamContest": "バイトチームコンテスト",
+    "Annotation01": "シフトごとのバイト回数には通信切断などで中断したバイトは含まれません",
+    "PlayCountBySchedule": "バイト"
   },
   "CoopStage": {
     "Carousel": "スメーシーワールド",
@@ -238,7 +240,8 @@
     "Title": "カタログ",
     "Welcome": "イカしたカタログ 配布中！",
     "WelcomeDescription": "バトルでカタログポイントを貯めて<br />アイテムをゲットしよう！",
-    "EndOfSeason": "もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！"
+    "EndOfSeason": "もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！",
+    "GearSkillChip": "ギアパワーのかけら"
   },
   "Challenge": {
     "AboutGraffiti": "旅の途中でテンションバクアゲ～！なグラフィティ見つけたから送るね～",
@@ -684,11 +687,11 @@
     "League": "リーグマッチ",
     "Next": "つぎ",
     "NoticeBigrun": "ビッグラン接近中！",
-    "NoticeLimited": "期間限定バイト開催予告！",
+    "NoticeLimited": "バイトチームコンテスト開催予告！",
     "NowClosed": "フェスマッチ開催中！",
     "Open": "オープン！",
     "OpenBigrun": "ビッグラン発生中！",
-    "OpenLimited": "期間限定バイト開催中！",
+    "OpenLimited": "バイトチームコンテスト開催中！",
     "Private": "プライベートマッチ",
     "Recruit": "ビッグランがやってくる！！バイト大募集 ",
     "Regular": "レギュラーマッチ",
@@ -780,9 +783,10 @@
     "EventPower": "イベントパワー ",
     "EventSolo": "ソロ",
     "EventTeam": "チーム",
-    "MeasurementEventPower": "イベントパワー 計測中",
+    "MeasurementEventPower": "計測中",
     "TeamId": "Team ID: ",
-    "EstimatedRoomPower": "人の { 1 } パワー 推定 { 2 }"
+    "EstimatedRoomPower": "人の { 1 } パワー 推定 { 2 }",
+    "AbortedMeasurementEventPower": "計測中止"
   },
   "Welcome": {
     "About": "イカリング３はスプラトゥーン3と連動するサービスです。<br />ここで紹介したもの以外にもさまざまな機能があります。",

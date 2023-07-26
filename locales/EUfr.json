@@ -165,7 +165,9 @@
     "BigrunGold": "Or",
     "BigrunSilver": "Argent",
     "LimitedPoint": "Points de prix spéciaux actuels",
-    "TeamContest": "Défi œuf sup'"
+    "TeamContest": "Défi œuf sup'",
+    "Annotation01": "Les missions interrompues suite à des déconnexions ou d'autres problèmes ne sont pas comptabilisées.",
+    "PlayCountBySchedule": "Nombre de missions : "
   },
   "CoopStage": {
     "Carousel": "Parc Carapince",
@@ -238,7 +240,8 @@
     "Title": "Catalogue",
     "Welcome": "Un nouveau catalogue est disponible !",
     "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables !",
-    "EndOfSeason": "<em></em> presque terminée ! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible !"
+    "EndOfSeason": "<em></em> presque terminée ! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible !",
+    "GearSkillChip": "Fragments de bonus "
   },
   "Challenge": {
     "AboutGraffiti": "Si j'tombe sur un graffiti qui m'botte, j'te l'envoie !",
@@ -628,7 +631,7 @@
     "ErrorNotCompatibleDescription": "Ce QR Code ne peut pas être lu avec SplatNet 3.",
     "ErrorNotCompatibleTitle": "Erreur",
     "ErrorRewardExpiredDescription": "Ce QR Code n'est plus actif.",
-    "EuConfirmation": "SplatNet 3 offre la possibilité de s'enregistrer dans les magasins via un QR Code. Si tu utilises le lecteur de QR Codes, les informations contenues dans le code seront communiquées à Nintendo, te permettant ainsi de voir un historique des codes scannés par l'appli. Ceci pourrait permettre à Nintendo de te localiser.\nTon choix n'est pas enregistré, et ton consentement sera requis à chaque nouvelle utilisation du lecteur de QR Codes (conformément à l'art. 6 para. 1 (a) du RGPD).",
+    "EuConfirmation": "SplatNet 3 offre la possibilité de s'enregistrer dans les magasins via un QR Code. Si tu utilises le lecteur de QR Codes, les informations contenues dans le code seront communiquées à Nintendo, te permettant ainsi de voir un historique des codes scannés par l'appli. Ceci pourrait permettre à Nintendo de te localiser.<br />Ton choix n'est pas enregistré, et ton consentement sera requis à chaque nouvelle utilisation du lecteur de QR Codes (conformément à l'art. 6 para. 1 (a) du RGPD).",
     "Guide": "Trouve des QR Codes spéciaux et<br />lis-les pour obtenir des récompenses.",
     "History": "Historique",
     "HowToGetReward": "Pour recevoir ta récompense, utilise le<br />terminal du hall dans le jeu Splatoon 3.",
@@ -680,15 +683,15 @@
     "FestivalDefense": "En défense",
     "FestivalHolding": "En cours !",
     "FestivalPeriod": " - { 1 }",
-    "Future": "Prochains",
+    "Future": "Plus tard",
     "League": "Match de ligue",
-    "Next": "Suivant",
+    "Next": "Tout à l'heure",
     "NoticeBigrun": "Big Run en approche !",
-    "NoticeLimited": "Offre d'emploi à durée limitée !",
+    "NoticeLimited": "Défi œuf sup' en approche !",
     "NowClosed": "Festival en cours !",
-    "Open": "Actuel",
+    "Open": "Actuellement",
     "OpenBigrun": "Big Run en cours !",
-    "OpenLimited": "Offre d'emploi disponible !",
+    "OpenLimited": "Défi œuf sup' disponible !",
     "Private": "Match privé",
     "Recruit": "Un Big Run est en cours ! M. Ours SA embauche, tous types de profils acceptés ! ()",
     "Regular": "Match classique",
@@ -780,9 +783,10 @@
     "EventPower": "Challenge Power : ",
     "EventSolo": "Solo - ",
     "EventTeam": "Équipe - ",
-    "MeasurementEventPower": "Calcul du Challenge Power...",
+    "MeasurementEventPower": "Calcul...",
     "TeamId": "Identifiant de l'équipe : ",
-    "EstimatedRoomPower": "{ 1 } - Power cumulé des  joueurs : environ { 2 }"
+    "EstimatedRoomPower": "{ 1 } - Power cumulé des  joueurs : environ { 2 }",
+    "AbortedMeasurementEventPower": "Calcul annulé."
   },
   "Welcome": {
     "About": "SplatNet 3 est un service associé à Splatoon 3.<br />Les fonctionnalités décrites ici sont loin d'être exhaustives !",

@@ -165,7 +165,9 @@
     "BigrunGold": "Goud",
     "BigrunSilver": "Zilver",
     "LimitedPoint": "Speciale bonuspunten",
-    "TeamContest": "Bedrijfseitje"
+    "TeamContest": "Bedrijfseitje",
+    "Annotation01": "Klussen die voortijdig beëindigd zijn doordat de verbinding verbroken werd of vanwege andere problemen, worden niet weergegeven bij het totale aantal klussen.",
+    "PlayCountBySchedule": "Klussen: "
   },
   "CoopStage": {
     "Carousel": "Waterwonderland",
@@ -238,7 +240,8 @@
     "Title": "Catalogus",
     "Welcome": "Nieuwe catalogus, vers van de pers!",
     "WelcomeDescription": "Verdien cataloguspunten in gevechten<br />om spetterende voorwerpen te krijgen!",
-    "EndOfSeason": "Het <em></em> is bijna voorbij, maar je kunt nu een eindspurtbonus van <em>×1,2</em> cataloguspunten verdienen!"
+    "EndOfSeason": "Het <em></em> is bijna voorbij, maar je kunt nu een eindspurtbonus van <em>×1,2</em> cataloguspunten verdienen!",
+    "GearSkillChip": "Effectfragmenten"
   },
   "Challenge": {
     "AboutGraffiti": "Als ik een vette tag zie, stuur ik hem naar jou!",
@@ -684,11 +687,11 @@
     "League": "Toernooigevecht",
     "Next": "Volgende",
     "NoticeBigrun": "Er komt een Big Run aan!",
-    "NoticeLimited": "Tijdelijke klus aangeboden!",
+    "NoticeLimited": "Bedrijfseitje aangekondigd!",
     "NowClosed": "Splatfest!",
     "Open": "Nu",
     "OpenBigrun": "Big Run aan de gang!",
-    "OpenLimited": "Tijdelijke klus direct beschikbaar!",
+    "OpenLimited": "Bedrijfseitje direct beschikbaar!",
     "Private": "Privégevecht",
     "Recruit": "Big Run aan de gang! Beer & Co zoekt werknemers! ()",
     "Regular": "Standaardgevecht",
@@ -780,9 +783,10 @@
     "EventPower": "Eventkracht: ",
     "EventSolo": "Solo - ",
     "EventTeam": "Team - ",
-    "MeasurementEventPower": "Eventkracht: onbekend",
+    "MeasurementEventPower": "Bezig met berekenen...",
     "TeamId": "Team-ID: ",
-    "EstimatedRoomPower": "Geschatte { 1 }-kracht ( spelers): { 2 }"
+    "EstimatedRoomPower": "Geschatte { 1 }-kracht ( spelers): { 2 }",
+    "AbortedMeasurementEventPower": "De berekening is afgebroken."
   },
   "Welcome": {
     "About": "SplatNet 3 is een dienst die aan Splatoon 3 is gekoppeld.<br />Er zijn meer mogelijkheden naast die die hier worden genoemd.",

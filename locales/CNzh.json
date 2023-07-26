@@ -165,7 +165,9 @@
     "BigrunGold": "金",
     "BigrunSilver": "银",
     "LimitedPoint": "目前的期间限定点数",
-    "TeamContest": "团队打工竞赛"
+    "TeamContest": "团队打工竞赛",
+    "Annotation01": "每个轮换中的打工次数不包括因连接中断等理由而中断的打工。",
+    "PlayCountBySchedule": "场打工"
   },
   "CoopStage": {
     "Carousel": "醋饭海洋世界",
@@ -238,7 +240,8 @@
     "Title": "目录",
     "Welcome": "正在发放超鱿型的目录！",
     "WelcomeDescription": "通过对战积攒目录点数<br />来获得道具吧！",
-    "EndOfSeason": "<em></em> 即将结束。现在可获得<em>1.2倍</em>的目录点数！"
+    "EndOfSeason": "<em></em> 即将结束。现在可获得<em>1.2倍</em>的目录点数！",
+    "GearSkillChip": "装备能力碎片"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅途中找到了“超酥脆～！”的涂鸦，发给你哦～",
@@ -332,7 +335,7 @@
     "Decide": "确定",
     "Download": "下载",
     "End": "结束",
-    "GearPowerBlank": "？",
+    "GearPowerBlank": "问号",
     "Home": "主页",
     "Ikaring3": "鱿鱼圈 3",
     "NowLoading": "加载中",
@@ -684,11 +687,11 @@
     "League": "联盟比赛",
     "Next": "下次",
     "NoticeBigrun": "大型跑正在接近！",
-    "NoticeLimited": "期间限定打工举行预告！",
+    "NoticeLimited": "团队打工竞赛举行预告！",
     "NowClosed": "祭典比赛举行中！",
     "Open": "开放！",
     "OpenBigrun": "大型跑正在发生！",
-    "OpenLimited": "期间限定打工举行中！",
+    "OpenLimited": "团队打工竞赛举行中！",
     "Private": "私人比赛",
     "Recruit": "大型跑即将到来！！大量募集打工人员！ ",
     "Regular": "一般比赛",
@@ -780,9 +783,10 @@
     "EventPower": "活动战力：",
     "EventSolo": "单排",
     "EventTeam": "队伍",
-    "MeasurementEventPower": "活动战力计算中",
+    "MeasurementEventPower": "计算中",
     "TeamId": "Team ID：",
-    "EstimatedRoomPower": "人的{ 1 }战力推算值{ 2 }"
+    "EstimatedRoomPower": "人的{ 1 }战力推算值{ 2 }",
+    "AbortedMeasurementEventPower": "计算中止"
   },
   "Welcome": {
     "About": "《鱿鱼圈 3》是用于《斯普拉遁 3》的关联服务。除了此处介绍的内容之外，还有其他各种功能。",

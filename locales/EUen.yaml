@@ -41,6 +41,7 @@ Catalog:
   FesBonus: Splatfest Open Now! Earn <em>1.2x</em> Points!
   Figure: Decoration
   FoodTicket: Food Ticket
+  GearSkillChip: Ability Chunks
   Got: Got it!
   Guide: <em>Reach level 4 to get a catalog from Hotlantis!</em>
   ItemAmount: x
@@ -226,6 +227,8 @@ CoopEvent:
 CoopGrade:
   Grade: Eggsecutive VP
 CoopHistory:
+  Annotation01: Any jobs that ended prematurely due to disconnections or other issues
+    are not included in the total number of jobs for a shift.
   Available: 'Appearances '
   AvailableBoss: King Salmonid Fought
   AverageClearWaves: Average Waves Cleared
@@ -266,6 +269,7 @@ CoopHistory:
   NotDefeated: Failed...
   P: p
   PlayCount: Shifts worked
+  PlayCountBySchedule: 'Number of Jobs: '
   Previous: Previous Job
   Private: Private Job
   Recruit: Staff Wanted!
@@ -781,11 +785,11 @@ StageSchedule:
   League: League Battle
   Next: Next
   NoticeBigrun: Big Run coming soon!
-  NoticeLimited: 'Announcement: Limited-Time Job!'
+  NoticeLimited: 'Announcement: Eggstra Work coming soon!'
   NowClosed: Splatfest Active!
   Open: Now
   OpenBigrun: Big Run in progress!
-  OpenLimited: Limited-time job available now!
+  OpenLimited: Eggstra Work available now!
   Private: Private Battle
   Recruit: 'Big Run happening now! Grizzco hiring ANYONE! '
   RecruitTeamContest: 'Eggstra Work is available now. Recruit some coworkers and join
@@ -803,6 +807,7 @@ VSHistory:
   100x: 100x Battle
   10x: 10x Battle
   333x: 333x Battle
+  AbortedMeasurementEventPower: Calculation canceled.
   AnnotationExemption: Because one or more players were not able to continue, the
     match will not count as a loss.
   AnnotationNocontest: No contest.
@@ -847,7 +852,7 @@ VSHistory:
   LatestTab: Latest
   Lose: DEFEAT
   Measurement: Calculating X Power...
-  MeasurementEventPower: Calculating Challenge Power...
+  MeasurementEventPower: Calculating...
   NextBattle: Next
   NoData: No battle logs to display.
   NotAvailable: Battle Log Unavailable

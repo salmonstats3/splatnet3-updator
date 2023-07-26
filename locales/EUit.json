@@ -165,7 +165,9 @@
     "BigrunGold": "Oro",
     "BigrunSilver": "Argento",
     "LimitedPoint": "Punti attuali (bonus speciale)",
-    "TeamContest": "Sfida tra colleghi"
+    "TeamContest": "Sfida tra colleghi",
+    "Annotation01": "I lavori che si sono conclusi prematuramente a causa di disconnessioni o di altri problemi non sono inclusi nel totale dei lavori di un turno.",
+    "PlayCountBySchedule": "Numero di lavori: "
   },
   "CoopStage": {
     "Carousel": "Soglioland",
@@ -238,7 +240,8 @@
     "Title": "Catalogo",
     "Welcome": "Nuovo catalogo fresco di stampa!",
     "WelcomeDescription": "Guadagna punti catalogo dalle<br />battaglie per ottenere oggetti mitilici!",
-    "EndOfSeason": "<em></em> quasi finita! Occasione di ottenere un bonus ultimo sforzo pari a <em>×1,2</em> punti catalogo!"
+    "EndOfSeason": "<em></em> quasi finita! Occasione di ottenere un bonus ultimo sforzo pari a <em>×1,2</em> punti catalogo!",
+    "GearSkillChip": "Frammenti di abilità"
   },
   "Challenge": {
     "AboutGraffiti": "Se vedo un tag di quelli incandescenti, te lo mando!",
@@ -335,7 +338,7 @@
     "GearPowerBlank": "Sconosciuto",
     "Home": "Pagina iniziale",
     "Ikaring3": "SplatNet 3",
-    "NowLoading": "Caricamento in corso...",
+    "NowLoading": "Caricamento...",
     "PullToRefresh": "Scorri per aggiornare",
     "Rainmaker": "Bazookarp",
     "Share": "Condividi",
@@ -680,15 +683,15 @@
     "FestivalDefense": "In difesa",
     "FestivalHolding": "In corso!",
     "FestivalPeriod": " - { 1 }",
-    "Future": "Successivi",
+    "Future": "In futuro",
     "League": "Partita di lega",
-    "Next": "Prossimo",
+    "Next": "A seguire",
     "NoticeBigrun": "Big Run in arrivo!",
-    "NoticeLimited": "Annuncio di lavoro a tempo determinato!",
+    "NoticeLimited": "Annuncio: sfida tra colleghi in arrivo!",
     "NowClosed": "Festival in corso!",
-    "Open": "In corso!",
+    "Open": "In corso",
     "OpenBigrun": "Big Run in corso!",
-    "OpenLimited": "Lavoro a tempo determinato ora disponibile!",
+    "OpenLimited": "Sfida tra colleghi ora disponibile!",
     "Private": "Partita privata",
     "Recruit": "Big Run in corso! La Ursus & Co assume CHIUNQUE! ()",
     "Regular": "Partita amichevole",
@@ -780,9 +783,10 @@
     "EventPower": "Energia evento: ",
     "EventSolo": "In solitaria - ",
     "EventTeam": "In squadra - ",
-    "MeasurementEventPower": "Calcolo energia evento...",
+    "MeasurementEventPower": "Calcolo in corso...",
     "TeamId": "ID squadra: ",
-    "EstimatedRoomPower": "(Giocatori: ) - Energia { 1 } stimata: { 2 }"
+    "EstimatedRoomPower": "(Giocatori: ) - Energia { 1 } stimata: { 2 }",
+    "AbortedMeasurementEventPower": "Calcolo annullato."
   },
   "Welcome": {
     "About": "SplatNet 3 è un servizio collegato a Splatoon 3.<br />Oltre a quelle elencate, ci sono anche molte altre funzioni.",

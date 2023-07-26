@@ -165,7 +165,9 @@
     "BigrunGold": "Or",
     "BigrunSilver": "Argent",
     "LimitedPoint": "Points de prix spéciaux actuels",
-    "TeamContest": "Défi œuf sup'"
+    "TeamContest": "Défi œuf sup'",
+    "Annotation01": "Les missions interrompues suite à des déconnexions ou d'autres problèmes ne sont pas comptabilisées.",
+    "PlayCountBySchedule": "Nombre de missions : "
   },
   "CoopStage": {
     "Carousel": "Parc Carapince",
@@ -238,7 +240,8 @@
     "Title": "Catalogue",
     "Welcome": "Un nouveau catalogue est disponible!",
     "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables!",
-    "EndOfSeason": "<em></em> presque terminée! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible!"
+    "EndOfSeason": "<em></em> presque terminée! Un bonus de fin d'une valeur de <em>1,2×</em> tes points de catalogue est disponible!",
+    "GearSkillChip": "Fragments de bonus "
   },
   "Challenge": {
     "AboutGraffiti": "Si j'tombe sur un graffiti qui m'plaît, j'te l'envoie!",
@@ -680,15 +683,15 @@
     "FestivalDefense": "En défense",
     "FestivalHolding": "En cours!",
     "FestivalPeriod": " - { 1 }",
-    "Future": "Prochains",
+    "Future": "Plus tard",
     "League": "Match de ligue",
-    "Next": "Suivant",
+    "Next": "Tout à l'heure",
     "NoticeBigrun": "Big Run en approche!",
-    "NoticeLimited": "Offre d'emploi à durée limitée!",
+    "NoticeLimited": "Défi œuf sup' en approche!",
     "NowClosed": "Festival en cours!",
     "Open": "Actuel",
     "OpenBigrun": "Big Run en cours!",
-    "OpenLimited": "Offre d'emploi disponible!",
+    "OpenLimited": "Défi œuf sup' disponible!",
     "Private": "Match privé",
     "Recruit": "Un Big Run est en cours! M. Ours Cie embauche, tous types de profils acceptés! ()",
     "Regular": "Match classique",
@@ -782,7 +785,8 @@
     "EventTeam": "Équipe - ",
     "MeasurementEventPower": "Calcul de la Force d'épreuve...",
     "TeamId": "Identifiant de l'équipe : ",
-    "EstimatedRoomPower": "{ 1 } - Puissance cumulée des  joueurs : environ { 2 }"
+    "EstimatedRoomPower": "{ 1 } - Puissance cumulée des  joueurs : environ { 2 }",
+    "AbortedMeasurementEventPower": "Calcul de la Force d'épreuve annulé."
   },
   "Welcome": {
     "About": "SplatNet 3 est un service associé à Splatoon 3.<br />Les fonctionnalités décrites ici sont loin d'être exhaustives!",

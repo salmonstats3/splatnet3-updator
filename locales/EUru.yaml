@@ -41,6 +41,7 @@ Catalog:
   FesBonus: Идет Сплатфест! Заработай <em>в 1,2 раза</em> больше очков!
   Figure: Украшение
   FoodTicket: Талон на закуску
+  GearSkillChip: Б/у свойства
   Got: Ура!
   Guide: <em>Чтобы получить каталог в «Хитлантиде», тебе нужен уровень 4!</em>
   ItemAmount: x
@@ -180,7 +181,7 @@ Common:
   GearPowerBlank: Нет данных
   Home: Главная
   Ikaring3: SplatNet 3
-  NowLoading: Идет загрузка данных...
+  NowLoading: Загрузка данных...
   PullToRefresh: 'Потяните, чтобы обновить '
   Rainmaker: Мегакарп
   Share: Поделиться
@@ -226,6 +227,8 @@ CoopEvent:
 CoopGrade:
   Grade: Гендиректор
 CoopHistory:
+  Annotation01: Все смены, которые закончились раньше, чем было запланировано, из-за
+    отключения связи или других проблем, не будут учитываться.
   Available: 'появилось '
   AvailableBoss: 'Стычек с самонидами-королями:'
   AverageClearWaves: В среднем волн зачищено
@@ -266,6 +269,7 @@ CoopHistory:
   NotDefeated: Не удалось победить...
   P: ' очк.'
   PlayCount: 'Отработано смен:'
+  PlayCountBySchedule: 'Смен: '
   Previous: Пред. смена
   Private: Частная смена
   Recruit: Ищем сотрудников!
@@ -787,11 +791,11 @@ StageSchedule:
   League: Бой лиги
   Next: Следующий
   NoticeBigrun: Big Run скоро начнется!
-  NoticeLimited: 'Объявление: временная смена!'
+  NoticeLimited: 'Объявление: скоро начнется икорный овертайм!'
   NowClosed: Идет Сплатфест!
   Open: Сейчас
   OpenBigrun: Идет Big Run!
-  OpenLimited: Доступна временная смена!
+  OpenLimited: Доступен икорный овертайм!
   Private: Частный бой
   Recruit: Идет Big Run! «Потапыч Inc.» нанимает всех подряд! Всех-всех! ()
   RecruitTeamContest: 'Доступен икорный овертайм. Собери себе команду коллег для особой
@@ -809,6 +813,7 @@ VSHistory:
   100x: Бой x100
   10x: Бой x10
   333x: Бой x333
+  AbortedMeasurementEventPower: Вычисление отменено.
   AnnotationExemption: Так как некоторые игроки не смогли продолжить бой, поражение
     не будет засчитано.
   AnnotationNocontest: Результатов нет.
@@ -853,7 +858,7 @@ VSHistory:
   LatestTab: Недавние бои
   Lose: Провал
   Measurement: Данных о силе X нет...
-  MeasurementEventPower: Сила события вычисляется...
+  MeasurementEventPower: Идет вычисление...
   NextBattle: Следующий
   NoData: Нет протоколов боев.
   NotAvailable: Протокол боя недоступен

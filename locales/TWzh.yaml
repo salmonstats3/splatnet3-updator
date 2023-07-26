@@ -40,6 +40,7 @@ Catalog:
   FesBonus: 祭典舉行中！點數<em>1.2倍</em>！
   Figure: 裝飾品
   FoodTicket: 美食券
+  GearSkillChip: 裝備能力碎片
   Got: 獲得！
   Guide: <em>將等級提升到4之後就去雜貨店領取目錄吧！</em>
   ItemAmount: x
@@ -153,7 +154,7 @@ Common:
   Decide: 確定
   Download: 下載
   End: 結束
-  GearPowerBlank: ？
+  GearPowerBlank: 問號
   Home: 主頁
   Ikaring3: 魷魚圈 3
   NowLoading: 載入中
@@ -202,6 +203,7 @@ CoopEvent:
 CoopGrade:
   Grade: 傳說
 CoopHistory:
+  Annotation01: 每個班次的打工次數不包括因連線中斷等理由而中斷的打工。
   Available: 出現數
   AvailableBoss: 已出現的頭目鮭魚
   AverageClearWaves: 平均完成WAVE數
@@ -242,6 +244,7 @@ CoopHistory:
   NotDefeated: 擊倒失敗……
   P: p
   PlayCount: 打工次數
+  PlayCountBySchedule: 場打工
   Previous: 上一場打工
   Private: 私人
   Recruit: 招募員工
@@ -725,11 +728,11 @@ StageSchedule:
   League: 聯盟比賽
   Next: 下次
   NoticeBigrun: 大型跑接近中！
-  NoticeLimited: 期間限定打工舉行預告！
+  NoticeLimited: 團隊打工競賽舉行預告！
   NowClosed: 祭典比賽舉行中！
   Open: 開放！
   OpenBigrun: 大型跑發生中！
-  OpenLimited: 期間限定打工舉行中！
+  OpenLimited: 團隊打工競賽舉行中！
   Private: 私人比賽
   Recruit: '大型跑要來了！！打工大招募 '
   RecruitTeamContest: 團隊打工競賽！大家一起組隊參加吧！
@@ -746,6 +749,7 @@ VSHistory:
   100x: 100倍比賽
   10x: 10倍比賽
   333x: 333倍比賽
+  AbortedMeasurementEventPower: 計算中止
   AnnotationExemption: 因有玩家中斷連線，比賽結果不會以落敗計算。
   AnnotationNocontest: 本次對戰已被判定為無效比賽。
   AnnotationPenalty: 比賽未能正常結束。
@@ -789,7 +793,7 @@ VSHistory:
   LatestTab: 最近
   Lose: LOSE……
   Measurement: X戰力計算中
-  MeasurementEventPower: 活動戰力計算中
+  MeasurementEventPower: 計算中
   NextBattle: 下一場對戰
   NoData: 沒有對戰記錄
   NotAvailable: 無法顯示對戰記錄

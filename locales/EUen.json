@@ -165,7 +165,9 @@
     "BigrunGold": "Gold",
     "BigrunSilver": "Silver",
     "LimitedPoint": "Current special bonus points",
-    "TeamContest": "Eggstra Work"
+    "TeamContest": "Eggstra Work",
+    "Annotation01": "Any jobs that ended prematurely due to disconnections or other issues are not included in the total number of jobs for a shift.",
+    "PlayCountBySchedule": "Number of Jobs: "
   },
   "CoopStage": {
     "Carousel": "Wahoo World",
@@ -238,7 +240,8 @@
     "Title": "Catalog",
     "Welcome": "New Catalog Hot off the Presses!",
     "WelcomeDescription": "Earn Catalog Points from battles<br />to get inkredible items!",
-    "EndOfSeason": "<em></em> is almost over, but you can get a Closeout Bonus of <em>1.2x</em> Catalog Points now!"
+    "EndOfSeason": "<em></em> is almost over, but you can get a Closeout Bonus of <em>1.2x</em> Catalog Points now!",
+    "GearSkillChip": "Ability Chunks"
   },
   "Challenge": {
     "AboutGraffiti": "Whenever I spy a scorching-hot tag, I'll send it your way!",
@@ -684,11 +687,11 @@
     "League": "League Battle",
     "Next": "Next",
     "NoticeBigrun": "Big Run coming soon!",
-    "NoticeLimited": "Announcement: Limited-Time Job!",
+    "NoticeLimited": "Announcement: Eggstra Work coming soon!",
     "NowClosed": "Splatfest Active!",
     "Open": "Now",
     "OpenBigrun": "Big Run in progress!",
-    "OpenLimited": "Limited-time job available now!",
+    "OpenLimited": "Eggstra Work available now!",
     "Private": "Private Battle",
     "Recruit": "Big Run happening now! Grizzco hiring ANYONE! ",
     "Regular": "Regular Battle",
@@ -780,9 +783,10 @@
     "EventPower": "Challenge Power: ",
     "EventSolo": "Solo - ",
     "EventTeam": "Team - ",
-    "MeasurementEventPower": "Calculating Challenge Power...",
+    "MeasurementEventPower": "Calculating...",
     "TeamId": "Team ID: ",
-    "EstimatedRoomPower": "-Player { 1 } Power Estimate: { 2 }"
+    "EstimatedRoomPower": "-Player { 1 } Power Estimate: { 2 }",
+    "AbortedMeasurementEventPower": "Calculation canceled."
   },
   "Welcome": {
     "About": "SplatNet 3 is a service linked to Splatoon 3.<br />More features exist in addition to those described here.",

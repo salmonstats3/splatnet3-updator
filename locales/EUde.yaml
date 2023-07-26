@@ -42,6 +42,7 @@ Catalog:
   FesBonus: Das Splatfest läuft! Verdiene <em>1,2-mal</em> so viele Punkte!
   Figure: Deko
   FoodTicket: Snack-Coupon
+  GearSkillChip: Effekt-Fragmente
   Got: Schon erhalten
   Guide: <em>Erreiche Stufe 4 und hol dir im Hotlantis einen Katalog!</em>
   ItemAmount: '× '
@@ -225,6 +226,8 @@ CoopEvent:
 CoopGrade:
   Grade: Legende
 CoopHistory:
+  Annotation01: Schichten, die aus unvorhergesehenen Gründen abgebrochen wurden (etwa
+    durch Verbindungsfehler), werden nicht gezählt.
   Available: 'Auftritte '
   AvailableBoss: Ober-Salmonide bekämpft
   AverageClearWaves: Durchschn. überstandene Wellen
@@ -266,6 +269,7 @@ CoopHistory:
   NotDefeated: Gescheitert...
   P: ' P'
   PlayCount: Angetretene Schichten
+  PlayCountBySchedule: 'Anzahl Schichten: '
   Previous: Zurück
   Private: Private Schicht
   Recruit: Eierjäger gesucht!
@@ -426,7 +430,7 @@ FriendList:
   InCoopGame: Bei der Arbeit
   InMiniGame: Revierdecks
   InVsGame: Im Spiel
-  IsLocked: Passwortgeschützt
+  IsLocked: Mit Code
   NoFriends: Der Spielstatus deiner Freunde wird hier angezeigt.
   Offline: Offline
   Online: Online
@@ -789,11 +793,11 @@ StageSchedule:
   League: Ligakampf
   Next: Demnächst
   NoticeBigrun: 'Demnächst: Big Run!'
-  NoticeLimited: Ankündigung für zeitliche begrenzte Schichten!
+  NoticeLimited: 'Ankündigung: Team-Wettkampf demnächst verfügbar!'
   NowClosed: Splatfest!
   Open: Aktuell
   OpenBigrun: Big Run läuft jetzt!
-  OpenLimited: Zeitlich begrenzte Schichten jetzt verfügbar!
+  OpenLimited: Team-Wettkampf jetzt verfügbar!
   Private: Privater Kampf
   Recruit: Big Run läuft! Die Bär GmbH stellt jeden ein! JEDEN! ()
   RecruitTeamContest: 'Team-Wettkampf jetzt spielbar! Finde Mitarbeiter und rein ins...
@@ -811,6 +815,7 @@ VSHistory:
   100x: ×100-Kampf
   10x: ×10-Kampf
   333x: ×333-Kampf
+  AbortedMeasurementEventPower: Berechnung abgebrochen.
   AnnotationExemption: Ein oder mehrere Spieler konnten den Kampf nicht fortsetzen.
     Der Kampf wird nicht als Niederlage gewertet.
   AnnotationNocontest: Kein Ergebnis
@@ -855,7 +860,7 @@ VSHistory:
   LatestTab: Zuletzt
   Lose: Verloren
   Measurement: 'X-Power: Noch offen'
-  MeasurementEventPower: 'Event-Power: Noch offen'
+  MeasurementEventPower: Berechnung noch offen...
   NextBattle: Weiter
   NoData: Keine Kampfstatistiken vorhanden.
   NotAvailable: Kampfstatistiken nicht verfügbar

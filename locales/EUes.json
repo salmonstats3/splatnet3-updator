@@ -165,7 +165,9 @@
     "BigrunGold": "Oro",
     "BigrunSilver": "Plata",
     "LimitedPoint": "Puntos eventuales actuales",
-    "TeamContest": "Alianza alevínica"
+    "TeamContest": "Alianza alevínica",
+    "Annotation01": "No se cuentan los encargos interrumpidos por problemas en la conexión u otras causas.",
+    "PlayCountBySchedule": "Encargos: "
   },
   "CoopStage": {
     "Carousel": "Pirañalandia",
@@ -238,7 +240,8 @@
     "Title": "Catálogo",
     "Welcome": "¡Tenemos nuevo catálogo!",
     "WelcomeDescription": "¡Reúne puntos de catálogo en combate<br />para poder hacerte con fabulosos artículos!",
-    "EndOfSeason": "¡<em></em> casi concluida! ¡Ocasión de obtener puntos de catálogo <em>×1,2</em>!"
+    "EndOfSeason": "¡<em></em> casi concluida! ¡Ocasión de obtener puntos de catálogo <em>×1,2</em>!",
+    "GearSkillChip": "Fragmentos de potenciador"
   },
   "Challenge": {
     "AboutGraffiti": "¡Te mandaré todos los grafitis molones que vaya encontrando por ahí!",
@@ -684,11 +687,11 @@
     "League": "Combate del torneo",
     "Next": "Próximo",
     "NoticeBigrun": "¡Big Run a la vista!",
-    "NoticeLimited": "¡Anuncio de tarea temporal!",
+    "NoticeLimited": "¡Anuncio de alianza alevínica!",
     "NowClosed": "¡Festival en curso!",
     "Open": "Actual",
     "OpenBigrun": "¡Big Run en marcha!",
-    "OpenLimited": "¡Tarea temporal disponible!",
+    "OpenLimited": "¡Alianza alevínica disponible!",
     "Private": "Combate privado",
     "Recruit": "¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()",
     "Regular": "Combate amistoso",
@@ -780,9 +783,10 @@
     "EventPower": "Energía evento: ",
     "EventSolo": "En solitario - ",
     "EventTeam": "En equipo - ",
-    "MeasurementEventPower": "Calculando energía evento...",
+    "MeasurementEventPower": "Calculando...",
     "TeamId": "ID del equipo: ",
-    "EstimatedRoomPower": "Energía estimada ({ 1 },  jugs.): { 2 }"
+    "EstimatedRoomPower": "Energía estimada ({ 1 },  jugs.): { 2 }",
+    "AbortedMeasurementEventPower": "Cálculo interrumpido"
   },
   "Welcome": {
     "About": "SplatNet 3 es un servicio vinculado a Splatoon 3 y cuenta con otras funciones además de las aquí descritas.",
