@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "ядровик";
 CoopHistory_SakeArtilleryCannon = "ядромет";
 CoopHistory_SakeBigBoss = "Самонид-король";
-CoopHistory_SakeBigBossGauge = "Король-шкала";
 CoopHistory_SakeDolphin = "хулахлюп";
 CoopHistory_SakeFlyBagman = "умыкумжа";
 CoopHistory_SakePillar = "бурмонид";

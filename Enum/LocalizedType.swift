@@ -157,8 +157,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_SakeArtilleryCannon
 	/// オカシラシャケ
 	case CoopHistory_SakeBigBoss
-	/// オカシラゲージ
-	case CoopHistory_SakeBigBossGauge
 	/// ダイバー
 	case CoopHistory_SakeDolphin
 	/// タマヒロイ

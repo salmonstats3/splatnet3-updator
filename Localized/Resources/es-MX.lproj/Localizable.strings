@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "Artilleroide";
 CoopHistory_SakeArtilleryCannon = "lanzador";
 CoopHistory_SakeBigBoss = "gran jefe salmónido";
-CoopHistory_SakeBigBossGauge = "salmómetro";
 CoopHistory_SakeDolphin = "Chapotero";
 CoopHistory_SakeFlyBagman = "Hurtón";
 CoopHistory_SakePillar = "Viga";

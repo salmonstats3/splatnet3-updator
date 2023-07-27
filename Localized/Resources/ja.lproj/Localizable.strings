@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "テッキュウ";
 CoopHistory_SakeArtilleryCannon = "発射台";
 CoopHistory_SakeBigBoss = "オカシラシャケ";
-CoopHistory_SakeBigBossGauge = "オカシラゲージ";
 CoopHistory_SakeDolphin = "ダイバー";
 CoopHistory_SakeFlyBagman = "タマヒロイ";
 CoopHistory_SakePillar = "ハシラ";

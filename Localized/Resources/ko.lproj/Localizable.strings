@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "철 구슬";
 CoopHistory_SakeArtilleryCannon = "발사대";
 CoopHistory_SakeBigBoss = "두목연어";
-CoopHistory_SakeBigBossGauge = "두목 게이지";
 CoopHistory_SakeDolphin = "다이버";
 CoopHistory_SakeFlyBagman = "알주어";
 CoopHistory_SakePillar = "기둥";

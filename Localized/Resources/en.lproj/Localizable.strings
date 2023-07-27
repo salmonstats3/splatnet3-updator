@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "Big Shot";
 CoopHistory_SakeArtilleryCannon = "Big Shot launcher";
 CoopHistory_SakeBigBoss = "King Salmonid";
-CoopHistory_SakeBigBossGauge = "Salmometer";
 CoopHistory_SakeDolphin = "Flipper-Flopper";
 CoopHistory_SakeFlyBagman = "Snatcher";
 CoopHistory_SakePillar = "Fish Stick";

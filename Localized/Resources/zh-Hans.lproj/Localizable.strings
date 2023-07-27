@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "铁球鱼";
 CoopHistory_SakeArtilleryCannon = "发射台";
 CoopHistory_SakeBigBoss = "头目鲑鱼";
-CoopHistory_SakeBigBossGauge = "头目槽";
 CoopHistory_SakeDolphin = "潜水鱼";
 CoopHistory_SakeFlyBagman = "拾蛋鱼";
 CoopHistory_SakePillar = "柱鱼";

@@ -72,7 +72,6 @@ CoopEvent_Water_Levels = "-";
 CoopHistory_SakeArtillery = "Gros boulet";
 CoopHistory_SakeArtilleryCannon = "canon du gros boulet";
 CoopHistory_SakeBigBoss = "Salmonarque";
-CoopHistory_SakeBigBossGauge = "Salmomètre";
 CoopHistory_SakeDolphin = "Ploufion";
 CoopHistory_SakeFlyBagman = "Barboteur";
 CoopHistory_SakePillar = "Pylônoïde";
