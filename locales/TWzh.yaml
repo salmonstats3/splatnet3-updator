@@ -154,7 +154,7 @@ Common:
   Decide: 確定
   Download: 下載
   End: 結束
-  GearPowerBlank: ？
+  GearPowerBlank: 問號
   Home: 主頁
   Ikaring3: 魷魚圈 3
   NowLoading: 載入中
@@ -727,11 +727,11 @@ StageSchedule:
   League: 聯盟比賽
   Next: 下次
   NoticeBigrun: 大型跑接近中！
-  NoticeLimited: 期間限定打工舉行預告！
+  NoticeLimited: 團隊打工競賽舉行預告！
   NowClosed: 祭典比賽舉行中！
   Open: 開放！
   OpenBigrun: 大型跑發生中！
-  OpenLimited: 期間限定打工舉行中！
+  OpenLimited: 團隊打工競賽舉行中！
   Private: 私人比賽
   Recruit: '大型跑要來了！！打工大招募 '
   RecruitTeamContest: 團隊打工競賽！大家一起組隊參加吧！
