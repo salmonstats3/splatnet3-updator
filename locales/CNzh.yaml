@@ -154,7 +154,7 @@ Common:
   Decide: 确定
   Download: 下载
   End: 结束
-  GearPowerBlank: 问号
+  GearPowerBlank: ？
   Home: 主页
   Ikaring3: 鱿鱼圈 3
   NowLoading: 加载中
@@ -727,11 +727,11 @@ StageSchedule:
   League: 联盟比赛
   Next: 下次
   NoticeBigrun: 大型跑正在接近！
-  NoticeLimited: 团队打工竞赛举行预告！
+  NoticeLimited: 期间限定打工举行预告！
   NowClosed: 祭典比赛举行中！
   Open: 开放！
   OpenBigrun: 大型跑正在发生！
-  OpenLimited: 团队打工竞赛举行中！
+  OpenLimited: 期间限定打工举行中！
   Private: 私人比赛
   Recruit: '大型跑即将到来！！大量募集打工人员！ '
   RecruitTeamContest: 团队打工竞赛！组成队伍参加吧！
@@ -792,7 +792,7 @@ VSHistory:
   LatestTab: 最近
   Lose: LOSE...
   Measurement: X战力计算中
-  MeasurementEventPower: 活动战力计算中
+  MeasurementEventPower: 计算中
   NextBattle: 下一场对战
   NoData: 没有对战记录
   NotAvailable: 无法显示对战记录
