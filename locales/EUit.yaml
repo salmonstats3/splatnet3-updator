@@ -184,7 +184,7 @@ Common:
   GearPowerBlank: Sconosciuto
   Home: Pagina iniziale
   Ikaring3: SplatNet 3
-  NowLoading: Caricamento...
+  NowLoading: Caricamento in corso...
   PullToRefresh: Scorri per aggiornare
   Rainmaker: Bazookarp
   Share: Condividi
@@ -785,16 +785,16 @@ StageSchedule:
   FestivalDefense: In difesa
   FestivalHolding: In corso!
   FestivalPeriod: ' - { 1 }'
-  Future: In futuro
+  Future: Successivi
   GuideOpenBrowser: Si aprirà una nuova pagina del browser.
   League: Partita di lega
-  Next: A seguire
+  Next: Prossimo
   NoticeBigrun: Big Run in arrivo!
-  NoticeLimited: 'Annuncio: sfida tra colleghi in arrivo!'
+  NoticeLimited: Annuncio di lavoro a tempo determinato!
   NowClosed: Festival in corso!
-  Open: In corso
+  Open: In corso!
   OpenBigrun: Big Run in corso!
-  OpenLimited: Sfida tra colleghi ora disponibile!
+  OpenLimited: Lavoro a tempo determinato ora disponibile!
   Private: Partita privata
   Recruit: Big Run in corso! La Ursus & Co assume CHIUNQUE! ()
   RecruitTeamContest: 'È disponibile la sfida tra colleghi. Radunane qualcuno e unisciti

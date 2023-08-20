@@ -219,10 +219,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopStage_Unknown
 	/// 海女美術大学
 	case CoopStage_Upland
-	/// ビッグランから街を守れ！
-	case Carousel_BigrunOpening
-	/// ビッグラン結果発表！
-	case Carousel_BigrunResult
 	/// サーモンラン
 	case Carousel_CoopHistory
 	/// フェス開催！！
@@ -265,8 +261,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Catalog_AppName
 	/// 引き換えできます
 	case Catalog_Available
-	/// ビッグラン開催中！ポイント<em>1.2倍</em>！
-	case Catalog_BigrunBonus
 	/// カタログレベルを上げて<br />ミステリーボックスをゲット！
 	case Catalog_BonusDescription
 	/// レベル10ごとにミステリーボックスをゲットできます
@@ -419,10 +413,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_ClamBlitz
 	/// 閉じる
 	case Common_Close
-	/// : 
-	case Common_ColonRule
-	/// ビッグラン
-	case Common_CoopBigRun
 	/// QRコードは、株式会社デンソーウェーブの登録商標です。
 	case Common_CopyrightQrCode
 	/// 決定
@@ -451,8 +441,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_TowerControl
 	/// トリカラアタック
 	case Common_Tricolor
-	/// トリカラマッチ
-	case Common_TricolorMatch
 	/// ナワバリバトル
 	case Common_TurfWar
 	/// 出現数
@@ -461,8 +449,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_AvailableBoss
 	/// 平均クリアWAVE数
 	case CoopHistory_AverageClearWaves
-	/// ビッグラン
-	case CoopHistory_Bigrun
 	/// クリアボーナス
 	case CoopHistory_Bonus
 	/// オカシラシャケ出現！
@@ -579,22 +565,16 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_WaveLevel2
 	/// ホームに戻る
 	case Error_BackToHome
-	/// 現在利用できません。しばらくお待ちください
-	case Error_CurrentlyNotAvailable
 	/// エラー
 	case Error_Error
 	/// エラーが発生しました
 	case Error_ErrorOccurred
-	/// 読みこみに失敗しました
-	case Error_ErrorReopen
 	/// ただいまサーバーのメンテナンス中です。時間をおいて再度アクセスしてください。
 	case Error_MaintenanceDescription
 	/// しばらくお待ちください
 	case Error_MaintenanceTitle
 	/// 読みこみに失敗しました。<br />通信環境のよいところで再度お試しください。
 	case Error_NetworkNotAvailable
-	/// イカリング３を表示できません。しばらく時間をおいてから通信環境の良い場所で再度お試しください。<br />問題が解決しない場合は、ブラウザが最新版に更新されているか確認してください。<br />それでもこの画面が表示される場合は、ご利用の環境でイカリング３を利用できない可能性があります。
-	case Error_NotSupported
 	/// 再読みこみ
 	case Error_Reload
 	/// フェス
@@ -611,8 +591,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case FesRecord_ContributionChallenge
 	/// こうけん度 オープン
 	case FesRecord_ContributionRegular
-	/// こうけん度 トリカラマッチ
-	case FesRecord_ContributionTricolor
 	/// 守備
 	case FesRecord_Defense
 	/// { 1 }パワー
@@ -673,11 +651,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case FesRecord_WinTeam
 	/// あなたのきろく
 	case FesRecord_YourRecord
-	/// <em>ビッグラン</em>警報発令！シャケの接近に注意！
-	case Footer_BigrunAnnouncement
-	/// <em>ビッグラン</em>発生中！シャケから街を守れ！
-	case Footer_BigrunNowOpening
-	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
+	/// もうすぐ <em></em> が終了します。
 	case Footer_EndOfSeason
 	/// <em></em> フェス開催！アンケートに回答してフレンドと一緒に参加しよう！
 	case Footer_FestAnnouncement
@@ -691,8 +665,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case FriendList_InVsGame
 	/// パスワードつき
 	case FriendList_IsLocked
-	/// フレンドのプレイ状況がここに表示されます
-	case FriendList_NoFriends
 	/// オフライン
 	case FriendList_Offline
 	/// オンライン
@@ -831,14 +803,10 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_Badge
 	/// <small>回</small>
 	case History_Count
-	/// 推定順位
-	case History_EstimatedRanking
 	/// もっともよく使ったブキ
 	case History_FrequentlyUsedWeapon
 	/// 最高ウデマエ
 	case History_HighestUdemae
-	/// 最高Xランキング・最高Xパワー
-	case History_HighestXranking
 	/// 最近 3ヶ月
 	case History_Latest
 	/// 最近ゲットしたバッジ
@@ -847,10 +815,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_Monthly
 	/// その他
 	case History_Others
-	/// ランク
-	case History_Rank
-	/// <small>位</small>
-	case History_Ranking
 	/// シーズン
 	case History_Season
 	/// すべてのバッジを見る
@@ -859,8 +823,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_ShowLess
 	/// もっと見る
 	case History_ShowMore
-	/// Xランキングを見る
-	case History_ShowXranking
 	///  からプレイ（{ 1 } 更新）
 	case History_Since
 	/// サマリー
@@ -873,14 +835,10 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case History_TotalWin
 	/// p
 	case History_TurfPoint
-	/// ウデマエ
-	case History_Udemae
 	/// ブキヒストリー
 	case History_Weapon
 	/// ブキ使用率
 	case History_WeaponUsage
-	/// Xマッチ
-	case History_Xmatch
 	/// ※アプリをインストールしていない方は、このボタンを押しても開きません
 	case Landing_Caution
 	/// Apple、Appleロゴ、App Storeは、Apple Inc.の商標です。Google Play および Google Play ロゴは Google LLC の商標です。
@@ -1163,22 +1121,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_League
 	/// つぎ
 	case StageSchedule_Next
-	/// ビッグラン接近中！
-	case StageSchedule_NoticeBigrun
-	/// バイトチームコンテスト開催予告！
-	case StageSchedule_NoticeLimited
 	/// フェスマッチ開催中！
 	case StageSchedule_NowClosed
 	/// オープン！
 	case StageSchedule_Open
-	/// ビッグラン発生中！
-	case StageSchedule_OpenBigrun
-	/// バイトチームコンテスト開催中！
-	case StageSchedule_OpenLimited
 	/// プライベートマッチ
 	case StageSchedule_Private
-	/// ビッグランがやってくる！！バイト大募集 
-	case StageSchedule_Recruit
 	/// レギュラーマッチ
 	case StageSchedule_Regular
 	/// フェスのきろくを見る
@@ -1269,8 +1217,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_LatestTab
 	/// LOSE...
 	case VSHistory_Lose
-	/// Xパワー計測中
-	case VSHistory_Measurement
 	/// 次のバトル
 	case VSHistory_NextBattle
 	/// バトルのきろくがありません
@@ -1279,8 +1225,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_NotAvailable
 	/// 閲覧できるバトルのきろくは、モードごとに最新の50戦までです。
 	case VSHistory_NotAvailableDescription
-	/// （おそろいボーナス x）
-	case VSHistory_OutfitBonus
 	/// 前のバトル
 	case VSHistory_PreviousBattle
 	/// プライベートマッチ
@@ -1301,22 +1245,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_UdemaePoint
 	/// p
 	case VSHistory_UdemaePointScore
-	/// 挑戦中止
-	case VSHistory_UdemaeReset
 	/// ウデマエアップ！
 	case VSHistory_UdemaeUp
 	/// WIN!
 	case VSHistory_Win
 	/// 勝敗数について
 	case VSHistory_WinMeterGuide
-	/// 連勝
-	case VSHistory_Wins
-	/// おうかん
-	case VSHistory_Xcrown
-	/// Xマッチ
-	case VSHistory_Xmatch
-	/// Xパワー 
-	case VSHistory_Xpower
 	/// イカリング３はスプラトゥーン3と連動するサービスです。<br />ここで紹介したもの以外にもさまざまな機能があります。
 	case Welcome_About
 	/// バトルの戦績やスケジュールをチェックして<br />ライバルに差をつけろ！
@@ -1345,6 +1279,148 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Welcome_Store1
 	/// ウィジェット
 	case Welcome_Widgets
+	/// イカリング３のアルバムの画像を表示します。
+	case Widgets_AlbumDescription
+	/// スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！
+	case Widgets_AlbumNoPhoto
+	/// アルバム
+	case Widgets_AlbumTitle
+	/// スプラトゥーン3の現在のそうびを表示します。
+	case Widgets_EquipmentsDescription
+	/// 現在のそうび
+	case Widgets_EquipmentsTitle
+	/// このウィジェットはスプラトゥーン3の連携サービスです。ゲームを遊ぶとデータが蓄積され利用できるようになります
+	case Widgets_ErrorsNoData
+	/// スマートフォンアプリ『Nintendo Switch Online』にログインしてください
+	case Widgets_ErrorsNotLoggedIn
+	/// 現在利用できません
+	case Widgets_ErrorsOutOfService
+	/// Nintendo Switch Onlineアプリを更新してください
+	case Widgets_ErrorsUpdateRequired
+	/// ロード中
+	case Widgets_Loading
+	/// バンカラマッチ
+	case Widgets_StagesBankara
+	/// サーモンラン
+	case Widgets_StagesCoop
+	/// M/d HH:mm
+	case Widgets_StagesDatetimeFormat
+	/// スプラトゥーン3のステージスケジュールを表示します。
+	case Widgets_StagesDescription
+	/// スプラトゥーン3のステージスケジュールと現在のそうびを表示します。
+	case Widgets_StagesDescriptionAndroid
+	/// フェスマッチ開催中！
+	case Widgets_StagesFestMatch
+	/// まもなくフェスマッチ開催
+	case Widgets_StagesFestMatchAnnounced
+	/// リーグマッチ
+	case Widgets_StagesLeague
+	/// スケジュールがありません
+	case Widgets_StagesNoData
+	/// オープン！
+	case Widgets_StagesNowOpen
+	/// レギュラーマッチ
+	case Widgets_StagesRegular
+	///  - 
+	case Widgets_StagesSeparator
+	/// 表示するモード
+	case Widgets_StagesSettingsMode
+	/// 支給ブキ
+	case Widgets_StagesSuppliedWeapons
+	/// HH:mm
+	case Widgets_StagesTimeFormat
+	/// ステージスケジュール
+	case Widgets_StagesTitle
+	/// Xマッチ
+	case Widgets_StagesXmatch
+	/// yyyy M/d HH:mm
+	case Widgets_StagesYearDatetimeFormat
+	/// %@カウント
+	case Widgets_VsCount
+	/// ノックアウト！
+	case Widgets_VsKnockout
+	/// バトルのきろくがありません
+	case Widgets_VsNoData
+	/// %@%
+	case Widgets_VsPercent
+	/// %@p
+	case Widgets_VsTurfPoint
+	/// スプラトゥーン3のバトルのきろくを表示します。
+	case Widgets_VshistoryDescription
+	/// DRAW
+	case Widgets_VshistoryDraw
+	/// LOSE...
+	case Widgets_VshistoryLose
+	/// バトルのきろく
+	case Widgets_VshistoryTitle
+	/// WIN!
+	case Widgets_VshistoryWin
+	/// ビッグランから街を守れ！
+	case Carousel_BigrunOpening
+	/// ビッグラン結果発表！
+	case Carousel_BigrunResult
+	/// ビッグラン開催中！ポイント<em>1.2倍</em>！
+	case Catalog_BigrunBonus
+	/// : 
+	case Common_ColonRule
+	/// ビッグラン
+	case Common_CoopBigRun
+	/// トリカラマッチ
+	case Common_TricolorMatch
+	/// ビッグラン
+	case CoopHistory_Bigrun
+	/// 現在利用できません。しばらくお待ちください
+	case Error_CurrentlyNotAvailable
+	/// 読みこみに失敗しました
+	case Error_ErrorReopen
+	/// イカリング３を表示できません。しばらく時間をおいてから通信環境の良い場所で再度お試しください。<br />問題が解決しない場合は、ブラウザが最新版に更新されているか確認してください。<br />それでもこの画面が表示される場合は、ご利用の環境でイカリング３を利用できない可能性があります。
+	case Error_NotSupported
+	/// こうけん度 トリカラマッチ
+	case FesRecord_ContributionTricolor
+	/// <em>ビッグラン</em>警報発令！シャケの接近に注意！
+	case Footer_BigrunAnnouncement
+	/// <em>ビッグラン</em>発生中！シャケから街を守れ！
+	case Footer_BigrunNowOpening
+	/// フレンドのプレイ状況がここに表示されます
+	case FriendList_NoFriends
+	/// 推定順位
+	case History_EstimatedRanking
+	/// 最高Xランキング・最高Xパワー
+	case History_HighestXranking
+	/// ランク
+	case History_Rank
+	/// <small>位</small>
+	case History_Ranking
+	/// Xランキングを見る
+	case History_ShowXranking
+	/// ウデマエ
+	case History_Udemae
+	/// Xマッチ
+	case History_Xmatch
+	/// ビッグラン接近中！
+	case StageSchedule_NoticeBigrun
+	/// 期間限定バイト開催予告！
+	case StageSchedule_NoticeLimited
+	/// ビッグラン発生中！
+	case StageSchedule_OpenBigrun
+	/// 期間限定バイト開催中！
+	case StageSchedule_OpenLimited
+	/// ビッグランがやってくる！！バイト大募集 
+	case StageSchedule_Recruit
+	/// Xパワー計測中
+	case VSHistory_Measurement
+	/// （おそろいボーナス x）
+	case VSHistory_OutfitBonus
+	/// 挑戦中止
+	case VSHistory_UdemaeReset
+	/// 連勝
+	case VSHistory_Wins
+	/// おうかん
+	case VSHistory_Xcrown
+	/// Xマッチ
+	case VSHistory_Xmatch
+	/// Xパワー 
+	case VSHistory_Xpower
 	/// すべて表示
 	case XRanking_All
 	/// Xランキング
@@ -1387,62 +1463,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Xcrown
 	/// <small>Xパワー</small> 
 	case XRanking_Xpower
-	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
-	case Catalog_EndOfSeason
-	/// バイトチームコンテスト
-	case Common_CoopTeamContest
-	/// はてな
-	case Common_WpnNotfound
-	/// 銅
-	case CoopHistory_BigrunBronze
-	/// 金
-	case CoopHistory_BigrunGold
-	/// 銀
-	case CoopHistory_BigrunSilver
-	/// 現在の期間限定ポイント
-	case CoopHistory_LimitedPoint
-	/// バイトチームコンテスト
-	case CoopHistory_TeamContest
-	/// バイト
-	case CoopRecord_AppName
-	/// 参加回数： 
-	case CoopRecord_Attended
-	/// ビッグラン
-	case CoopRecord_Bigrun
-	/// 銅
-	case CoopRecord_BigrunBronze
-	/// 金
-	case CoopRecord_BigrunGold
-	/// 銀
-	case CoopRecord_BigrunSilver
-	/// 最高評価
-	case CoopRecord_HighestJobRate
-	/// ハイスコア
-	case CoopRecord_HighestScore
-	/// もっと見る
-	case CoopRecord_More
-	/// きろくがありません
-	case CoopRecord_NoData
-	/// バイトチームコンテスト
-	case CoopRecord_TeamContest
-	/// サーモンランのきろく
-	case CoopRecord_Title
-	/// もうすぐ <em></em> が終了します。
-	case Footer_EndOfSeason_
-	/// ナワバトラー
-	case FriendList_InMiniGame
-	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case History_PastXmatchAnnotation
-	/// マイコーデ
-	case MyOutfits_Hashtag
-	/// シェア
-	case MyOutfits_Share
-	/// エキスパンション・パス 購入サイトへ
-	case Settings_ExpansionPass
-	/// バイトチームコンテスト！チームを組んで参加しよう！  
-	case StageSchedule_RecruitTeamContest
-	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
-	case XRanking_PastRankingsAnnotation
 	/// オレンジの空がオイリーだよね～。
 	case Challenge_Challenge210Description
 	/// 二つ名
@@ -1511,18 +1531,62 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Title
 	/// 人の { 1 } パワー 推定 { 2 }
 	case VSHistory_EstimatedRoomPower
-	/// 「ハイカラシティ」配信中！
-	case Carousel_ExpansionPass
-	/// 「サイド・オーダー」配信中！
-	case Carousel_ExpansionPass2
-	/// Splatoon甲子園開催中！
-	case Carousel_OfficialTournament
-	/// Splatoon甲子園決勝戦
-	case Carousel_OfficialTournamentFinal
-	/// バイトチームコンテストに参加しよう！
-	case Carousel_TeamContestOpening
-	/// バイトチームコンテスト結果発表！
-	case Carousel_TeamContestResult
+	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
+	case Catalog_EndOfSeason
+	/// バイトチームコンテスト
+	case Common_CoopTeamContest
+	/// はてな
+	case Common_WpnNotfound
+	/// 銅
+	case CoopHistory_BigrunBronze
+	/// 金
+	case CoopHistory_BigrunGold
+	/// 銀
+	case CoopHistory_BigrunSilver
+	/// 現在の期間限定ポイント
+	case CoopHistory_LimitedPoint
+	/// バイトチームコンテスト
+	case CoopHistory_TeamContest
+	/// バイト
+	case CoopRecord_AppName
+	/// 参加回数： 
+	case CoopRecord_Attended
+	/// ビッグラン
+	case CoopRecord_Bigrun
+	/// 銅
+	case CoopRecord_BigrunBronze
+	/// 金
+	case CoopRecord_BigrunGold
+	/// 銀
+	case CoopRecord_BigrunSilver
+	/// 最高評価
+	case CoopRecord_HighestJobRate
+	/// ハイスコア
+	case CoopRecord_HighestScore
+	/// もっと見る
+	case CoopRecord_More
+	/// きろくがありません
+	case CoopRecord_NoData
+	/// バイトチームコンテスト
+	case CoopRecord_TeamContest
+	/// サーモンランのきろく
+	case CoopRecord_Title
+	/// もうすぐ <em></em> が終了します。
+	case Footer_EndOfSeason_
+	/// ナワバトラー
+	case FriendList_InMiniGame
+	/// ※ Xマッチのきろくはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case History_PastXmatchAnnotation
+	/// マイコーデ
+	case MyOutfits_Hashtag
+	/// シェア
+	case MyOutfits_Share
+	/// エキスパンション・パス 購入サイトへ
+	case Settings_ExpansionPass
+	/// バイトチームコンテスト！チームを組んで参加しよう！  
+	case StageSchedule_RecruitTeamContest
+	/// ※ 過去のランキングはシーズン終了後、集計をしてから公開されます。集計が終わるまで数日かかる場合があります。
+	case XRanking_PastRankingsAnnotation
 	/// ギアパワーのかけら
 	case Catalog_GearSkillChip
 	/// シフトごとのバイト回数には通信切断などで中断したバイトは含まれません
@@ -1685,82 +1749,18 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_MeasurementEventPower
 	/// Team ID: 
 	case VSHistory_TeamId
-	/// イカリング３のアルバムの画像を表示します。
-	case Widgets_AlbumDescription
-	/// スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！
-	case Widgets_AlbumNoPhoto
-	/// アルバム
-	case Widgets_AlbumTitle
-	/// スプラトゥーン3の現在のそうびを表示します。
-	case Widgets_EquipmentsDescription
-	/// 現在のそうび
-	case Widgets_EquipmentsTitle
-	/// このウィジェットはスプラトゥーン3の連携サービスです。ゲームを遊ぶとデータが蓄積され利用できるようになります
-	case Widgets_ErrorsNoData
-	/// スマートフォンアプリ『Nintendo Switch Online』にログインしてください
-	case Widgets_ErrorsNotLoggedIn
-	/// 現在利用できません
-	case Widgets_ErrorsOutOfService
-	/// Nintendo Switch Onlineアプリを更新してください
-	case Widgets_ErrorsUpdateRequired
-	/// ロード中
-	case Widgets_Loading
-	/// バンカラマッチ
-	case Widgets_StagesBankara
-	/// サーモンラン
-	case Widgets_StagesCoop
-	/// M/d HH:mm
-	case Widgets_StagesDatetimeFormat
-	/// スプラトゥーン3のステージスケジュールを表示します。
-	case Widgets_StagesDescription
-	/// スプラトゥーン3のステージスケジュールと現在のそうびを表示します。
-	case Widgets_StagesDescriptionAndroid
-	/// フェスマッチ開催中！
-	case Widgets_StagesFestMatch
-	/// まもなくフェスマッチ開催
-	case Widgets_StagesFestMatchAnnounced
-	/// リーグマッチ
-	case Widgets_StagesLeague
-	/// スケジュールがありません
-	case Widgets_StagesNoData
-	/// オープン！
-	case Widgets_StagesNowOpen
-	/// レギュラーマッチ
-	case Widgets_StagesRegular
-	///  - 
-	case Widgets_StagesSeparator
-	/// 表示するモード
-	case Widgets_StagesSettingsMode
-	/// 支給ブキ
-	case Widgets_StagesSuppliedWeapons
-	/// HH:mm
-	case Widgets_StagesTimeFormat
-	/// ステージスケジュール
-	case Widgets_StagesTitle
-	/// Xマッチ
-	case Widgets_StagesXmatch
-	/// yyyy M/d HH:mm
-	case Widgets_StagesYearDatetimeFormat
-	/// %@カウント
-	case Widgets_VsCount
-	/// ノックアウト！
-	case Widgets_VsKnockout
-	/// バトルのきろくがありません
-	case Widgets_VsNoData
-	/// %@%
-	case Widgets_VsPercent
-	/// %@p
-	case Widgets_VsTurfPoint
-	/// スプラトゥーン3のバトルのきろくを表示します。
-	case Widgets_VshistoryDescription
-	/// DRAW
-	case Widgets_VshistoryDraw
-	/// LOSE...
-	case Widgets_VshistoryLose
-	/// バトルのきろく
-	case Widgets_VshistoryTitle
-	/// WIN!
-	case Widgets_VshistoryWin
+	/// 「ハイカラシティ」配信中！
+	case Carousel_ExpansionPass
+	/// 「サイド・オーダー」配信中！
+	case Carousel_ExpansionPass2
+	/// Splatoon甲子園開催中！
+	case Carousel_OfficialTournament
+	/// Splatoon甲子園決勝戦
+	case Carousel_OfficialTournamentFinal
+	/// バイトチームコンテストに参加しよう！
+	case Carousel_TeamContestOpening
+	/// バイトチームコンテスト結果発表！
+	case Carousel_TeamContestResult
 	/// About
 	case CoopHistory_About
 	/// 実測値

@@ -662,12 +662,13 @@ QRCodeReader:
   ErrorNotCompatibleDescription: Ce QR Code ne peut pas être lu avec SplatNet 3.
   ErrorNotCompatibleTitle: Erreur
   ErrorRewardExpiredDescription: Ce QR Code n'est plus actif.
-  EuConfirmation: SplatNet 3 offre la possibilité de s'enregistrer dans les magasins
+  EuConfirmation: 'SplatNet 3 offre la possibilité de s''enregistrer dans les magasins
     via un QR Code. Si tu utilises le lecteur de QR Codes, les informations contenues
     dans le code seront communiquées à Nintendo, te permettant ainsi de voir un historique
-    des codes scannés par l'appli. Ceci pourrait permettre à Nintendo de te localiser.<br
-    />Ton choix n'est pas enregistré, et ton consentement sera requis à chaque nouvelle
-    utilisation du lecteur de QR Codes (conformément à l'art. 6 para. 1 (a) du RGPD).
+    des codes scannés par l''appli. Ceci pourrait permettre à Nintendo de te localiser.
+
+    Ton choix n''est pas enregistré, et ton consentement sera requis à chaque nouvelle
+    utilisation du lecteur de QR Codes (conformément à l''art. 6 para. 1 (a) du RGPD).'
   Guide: Trouve des QR Codes spéciaux et<br />lis-les pour obtenir des récompenses.
   History: Historique
   HowToGetReward: Pour recevoir ta récompense, utilise le<br />terminal du hall dans
@@ -793,17 +794,17 @@ StageSchedule:
   FestivalDefense: En défense
   FestivalHolding: En cours !
   FestivalPeriod: ' - { 1 }'
-  Future: Plus tard
+  Future: Prochains
   GuideOpenBrowser: Cette opération entraînera l'ouverture d'une nouvelle fenêtre
     de navigateur.
   League: Match de ligue
-  Next: Tout à l'heure
+  Next: Suivant
   NoticeBigrun: Big Run en approche !
-  NoticeLimited: Défi œuf sup' en approche !
+  NoticeLimited: Offre d'emploi à durée limitée !
   NowClosed: Festival en cours !
-  Open: Actuellement
+  Open: Actuel
   OpenBigrun: Big Run en cours !
-  OpenLimited: Défi œuf sup' disponible !
+  OpenLimited: Offre d'emploi disponible !
   Private: Match privé
   Recruit: Un Big Run est en cours ! M. Ours SA embauche, tous types de profils acceptés
     ! ()
