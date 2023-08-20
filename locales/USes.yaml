@@ -335,7 +335,7 @@ CoopRecord:
   More: Ver más
   NoData: Sin datos
   TeamContest: Recolección extra
-  Title: Salmon Run
+  Title: Estadísticas
 CoopStage:
   Carousel: Pirañalandia
   Shakedent: Hidrocentral Rebosante
@@ -856,7 +856,7 @@ VSHistory:
   LatestTab: Últimos
   Lose: Derrota
   Measurement: Calculando fuerza X...
-  MeasurementEventPower: Calculando fuerza especial...
+  MeasurementEventPower: Calculando...
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles
