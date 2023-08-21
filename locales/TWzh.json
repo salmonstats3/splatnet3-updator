@@ -99,6 +99,7 @@
     "Sakepuncher": "走私魚",
     "SakepuncherBulletSimpl": "直升機鮭魚",
     "Sakerocket": "蝙蝠魚",
+    "Annotation01": "每個班次的打工次數不包括因連線中斷等理由而中斷的打工。",
     "Available": "出現數",
     "AvailableBoss": "已出現的頭目鮭魚",
     "AverageClearWaves": "平均完成WAVE數",
@@ -138,6 +139,7 @@
     "NotDefeated": "擊倒失敗……",
     "P": "p",
     "PlayCount": "打工次數",
+    "PlayCountBySchedule": "場打工",
     "Previous": "上一場打工",
     "Private": "私人",
     "Recruit": "招募員工",
@@ -164,9 +166,7 @@
     "WaveLevel0": "乾潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "滿潮",
-    "Limited": "期間限定",
-    "Annotation01": "每個班次的打工次數不包括因連線中斷等理由而中斷的打工。",
-    "PlayCountBySchedule": "場打工"
+    "Limited": "期間限定"
   },
   "CoopStage": {
     "Carousel": "醋飯海洋世界",
@@ -187,6 +187,7 @@
     "CardSleeve": "卡套",
     "Emote": "表情",
     "Figure": "裝飾品",
+    "GearSkillChip": "裝備能力碎片",
     "NamePlateBg": "背景",
     "Sticker": "貼紙",
     "AppName": "目錄",
@@ -218,8 +219,7 @@
     "Signboard": "雜貨店",
     "Title": "目錄",
     "Welcome": "超魷型目錄發布中！",
-    "WelcomeDescription": "透過對戰累積目錄點數<br />獲得道具吧！",
-    "GearSkillChip": "裝備能力碎片"
+    "WelcomeDescription": "透過對戰累積目錄點數<br />獲得道具吧！"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅程的途中發現了超～酥脆的火熱塗鴉！傳給你看喔～",
@@ -322,6 +322,7 @@
     "Rainmaker": "真格魚虎對戰",
     "Share": "分享",
     "SplatZones": "真格區域",
+    "TournamentManager": "大賽支援助手",
     "TowerControl": "真格塔樓",
     "Tricolor": "三色奪寶攻擊",
     "TricolorMatch": "三色奪寶比賽",
@@ -669,6 +670,7 @@
     "Annotation01": "此房間與一般的私人比賽不同，所有知道邀請URL的玩家都可以參加。",
     "Annotation02": "朋友或頻道成員即使不知道邀請URL，也可以透過通知或是朋友列表前往此房間會合。",
     "Annotation03": "此外，在此房間中將無法使用語音聊天。",
+    "Annotation04": "如果超過30分鐘都沒有人進入已建立的房間，房間就會自動關閉。",
     "AppName": "建房",
     "Approve": "參加房間",
     "Back": "返回主頁",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "請對方透過已安裝Nintendo Switch Online應用程式的智慧型手機開啟邀請URL吧！",
     "ShareUrl": "分享URL",
     "Subtitle": "便利的房間建立服務",
-    "Title": "建房",
-    "Annotation04": "如果超過30分鐘都沒有人進入已建立的房間，房間就會自動關閉。"
+    "Title": "建房"
   },
   "Settings": {
     "Acknowledgements": "著作權聲明",
@@ -759,10 +760,16 @@
     "Xmatch": "X比賽",
     "League": "聯盟比賽"
   },
+  "Tournament": {
+    "ComingSoon": "即將舉行！",
+    "Title": "大賽支援助手",
+    "TournamentNow": "舉行中"
+  },
   "VSHistory": {
     "100x": "100倍比賽",
     "10x": "10倍比賽",
     "333x": "333倍比賽",
+    "AbortedMeasurementEventPower": "計算中止",
     "AnnotationExemption": "因有玩家中斷連線，比賽結果不會以落敗計算。",
     "AnnotationNocontest": "本次對戰已被判定為無效比賽。",
     "AnnotationPenalty": "比賽未能正常結束。",
@@ -830,8 +837,7 @@
     "Xcrown": "王冠",
     "Xmatch": "X比賽",
     "Xpower": "X戰力 ",
-    "EstimatedRoomPower": "人的{ 1 }戰力預估值{ 2 }",
-    "AbortedMeasurementEventPower": "計算中止"
+    "EstimatedRoomPower": "人的{ 1 }戰力預估值{ 2 }"
   },
   "Welcome": {
     "About": "《魷魚圈 3》是《斯普拉遁 3》的連動服務。除了這裡介紹的功能之外，還有很多各式各樣的用途。",

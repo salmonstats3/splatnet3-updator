@@ -162,6 +162,7 @@ Common:
   Rainmaker: 真格魚虎對戰
   Share: 分享
   SplatZones: 真格區域
+  TournamentManager: 大賽支援助手
   TowerControl: 真格塔樓
   Tricolor: 三色奪寶攻擊
   TricolorMatch: 三色奪寶比賽
@@ -744,6 +745,10 @@ StageSchedule:
   Title: 時間表
   WinRateByRules: 個別規則勝率
   Xmatch: X比賽
+Tournament:
+  ComingSoon: 即將舉行！
+  Title: 大賽支援助手
+  TournamentNow: 舉行中
 VSHistory:
   100x: 100倍比賽
   10x: 10倍比賽

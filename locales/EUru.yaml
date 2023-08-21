@@ -186,6 +186,7 @@ Common:
   Rainmaker: Мегакарп
   Share: Поделиться
   SplatZones: Бой за зоны
+  TournamentManager: Администратор турниров
   TowerControl: Бой за башню
   Tricolor: Трехцветный бой
   TricolorMatch: Трехцветный бой
@@ -808,6 +809,10 @@ StageSchedule:
   Title: Расписание
   WinRateByRules: Доля побед по режимам
   Xmatch: Бой X
+Tournament:
+  ComingSoon: Скоро!
+  Title: Администратор турниров
+  TournamentNow: Регистрация открыта!
 VSHistory:
   100x: Бой x100
   10x: Бой x10

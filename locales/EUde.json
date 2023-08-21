@@ -99,6 +99,7 @@
     "Sakepuncher": "Mutterschiff",
     "SakepuncherBulletSimpl": "Kopta",
     "Sakerocket": "Regnar",
+    "Annotation01": "Schichten, die aus unvorhergesehenen Gründen abgebrochen wurden (etwa durch Verbindungsfehler), werden nicht gezählt.",
     "Available": "Auftritte ",
     "AvailableBoss": "Ober-Salmonide bekämpft",
     "AverageClearWaves": "Durchschn. überstandene Wellen",
@@ -138,6 +139,7 @@
     "NotDefeated": "Gescheitert...",
     "P": " P",
     "PlayCount": "Angetretene Schichten",
+    "PlayCountBySchedule": "Anzahl Schichten: ",
     "Previous": "Zurück",
     "Private": "Private Schicht",
     "Recruit": "Eierjäger gesucht!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "Ebbe",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Flut",
-    "Limited": "Nur begrenzte Zeit",
-    "Annotation01": "Schichten, die aus unvorhergesehenen Gründen abgebrochen wurden (etwa durch Verbindungsfehler), werden nicht gezählt.",
-    "PlayCountBySchedule": "Anzahl Schichten: "
+    "Limited": "Nur begrenzte Zeit"
   },
   "CoopStage": {
     "Carousel": "Flunder-Funpark",
@@ -187,6 +187,7 @@
     "CardSleeve": "Kartenhüllen",
     "Emote": "Emote",
     "Figure": "Deko",
+    "GearSkillChip": "Effekt-Fragmente",
     "NamePlateBg": "Banner",
     "Sticker": "Aufkleber",
     "AppName": "Katalog",
@@ -218,8 +219,7 @@
     "Signboard": "Hotlantis",
     "Title": "Katalog",
     "Welcome": "Druckfrischer Katalog!",
-    "WelcomeDescription": "Verdiene in Kämpfen Katalogpunkte<br />und schnapp dir tinttastische Preise!",
-    "GearSkillChip": "Effekt-Fragmente"
+    "WelcomeDescription": "Verdiene in Kämpfen Katalogpunkte<br />und schnapp dir tinttastische Preise!"
   },
   "Challenge": {
     "AboutGraffiti": "Wenn ich ein heißes Tag sehe, schicke ich es dir!",
@@ -322,6 +322,7 @@
     "Rainmaker": "Operation Goldfisch",
     "Share": "Teilen",
     "SplatZones": "Herrschaft",
+    "TournamentManager": "Turnier-Manager",
     "TowerControl": "Turm-Kommando",
     "Tricolor": "Dreifarb-Angriff",
     "TricolorMatch": "Dreifarb-Match",
@@ -669,6 +670,7 @@
     "Annotation01": "Im Gegensatz zu Standard-Privatkämpfen kann an diesem Kampf jeder Spieler teilnehmen, der über die URL verfügt.",
     "Annotation02": "Freunde oder Channel-Mitglieder können diesem Raum über die Freundesliste bzw. ihre Benachrichtigungen beitreten, auch wenn sie nicht über die Einladungs-URL verfügen.",
     "Annotation03": "Hinweis: In diesem Raum kann kein Voice-Chat genutzt werden.",
+    "Annotation04": "Leere Räume werden nach 30 Minuten automatisch geschlossen.   ",
     "AppName": "Raum-Erstellung",
     "Approve": "Raum betreten",
     "Back": "Zurück zur Hauptseite",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "Eingeladene Spieler können mithilfe eines Smartgeräts mit installierter Nintendo Switch Online-App auf diese URL zugreifen.",
     "ShareUrl": "URL teilen",
     "Subtitle": "Hier erstellst du Räume für private Kämpfe!",
-    "Title": "Raum-Erstellung",
-    "Annotation04": "Leere Räume werden nach 30 Minuten automatisch geschlossen.   "
+    "Title": "Raum-Erstellung"
   },
   "Settings": {
     "Acknowledgements": "Copyrights",
@@ -759,10 +760,16 @@
     "Xmatch": "X-Kampf",
     "League": "Ligakampf"
   },
+  "Tournament": {
+    "ComingSoon": "Demnächst!",
+    "Title": "Turnier-Manager",
+    "TournamentNow": "Anmeldung möglich!"
+  },
   "VSHistory": {
     "100x": "×100-Kampf",
     "10x": "×10-Kampf",
     "333x": "×333-Kampf",
+    "AbortedMeasurementEventPower": "Berechnung abgebrochen.",
     "AnnotationExemption": "Ein oder mehrere Spieler konnten den Kampf nicht fortsetzen. Der Kampf wird nicht als Niederlage gewertet.",
     "AnnotationNocontest": "Kein Ergebnis",
     "AnnotationPenalty": "Der Kampf wurde nicht abgeschlossen.",
@@ -830,8 +837,7 @@
     "Xcrown": "Krone",
     "Xmatch": "X-Kampf",
     "Xpower": "X-Power: ",
-    "EstimatedRoomPower": "{ 1 }-Power ( SP): ca. { 2 }<br />",
-    "AbortedMeasurementEventPower": "Berechnung abgebrochen."
+    "EstimatedRoomPower": "{ 1 }-Power ( SP): ca. { 2 }<br />"
   },
   "Welcome": {
     "About": "SplatNet 3 ist ein mit Splatoon 3 verbundener Service. Es gibt noch weitere Funktionen, die hier nicht aufgeführt sind.",

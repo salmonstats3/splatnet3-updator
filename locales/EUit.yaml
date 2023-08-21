@@ -189,6 +189,7 @@ Common:
   Rainmaker: Bazookarp
   Share: Condividi
   SplatZones: Zona splat
+  TournamentManager: Gestione tornei
   TowerControl: Torre mobile
   Tricolor: Attacco tricolore
   TricolorMatch: Scontro tricolore
@@ -808,6 +809,10 @@ StageSchedule:
   Title: Calendario
   WinRateByRules: Tasso di vittoria per modalità
   Xmatch: Partita X
+Tournament:
+  ComingSoon: In arrivo!
+  Title: Gestione tornei
+  TournamentNow: Iscrizioni aperte!
 VSHistory:
   100x: Battaglia ×100
   10x: Battaglia ×10

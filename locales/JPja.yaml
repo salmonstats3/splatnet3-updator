@@ -162,6 +162,7 @@ Common:
   Rainmaker: ガチホコバトル
   Share: シェア
   SplatZones: ガチエリア
+  TournamentManager: タイカイサポート
   TowerControl: ガチヤグラ
   Tricolor: トリカラアタック
   TricolorMatch: トリカラマッチ
@@ -744,6 +745,10 @@ StageSchedule:
   Title: スケジュール
   WinRateByRules: ルールごとの勝率
   Xmatch: Xマッチ
+Tournament:
+  ComingSoon: もうすぐ開催！
+  Title: タイカイサポート
+  TournamentNow: 開催中
 VSHistory:
   100x: １００倍マッチ
   10x: １０倍マッチ

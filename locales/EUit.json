@@ -99,6 +99,7 @@
     "Sakepuncher": "astronave madre",
     "SakepuncherBulletSimpl": "Salmocottero",
     "Sakerocket": "Piovasco",
+    "Annotation01": "I lavori che si sono conclusi prematuramente a causa di disconnessioni o di altri problemi non sono inclusi nel totale dei lavori di un turno.",
     "Available": "Apparizioni ",
     "AvailableBoss": "Salmonarca affrontato",
     "AverageClearWaves": "Media ondate superate",
@@ -138,6 +139,7 @@
     "NotDefeated": "Missione fallita...",
     "P": "p",
     "PlayCount": "Lavori completati",
+    "PlayCountBySchedule": "Numero di lavori: ",
     "Previous": "Precedente",
     "Private": "Lavoro privato",
     "Recruit": "Assunzioni aperte!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "Bassa marea",
     "WaveLevel1": "Normale",
     "WaveLevel2": "Alta marea",
-    "Limited": "Solo tempo determinato",
-    "Annotation01": "I lavori che si sono conclusi prematuramente a causa di disconnessioni o di altri problemi non sono inclusi nel totale dei lavori di un turno.",
-    "PlayCountBySchedule": "Numero di lavori: "
+    "Limited": "Solo tempo determinato"
   },
   "CoopStage": {
     "Carousel": "Soglioland",
@@ -187,6 +187,7 @@
     "CardSleeve": "Stili per le carte",
     "Emote": "Posa",
     "Figure": "Decorazione",
+    "GearSkillChip": "Frammenti di abilità",
     "NamePlateBg": "Sfondo",
     "Sticker": "Adesivo",
     "AppName": "Catalogo",
@@ -218,8 +219,7 @@
     "Signboard": "Misto mare",
     "Title": "Catalogo",
     "Welcome": "Nuovo catalogo fresco di stampa!",
-    "WelcomeDescription": "Guadagna punti catalogo dalle<br />battaglie per ottenere oggetti mitilici!",
-    "GearSkillChip": "Frammenti di abilità"
+    "WelcomeDescription": "Guadagna punti catalogo dalle<br />battaglie per ottenere oggetti mitilici!"
   },
   "Challenge": {
     "AboutGraffiti": "Se vedo un tag di quelli incandescenti, te lo mando!",
@@ -322,6 +322,7 @@
     "Rainmaker": "Bazookarp",
     "Share": "Condividi",
     "SplatZones": "Zona splat",
+    "TournamentManager": "Gestione tornei",
     "TowerControl": "Torre mobile",
     "Tricolor": "Attacco tricolore",
     "TricolorMatch": "Scontro tricolore",
@@ -669,6 +670,7 @@
     "Annotation01": "A differenza delle normali partite private, qualsiasi giocatore che conosce l'indirizzo può partecipare a questa partita.",
     "Annotation02": "Amici o altri giocatori nel tuo canale possono accedere a questa stanza tramite il menu Amici o l'opzione Notifiche, anche se non hanno l'indirizzo d'invito.",
     "Annotation03": "Ricorda che la chat vocale non può essere usata in questa stanza.",
+    "Annotation04": "Una stanza senza giocatori verrà chiusa dopo 30 minuti.",
     "AppName": "Creare una stanza",
     "Approve": "Accedi alla stanza",
     "Back": "Torna alla pagina iniziale",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "I giocatori invitati possono usare l'indirizzo ricevuto tramite l'app per dispositivi smart Nintendo Switch Online.",
     "ShareUrl": "Invia indirizzo",
     "Subtitle": "Qui puoi creare una stanza per le partite private!",
-    "Title": "Creare una stanza",
-    "Annotation04": "Una stanza senza giocatori verrà chiusa dopo 30 minuti."
+    "Title": "Creare una stanza"
   },
   "Settings": {
     "Acknowledgements": "Copyright",
@@ -759,10 +760,16 @@
     "Xmatch": "Partita X",
     "League": "Partita di lega"
   },
+  "Tournament": {
+    "ComingSoon": "In arrivo!",
+    "Title": "Gestione tornei",
+    "TournamentNow": "Iscrizioni aperte!"
+  },
   "VSHistory": {
     "100x": "Battaglia ×100",
     "10x": "Battaglia ×10",
     "333x": "Battaglia ×333",
+    "AbortedMeasurementEventPower": "Calcolo annullato.",
     "AnnotationExemption": "Uno o più giocatori non hanno potuto continuare, quindi la partita non verrà contata come una sconfitta.",
     "AnnotationNocontest": "Partita nulla.",
     "AnnotationPenalty": "La partita non è stata completata.",
@@ -830,8 +837,7 @@
     "Xcrown": "Corona",
     "Xmatch": "Partita X",
     "Xpower": "Energia X: ",
-    "EstimatedRoomPower": "(Giocatori: ) - Energia { 1 } stimata: { 2 }",
-    "AbortedMeasurementEventPower": "Calcolo annullato."
+    "EstimatedRoomPower": "(Giocatori: ) - Energia { 1 } stimata: { 2 }"
   },
   "Welcome": {
     "About": "SplatNet 3 è un servizio collegato a Splatoon 3.<br />Oltre a quelle elencate, ci sono anche molte altre funzioni.",

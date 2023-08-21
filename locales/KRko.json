@@ -99,6 +99,7 @@
     "Sakepuncher": "운반함",
     "SakepuncherBulletSimpl": "연어콥터",
     "Sakerocket": "박쥐",
+    "Annotation01": "아르바이트 횟수에는 통신 종료로 중단된 아르바이트가 포함되지 않습니다",
     "Available": "출현 수",
     "AvailableBoss": "출현한 두목연어",
     "AverageClearWaves": "평균 클리어 WAVE 수",
@@ -138,6 +139,7 @@
     "NotDefeated": "쓰러뜨리지 못했다…",
     "P": "p",
     "PlayCount": "아르바이트 횟수",
+    "PlayCountBySchedule": "아르바이트 횟수: ",
     "Previous": "이전 히스토리",
     "Private": "프라이빗",
     "Recruit": "스태프 모집!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "간조",
     "WaveLevel1": "보통",
     "WaveLevel2": "만조",
-    "Limited": "기간 한정",
-    "Annotation01": "아르바이트 횟수에는 통신 종료로 중단된 아르바이트가 포함되지 않습니다",
-    "PlayCountBySchedule": "아르바이트 횟수: "
+    "Limited": "기간 한정"
   },
   "CoopStage": {
     "Carousel": "초밥 월드",
@@ -187,6 +187,7 @@
     "CardSleeve": "카드 슬리브",
     "Emote": "감정 표현",
     "Figure": "장식품",
+    "GearSkillChip": "기어 파워 파편",
     "NamePlateBg": "플레이트",
     "Sticker": "스티커",
     "AppName": "카탈로그",
@@ -218,8 +219,7 @@
     "Signboard": "잡화점",
     "Title": "카탈로그",
     "Welcome": "어메이징한 카탈로그 배포 중!",
-    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!",
-    "GearSkillChip": "기어 파워 파편"
+    "WelcomeDescription": "배틀에서 카탈로그 포인트를 모아<br />아이템을 획득하자!"
   },
   "Challenge": {
     "AboutGraffiti": "여행하다가 끝내주는 그라피티를 발견했으니까 선물할게～",
@@ -322,6 +322,7 @@
     "Rainmaker": "랭크 피시 배틀",
     "Share": "공유",
     "SplatZones": "랭크 에어리어",
+    "TournamentManager": "대회 서포트",
     "TowerControl": "랭크 타워",
     "Tricolor": "트리컬러 어택",
     "TricolorMatch": "트리컬러 매치",
@@ -669,6 +670,7 @@
     "Annotation01": "일반 프라이빗 매치와는 달리 초대 URL을 아는 플레이어는 누구든 참가할 수 있습니다.",
     "Annotation02": "친구 및 채널 멤버는 초대 URL을 몰라도 친구 리스트 및 알림에서 이 방에 합류할 수 있습니다.",
     "Annotation03": "또한, 이 방에서는 보이스챗을 이용할 수 없습니다.",
+    "Annotation04": "방이 30분 이상 비워져 있으면 자동으로 폐쇄됩니다.",
     "AppName": "방 만들기",
     "Approve": "방에 참가하기",
     "Back": "홈으로 돌아가기",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "Nintendo Switch Online 앱이 설치된 스마트폰으로 초대 URL에 접속해야 합니다.",
     "ShareUrl": "URL 공유",
     "Subtitle": "편리한 방 만들기 서비스",
-    "Title": "방 만들기",
-    "Annotation04": "방이 30분 이상 비워져 있으면 자동으로 폐쇄됩니다."
+    "Title": "방 만들기"
   },
   "Settings": {
     "Acknowledgements": "권리 표기",
@@ -759,10 +760,16 @@
     "Xmatch": "X 매치",
     "League": "리그 매치"
   },
+  "Tournament": {
+    "ComingSoon": "개최 예정!",
+    "Title": "대회 서포트",
+    "TournamentNow": "개최 중"
+  },
   "VSHistory": {
     "100x": "100배 매치",
     "10x": "10배 매치",
     "333x": "333배 매치",
+    "AbortedMeasurementEventPower": "계측 중지",
     "AnnotationExemption": "통신을 종료한 플레이어가 있으므로 패배로 카운트되지 않았습니다",
     "AnnotationNocontest": "시합이 무효 처리되었습니다",
     "AnnotationPenalty": "시합이 정상적으로 종료되지 않았습니다",
@@ -830,8 +837,7 @@
     "Xcrown": "왕관",
     "Xmatch": "X 매치",
     "Xpower": "X 파워: ",
-    "EstimatedRoomPower": "명의 { 1 } 파워 추정 { 2 }",
-    "AbortedMeasurementEventPower": "계측 중지"
+    "EstimatedRoomPower": "명의 { 1 } 파워 추정 { 2 }"
   },
   "Welcome": {
     "About": "오징어넷 3는 스플래툰 3와 연동하는 서비스입니다.<br />이곳에서 소개한 것들 외에도 다양한 기능이 있습니다.",

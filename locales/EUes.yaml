@@ -188,6 +188,7 @@ Common:
   Rainmaker: Pez dorado
   Share: Compartir
   SplatZones: Pintazonas
+  TournamentManager: Gestión de torneos
   TowerControl: Torre
   Tricolor: Combate tricolor
   TricolorMatch: Pugna tricolor
@@ -810,6 +811,10 @@ StageSchedule:
   Title: Calendarios
   WinRateByRules: Tasa de victorias por modo
   Xmatch: Combate X
+Tournament:
+  ComingSoon: ¡En breve!
+  Title: Gestión de torneos
+  TournamentNow: ¡En curso!
 VSHistory:
   100x: Bonificación ×100
   10x: Bonificación ×10

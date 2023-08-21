@@ -99,6 +99,7 @@
     "Sakepuncher": "Vaisseau mère",
     "SakepuncherBulletSimpl": "Salmocoptère",
     "Sakerocket": "Crachin",
+    "Annotation01": "Les missions interrompues suite à des déconnexions ou d'autres problèmes ne sont pas comptabilisées.",
     "Available": "Apparus ",
     "AvailableBoss": "Salmonarque combattu",
     "AverageClearWaves": "Vagues terminées (moyenne) :",
@@ -138,6 +139,7 @@
     "NotDefeated": "Échec...",
     "P": " p.",
     "PlayCount": "Sessions de travail",
+    "PlayCountBySchedule": "Nombre de missions : ",
     "Previous": "Précédent",
     "Private": "Mission privée",
     "Recruit": "On embauche!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "Marée basse",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Marée haute",
-    "Limited": "Pour une durée limitée",
-    "Annotation01": "Les missions interrompues suite à des déconnexions ou d'autres problèmes ne sont pas comptabilisées.",
-    "PlayCountBySchedule": "Nombre de missions : "
+    "Limited": "Pour une durée limitée"
   },
   "CoopStage": {
     "Carousel": "Parc Carapince",
@@ -187,6 +187,7 @@
     "CardSleeve": "Motifs de cartes",
     "Emote": "Animation",
     "Figure": "Objet de décoration",
+    "GearSkillChip": "Fragments de bonus ",
     "NamePlateBg": "Bannière",
     "Sticker": "Autocollant",
     "AppName": "Catalogue",
@@ -218,8 +219,7 @@
     "Signboard": "Coolypso",
     "Title": "Catalogue",
     "Welcome": "Un nouveau catalogue est disponible!",
-    "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables!",
-    "GearSkillChip": "Fragments de bonus "
+    "WelcomeDescription": "Gagne des points de catalogue lors des matchs<br />pour obtenir des objets encroyables!"
   },
   "Challenge": {
     "AboutGraffiti": "Si j'tombe sur un graffiti qui m'plaît, j'te l'envoie!",
@@ -322,6 +322,7 @@
     "Rainmaker": "Mission Bazookarpe",
     "Share": "Partager",
     "SplatZones": "Défense de zone",
+    "TournamentManager": "Organisateur de tournois",
     "TowerControl": "Expédition risquée",
     "Tricolor": "Match tricolore",
     "TricolorMatch": "Match tricolore",
@@ -669,6 +670,7 @@
     "Annotation01": "Tous les joueurs connaissant l'adresse Internet peuvent rejoindre le match, contrairement aux matchs privés habituels.",
     "Annotation02": "Tes amis et les autres joueurs du canal peuvent rejoindre cette session via le menu Amis ou les notifications, même s'ils ne disposent pas de l'adresse d'invitation.",
     "Annotation03": "Par ailleurs, le bavardage ne peut pas être utilisé dans cette session.",
+    "Annotation04": "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes.",
     "AppName": "Créer session",
     "Approve": "Rejoindre la session",
     "Back": "Retour à l'accueil",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "Les invités peuvent accéder à l'adresse d'invitation depuis un appareil intelligent sur lequel l'application Nintendo Switch Online a été installée.",
     "ShareUrl": "Partager l'adresse Internet",
     "Subtitle": "Crée des sessions pour des matchs privés directement d'ici!",
-    "Title": "Créer session",
-    "Annotation04": "Si personne ne rejoint une session, elle sera fermée automatiquement au bout de 30 minutes."
+    "Title": "Créer session"
   },
   "Settings": {
     "Acknowledgements": "Droits d'auteur",
@@ -759,10 +760,16 @@
     "Xmatch": "Match X",
     "League": "Match de ligue"
   },
+  "Tournament": {
+    "ComingSoon": "Bientôt le coup d'envoi!",
+    "Title": "Organisateur de tournois",
+    "TournamentNow": "Le recrutement a commencé!"
+  },
   "VSHistory": {
     "100x": "Match ×100",
     "10x": "Match ×10",
     "333x": "Match ×333",
+    "AbortedMeasurementEventPower": "Calcul de la Force d'épreuve annulé.",
     "AnnotationExemption": "Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs n'ont pas pu poursuivre le match.",
     "AnnotationNocontest": "Match annulé.",
     "AnnotationPenalty": "Le match a été interrompu.",
@@ -830,8 +837,7 @@
     "Xcrown": "Couronne",
     "Xmatch": "Match X",
     "Xpower": "Force X : ",
-    "EstimatedRoomPower": "{ 1 } - Puissance cumulée des  joueurs : environ { 2 }",
-    "AbortedMeasurementEventPower": "Calcul de la Force d'épreuve annulé."
+    "EstimatedRoomPower": "{ 1 } - Puissance cumulée des  joueurs : environ { 2 }"
   },
   "Welcome": {
     "About": "SplatNet 3 est un service associé à Splatoon 3.<br />Les fonctionnalités décrites ici sont loin d'être exhaustives!",

@@ -99,6 +99,7 @@
     "Sakepuncher": "Salmonodriza",
     "SakepuncherBulletSimpl": "Salmocóptero",
     "Sakerocket": "Paragüista",
+    "Annotation01": "No se cuentan los encargos interrumpidos por problemas en la conexión u otras causas.",
     "Available": "Apariciones ",
     "AvailableBoss": "Gran jefe salmónido enfrentado",
     "AverageClearWaves": "Media de oleadas superadas:",
@@ -138,6 +139,7 @@
     "NotDefeated": "No se logró...",
     "P": "p.",
     "PlayCount": "Encargos realizados",
+    "PlayCountBySchedule": "Encargos: ",
     "Previous": "Anterior",
     "Private": "Trabajo privado",
     "Recruit": "¡Se busca personal!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "Marea baja",
     "WaveLevel1": "Normal",
     "WaveLevel2": "Marea alta",
-    "Limited": "Solo por tiempo limitado",
-    "Annotation01": "No se cuentan los encargos interrumpidos por problemas en la conexión u otras causas.",
-    "PlayCountBySchedule": "Encargos: "
+    "Limited": "Solo por tiempo limitado"
   },
   "CoopStage": {
     "Carousel": "Pirañalandia",
@@ -187,6 +187,7 @@
     "CardSleeve": "Fundas para cartas",
     "Emote": "Pose",
     "Figure": "Adorno",
+    "GearSkillChip": "Fragmentos de potenciador",
     "NamePlateBg": "Fondo",
     "Sticker": "Calcomanía",
     "AppName": "Catálogo",
@@ -218,8 +219,7 @@
     "Signboard": "Miscelánea Abisal",
     "Title": "Catálogo",
     "Welcome": "¡Tenemos nuevo catálogo!",
-    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!",
-    "GearSkillChip": "Fragmentos de potenciador"
+    "WelcomeDescription": "¡Obtén puntos de catálogo en combate para<br />poder adquirir artículos tintabulosos!"
   },
   "Challenge": {
     "AboutGraffiti": "¡Te mandaré todos los grafitis geniales que vaya encontrando por ahí!",
@@ -322,6 +322,7 @@
     "Rainmaker": "Pez dorado",
     "Share": "Compartir",
     "SplatZones": "Pintazonas",
+    "TournamentManager": "Gestión de torneos",
     "TowerControl": "Torreón",
     "Tricolor": "Combate tricolor",
     "TricolorMatch": "Combate tricolor",
@@ -669,6 +670,7 @@
     "Annotation01": "Al contrario que en los combates privados ordinarios, aquí puede participar cualquier jugador que tenga el enlace de invitación.",
     "Annotation02": "Otros jugadores del canal y tus amigos podrán unirse por medio de la lista de amigos o las notificaciones, incluso si no tienen el enlace de invitación.",
     "Annotation03": "Ten en cuenta que en este grupo no puede usarse el chat de voz.",
+    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos.",
     "AppName": "Grupos",
     "Approve": "Unirse al grupo",
     "Back": "Volver al inicio",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "Los invitados podrán acceder al enlace mediante un dispositivo inteligente que tenga instalada la aplicación Nintendo Switch Online.",
     "ShareUrl": "Compartir enlace",
     "Subtitle": "¡Aquí puedes crear grupos para combates privados!",
-    "Title": "Grupos",
-    "Annotation04": "Los grupos vacíos se cierran automáticamente luego de 30 minutos."
+    "Title": "Grupos"
   },
   "Settings": {
     "Acknowledgements": "Derechos de autor",
@@ -759,10 +760,16 @@
     "Xmatch": "Combate X",
     "League": "Combate de liga"
   },
+  "Tournament": {
+    "ComingSoon": "Coming Soon!",
+    "Title": "Tournament Manager",
+    "TournamentNow": "Registration Open!"
+  },
   "VSHistory": {
     "100x": "Bonificación ×100",
     "10x": "Bonificación ×10",
     "333x": "Bonificación ×333",
+    "AbortedMeasurementEventPower": "Cálculo interrumpido",
     "AnnotationExemption": "Como uno o más jugadores no pudieron continuar, el combate no se cuenta como derrota.",
     "AnnotationNocontest": "Combate cancelado",
     "AnnotationPenalty": "El combate no se disputó hasta el final.",
@@ -830,8 +837,7 @@
     "Xcrown": "Corona",
     "Xmatch": "Combate X",
     "Xpower": "Fuerza X: ",
-    "EstimatedRoomPower": "Fuerza estimada ({ 1 },  jugs.): { 2 }",
-    "AbortedMeasurementEventPower": "Cálculo interrumpido"
+    "EstimatedRoomPower": "Fuerza estimada ({ 1 },  jugs.): { 2 }"
   },
   "Welcome": {
     "About": "SplatNet 3 es un servicio vinculado a Splatoon 3 y cuenta con otras funciones además de las descritas aquí.",

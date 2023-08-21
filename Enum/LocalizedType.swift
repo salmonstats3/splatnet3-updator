@@ -231,6 +231,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Catalog_Emote
 	/// オキモノ
 	case Catalog_Figure
+	/// ギアパワーのかけら
+	case Catalog_GearSkillChip
 	/// プレート
 	case Catalog_NamePlateBg
 	/// ステッカー
@@ -425,6 +427,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_Share
 	/// ガチエリア
 	case Common_SplatZones
+	/// タイカイサポート
+	case Common_TournamentManager
 	/// ガチヤグラ
 	case Common_TowerControl
 	/// トリカラアタック
@@ -435,6 +439,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Common_TurfWar
 	/// はてな
 	case Common_WpnNotfound
+	/// シフトごとのバイト回数には通信切断などで中断したバイトは含まれません
+	case CoopHistory_Annotation01
 	/// 出現数
 	case CoopHistory_Available
 	/// 出現したオカシラシャケ
@@ -513,6 +519,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_P
 	/// バイト回数
 	case CoopHistory_PlayCount
+	/// バイト
+	case CoopHistory_PlayCountBySchedule
 	/// 前のバイト
 	case CoopHistory_Previous
 	/// プライベート
@@ -1187,6 +1195,8 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case RoomCreator_Annotation02
 	/// また、この部屋ではボイスチャットを利用できません。
 	case RoomCreator_Annotation03
+	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
+	case RoomCreator_Annotation04
 	/// ヘヤタテ
 	case RoomCreator_AppName
 	/// 部屋に参加する
@@ -1353,12 +1363,20 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_WinRateByRules
 	/// Xマッチ
 	case StageSchedule_Xmatch
+	/// もうすぐ開催！
+	case Tournament_ComingSoon
+	/// タイカイサポート
+	case Tournament_Title
+	/// 開催中
+	case Tournament_TournamentNow
 	/// １００倍マッチ
 	case VSHistory_100x
 	/// １０倍マッチ
 	case VSHistory_10x
 	/// ３３３倍マッチ
 	case VSHistory_333x
+	/// 計測中止
+	case VSHistory_AbortedMeasurementEventPower
 	/// 通信を切断したプレイヤーがいたため、負けとしてカウントされませんでした
 	case VSHistory_AnnotationExemption
 	/// 無効試合になりました
@@ -1675,8 +1693,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Title
 	/// 人の { 1 } パワー 推定 { 2 }
 	case VSHistory_EstimatedRoomPower
-	/// 作った部屋に誰も入っていない状態が30分以上続くと、自動的に部屋が閉じられます。
-	case RoomCreator_Annotation04
 	/// イカリング３のアルバムの画像を表示します。
 	case Widgets_AlbumDescription
 	/// スプラトゥーン3でイカした写真を<br />撮影するとココに表示されるぞ！
@@ -1753,14 +1769,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
-	/// ギアパワーのかけら
-	case Catalog_GearSkillChip
-	/// シフトごとのバイト回数には通信切断などで中断したバイトは含まれません
-	case CoopHistory_Annotation01
-	/// バイト
-	case CoopHistory_PlayCountBySchedule
-	/// 計測中止
-	case VSHistory_AbortedMeasurementEventPower
 	/// About
 	case CoopHistory_About
 	/// 実測値

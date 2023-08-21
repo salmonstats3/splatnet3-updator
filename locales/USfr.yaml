@@ -189,6 +189,7 @@ Common:
   Rainmaker: Mission Bazookarpe
   Share: Partager
   SplatZones: Défense de zone
+  TournamentManager: Organisateur de tournois
   TowerControl: Expédition risquée
   Tricolor: Match tricolore
   TricolorMatch: Match tricolore
@@ -822,6 +823,10 @@ StageSchedule:
   Title: Horaire
   WinRateByRules: Taux de victoire par mode
   Xmatch: Match X
+Tournament:
+  ComingSoon: Bientôt le coup d'envoi!
+  Title: Organisateur de tournois
+  TournamentNow: Le recrutement a commencé!
 VSHistory:
   100x: Match ×100
   10x: Match ×10

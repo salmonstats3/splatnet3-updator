@@ -99,6 +99,7 @@
     "Sakepuncher": "moederschip",
     "SakepuncherBulletSimpl": "Salmokopter",
     "Sakerocket": "Miezer",
+    "Annotation01": "Klussen die voortijdig beëindigd zijn doordat de verbinding verbroken werd of vanwege andere problemen, worden niet weergegeven bij het totale aantal klussen.",
     "Available": "Verschenen ",
     "AvailableBoss": "Bestreden Salmonster",
     "AverageClearWaves": "Doorstane golven (gemiddeld)",
@@ -138,6 +139,7 @@
     "NotDefeated": "Mislukt...",
     "P": " p",
     "PlayCount": "Klussen",
+    "PlayCountBySchedule": "Klussen: ",
     "Previous": "Vorige klus",
     "Private": "Privéklus",
     "Recruit": "Personeel gezocht!",
@@ -164,9 +166,7 @@
     "WaveLevel0": "Eb",
     "WaveLevel1": "Normaal",
     "WaveLevel2": "Vloed",
-    "Limited": "Tijdelijk",
-    "Annotation01": "Klussen die voortijdig beëindigd zijn doordat de verbinding verbroken werd of vanwege andere problemen, worden niet weergegeven bij het totale aantal klussen.",
-    "PlayCountBySchedule": "Klussen: "
+    "Limited": "Tijdelijk"
   },
   "CoopStage": {
     "Carousel": "Waterwonderland",
@@ -187,6 +187,7 @@
     "CardSleeve": "Kaartenhoesjes",
     "Emote": "Reactie",
     "Figure": "Versiering",
+    "GearSkillChip": "Effectfragmenten",
     "NamePlateBg": "Achtergrond",
     "Sticker": "Sticker",
     "AppName": "Catalogus",
@@ -218,8 +219,7 @@
     "Signboard": "Aqua Morgana",
     "Title": "Catalogus",
     "Welcome": "Nieuwe catalogus, vers van de pers!",
-    "WelcomeDescription": "Verdien cataloguspunten in gevechten<br />om spetterende voorwerpen te krijgen!",
-    "GearSkillChip": "Effectfragmenten"
+    "WelcomeDescription": "Verdien cataloguspunten in gevechten<br />om spetterende voorwerpen te krijgen!"
   },
   "Challenge": {
     "AboutGraffiti": "Als ik een vette tag zie, stuur ik hem naar jou!",
@@ -322,6 +322,7 @@
     "Rainmaker": "Bazookarper",
     "Share": "Delen",
     "SplatZones": "Spetterzone",
+    "TournamentManager": "Toernooiplanner",
     "TowerControl": "Torentwist",
     "Tricolor": "Driekleurengevecht",
     "TricolorMatch": "Driekleurengevecht",
@@ -669,6 +670,7 @@
     "Annotation01": "Elke speler die de URL kent, kan aan dit gevecht meedoen, anders dan bij normale privégevechten.",
     "Annotation02": "Vrienden of andere spelers in je poel kunnen deze kamer betreden via het vriendenmenu of via de berichten, zelfs als ze de uitnodigings-URL niet hebben.",
     "Annotation03": "Houd er ook rekening mee dat voicechat niet kan worden gebruikt in deze kamer.",
+    "Annotation04": "Een kamer zonder spelers wordt na 30 minuten automatisch gesloten.",
     "AppName": "Kamer maken",
     "Approve": "Kamer betreden",
     "Back": "Naar het beginscherm",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "Uitgenodigde spelers kunnen de uitnodigings-URL openen op een smartapparaat waarop de Nintendo Switch Online-app is geïnstalleerd.",
     "ShareUrl": "URL delen",
     "Subtitle": "Hier kun je kamers maken voor privégevechten!",
-    "Title": "Kamer maken",
-    "Annotation04": "Een kamer zonder spelers wordt na 30 minuten automatisch gesloten."
+    "Title": "Kamer maken"
   },
   "Settings": {
     "Acknowledgements": "Copyrights",
@@ -759,10 +760,16 @@
     "Xmatch": "X-gevecht",
     "League": "Toernooigevecht"
   },
+  "Tournament": {
+    "ComingSoon": "Binnenkort beschikbaar!",
+    "Title": "Toernooiplanner",
+    "TournamentNow": "De aanmeldingsperiode is nu open!"
+  },
   "VSHistory": {
     "100x": "×100-strijd",
     "10x": "×10-strijd",
     "333x": "×333-strijd",
+    "AbortedMeasurementEventPower": "De berekening is afgebroken.",
     "AnnotationExemption": "Omdat een of meer spelers het gevecht niet konden voortzetten, wordt het gevecht niet als een verlies geteld.",
     "AnnotationNocontest": "Ongeldig gevecht.",
     "AnnotationPenalty": "Het gevecht is niet volledig afgemaakt.",
@@ -830,8 +837,7 @@
     "Xcrown": "Kroon",
     "Xmatch": "X-gevecht",
     "Xpower": "X-kracht: ",
-    "EstimatedRoomPower": "Geschatte { 1 }-kracht ( spelers): { 2 }",
-    "AbortedMeasurementEventPower": "De berekening is afgebroken."
+    "EstimatedRoomPower": "Geschatte { 1 }-kracht ( spelers): { 2 }"
   },
   "Welcome": {
     "About": "SplatNet 3 is een dienst die aan Splatoon 3 is gekoppeld.<br />Er zijn meer mogelijkheden naast die die hier worden genoemd.",

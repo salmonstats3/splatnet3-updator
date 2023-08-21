@@ -166,6 +166,7 @@ Common:
   Rainmaker: 랭크 피시 배틀
   Share: 공유
   SplatZones: 랭크 에어리어
+  TournamentManager: 대회 서포트
   TowerControl: 랭크 타워
   Tricolor: 트리컬러 어택
   TricolorMatch: 트리컬러 매치
@@ -753,6 +754,10 @@ StageSchedule:
   Title: 스케줄
   WinRateByRules: 룰별 승률
   Xmatch: X 매치
+Tournament:
+  ComingSoon: 개최 예정!
+  Title: 대회 서포트
+  TournamentNow: 개최 중
 VSHistory:
   100x: 100배 매치
   10x: 10배 매치

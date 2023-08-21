@@ -99,6 +99,7 @@
     "Sakepuncher": "走私鱼",
     "SakepuncherBulletSimpl": "直升机鲑鱼",
     "Sakerocket": "蝙蝠鱼",
+    "Annotation01": "每个轮换中的打工次数不包括因连接中断等理由而中断的打工。",
     "Available": "出现数量",
     "AvailableBoss": "已出现的头目鲑鱼",
     "AverageClearWaves": "平均通关的WAVE数",
@@ -138,6 +139,7 @@
     "NotDefeated": "未能击倒……",
     "P": "p",
     "PlayCount": "打工次数",
+    "PlayCountBySchedule": "场打工",
     "Previous": "上一个打工",
     "Private": "私人",
     "Recruit": "募集员工！",
@@ -164,9 +166,7 @@
     "WaveLevel0": "干潮",
     "WaveLevel1": "普通",
     "WaveLevel2": "满潮",
-    "Limited": "期间限定",
-    "Annotation01": "每个轮换中的打工次数不包括因连接中断等理由而中断的打工。",
-    "PlayCountBySchedule": "场打工"
+    "Limited": "期间限定"
   },
   "CoopStage": {
     "Carousel": "醋饭海洋世界",
@@ -187,6 +187,7 @@
     "CardSleeve": "卡片套",
     "Emote": "表情",
     "Figure": "装饰品",
+    "GearSkillChip": "装备能力碎片",
     "NamePlateBg": "背景",
     "Sticker": "贴纸",
     "AppName": "目录",
@@ -218,8 +219,7 @@
     "Signboard": "杂货店",
     "Title": "目录",
     "Welcome": "正在发放超鱿型的目录！",
-    "WelcomeDescription": "通过对战积攒目录点数<br />来获得道具吧！",
-    "GearSkillChip": "装备能力碎片"
+    "WelcomeDescription": "通过对战积攒目录点数<br />来获得道具吧！"
   },
   "Challenge": {
     "AboutGraffiti": "我在旅途中找到了“超酥脆～！”的涂鸦，发给你哦～",
@@ -322,6 +322,7 @@
     "Rainmaker": "真格鱼虎对战",
     "Share": "分享",
     "SplatZones": "真格区域",
+    "TournamentManager": "大赛支援助手",
     "TowerControl": "真格塔楼",
     "Tricolor": "三色夺宝攻击",
     "TricolorMatch": "三色夺宝比赛",
@@ -669,6 +670,7 @@
     "Annotation01": "与一般的私人比赛不同，知道邀请URL的玩家都可以参加。",
     "Annotation02": "好友或频道内的成员即使不知道邀请URL，也可以通过好友列表或通知会合至该房间。",
     "Annotation03": "另外，在该房间中无法使用语音聊天。",
+    "Annotation04": "如果超过30分钟都没有人进入已创建的房间，房间就会自动关闭。",
     "AppName": "建房",
     "Approve": "参加房间",
     "Back": "返回主页",
@@ -704,8 +706,7 @@
     "ShareInvitationUrlGuide": "让对方用安装了Nintendo Switch Online软件的智能手机访问“邀请URL”吧。",
     "ShareUrl": "分享URL",
     "Subtitle": "便利的创建房间服务",
-    "Title": "建房",
-    "Annotation04": "如果超过30分钟都没有人进入已创建的房间，房间就会自动关闭。"
+    "Title": "建房"
   },
   "Settings": {
     "Acknowledgements": "权利标识",
@@ -759,10 +760,16 @@
     "Xmatch": "X比赛",
     "League": "联盟比赛"
   },
+  "Tournament": {
+    "ComingSoon": "即将举行！",
+    "Title": "大赛支援助手",
+    "TournamentNow": "举行中"
+  },
   "VSHistory": {
     "100x": "100倍比赛",
     "10x": "10倍比赛",
     "333x": "333倍比赛",
+    "AbortedMeasurementEventPower": "计算中止",
     "AnnotationExemption": "由于有玩家中断连接，本场对战不会以落败计算。",
     "AnnotationNocontest": "本场对战已被判定为无效比赛。",
     "AnnotationPenalty": "对战未能正常结束。",
@@ -830,8 +837,7 @@
     "Xcrown": "王冠",
     "Xmatch": "X比赛",
     "Xpower": "X战力",
-    "EstimatedRoomPower": "人的{ 1 }战力推算值{ 2 }",
-    "AbortedMeasurementEventPower": "计算中止"
+    "EstimatedRoomPower": "人的{ 1 }战力推算值{ 2 }"
   },
   "Welcome": {
     "About": "《鱿鱼圈 3》是用于《斯普拉遁 3》的关联服务。除了此处介绍的内容之外，还有其他各种功能。",

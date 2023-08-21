@@ -186,6 +186,7 @@ Common:
   Rainmaker: Rainmaker
   Share: Share
   SplatZones: Splat Zones
+  TournamentManager: Tournament Manager
   TowerControl: Tower Control
   Tricolor: Tricolor Battle
   TricolorMatch: Tricolor Battle
@@ -802,6 +803,10 @@ StageSchedule:
   Title: Schedule
   WinRateByRules: Win Rate by Mode
   Xmatch: X Battle
+Tournament:
+  ComingSoon: Coming Soon!
+  Title: Tournament Manager
+  TournamentNow: Registration Open!
 VSHistory:
   100x: 100x Battle
   10x: 10x Battle

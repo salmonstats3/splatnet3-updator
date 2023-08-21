@@ -190,6 +190,7 @@ Common:
   Rainmaker: Bazookarper
   Share: Delen
   SplatZones: Spetterzone
+  TournamentManager: Toernooiplanner
   TowerControl: Torentwist
   Tricolor: Driekleurengevecht
   TricolorMatch: Driekleurengevecht
@@ -811,6 +812,10 @@ StageSchedule:
   Title: Levelschema
   WinRateByRules: Winpercentage per vechtstijl
   Xmatch: X-gevecht
+Tournament:
+  ComingSoon: Binnenkort beschikbaar!
+  Title: Toernooiplanner
+  TournamentNow: De aanmeldingsperiode is nu open!
 VSHistory:
   100x: ×100-strijd
   10x: ×10-strijd

@@ -185,6 +185,7 @@ Common:
   Rainmaker: Operation Goldfisch
   Share: Teilen
   SplatZones: Herrschaft
+  TournamentManager: Turnier-Manager
   TowerControl: Turm-Kommando
   Tricolor: Dreifarb-Angriff
   TricolorMatch: Dreifarb-Match
@@ -810,6 +811,10 @@ StageSchedule:
   Title: Zeitplan
   WinRateByRules: Siege nach Kampfart
   Xmatch: X-Kampf
+Tournament:
+  ComingSoon: Demnächst!
+  Title: Turnier-Manager
+  TournamentNow: Anmeldung möglich!
 VSHistory:
   100x: ×100-Kampf
   10x: ×10-Kampf
