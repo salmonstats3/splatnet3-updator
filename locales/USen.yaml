@@ -785,11 +785,11 @@ StageSchedule:
   League: League Battle
   Next: Next
   NoticeBigrun: Big Run coming soon!
-  NoticeLimited: 'Announcement: Limited-Time Job!'
+  NoticeLimited: 'Announcement: Eggstra Work coming soon!'
   NowClosed: Splatfest Active!
   Open: Now
   OpenBigrun: Big Run in progress!
-  OpenLimited: Limited-time job available now!
+  OpenLimited: Eggstra Work available now!
   Private: Private Battle
   Recruit: 'Big Run happening now! Grizzco hiring ANYONE! '
   RecruitTeamContest: 'Eggstra Work is available now. Recruit some coworkers and join
@@ -856,7 +856,7 @@ VSHistory:
   LatestTab: Latest
   Lose: DEFEAT
   Measurement: Calculating X Power...
-  MeasurementEventPower: Calculating...
+  MeasurementEventPower: Calculating Challenge Power...
   NextBattle: Next
   NoData: No battle logs to display.
   NotAvailable: Battle Log Unavailable
