@@ -181,7 +181,7 @@ Common:
   GearPowerBlank: Нет данных
   Home: Главная
   Ikaring3: SplatNet 3
-  NowLoading: Загрузка данных...
+  NowLoading: Идет загрузка данных...
   PullToRefresh: 'Потяните, чтобы обновить '
   Rainmaker: Мегакарп
   Share: Поделиться
@@ -791,11 +791,11 @@ StageSchedule:
   League: Бой лиги
   Next: Следующий
   NoticeBigrun: Big Run скоро начнется!
-  NoticeLimited: 'Объявление: скоро начнется икорный овертайм!'
+  NoticeLimited: 'Объявление: временная смена!'
   NowClosed: Идет Сплатфест!
   Open: Сейчас
   OpenBigrun: Идет Big Run!
-  OpenLimited: Доступен икорный овертайм!
+  OpenLimited: Доступна временная смена!
   Private: Частный бой
   Recruit: Идет Big Run! «Потапыч Inc.» нанимает всех подряд! Всех-всех! ()
   RecruitTeamContest: 'Доступен икорный овертайм. Собери себе команду коллег для особой
@@ -862,7 +862,7 @@ VSHistory:
   LatestTab: Недавние бои
   Lose: Провал
   Measurement: Данных о силе X нет...
-  MeasurementEventPower: Сила события вычисляется...
+  MeasurementEventPower: Идет вычисление...
   NextBattle: Следующий
   NoData: Нет протоколов боев.
   NotAvailable: Протокол боя недоступен
