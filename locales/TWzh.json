@@ -458,7 +458,8 @@
     "StockGuide": "商品陣容每隔4小時便會更換",
     "Title": "魷魚鬚商城",
     "UnableToOrder": "無法受理",
-    "UnableToOrderMessage": "目前沒有販售此商品"
+    "UnableToOrderMessage": "目前沒有販售此商品",
+    "CurrentGear": "持有的裝備"
   },
   "HeroRecord": {
     "Agent1": "1號",
@@ -758,7 +759,9 @@
     "Title": "時間表",
     "WinRateByRules": "個別規則勝率",
     "Xmatch": "X比賽",
-    "League": "聯盟比賽"
+    "League": "聯盟比賽",
+    "FestChallenge": "挑戰",
+    "FestOpen": "開放"
   },
   "Tournament": {
     "ComingSoon": "即將舉行！",

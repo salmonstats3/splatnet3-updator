@@ -458,7 +458,8 @@
     "StockGuide": "商品は4時間ごとに入れ替わります",
     "Title": "ゲソタウン",
     "UnableToOrder": "受付できません",
-    "UnableToOrderMessage": "この商品は現在取り扱っておりません"
+    "UnableToOrderMessage": "この商品は現在取り扱っておりません",
+    "CurrentGear": "持っているギア"
   },
   "HeroRecord": {
     "Agent1": "１号",
@@ -758,7 +759,9 @@
     "Title": "スケジュール",
     "WinRateByRules": "ルールごとの勝率",
     "Xmatch": "Xマッチ",
-    "League": "リーグマッチ"
+    "League": "リーグマッチ",
+    "FestChallenge": "チャレンジ",
+    "FestOpen": "オープン"
   },
   "Tournament": {
     "ComingSoon": "もうすぐ開催！",

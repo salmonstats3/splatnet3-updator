@@ -404,6 +404,7 @@ FriendList:
 GesoTown:
   AppName: 鱿鱼须商城
   BackToGesotown: 返回鱿鱼须商城
+  CurrentGear: 持有的装备
   Description: 在此商店中，可以获得附加的<em>装备能力</em><br />与平时不同的<em>特殊装备</em>
   Feature: 今日精选
   Featured: 精选
@@ -716,6 +717,8 @@ StageSchedule:
   EventNoData: 日程未定
   EventUnknownData: ？？？？？
   Eventmatch: 活动举行！
+  FestChallenge: 挑战
+  FestOpen: 开放
   Festival: 祭典比赛
   FestivalAnnounced: 即将举行
   FestivalAt: ' 开始！'

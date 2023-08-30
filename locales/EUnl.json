@@ -458,7 +458,8 @@
     "StockGuide": "Het assortiment wordt elke 4 uur bijgewerkt.",
     "Title": "Tentashop",
     "UnableToOrder": "Bestelling niet mogelijk",
-    "UnableToOrderMessage": "Dit product is momenteel niet beschikbaar."
+    "UnableToOrderMessage": "Dit product is momenteel niet beschikbaar.",
+    "CurrentGear": "Jouw uitrusting"
   },
   "HeroRecord": {
     "Agent1": "Agent 1",
@@ -758,7 +759,9 @@
     "Title": "Levelschema",
     "WinRateByRules": "Winpercentage per vechtstijl",
     "Xmatch": "X-gevecht",
-    "League": "Toernooigevecht"
+    "League": "Toernooigevecht",
+    "FestChallenge": "Pro",
+    "FestOpen": "Open"
   },
   "Tournament": {
     "ComingSoon": "Binnenkort beschikbaar!",

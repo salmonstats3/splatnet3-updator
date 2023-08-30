@@ -446,6 +446,7 @@ FriendList:
 GesoTown:
   AppName: Tentashop
   BackToGesotown: Terug naar de Tentashop
+  CurrentGear: Jouw uitrusting
   Description: Een winkel met <em>exclusieve uitrusting van SplatNet</em> <br />met
     <em>ongebruikelijke effecten</em>!
   Feature: Verse vangst
@@ -782,6 +783,8 @@ StageSchedule:
   EventNoData: Er zijn momenteel geen eventgevechten gepland.
   EventUnknownData: ???
   Eventmatch: Event nu bezig!
+  FestChallenge: Pro
+  FestOpen: Open
   Festival: Splatfest-gevecht
   FestivalAnnounced: Binnenkort!
   FestivalAt: Begint om !

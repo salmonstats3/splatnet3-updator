@@ -443,6 +443,7 @@ FriendList:
 GesoTown:
   AppName: Calama-zone
   BackToGesotown: Torna a Calama-zone
+  CurrentGear: Equipaggiamento
   Description: Un negozio con <em>equipaggiamento esclusivo<br />di Calama-zone</em>
     che offre <em>varie abilità</em>!
   Feature: Selezione del giorno
@@ -779,6 +780,8 @@ StageSchedule:
   EventNoData: Non ci sono partite evento in programma.
   EventUnknownData: ???
   Eventmatch: Evento ora in corso!
+  FestChallenge: Sfida
+  FestOpen: Aperta
   Festival: Partita tematica
   FestivalAnnounced: In arrivo!
   FestivalAt: 'Inizio: '

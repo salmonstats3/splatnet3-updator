@@ -458,7 +458,8 @@
     "StockGuide": "상품은 4시간마다 교체됩니다",
     "Title": "오징어넷 숍",
     "UnableToOrder": "접수할 수 없습니다",
-    "UnableToOrderMessage": "이 상품은 현재 취급하고 있지 않습니다"
+    "UnableToOrderMessage": "이 상품은 현재 취급하고 있지 않습니다",
+    "CurrentGear": "가지고 있는 기어"
   },
   "HeroRecord": {
     "Agent1": "1호",
@@ -758,7 +759,9 @@
     "Title": "스케줄",
     "WinRateByRules": "룰별 승률",
     "Xmatch": "X 매치",
-    "League": "리그 매치"
+    "League": "리그 매치",
+    "FestChallenge": "챌린지",
+    "FestOpen": "오픈"
   },
   "Tournament": {
     "ComingSoon": "개최 예정!",

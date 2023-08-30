@@ -835,6 +835,9 @@ Challenge_Journey2Gratitude = "Wauw! Dankzij jou kon ik mijn oude zelf eens diep
 Challenge_Journey2Title = "De reis gaat verder!
 Het is niet het aantal benen dat de fietser sneller maakt, maar zijn versnellingen.";
 VSHistory_EstimatedRoomPower = "Geschatte { 1 }-kracht ( spelers): { 2 }";
+GesoTown_CurrentGear = "Jouw uitrusting";
+StageSchedule_FestChallenge = "Pro";
+StageSchedule_FestOpen = "Open";
 Carousel_ExpansionPass = "Informatie over de uitbreidingspas";
 Carousel_ExpansionPass2 = "Informatie over de uitbreidingspas";
 Carousel_OfficialTournament = "Splatoon甲子園開催中！";

@@ -410,6 +410,7 @@ FriendList:
 GesoTown:
   AppName: 오징어넷 숍
   BackToGesotown: 오징어넷 숍으로 돌아가기
+  CurrentGear: 가지고 있는 기어
   Description: 평소와는 다른 <em>기어 파워</em>가 붙은<br /><em>특별한 기어</em>를 획득할 수 있는 숍
   Feature: 오늘의 픽업
   Featured: 픽업
@@ -725,6 +726,8 @@ StageSchedule:
   EventNoData: 스케줄이 미정입니다
   EventUnknownData: ?????
   Eventmatch: 이벤트 개최!
+  FestChallenge: 챌린지
+  FestOpen: 오픈
   Festival: 페스티벌 매치
   FestivalAnnounced: 개최 예정
   FestivalAt: ' 스타트!'

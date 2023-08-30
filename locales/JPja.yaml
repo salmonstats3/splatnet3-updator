@@ -404,6 +404,7 @@ FriendList:
 GesoTown:
   AppName: ゲソタウン
   BackToGesotown: ゲソタウンに戻る
+  CurrentGear: 持っているギア
   Description: ふだんとは違う<em>ギアパワー</em>がついた<br /><em>トクベツなギア</em>が手に入るショップ
   Feature: 本日のピックアップ
   Featured: ピックアップ
@@ -716,6 +717,8 @@ StageSchedule:
   EventNoData: スケジュールが未定です
   EventUnknownData: ?????
   Eventmatch: イベント開催！
+  FestChallenge: チャレンジ
+  FestOpen: オープン
   Festival: フェスマッチ
   FestivalAnnounced: もうすぐ開催
   FestivalAt: ' スタート！'

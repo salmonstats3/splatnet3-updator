@@ -458,7 +458,8 @@
     "StockGuide": "Ассортимент меняется каждые 4 часа.",
     "Title": "Щупозон",
     "UnableToOrder": "Невозможно заказать",
-    "UnableToOrderMessage": "В настоящий момент этот продукт недоступен."
+    "UnableToOrderMessage": "В настоящий момент этот продукт недоступен.",
+    "CurrentGear": "Твое снаряжение"
   },
   "HeroRecord": {
     "Agent1": "Агент 001",
@@ -758,7 +759,9 @@
     "Title": "Расписание",
     "WinRateByRules": "Доля побед по режимам",
     "Xmatch": "Бой X",
-    "League": "Бой лиги"
+    "League": "Бой лиги",
+    "FestChallenge": "Профи",
+    "FestOpen": "Открытый"
   },
   "Tournament": {
     "ComingSoon": "Скоро!",

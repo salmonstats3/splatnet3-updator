@@ -441,6 +441,7 @@ FriendList:
 GesoTown:
   AppName: TentaWorld
   BackToGesotown: Zurück zu TentaWorld
+  CurrentGear: Deine Ausrüstung
   Description: Ein Laden mit <em>SplatNet-exklusiver Ausrüstung</em> mit<br /><em>ungewöhnlichen
     Effekten</em>!
   Feature: Heutige Auswahl
@@ -781,6 +782,8 @@ StageSchedule:
   EventNoData: Momentan sind keine Event-Kämpfe geplant.
   EventUnknownData: ???
   Eventmatch: Event läuft jetzt!
+  FestChallenge: Profi
+  FestOpen: Offen
   Festival: Splatfest-Kampf
   FestivalAnnounced: Demnächst!
   FestivalAt: 'Start:  Uhr!'

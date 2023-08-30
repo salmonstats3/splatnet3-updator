@@ -458,7 +458,8 @@
     "StockGuide": "Los artículos se actualizan cada 4 horas.",
     "Title": "Tentatienda",
     "UnableToOrder": "No se puede encargar",
-    "UnableToOrderMessage": "Este artículo no está disponible actualmente."
+    "UnableToOrderMessage": "Este artículo no está disponible actualmente.",
+    "CurrentGear": "Equipamiento en tu poder"
   },
   "HeroRecord": {
     "Agent1": "Agente 1",
@@ -758,7 +759,9 @@
     "Title": "Calendarios",
     "WinRateByRules": "Tasa de victorias por modo",
     "Xmatch": "Combate X",
-    "League": "Combate del torneo"
+    "League": "Combate del torneo",
+    "FestChallenge": "Formal",
+    "FestOpen": "Informal"
   },
   "Tournament": {
     "ComingSoon": "¡En breve!",

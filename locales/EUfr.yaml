@@ -444,6 +444,7 @@ FriendList:
 GesoTown:
   AppName: Céphalochic
   BackToGesotown: Retour à Céphalochic
+  CurrentGear: Ton équipement
   Description: L'équipement que propose cette boutique<br /><em>ne se trouve que sur
     SplatNet</em><br />et offre <em>différents bonus</em> !
   Feature: Chouchou du jour
@@ -787,6 +788,8 @@ StageSchedule:
   EventNoData: Aucun match Challenge prévu pour le moment.
   EventUnknownData: ???
   Eventmatch: L'événement a commencé !
+  FestChallenge: Défi
+  FestOpen: Ouvert
   Festival: Festimatch
   FestivalAnnounced: Bientôt !
   FestivalAt: 'Début :  !'

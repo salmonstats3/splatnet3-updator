@@ -404,6 +404,7 @@ FriendList:
 GesoTown:
   AppName: 魷魚鬚商城
   BackToGesotown: 返回魷魚鬚商城
+  CurrentGear: 持有的裝備
   Description: 在此商店中<br />可以取得附加<em>裝備能力</em>與平時不同的<em>特殊裝備</em>
   Feature: 本日精選
   Featured: 精選
@@ -716,6 +717,8 @@ StageSchedule:
   EventNoData: 時間表未定
   EventUnknownData: ？？？？？
   Eventmatch: 活動舉行！
+  FestChallenge: 挑戰
+  FestOpen: 開放
   Festival: 祭典比賽
   FestivalAnnounced: 即將舉行
   FestivalAt: ' 開始！'

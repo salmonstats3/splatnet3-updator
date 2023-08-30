@@ -443,6 +443,7 @@ FriendList:
 GesoTown:
   AppName: Tentatienda
   BackToGesotown: Volver a la Tentatienda
+  CurrentGear: Equipamiento en tu poder
   Description: ¡Una tienda con <em>equipamiento exclusivo de SplatNet</em><br />que
     proporciona <em>diversas mejoras</em>!
   Feature: Sugerencia del día
@@ -782,6 +783,8 @@ StageSchedule:
   EventNoData: Calendario sin determinar
   EventUnknownData: (?)
   Eventmatch: ¡Evento en curso!
+  FestChallenge: Formal
+  FestOpen: Informal
   Festival: Combate temático
   FestivalAnnounced: ¡Próximamente!
   FestivalAt: ¡Comienza a las !

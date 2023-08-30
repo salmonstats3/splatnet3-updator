@@ -458,7 +458,8 @@
     "StockGuide": "Gli articoli vengono aggiornati ogni 4 ore.",
     "Title": "Calama-zone",
     "UnableToOrder": "Impossibile ordinare",
-    "UnableToOrderMessage": "Questo prodotto non è al momento disponibile."
+    "UnableToOrderMessage": "Questo prodotto non è al momento disponibile.",
+    "CurrentGear": "Equipaggiamento"
   },
   "HeroRecord": {
     "Agent1": "Numero 1",
@@ -758,7 +759,9 @@
     "Title": "Calendario",
     "WinRateByRules": "Tasso di vittoria per modalità",
     "Xmatch": "Partita X",
-    "League": "Partita di lega"
+    "League": "Partita di lega",
+    "FestChallenge": "Sfida",
+    "FestOpen": "Aperta"
   },
   "Tournament": {
     "ComingSoon": "In arrivo!",

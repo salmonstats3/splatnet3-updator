@@ -438,6 +438,7 @@ FriendList:
 GesoTown:
   AppName: Щупозон
   BackToGesotown: Назад в «Щупозон»
+  CurrentGear: Твое снаряжение
   Description: Магазин снаряжения <em>только для SplatNet</em><br /><em>с разнообразными
     свойствами</em>!
   Feature: Свежачок дня
@@ -779,6 +780,8 @@ StageSchedule:
   EventNoData: Бои-события в настоящий момент не запланированы.
   EventUnknownData: ???
   Eventmatch: Идет!
+  FestChallenge: Профи
+  FestOpen: Открытый
   Festival: Сплатфест-бой
   FestivalAnnounced: Скоро!
   FestivalAt: 'Начало: !'

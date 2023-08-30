@@ -442,6 +442,7 @@ FriendList:
 GesoTown:
   AppName: Tienda SplatNet
   BackToGesotown: Volver a la tienda SplatNet
+  CurrentGear: Tu artículo
   Description: ¡Una tienda que ofrece <em>equipamiento exclusivo de SplatNet</em>
     con <em>potenciadores diversos</em>!
   Feature: Marca destacada
@@ -779,6 +780,8 @@ StageSchedule:
   EventNoData: Calendario sin determinar
   EventUnknownData: (?)
   Eventmatch: ¡Evento en curso!
+  FestChallenge: Formal
+  FestOpen: Informal
   Festival: Combate temático
   FestivalAnnounced: ¡Próximamente!
   FestivalAt: 'Plazo: '

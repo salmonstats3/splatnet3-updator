@@ -458,7 +458,8 @@
     "StockGuide": "Stock updated every four hours.",
     "Title": "SplatNet Shop",
     "UnableToOrder": "Unable to Order",
-    "UnableToOrderMessage": "This product is not currently available."
+    "UnableToOrderMessage": "This product is not currently available.",
+    "CurrentGear": "Your Gear"
   },
   "HeroRecord": {
     "Agent1": "Agent 1",
@@ -758,7 +759,9 @@
     "Title": "Schedule",
     "WinRateByRules": "Win Rate by Mode",
     "Xmatch": "X Battle",
-    "League": "League Battle"
+    "League": "League Battle",
+    "FestChallenge": "Pro",
+    "FestOpen": "Open"
   },
   "Tournament": {
     "ComingSoon": "Coming Soon!",

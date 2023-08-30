@@ -458,7 +458,8 @@
     "StockGuide": "Les stocks sont renouvelés toutes les quatre heures.",
     "Title": "Céphalochic",
     "UnableToOrder": "Échec de la commande",
-    "UnableToOrderMessage": "Cet article n'est pas disponible actuellement."
+    "UnableToOrderMessage": "Cet article n'est pas disponible actuellement.",
+    "CurrentGear": "Ton équipement"
   },
   "HeroRecord": {
     "Agent1": "Numéro 1",
@@ -758,7 +759,9 @@
     "Title": "Planning",
     "WinRateByRules": "Taux de victoire par mode",
     "Xmatch": "Match X",
-    "League": "Match de ligue"
+    "League": "Match de ligue",
+    "FestChallenge": "Défi",
+    "FestOpen": "Ouvert"
   },
   "Tournament": {
     "ComingSoon": "Bientôt le coup d'envoi !",

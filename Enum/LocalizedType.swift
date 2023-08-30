@@ -1681,6 +1681,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Title
 	/// 人の { 1 } パワー 推定 { 2 }
 	case VSHistory_EstimatedRoomPower
+	/// 持っているギア
+	case GesoTown_CurrentGear
+	/// チャレンジ
+	case StageSchedule_FestChallenge
+	/// オープン
+	case StageSchedule_FestOpen
 	/// 「ハイカラシティ」配信中！
 	case Carousel_ExpansionPass
 	/// 「サイド・オーダー」配信中！

@@ -458,7 +458,8 @@
     "StockGuide": "每经过4小时，商品就会发生变化",
     "Title": "鱿鱼须商城",
     "UnableToOrder": "无法受理",
-    "UnableToOrderMessage": "目前没有销售该商品"
+    "UnableToOrderMessage": "目前没有销售该商品",
+    "CurrentGear": "持有的装备"
   },
   "HeroRecord": {
     "Agent1": "1号",
@@ -758,7 +759,9 @@
     "Title": "日程",
     "WinRateByRules": "各规则的胜率",
     "Xmatch": "X比赛",
-    "League": "联盟比赛"
+    "League": "联盟比赛",
+    "FestChallenge": "挑战",
+    "FestOpen": "开放"
   },
   "Tournament": {
     "ComingSoon": "即将举行！",

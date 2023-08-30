@@ -439,6 +439,7 @@ FriendList:
 GesoTown:
   AppName: SplatNet Shop
   BackToGesotown: Back to SplatNet Shop
+  CurrentGear: Your Gear
   Description: A shop with <em>SplatNet-exclusive gear</em> offering <br /><em>different
     abilities</em>!
   Feature: The Daily Drop
@@ -773,6 +774,8 @@ StageSchedule:
   EventNoData: No Challenges currently scheduled.
   EventUnknownData: ???
   Eventmatch: Event Now Open!
+  FestChallenge: Pro
+  FestOpen: Open
   Festival: Splatfest Battle
   FestivalAnnounced: Coming Soon!
   FestivalAt: Starts !

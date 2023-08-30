@@ -458,7 +458,8 @@
     "StockGuide": "Sortimentwechsel alle 4 Stunden",
     "Title": "TentaWorld",
     "UnableToOrder": "Bestellung nicht möglich",
-    "UnableToOrderMessage": "Dieses Produkt ist derzeit nicht verfügbar."
+    "UnableToOrderMessage": "Dieses Produkt ist derzeit nicht verfügbar.",
+    "CurrentGear": "Deine Ausrüstung"
   },
   "HeroRecord": {
     "Agent1": "Nr. 1",
@@ -758,7 +759,9 @@
     "Title": "Zeitplan",
     "WinRateByRules": "Siege nach Kampfart",
     "Xmatch": "X-Kampf",
-    "League": "Ligakampf"
+    "League": "Ligakampf",
+    "FestChallenge": "Profi",
+    "FestOpen": "Offen"
   },
   "Tournament": {
     "ComingSoon": "Demnächst!",
