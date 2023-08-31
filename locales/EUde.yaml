@@ -337,8 +337,10 @@ CoopRecord:
   Title: Salmon Run-Daten
 CoopStage:
   Carousel: Flunder-Funpark
+  Factory: Um'ami-Ruinen
   Shakedent: Wasserkraftwerk Stromschnell
   Shakehighway: Hakenzahn-Highway
+  Shakelift: Räucherwerk
   Shakeship: Schiffswrack-Insel
   Shakespiral: Fort Nautilax
   Shakeup: Salmoniden-Damm
@@ -767,6 +769,9 @@ SkinName:
   COP009: Schwarze Wattwater
   COP010: Gelbe Wattwater
   COP011: Braune Wattwater
+  COP012: Pünktchen-Klamotten
+  COP013: Camo-Klamotten
+  COP014: Koi-Klamotten
 StageSchedule:
   Bankara: Anarchie-Kampf
   BankaraOpen: Offen

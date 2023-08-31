@@ -34,7 +34,10 @@
     "COP008": "Combi caoutchouc orange",
     "COP009": "Combi caoutchouc noire",
     "COP010": "Combi caoutchouc jaune",
-    "COP011": "Combi caoutchouc marron"
+    "COP011": "Combi caoutchouc marron",
+    "COP012": "Combi à pois",
+    "COP013": "Combi camouflage",
+    "COP014": "Combi carpe koï"
   },
   "CoopGrade": {
     "Grade": "Légende"
@@ -170,8 +173,10 @@
   },
   "CoopStage": {
     "Carousel": "Parc Carapince",
+    "Factory": "Ruines Uma'mi",
     "Shakedent": "Centrale Anguilla",
     "Shakehighway": "Rocade Rémora",
+    "Shakelift": "Fumoir Sans-Espoir",
     "Shakeship": "Épave des braves",
     "Shakespiral": "Bastion colimaçon",
     "Shakeup": "Barrage salmonoïde",

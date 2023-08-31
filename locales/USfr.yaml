@@ -342,8 +342,10 @@ CoopRecord:
   Title: Statistiques
 CoopStage:
   Carousel: Parc Carapince
+  Factory: Ruines Uma'mi
   Shakedent: Centrale Anguilla
   Shakehighway: Rocade Rémora
+  Shakelift: Fumoir Sans-Espoir
   Shakeship: Épave des braves
   Shakespiral: Bastion colimaçon
   Shakeup: Barrage salmonoïde
@@ -777,6 +779,9 @@ SkinName:
   COP009: Combi caoutchouc noire
   COP010: Combi caoutchouc jaune
   COP011: Combi caoutchouc brune
+  COP012: Salopette à pois
+  COP013: Salopette camouflage
+  COP014: Salopette carpe koï
 StageSchedule:
   Bankara: Match anarchie
   BankaraOpen: Ouvert

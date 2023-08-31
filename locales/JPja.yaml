@@ -311,8 +311,10 @@ CoopRecord:
   Title: サーモンランのきろく
 CoopStage:
   Carousel: スメーシーワールド
+  Factory: ナンプラー遺跡
   Shakedent: ムニ・エール海洋発電所
   Shakehighway: すじこジャンクション跡
+  Shakelift: トキシラズいぶし工房
   Shakeship: 難破船ドン・ブラコ
   Shakespiral: アラマキ砦
   Shakeup: シェケナダム
@@ -702,6 +704,9 @@ SkinName:
   COP009: バイトウェーダー ブラック
   COP010: バイトウェーダー イエロー
   COP011: バイトウェーダー ブラウン
+  COP012: バイトツナギ ドット
+  COP013: バイトツナギ カモ
+  COP014: バイトツナギ ニシキ
 StageSchedule:
   Bankara: バンカラマッチ
   BankaraOpen: オープン

@@ -337,8 +337,10 @@ CoopRecord:
   Title: Salmon Run Stats
 CoopStage:
   Carousel: Wahoo World
+  Factory: Um'ami Ruins
   Shakedent: Gone Fission Hydroplant
   Shakehighway: Jammin' Salmon Junction
+  Shakelift: Salmonid Smokeyard
   Shakeship: Marooner's Bay
   Shakespiral: Sockeye Station
   Shakeup: Spawning Grounds
@@ -759,6 +761,9 @@ SkinName:
   COP009: Black Gloopsuit
   COP010: Yellow Gloopsuit
   COP011: Brown Gloopsuit
+  COP012: Polka-Dot Slopsuit
+  COP013: Camo Slopsuit
+  COP014: Koi Slopsuit
 StageSchedule:
   Bankara: Anarchy Battle
   BankaraOpen: Open

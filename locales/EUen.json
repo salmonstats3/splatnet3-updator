@@ -34,7 +34,10 @@
     "COP008": "Orange Gloopsuit",
     "COP009": "Black Gloopsuit",
     "COP010": "Yellow Gloopsuit",
-    "COP011": "Brown Gloopsuit"
+    "COP011": "Brown Gloopsuit",
+    "COP012": "Polka-Dot Slopsuit",
+    "COP013": "Camo Slopsuit",
+    "COP014": "Koi Slopsuit"
   },
   "CoopGrade": {
     "Grade": "Eggsecutive VP"
@@ -170,8 +173,10 @@
   },
   "CoopStage": {
     "Carousel": "Wahoo World",
+    "Factory": "Um'ami Ruins",
     "Shakedent": "Gone Fission Hydroplant",
     "Shakehighway": "Jammin' Salmon Junction",
+    "Shakelift": "Salmonid Smokeyard",
     "Shakeship": "Marooner's Bay",
     "Shakespiral": "Sockeye Station",
     "Shakeup": "Spawning Grounds",

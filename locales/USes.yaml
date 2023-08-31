@@ -339,8 +339,10 @@ CoopRecord:
   Title: Estadísticas
 CoopStage:
   Carousel: Pirañalandia
+  Factory: Ruinas Ceviche
   Shakedent: Hidrocentral Rebosante
   Shakehighway: Salmopista
+  Shakelift: Ensenada Ahumada
   Shakeship: Bahía Deriva
   Shakespiral: Fuerte Espiral
   Shakeup: Presa salmónida
@@ -765,6 +767,9 @@ SkinName:
   COP009: Overol de trabajo negro
   COP010: Overol de trabajo amarillo
   COP011: Overol de trabajo marrón
+  COP012: Uniforme de trabajo lunares
+  COP013: Uniforme de trabajo camufl.
+  COP014: Uniforme de trabajo kois
 StageSchedule:
   Bankara: Combate caótico
   BankaraOpen: Informal

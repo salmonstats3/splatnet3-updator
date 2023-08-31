@@ -51,11 +51,13 @@ public enum WeaponId: Int, CaseIterable, Identifiable, Codable {
 	case Slosher_Launcher = 3020
 	case Slosher_Bathtub = 3030
 	case Slosher_Washtub = 3040
+	case Slosher_Double = 3050
 	case Spinner_Quick = 4000
 	case Spinner_Standard = 4010
 	case Spinner_Hyper = 4020
 	case Spinner_Downpour = 4030
 	case Spinner_Serein = 4040
+	case Spinner_HyperShort = 4050
 	case Maneuver_Short = 5000
 	case Maneuver_Normal = 5010
 	case Maneuver_Gallon = 5020
@@ -71,6 +73,7 @@ public enum WeaponId: Int, CaseIterable, Identifiable, Codable {
 	case Blaster_Bear_Coop = 20900
 	case Charger_Bear_Coop = 22900
 	case Slosher_Bear_Coop = 23900
+	case Maneuver_Bear_Coop = 25900
 	case Shelter_Bear_Coop = 26900
 	case Stringer_Bear_Coop = 27900
 	case Saber_Bear_Coop = 28900

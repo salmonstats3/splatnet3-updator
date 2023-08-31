@@ -75,6 +75,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case SkinName_COP010
 	/// バイトウェーダー ブラウン
 	case SkinName_COP011
+	/// バイトツナギ ドット
+	case SkinName_COP012
+	/// バイトツナギ カモ
+	case SkinName_COP013
+	/// バイトツナギ ニシキ
+	case SkinName_COP014
 	/// かけだし
 	case CoopGrade_Grade_00
 	/// はんにんまえ
@@ -201,10 +207,14 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case CoopHistory_Sakerocket
 	/// スメーシーワールド
 	case CoopStage_Carousel
+	/// ナンプラー遺跡
+	case CoopStage_Factory
 	/// ムニ・エール海洋発電所
 	case CoopStage_Shakedent
 	/// すじこジャンクション跡
 	case CoopStage_Shakehighway
+	/// トキシラズいぶし工房
+	case CoopStage_Shakelift
 	/// 難破船ドン・ブラコ
 	case CoopStage_Shakeship
 	/// アラマキ砦

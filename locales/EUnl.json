@@ -34,7 +34,10 @@
     "COP008": "Oranje ploeterkloffie",
     "COP009": "Zwart ploeterkloffie",
     "COP010": "Geel ploeterkloffie",
-    "COP011": "Bruin ploeterkloffie"
+    "COP011": "Bruin ploeterkloffie",
+    "COP012": "Stippelwerkkloffie",
+    "COP013": "Camouflagewerkkloffie",
+    "COP014": "Koi-werkkloffie"
   },
   "CoopGrade": {
     "Grade": "Legende"
@@ -170,8 +173,10 @@
   },
   "CoopStage": {
     "Carousel": "Waterwonderland",
+    "Factory": "Ruisvoornruïnes",
     "Shakedent": "Kwikwi-krachtcentrale",
     "Shakehighway": "Graattraject",
+    "Shakelift": "Visrokerij",
     "Shakeship": "Wrak van de ms Grondel",
     "Shakespiral": "Fort Ammoniet",
     "Shakeup": "Salmonietendam",

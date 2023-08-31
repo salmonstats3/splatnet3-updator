@@ -34,7 +34,10 @@
     "COP008": "Orange Wattwater",
     "COP009": "Schwarze Wattwater",
     "COP010": "Gelbe Wattwater",
-    "COP011": "Braune Wattwater"
+    "COP011": "Braune Wattwater",
+    "COP012": "Pünktchen-Klamotten",
+    "COP013": "Camo-Klamotten",
+    "COP014": "Koi-Klamotten"
   },
   "CoopGrade": {
     "Grade": "Legende"
@@ -170,8 +173,10 @@
   },
   "CoopStage": {
     "Carousel": "Flunder-Funpark",
+    "Factory": "Um'ami-Ruinen",
     "Shakedent": "Wasserkraftwerk Stromschnell",
     "Shakehighway": "Hakenzahn-Highway",
+    "Shakelift": "Räucherwerk",
     "Shakeship": "Schiffswrack-Insel",
     "Shakespiral": "Fort Nautilax",
     "Shakeup": "Salmoniden-Damm",

@@ -340,8 +340,10 @@ CoopRecord:
   Title: Statistiche
 CoopStage:
   Carousel: Soglioland
+  Factory: Rovine Salsadipesce
   Shakedent: Centrale Anguilla Elettrica
   Shakehighway: R-Accordo musicale
+  Shakelift: Fortino Fumino
   Shakeship: Isoletta del relitto
   Shakespiral: Fortezza Spiralsalmone
   Shakeup: Diga salmonoide
@@ -765,6 +767,9 @@ SkinName:
   COP009: Tuta da pesca nera
   COP010: Tuta da pesca gialla
   COP011: Tuta da pesca marrone
+  COP012: Salopette a pois
+  COP013: Salopette mimetica
+  COP014: Salopette koi
 StageSchedule:
   Bankara: Partita anarchica
   BankaraOpen: Aperta
