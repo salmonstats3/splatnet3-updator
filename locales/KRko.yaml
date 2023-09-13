@@ -745,11 +745,11 @@ StageSchedule:
   League: 리그 매치
   Next: 다음
   NoticeBigrun: 빅 런 접근 중!
-  NoticeLimited: 기간 한정 아르바이트 개최 예고!
+  NoticeLimited: 아르바이트 팀 콘테스트 개최 예고!
   NowClosed: 페스티벌 매치 개최 중!
   Open: 오픈!
   OpenBigrun: 빅 런 발생 중!
-  OpenLimited: 기간 한정 아르바이트 개최 중!
+  OpenLimited: 아르바이트 팀 콘테스트 개최 중!
   Private: 프라이빗 매치
   Recruit: '빅 런이 온다! 아르바이트 대모집 '
   RecruitTeamContest: '아르바이트 팀 콘테스트! 팀을 만들어 참가하자! '
@@ -814,7 +814,7 @@ VSHistory:
   LatestTab: 최근
   Lose: LOSE…
   Measurement: X 파워 계측 중
-  MeasurementEventPower: 계측 중
+  MeasurementEventPower: 이벤트 파워 계측 중
   NextBattle: 다음 배틀
   NoData: 배틀 기록이 없습니다
   NotAvailable: 배틀 기록을 표시할 수 없습니다
