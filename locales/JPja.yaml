@@ -736,11 +736,11 @@ StageSchedule:
   League: リーグマッチ
   Next: つぎ
   NoticeBigrun: ビッグラン接近中！
-  NoticeLimited: バイトチームコンテスト開催予告！
+  NoticeLimited: 期間限定バイト開催予告！
   NowClosed: フェスマッチ開催中！
   Open: オープン！
   OpenBigrun: ビッグラン発生中！
-  OpenLimited: バイトチームコンテスト開催中！
+  OpenLimited: 期間限定バイト開催中！
   Private: プライベートマッチ
   Recruit: 'ビッグランがやってくる！！バイト大募集 '
   RecruitTeamContest: 'バイトチームコンテスト！チームを組んで参加しよう！  '
@@ -805,7 +805,7 @@ VSHistory:
   LatestTab: 最近
   Lose: LOSE...
   Measurement: Xパワー計測中
-  MeasurementEventPower: イベントパワー 計測中
+  MeasurementEventPower: 計測中
   NextBattle: 次のバトル
   NoData: バトルのきろくがありません
   NotAvailable: バトルのきろくを表示できません
