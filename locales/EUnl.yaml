@@ -802,11 +802,11 @@ StageSchedule:
   League: Toernooigevecht
   Next: Volgende
   NoticeBigrun: Er komt een Big Run aan!
-  NoticeLimited: Bedrijfseitje aangekondigd!
+  NoticeLimited: Tijdelijke klus aangeboden!
   NowClosed: Splatfest!
   Open: Nu
   OpenBigrun: Big Run aan de gang!
-  OpenLimited: Bedrijfseitje direct beschikbaar!
+  OpenLimited: Tijdelijke klus direct beschikbaar!
   Private: Privégevecht
   Recruit: Big Run aan de gang! Beer & Co zoekt werknemers! ()
   RecruitTeamContest: 'Je kunt nu op een bedrijfseitje. Verzamel een paar collega''s
@@ -873,7 +873,7 @@ VSHistory:
   LatestTab: Laatste
   Lose: Verloren...
   Measurement: 'X-kracht: onbekend'
-  MeasurementEventPower: 'Eventkracht: onbekend'
+  MeasurementEventPower: Bezig met berekenen...
   NextBattle: Volgende
   NoData: Er zijn geen gevechtsstatistieken.
   NotAvailable: Geen gevechtsstatistieken beschikbaar
