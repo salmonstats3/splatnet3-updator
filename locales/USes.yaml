@@ -799,11 +799,11 @@ StageSchedule:
   League: Combate de liga
   Next: Siguiente
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de recolección extra!
+  NoticeLimited: ¡Anuncio de tarea temporal!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Recolección extra disponible!
+  OpenLimited: ¡Tarea temporal disponible!
   Private: Combate privado
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca personal! ()
   RecruitTeamContest: '¡Reúne un grupo de trabajo y aprovecha la recolección extra! '
@@ -869,7 +869,7 @@ VSHistory:
   LatestTab: Últimos
   Lose: Derrota
   Measurement: Calculando fuerza X...
-  MeasurementEventPower: Calculando fuerza especial...
+  MeasurementEventPower: Calculando...
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles

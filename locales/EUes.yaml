@@ -802,11 +802,11 @@ StageSchedule:
   League: Combate del torneo
   Next: Próximo
   NoticeBigrun: ¡Big Run a la vista!
-  NoticeLimited: ¡Anuncio de alianza alevínica!
+  NoticeLimited: ¡Anuncio de tarea temporal!
   NowClosed: ¡Festival en curso!
   Open: Actual
   OpenBigrun: ¡Big Run en marcha!
-  OpenLimited: ¡Alianza alevínica disponible!
+  OpenLimited: ¡Tarea temporal disponible!
   Private: Combate privado
   Recruit: ¡Tenemos Big Run! ¡Don Oso, S. A. busca trabajadores! ()
   RecruitTeamContest: '¡Forma una cuadrilla y participa en alianza alevínica! '
@@ -872,7 +872,7 @@ VSHistory:
   LatestTab: Últimos
   Lose: Derrota
   Measurement: Calculando energía X...
-  MeasurementEventPower: Calculando energía evento...
+  MeasurementEventPower: Calculando...
   NextBattle: Siguiente
   NoData: Sin registros de combates
   NotAvailable: Registros de combates no disponibles
