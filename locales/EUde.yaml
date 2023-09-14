@@ -432,7 +432,7 @@ FriendList:
   InCoopGame: Bei der Arbeit
   InMiniGame: Revierdecks
   InVsGame: Im Spiel
-  IsLocked: Mit Code
+  IsLocked: Passwortgeschützt
   NoFriends: Der Spielstatus deiner Freunde wird hier angezeigt.
   Offline: Offline
   Online: Online
@@ -801,11 +801,11 @@ StageSchedule:
   League: Ligakampf
   Next: Demnächst
   NoticeBigrun: 'Demnächst: Big Run!'
-  NoticeLimited: 'Ankündigung: Team-Wettkampf demnächst verfügbar!'
+  NoticeLimited: Ankündigung für zeitliche begrenzte Schichten!
   NowClosed: Splatfest!
   Open: Aktuell
   OpenBigrun: Big Run läuft jetzt!
-  OpenLimited: Team-Wettkampf jetzt verfügbar!
+  OpenLimited: Zeitlich begrenzte Schichten jetzt verfügbar!
   Private: Privater Kampf
   Recruit: Big Run läuft! Die Bär GmbH stellt jeden ein! JEDEN! ()
   RecruitTeamContest: 'Team-Wettkampf jetzt spielbar! Finde Mitarbeiter und rein ins...
@@ -872,7 +872,7 @@ VSHistory:
   LatestTab: Zuletzt
   Lose: Verloren
   Measurement: 'X-Power: Noch offen'
-  MeasurementEventPower: 'Event-Power: Noch offen'
+  MeasurementEventPower: Berechnung noch offen...
   NextBattle: Weiter
   NoData: Keine Kampfstatistiken vorhanden.
   NotAvailable: Kampfstatistiken nicht verfügbar
