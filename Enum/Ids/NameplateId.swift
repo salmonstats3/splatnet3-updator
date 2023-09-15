@@ -11,6 +11,7 @@ public enum NameplateId: Int, CaseIterable, Identifiable, Codable {
 	public var id: Int { rawValue }
 	case Npl_Tutorial00 = 1
 	case Npl_Fsodr00 = 800
+	case Npl_Sdodr00 = 810
 	case Npl_Trg_Season01_Lv01 = 901
 	case Npl_Trg_Season01_Lv02 = 902
 	case Npl_Trg_Season03_Lv01 = 911

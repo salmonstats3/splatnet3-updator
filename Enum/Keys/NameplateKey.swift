@@ -11,6 +11,7 @@ public enum NameplateKey: String, CaseIterable, Identifiable, Codable {
 	public var id: String { rawValue }
 	case Npl_Tutorial00 = "dba78c8ed1013d420aacb669d31a002691f2bb4ec0c1c853e34244c40dc68ea8"
 	case Npl_Fsodr00 = "d175555cf2d52b12aed6871b094b28de4d78ca3135867c279c92c301e87c0e18"
+	case Npl_Sdodr00 = "c6173ea156ab5e855a2928aa5277a30ac4f3b2bcb8dc6e466217691b54ae53b5"
 	case Npl_Trg_Season01_Lv01 = "90203a05b75644be8fdf5e665f94a11fc6b459ad1a7fd7a444c559731d0812c1"
 	case Npl_Trg_Season01_Lv02 = "74f479a7855bcc76b59926075d3974683abefb9579fdd1c1e60c6693935a90ac"
 	case Npl_Trg_Season03_Lv01 = "d1c14bdea383994695d212bd1a14fba7ae6c979825cf624b194f944361605b7e"
