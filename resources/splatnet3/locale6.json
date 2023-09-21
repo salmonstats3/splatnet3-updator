@@ -753,6 +753,9 @@
   "Widgets.vshistory_lose": "DÉFAITE",
   "Widgets.vshistory_title": "Journal de matchs",
   "Widgets.vshistory_win": "VICTOIRE",
+  "GesoTown.current_gear": "Ton équipement",
+  "StageSchedule.fest_challenge": "Défi",
+  "StageSchedule.fest_open": "Ouvert",
   "Challenge.challenge_2_10_description": "Vous trouvez pas que le ciel est magnifique ? On dirait de l'huile de cuisson...",
   "Challenge.challenge_2_10_reward": "Nouveau titre",
   "Challenge.challenge_2_10_title": "Barrage salmonoïde",
@@ -786,8 +789,5 @@
   "Challenge.journey_2_description": "Salut, ça pince ? J'me suis dit que comme prochaine étape, la région d'Chromapolis s'rait l'endroit rêvé.<br />Pour la p'tite histoire, c'est là qu'j'ai grandi, mais j'y suis pas r'tourné depuis un paquet de marées.<br />Alors ce voyage a tout d'une quête des origines. J'dois bien m'plonger dans mon passé trouble, si j'veux que mon avenir soit l'plus limpide possible.<br />Après tout, qui ne décante rien n'a rien !",
   "Challenge.journey_2_gratitude": "Wahou ! Sans toi, j'aurais jamais pu m'débarrasser de toutes les impuretés en suspension dans mon passé.<br />Tu trouveras un petit quelque chose de ma part au terminal du hall, pour le dérangement. Et merci encore !",
   "Challenge.journey_2_title": "L'Odyssée d'Omar se poursuit<br />Rien ne sert d'avoir plus de pattes, il faut un bon braquet.",
-  "VSHistory.estimated_room_power": "{ 1 } - Power cumulé des { 0 } joueurs : environ { 2 }",
-  "GesoTown.current_gear": "Ton équipement",
-  "StageSchedule.fest_challenge": "Défi",
-  "StageSchedule.fest_open": "Ouvert"
+  "VSHistory.estimated_room_power": "{ 1 } - Power cumulé des { 0 } joueurs : environ { 2 }"
 }

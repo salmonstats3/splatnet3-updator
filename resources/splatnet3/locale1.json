@@ -753,6 +753,9 @@
   "Widgets.vshistory_lose": "DEFEAT",
   "Widgets.vshistory_title": "Battle Logs",
   "Widgets.vshistory_win": "VICTORY",
+  "GesoTown.current_gear": "Your Gear",
+  "StageSchedule.fest_challenge": "Pro",
+  "StageSchedule.fest_open": "Open",
   "Challenge.challenge_2_10_description": "Is it just me, or does the sky look like oil...at a perfect 350 degrees Fahrenheit...",
   "Challenge.challenge_2_10_reward": "New Title",
   "Challenge.challenge_2_10_title": "Spawning Grounds",
@@ -786,8 +789,5 @@
   "Challenge.journey_2_description": "Hey, gang! I've decided that my next stop on the Wandercrust Tour will be Greater Inkopolis. <br />I actually grew up in the area, but I haven't been back in a hot minute. <br />So this journey will be all about self-discovery. I want to examine my soggy past and work on making my future as crispy as possible.<br />After all, if you're not double frying, you're not trying. Right?!",
   "Challenge.journey_2_gratitude": "Wow! Thanks to you, I was able to do a deep-fry dive on my past and come out crispy on the other side.<br />I sent a little something to your lobby terminal as a token of my appreciation. Thank you again!",
   "Challenge.journey_2_title": "The Journey Continues<br />I pedal faster not because I have more legs but because of my gear ratio.",
-  "VSHistory.estimated_room_power": "{ 0 }-Player { 1 } Power Estimate: { 2 }",
-  "GesoTown.current_gear": "Your Gear",
-  "StageSchedule.fest_challenge": "Pro",
-  "StageSchedule.fest_open": "Open"
+  "VSHistory.estimated_room_power": "{ 0 }-Player { 1 } Power Estimate: { 2 }"
 }
