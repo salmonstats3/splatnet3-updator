@@ -1711,6 +1711,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
+	/// 持っているギア
+	case GesoTown_CurrentGear
+	/// チャレンジ
+	case StageSchedule_FestChallenge
+	/// オープン
+	case StageSchedule_FestOpen
 	/// オレンジの空がオイリーだよね～。
 	case Challenge_Challenge210Description
 	/// 二つ名
@@ -1779,12 +1785,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Challenge_Journey2Title
 	/// 人の { 1 } パワー 推定 { 2 }
 	case VSHistory_EstimatedRoomPower
-	/// 持っているギア
-	case GesoTown_CurrentGear
-	/// チャレンジ
-	case StageSchedule_FestChallenge
-	/// オープン
-	case StageSchedule_FestOpen
 	/// About
 	case CoopHistory_About
 	/// 実測値
