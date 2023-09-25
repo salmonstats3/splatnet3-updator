@@ -1,7 +1,7 @@
 //
 //  LocalizedType.swift
 //
-//  Created by tkgstrator on 2023/09/24
+//  Created by tkgstrator on 2023/09/25
 //  Copyright @2022 Magi, Corporation. All rights reserved.
 //
 
