@@ -725,7 +725,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Footer_BigrunAnnouncement
 	/// <em>ビッグラン</em>発生中！シャケから街を守れ！
 	case Footer_BigrunNowOpening
-	/// もうすぐ <em></em> が終了します。
+	/// もうすぐ <em></em> が終了します。カタログポイント<em>1.2倍</em>サービス中！
 	case Footer_EndOfSeason
 	/// もうすぐ <em></em> が終了します。
 	case Footer_EndOfSeason_
@@ -1339,7 +1339,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Next
 	/// ビッグラン接近中！
 	case StageSchedule_NoticeBigrun
-	/// 期間限定バイト開催予告！
+	/// バイトチームコンテスト開催予告！
 	case StageSchedule_NoticeLimited
 	/// フェスマッチ開催中！
 	case StageSchedule_NowClosed
@@ -1347,7 +1347,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case StageSchedule_Open
 	/// ビッグラン発生中！
 	case StageSchedule_OpenBigrun
-	/// 期間限定バイト開催中！
+	/// バイトチームコンテスト開催中！
 	case StageSchedule_OpenLimited
 	/// プライベートマッチ
 	case StageSchedule_Private
@@ -1471,7 +1471,7 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case VSHistory_Lose
 	/// Xパワー計測中
 	case VSHistory_Measurement
-	/// 計測中
+	/// イベントパワー 計測中
 	case VSHistory_MeasurementEventPower
 	/// 次のバトル
 	case VSHistory_NextBattle
@@ -1593,6 +1593,12 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case XRanking_Xcrown
 	/// <small>Xパワー</small> 
 	case XRanking_Xpower
+	/// 持っているギア
+	case GesoTown_CurrentGear
+	/// チャレンジ
+	case StageSchedule_FestChallenge
+	/// オープン
+	case StageSchedule_FestOpen
 	/// ビッグランから街を守れ！
 	case Carousel_BigrunOpening
 	/// ビッグラン結果発表！
@@ -1711,12 +1717,6 @@ public enum LocalizedType: String, CaseIterable, Identifiable, Codable {
 	case Widgets_VshistoryTitle
 	/// WIN!
 	case Widgets_VshistoryWin
-	/// 持っているギア
-	case GesoTown_CurrentGear
-	/// チャレンジ
-	case StageSchedule_FestChallenge
-	/// オープン
-	case StageSchedule_FestOpen
 	/// オレンジの空がオイリーだよね～。
 	case Challenge_Challenge210Description
 	/// 二つ名
