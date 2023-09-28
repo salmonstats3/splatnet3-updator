@@ -806,17 +806,17 @@ StageSchedule:
   FestivalDefense: En défense
   FestivalHolding: En cours!
   FestivalPeriod: ' - { 1 }'
-  Future: Prochains
+  Future: Plus tard
   GuideOpenBrowser: Cette opération entraînera l'ouverture d'une nouvelle fenêtre
     de navigateur.
   League: Match de ligue
-  Next: Suivant
+  Next: Tout à l'heure
   NoticeBigrun: Big Run en approche!
-  NoticeLimited: Offre d'emploi à durée limitée!
+  NoticeLimited: Défi œuf sup' en approche!
   NowClosed: Festival en cours!
   Open: Actuel
   OpenBigrun: Big Run en cours!
-  OpenLimited: Offre d'emploi disponible!
+  OpenLimited: Défi œuf sup' disponible!
   Private: Match privé
   Recruit: Un Big Run est en cours! M. Ours Cie embauche, tous types de profils acceptés!
     ()
@@ -884,7 +884,7 @@ VSHistory:
   LatestTab: Derniers
   Lose: DÉFAITE
   Measurement: Calcul de la Force X...
-  MeasurementEventPower: Calcul...
+  MeasurementEventPower: Calcul de la Force d'épreuve...
   NextBattle: Suivant
   NoData: Il n'existe aucune donnée de match à afficher.
   NotAvailable: Données de match indisponibles
