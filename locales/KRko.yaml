@@ -814,7 +814,7 @@ VSHistory:
   LatestTab: 최근
   Lose: LOSE…
   Measurement: X 파워 계측 중
-  MeasurementEventPower: 계측 중
+  MeasurementEventPower: 이벤트 파워 계측 중
   NextBattle: 다음 배틀
   NoData: 배틀 기록이 없습니다
   NotAvailable: 배틀 기록을 표시할 수 없습니다
