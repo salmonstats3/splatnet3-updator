@@ -839,7 +839,7 @@ VSHistory:
   100x: Match ×100
   10x: Match ×10
   333x: Match ×333
-  AbortedMeasurementEventPower: Calcul annulé.
+  AbortedMeasurementEventPower: Calcul de la Force d'épreuve annulé.
   AnnotationExemption: Aucune défaite ne sera comptabilisée, car un ou plusieurs joueurs
     n'ont pas pu poursuivre le match.
   AnnotationNocontest: Match annulé.
