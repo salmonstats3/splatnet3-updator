@@ -873,7 +873,7 @@ VSHistory:
   LatestTab: Laatste
   Lose: Verloren...
   Measurement: 'X-kracht: onbekend'
-  MeasurementEventPower: Bezig met berekenen...
+  MeasurementEventPower: 'Eventkracht: onbekend'
   NextBattle: Volgende
   NoData: Er zijn geen gevechtsstatistieken.
   NotAvailable: Geen gevechtsstatistieken beschikbaar
